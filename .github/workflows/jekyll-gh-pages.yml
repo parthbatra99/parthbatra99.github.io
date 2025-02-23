@@ -2,18 +2,25 @@ name: Deploy Jekyll site to Pages
 
 on:
   push:
-    branches:
-      - main  # Adjust this to your default branch
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      - name: Set up Ruby
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.2.7
