@@ -8,7 +8,7 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
 
 // Basic styling
 body {
-    font: 400 16px/1.5 "Lora", serif;
+    font: 400 16px/1.6 "Lora", serif;
     color: #111;
     background-color: #fdfdfd;
     -webkit-text-size-adjust: 100%;
@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
 
     .page-link {
         color: #111;
-        line-height: 1.5;
+        line-height: 1.6;
 
         &:not(:last-child) {
             margin-right: 20px;
