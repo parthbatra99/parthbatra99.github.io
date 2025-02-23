@@ -1,0 +1,9 @@
+$backgroundColor: #fdfdfd;
+$bodyColor: #111;
+$bodyFont: "Lora", serif;
+
+body {
+  background: $backgroundColor;
+  color: $bodyColor;
+  font-family: $bodyFont;
+}
