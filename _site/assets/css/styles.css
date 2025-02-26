@@ -83,7 +83,7 @@
 
 @media screen and (max-width: 480px) {
   .profile-image {
-    width: 120px;
+    width: 100px;
   }
   
   .bio-text ul {
