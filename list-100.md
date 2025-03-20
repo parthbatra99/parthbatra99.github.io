@@ -9,17 +9,15 @@ _(Because every ball counts, just like in cricket)_
 Last Updated: March 15, 2025  
 
 #### Progress Tracker
+
 **09/45 Dreams Achieved**
+[======>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
 
-[█████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 20%
 
-
-| Symbol | Difficulty | Description |
-|--------|------------|-------------|
-| 🎾 | **Full Toss** | Goals within grasp - just need to step up and hit! |
-| 🎳 | **Yorker** | Challenging targets requiring precise execution and dedication |
-| 🌀 | **Googly** | Tricky dreams that need careful planning and persistence |
-| ⚡ | **Bouncer** | Moonshots - rare, difficult, but oh so worthwhile! |
+- **Full Toss** 🎾 - just need to step up and hit!
+- **Yorker** 🎳 - requiring precise execution and effort
+- **Googly** 🌀 - need careful setup and persistence  
+- **Hattrick** ⚡ - once in a while, when stars and execution aligns
 
 
 #### 🎯 The Power Play
@@ -86,7 +84,7 @@ Last Updated: March 15, 2025
 _[46-99] More dreams to be added as life unfolds..._
 
 #### The Final Goal
-**100.** ✓ Die with no regrets 🌀
+**100.** ✗ Die with no regrets 🌀
 
 ---
 
