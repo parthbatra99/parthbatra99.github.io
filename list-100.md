@@ -9,9 +9,7 @@ _(Because every ball counts, just like in cricket)_
 Last Updated: March 15, 2025  
 
 #### Progress Tracker
-
-**09/45 Dreams Achieved**
-[======>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
+[======>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;] 09/45
 
 
 - **Full Toss** 🎾 - just need to step up and hit!
@@ -20,22 +18,21 @@ Last Updated: March 15, 2025
 - **Hattrick** ⚡ - once in a while, when stars and execution aligns
 
 
-#### 🎯 The Power Play
+
 1. ✗ Become the first author of a paper at a top-tier conference 🎳
 2. ✗ Start my own company 🌀
 3. ✗ Make a discovery or invention or author an US-patent ⚡
 4. ✗ Build a product used by 10+ million people 🎳
 5. ✗ Give a TED talk - TEDx doesnt count 🎾
 
-#### 🎨 The Middle Overs
 6. ✗ Write a book and get it published 🎳
 7. ✗ Be in a movie/commercial 🌀
-8. ✓ Learn to play the a music instrument 🎾
+8. ✓ Learn to play the a music instrument
 
 9. ✗ Read 1000 books (~30% done) 🎳
 10. ✗ Learn to code in 5 programming languages - intermediate level 🎾 (~80% done)
-11. ✓ Master photography and photoshop 🌀
-12. ✓ Learn to cook 50 dishes that i like 🎾
+11. ✓ Master photography and photoshop
+12. ✓ Learn to cook 50 dishes that i like
 
 13. ✗ Live in another country (min. 6 months)
 14. ✗ Visit all continents 🎳
@@ -65,13 +62,13 @@ Last Updated: March 15, 2025
 33. ✗ Complete a 10-day vipasna retreat 🌀
 34. ✗ Learn some form of self defence - boxing/karate/jiu-jitsu 🎾
 
-35. ✓ Take a university course in philosophy 🎾
-36. ✓ Study quantum physics 🌀
+35. ✓ Take a university course in philosophy
+36. ✓ Study quantum physics
 37. ✗ Learn to play chess at an intermediate level 🎾
 
 38. ✗ Create a free online course that helps people improve their lives in some aspect 🎾
 39. ✗ Watch atleast 10 different sports in different stadiums worldwide 🎳
-40. ✓ Learn a traditional dance form (bhangra) 🎾
+40. ✓ Learn a traditional dance form
 
 41. ✗ Write my autobiography 🌀
 42. ✗ Travel 25 different countries 🎳
@@ -81,20 +78,19 @@ Last Updated: March 15, 2025
 45. ✗ Change someone's life for the better 🎾
 
 #### Future Dreams
-_[46-99] More dreams to be added as life unfolds..._
+_[46-99] This list is intentionally incomplete. The journey of collecting these dreams is as important as achieving them..._
 
 #### The Final Goal
 **100.** ✗ Die with no regrets 🌀
 
 ---
 
-_This list is intentionally incomplete. The journey of collecting these dreams is as important as achieving them._
-
 #### Reflections so far
-What started as a simple bucket list experiement has evolved into my life's blueprint. The completed goals have taught me that the journey often yields more than the destination.
-With each achievement, I've realized that the true value isn't in ticking boxes but in the growth that comes from pursuing these dreams.
+What began as a simple bucket list has evolved into something far more meaningful—a living document of aspirations and growth. Each completed goal has taught me that the real treasure lies in the journey: the late-night preparations, the occasional setbacks, and the unexpected victories.
 
-_"Life is like cricket - sometimes you need to defend, sometimes you need to attack, but you must always keep your wicket intact."_
+These achievements, big and small, have shown me that life's most profound moments often happen between the checkmarks. Some goals demanded technical precision 🎳, others tested my patience 🌀, and a few required perfect alignment of preparation and opportunity ⚡.
+
+_"The beauty of any pursuit isn't in the destination, but in showing up every day with the courage to try."_
 
 ---
 
