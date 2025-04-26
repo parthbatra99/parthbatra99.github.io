@@ -25,3 +25,57 @@ h1, h2, h3, h4, h5, h6 {
 code, pre {
   font-family: monospace, monospace;
 }
+
+.quick-takes {
+  max-width: 800px;
+  margin: 0 auto;
+
+  .quick-takes-intro {
+    color: #666;
+    font-style: italic;
+    margin-bottom: 2rem;
+  }
+
+  .quick-takes-content {
+    h3 {
+      color: #333;
+      margin-top: 2rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid #eee;
+    }
+
+    p {
+      margin: 1.5rem 0;
+      line-height: 1.6;
+    }
+
+    a[href^="https://twitter.com"] {
+      font-size: 0.9em;
+      color: #1DA1F2;
+      text-decoration: none;
+      
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+// Standardize page titles across sections
+.post-header .post-title,
+.page-header .page-title,
+.section-title {
+  font-size: 2.0rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #111;
+}
+
+// Add consistent styling for section descriptions
+.section-description {
+  font-size: 1.0rem;
+  color: #666;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  font-style: italic;
+}

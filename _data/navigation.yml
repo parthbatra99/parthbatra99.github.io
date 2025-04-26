@@ -1,9 +1,10 @@
 - title: Blog
   url: /blog/
-- title: Books
-  url: /books/
+- title: QuickWits
+  url: /quick-wits/
+- title: Workbench
+  url: /workbench/
+- title: TheGoodStuff
+  url: /the-good-stuff/
 - title: List 16.4
   url: /list-16-4/
-- title: Projects
-  url: /projects/
-

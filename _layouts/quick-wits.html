@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<article class="quick-takes">
+  <header class="post-header">
+    <h1 class="post-title quick-wits-title">{{ page.title }}</h1>
+    <p class="section-description">{{ page.description }}</p>
+    <div class="quick-takes-meta">
+      <span class="last-updated">Last updated: {{ site.time | date: "%B %d, %Y" }}</span>
+      <span class="separator">•</span>
+      <a href="https://twitter.com/share?url={{ page.url | absolute_url }}" target="_blank" rel="noopener">Share on Twitter</a>
+    </div>
+  </header>
+
+  <div class="quick-takes-content">
+    <div class="takes-list">
+      {{ content }}
+    </div>
+  </div>
+
+  <footer class="quick-takes-footer">
+    <p>Have thoughts? <a href="https://twitter.com/batra99" target="_blank" rel="noopener">Tweet at me</a>.</p>
+  </footer>
+</article>

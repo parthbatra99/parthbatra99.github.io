@@ -88,8 +88,6 @@ _[46-99] This list is intentionally incomplete. The journey of collecting these 
 #### Reflections so far
 What began as a simple bucket list has evolved into something far more meaningful—a living document of aspirations and growth. Each completed goal has taught me that the real treasure lies in the journey: the late-night preparations, the occasional setbacks, and the unexpected victories.
 
-These achievements, big and small, have shown me that life's most profound moments often happen between the checkmarks. Some goals demanded technical precision 🎳, others tested my patience 🌀, and a few required perfect alignment of preparation and opportunity ⚡.
-
 _"The beauty of any pursuit isn't in the destination, but in showing up every day with the courage to try."_
 
 ---

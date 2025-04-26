@@ -664,4 +664,49 @@ code, pre {
   font-family: monospace, monospace;
 }
 
+.quick-takes {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.quick-takes .quick-takes-intro {
+  color: #666;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+.quick-takes .quick-takes-content h3 {
+  color: #333;
+  margin-top: 2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #eee;
+}
+.quick-takes .quick-takes-content p {
+  margin: 1.5rem 0;
+  line-height: 1.6;
+}
+.quick-takes .quick-takes-content a[href^="https://twitter.com"] {
+  font-size: 0.9em;
+  color: #1DA1F2;
+  text-decoration: none;
+}
+.quick-takes .quick-takes-content a[href^="https://twitter.com"]:hover {
+  text-decoration: underline;
+}
+
+.post-header .post-title,
+.page-header .page-title,
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #111;
+}
+
+.section-description {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  font-style: italic;
+}
+
 /*# sourceMappingURL=style.css.map */
