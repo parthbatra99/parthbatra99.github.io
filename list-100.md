@@ -9,7 +9,21 @@ _(Because every ball counts, just like in cricket)_
 Last Updated: March 15, 2025  
 
 #### Progress Tracker
-[======>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;] 09/45
+<div style="margin: 15px 0;">
+    <div style="background-color: #eee; height: 15px; border-radius: 7px; position: relative; max-width: 400px; margin: 0 auto;">
+        <div style="background-color: #4CAF50; width: 20%; height: 100%; border-radius: 7px 0 0 7px; display: inline-block;"></div>
+        <div style="background-color: #FFC107; width: 27%; height: 100%; display: inline-block;">
+            <span style="position: absolute; width: 100%; text-align: center; color: #000; font-size: 0.9em; line-height: 15px;">
+                47% (21/45)
+            </span>
+        </div>
+    </div>
+</div>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin: 10px 0; font-size: 0.9em;">
+    <span style="color: #4CAF50;">✓ Completed: 9</span>
+    <span style="color: #FFC107;">⚡ In Progress: 12</span>
+    <span>◯ Remaining: 24</span>
+</div>
 
 
 - **Full Toss** 🎾 - just need to step up and hit!
