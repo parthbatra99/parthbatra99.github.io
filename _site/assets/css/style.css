@@ -723,4 +723,86 @@ code, pre {
   font-style: italic;
 }
 
+.organized-takes {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.organized-takes h2 {
+  border-bottom: 2px solid #444;
+  color: #222;
+  background: #fafafa;
+  padding-bottom: 0.2em;
+  margin-top: 2.2rem;
+  margin-bottom: 1.2rem;
+  box-shadow: none;
+  font-size: 1.25rem;
+  letter-spacing: 0.01em;
+}
+
+.organized-takes hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 1rem 0;
+}
+
+.organized-takes p, .organized-takes ul, .organized-takes ol {
+  margin: 0.2rem 0 0.2rem 0;
+}
+
+.organized-takes strong, .organized-takes b {
+  color: #222;
+}
+
+.organized-takes .tweet-entry {
+  background: #fff;
+  border-radius: 7px;
+  border: 1px solid #ececec;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.02);
+  padding: 0.7rem 1rem;
+  margin-bottom: 0.2rem;
+  transition: box-shadow 0.15s;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.organized-takes .tweet-entry:hover {
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.05);
+}
+
+.organized-takes .tweet-entry .tweet-date {
+  font-size: 0.93em;
+  color: #888;
+  margin-bottom: 0.1em;
+  display: block;
+}
+
+.organized-takes .tweet-entry a[href^="https://twitter.com"] {
+  color: #1DA1F2;
+  font-size: 0.93em;
+  text-decoration: none;
+  margin-left: 0.4em;
+}
+
+.organized-takes .tweet-entry a[href^="https://twitter.com"]:hover {
+  text-decoration: underline;
+}
+
+.organized-takes .tweet-link {
+  display: inline-block;
+  margin-left: 0.5em;
+  font-size: 0.93em;
+  color: #1DA1F2;
+}
+
+.organized-takes .tweet-link a {
+  color: #1DA1F2;
+  text-decoration: none;
+}
+
+.organized-takes .tweet-link a:hover {
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=style.css.map */
