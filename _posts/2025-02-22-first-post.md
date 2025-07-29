@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "My second blog post"
+title: "Weekend Project: Crafting Your Own Keyboard"
 date: 2024-02-22
 ---
 
-Your blog post content goes here. 
+Keyboard is working pretty well. How-to is on the way!
