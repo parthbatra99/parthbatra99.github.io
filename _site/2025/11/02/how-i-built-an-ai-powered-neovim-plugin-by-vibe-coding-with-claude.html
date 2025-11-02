@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>I Built a Neovim Plugin in a Language I Don&#39;t Know. Here&#39;s the Story.</title>
+    <meta name="description" content="I have a confession to make.">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap">
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+  
+    <link type="application/atom+xml" rel="alternate" href="https://parthbatra99.github.io/feed.xml" title="Parth Batra | batra.blog" />
+    
+  </head>
+  
+  
+<head>
+    <link rel="icon" type="image/jpeg" href="/assets/images/profile.jpg">
+</head>
+<body>
+    <header class="site-header">
+    <div class="wrapper">
+      <a class="site-title" rel="author" href="/">Parth Batra</a>
+  
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+  
+        <div class="trigger">
+          
+            <a class="page-link" href="/blog/">✍️ blog</a>
+          
+            <a class="page-link" href="/quick-wits/">quickwits</a>
+          
+            <a class="page-link" href="/the-good-stuff/">thegoodstuff</a>
+          
+            <a class="page-link" href="/workbench/">workbench</a>
+          
+            <a class="page-link" href="/list-16-4/">the16.4</a>
+          
+        </div>
+      </nav>
+    </div>
+  </header> 
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+  <div class="wrapper">
+    <h1>I Built a Neovim Plugin in a Language I Don't Know. Here's the Story.</h1>
+    <div class="post-meta">
+      <time datetime="2025-11-02T12:00:00+05:30" itemprop="datePublished">
+        November 02, 2025
+      </time>
+      
+      
+      
+      •
+      
+        6 mins read
+      
+    </div>
+
+    <p>I have a confession to make.</p>
+
+<p>I don’t know Lua. I’ve never written it, I’ve never studied it, and I don’t even have the interpreter installed on my machine.</p>
+
+<p>Yet, over a single weekend, I shipped a Neovim plugin with over 2,800 lines of Lua code, 89% test coverage, and a feature set which a hardcore minimalist neovim guy will appreciate. It’s called <a href="https://github.com/parthbatra99/hexwitch.nvim">hexwitch.nvim</a>, and it lets you generate your editor’s colorscheme from plain English.</p>
+
+<p>This isn’t some 10x developer fairytale. It’s a story about a new way of building software I’m calling “vibe-driven development.” It’s about pairing years of programming fundamentals with an AI to build high-quality projects in languages you’ve never touched. It’s the story of how I used an AI as my product guy and my code monkey - Claude Code, and then had to step in as the adult in the room to make it safe for the public.</p>
+
+<h2 id="phase-1-the-idea-guy-and-the-ai">Phase 1: The Idea Guy (and the AI)</h2>
+
+<p>It all started with the classic developer addiction: endlessly tweaking my colorscheme. I had a vague idea: “What if I could just <em>describe</em> a theme?” But the vision was fuzzy. So, before writing a single line of code, I opened a chat with Claude and treated it as my product guy.</p>
+
+<p>We just spitballed. I threw out half-baked ideas, and it threw back refined concepts. We debated features, user flows, and what would make this thing actually cool. What started as a simple “generate a theme” command evolved into a full-fledged vision:</p>
+
+<ul>
+  <li>Generate themes from a prompt, obviously.</li>
+  <li><em>Refine</em> existing themes with ease (the real magic).</li>
+  <li>Save and manage a whole library of your creations.</li>
+  <li>Browse themes with a proper UI (because who wants to remember filenames?).</li>
+  <li>Support for multiple AI providers, so you’re not locked in.</li>
+</ul>
+
+<p>After a few hours, we had a rock-solid plan. The AI didn’t just help me think; it helped me design a better product before a single line of code existed.</p>
+
+<h2 id="phase-2-the-code-monkey---claude-code-also-the-ai">Phase 2: The Code Monkey - Claude Code (Also the AI)</h2>
+
+<p>With a plan in hand, I switched hats. I was now the architect, and Claude was my specialist Lua contractor who only does exactly what they’re told.</p>
+
+<p>I opened a new chat and started directing the work, module by module. The entire plugin was built in a series of 15-20 small, focused conversations.</p>
+
+<p><strong>Me (The Architect):</strong> “Okay, build me a storage module. It needs to save themes as JSON. Give me <code class="language-plaintext highlighter-rouge">save_theme</code> and <code class="language-plaintext highlighter-rouge">load_theme</code> functions. Oh, and sanitize the theme name before you write it to disk.”</p>
+
+<p><strong>Claude (The Lua Specialist):</strong> <em>spits out a perfect little Lua module with everything I asked for.</em></p>
+
+<p>I’d grab the code, run a quick test, and move on.</p>
+
+<p><strong>Me:</strong> “Nice. Now, let’s build a UI. Use Telescope to browse the themes we just saved. Read the JSON files and show them in a list.”</p>
+
+<p>This loop was ridiculously fast. We built the AI provider module, the theme applier, the command registration—each piece in its own little sandbox. I didn’t need to know Lua syntax; I just needed to know how to structure a program and delegate.</p>
+
+<h2 id="phase-3-the-adult-in-the-room-me">Phase 3: The Adult in the Room (Me)</h2>
+
+<p>After a weekend of this, I had a pile of working modules. I stitched them together, debugged the flow, and… it worked. The magic moment of generating a theme from a prompt was real. I had a functional prototype.</p>
+
+<!-- ![A short video showing the :Hexwitch command being used to generate a new colorscheme from a text prompt, with the editor's colors changing in real-time.](https://i.imgur.com/placeholder-video-generation.mp4)
+*It’s alive! A live demo of generating a theme from scratch.* -->
+
+<p>But here’s the catch: a functional prototype is <strong>not</strong> a secure product. This is where the AI’s job ended and my job as an experienced engineer began.</p>
+
+<p>I put the plugin through a rigorous security audit, and what I found was a glorious, functional, and deeply insecure mess. The AI-generated code was riddled with the exact kind of vulnerabilities you’d expect from a system that just pattern-matches without understanding the consequences. It was time to clean up the mess.</p>
+
+<p>Here’s a summary of the critical fixes I had to implement myself, line by line:</p>
+
+<ol>
+  <li><strong>Command Injection:</strong> The AI was building system calls with simple string concatenation. A malicious theme name could have run any command on my machine. I ripped it out and replaced it with parameterized calls.</li>
+  <li><strong>Path Traversal:</strong> The AI didn’t sanitize theme names properly, leaving the front door open for an attacker to use <code class="language-plaintext highlighter-rouge">../../..</code> to read or write files anywhere on my system. Fixed.</li>
+  <li><strong>Malicious Theme Data:</strong> The plugin blindly trusted the theme data from the AI. A malformed theme could have crashed the editor or worse. I added a strict validation layer to sanitize the data before applying it.</li>
+  <li><strong>API Key Leakage:</strong> The AI was happily logging my full API key in debug messages. I scrubbed all the logs to make sure no secrets ever saw the light of day.</li>
+</ol>
+
+<p>To prove the fixes were solid, I built a security test suite from scratch. The difference was night and day.</p>
+
+<h3 id="security-posture-before-vs-after">Security Posture: Before vs. After</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Issue</th>
+      <th>AI-Generated Code (The Intern)</th>
+      <th>My Hardening (The Senior Dev)</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Command Injection</td>
+      <td>❌ Wide Open</td>
+      <td>✅ Locked Down</td>
+      <td><strong>Fixed</strong></td>
+    </tr>
+    <tr>
+      <td>Path Traversal</td>
+      <td>❌ Vulnerable</td>
+      <td>✅ Protected</td>
+      <td><strong>Fixed</strong></td>
+    </tr>
+    <tr>
+      <td>Theme Validation</td>
+      <td>❌ YOLO</td>
+      <td>✅ Comprehensive</td>
+      <td><strong>Added</strong></td>
+    </tr>
+    <tr>
+      <td>API Key Exposure</td>
+      <td>❌ Leaking Secrets</td>
+      <td>✅ Sanitized</td>
+      <td><strong>Fixed</strong></td>
+    </tr>
+    <tr>
+      <td>Security Tests</td>
+      <td>❌ 0%</td>
+      <td>✅ 100% Coverage</td>
+      <td><strong>Added</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Only after this manual, expert-led hardening was I confident enough to post <code class="language-plaintext highlighter-rouge">hexwitch.nvim</code> on Reddit and not get roasted.</p>
+
+<h2 id="the-result-meet-hexwitchnvim">The Result: Meet <code class="language-plaintext highlighter-rouge">hexwitch.nvim</code></h2>
+
+<p>This whole process—AI for vision, AI for code, human for quality—produced a plugin I’m genuinely proud of.</p>
+
+<ul>
+  <li><strong>Generate Themes with Plain English:</strong> <code class="language-plaintext highlighter-rouge">:Hexwitch "a moody, high-contrast sci-fi theme with neon green accents"</code></li>
+  <li><strong>Iterate and Refine on the Fly:</strong> <code class="language-plaintext highlighter-rouge">:Hexwitch refine</code></li>
+  <li><strong>Browse Your Creations:</strong> A slick, built-in <a href="https://github.com/nvim-telescope/telescope.nvim">Telescope</a> UI to browse, search, and apply your saved themes.</li>
+  <li><strong>Full History with Undo/Redo:</strong> Because creativity needs an escape hatch.</li>
+  <li><strong>Bring Your Own AI:</strong> Supports OpenAI, OpenRouter, and custom endpoints out of the box.</li>
+</ul>
+
+<!-- ![A screenshot of the Telescope UI, showing a list of saved themes that the user can browse and apply.](https://i.imgur.com/placeholder-telescope.png)
+*The built-in Telescope UI for browsing your theme library.* -->
+
+<p>It’s a robust tool, and you can install it today:</p>
+
+<div class="language-lua highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">-- With lazy.nvim</span>
+<span class="p">{</span>
+  <span class="s2">"parthbatra99/hexwitch.nvim"</span><span class="p">,</span>
+  <span class="n">dependencies</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">"nvim-lua/plenary.nvim"</span><span class="p">,</span>
+    <span class="s2">"nvim-telescope/telescope.nvim"</span><span class="p">,</span>
+  <span class="p">},</span>
+  <span class="n">config</span> <span class="o">=</span> <span class="k">function</span><span class="p">()</span>
+    <span class="c1">-- Don't forget to set your OPENAI_API_KEY or OPENROUTER_API_KEY!</span>
+    <span class="nb">require</span><span class="p">(</span><span class="s2">"hexwitch"</span><span class="p">).</span><span class="n">setup</span><span class="p">({</span>
+      <span class="n">ai_provider</span> <span class="o">=</span> <span class="s2">"openrouter"</span><span class="p">,</span>
+      <span class="n">model</span> <span class="o">=</span> <span class="s2">"anthropic/claude-3-haiku"</span><span class="p">,</span>
+    <span class="p">})</span>
+  <span class="k">end</span><span class="p">,</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="the-scorecard">The Scorecard</h2>
+
+<p>Because I’m a data scientist at heart, here’s the final tally from my weekend experiment:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Metric</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Lines of Lua Written by Me</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Lines of Lua Code Generated</td>
+      <td>2,847</td>
+    </tr>
+    <tr>
+      <td>Test Coverage</td>
+      <td>89%</td>
+    </tr>
+    <tr>
+      <td>Time Spent</td>
+      <td>~48 hours</td>
+    </tr>
+    <tr>
+      <td>Sanity Remaining</td>
+      <td>Questionable</td>
+    </tr>
+    <tr>
+      <td>My Personal Theme Count</td>
+      <td>47 (current favorite: “autumn rain in Tokyo”)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="my-new-hot-take-ai-is-a-superpower-for-people-who-already-know-their-stuff">My New Hot Take: AI is a Superpower for People Who Already Know Their Stuff</h2>
+
+<p>This experiment fundamentally changed how I see software development. It’s a two-part process:</p>
+
+<ol>
+  <li><strong>AI-Accelerated Prototyping:</strong> Use AI as a hyper-fast intern to turn your architectural vision into code, letting you skip the boring syntax-learning phase.</li>
+  <li><strong>Expert-Led Hardening:</strong> Apply your deep human expertise to the critical last 10%—security, performance, and reliability—to turn the prototype into a real product.</li>
+</ol>
+
+<p>This is a superpower. It means your value as a developer isn’t just knowing a language; it’s your deep understanding of programming fundamentals that work everywhere. The AI handles the syntax; you handle the safety, quality, and taste.</p>
+
+<h3 id="your-turn">Your Turn</h3>
+
+<p>You have years of experience. What could you build this weekend if you could instantly get a functional-but-insecure v0.9 of any idea? Go try it. The future of development isn’t about replacing us; it’s about amplifying our expertise to ship better, safer products, faster than ever before.</p>
+
+<hr />
+
+<p><em>Check out the project on <a href="https://github.com/parthbatra99/hexwitch.nvim">GitHub</a>. The source code is completely open, and I’d love to see what themes you create!</em></p>
+
+    
+
+  </div>
+</article>
+
+
+      </div>
+    </main>
+
+    <footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Parth Batra | batra.blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Parth Batra</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/parthbatra99"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">parthbatra99</span></a></li><li><a href="https://instagram.com/parthbatra__"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#instagram"></use></svg> <span class="username">parthbatra__</span></a></li><li><a href="https://www.linkedin.com/in/parth-batra99"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">parth-batra99</span></a></li><li><a href="https://www.twitter.com/batra99"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">batra99</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Data scientist by day, music critic by night. Building ML systems, writing about tech, and collecting spotify minutes like they&#39;re infinity stones.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>
+

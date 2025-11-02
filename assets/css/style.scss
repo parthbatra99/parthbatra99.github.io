@@ -99,25 +99,42 @@ code, pre {
 .organized-takes {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 1rem;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .organized-takes h2 {
-  border-bottom: 2px solid #444;
-  color: #222;
-  background: #fafafa;
-  padding-bottom: 0.2em;
-  margin-top: 2.2rem;
-  margin-bottom: 1.2rem;
-  box-shadow: none;
-  font-size: 1.25rem;
-  letter-spacing: 0.01em;
+  border-bottom: 2px solid #333;
+  color: #111;
+  padding-bottom: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  position: relative;
+}
+
+.organized-takes h2:first-child {
+  margin-top: 2rem;
+}
+
+.organized-takes h2::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 60px;
+  height: 2px;
+  background-color: #4d74eb;
 }
 
 .organized-takes hr {
   border: none;
-  border-top: 1px solid #eee;
-  margin: 1rem 0;
+  border-top: 1px solid #e8e8e8;
+  margin: 1.5rem 0;
+  opacity: 0.7;
 }
 
 .organized-takes p, .organized-takes ul, .organized-takes ol {
@@ -126,35 +143,44 @@ code, pre {
 
 .organized-takes strong, .organized-takes b {
   color: #222;
+  font-weight: 600;
 }
 
 .organized-takes .tweet-entry {
   background: #fff;
-  border-radius: 7px;
-  border: 1px solid #ececec;
-  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.02);
-  padding: 0.7rem 1rem;
-  margin-bottom: 0.2rem;
-  transition: box-shadow 0.15s;
-  font-size: 1em;
-  line-height: 1.5;
+  border-radius: 8px;
+  border: 1px solid #e8e8e8;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 0;
+  transition: all 0.2s ease;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  position: relative;
 }
+
 .organized-takes .tweet-entry:hover {
-  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border-color: #d0d0d0;
+  transform: translateY(-1px);
 }
 
 .organized-takes .tweet-entry .tweet-date {
-  font-size: 0.93em;
-  color: #888;
-  margin-bottom: 0.1em;
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 0.5rem;
   display: block;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .organized-takes .tweet-entry a[href^="https://twitter.com"] {
   color: #1DA1F2;
-  font-size: 0.93em;
+  font-size: 0.85rem;
   text-decoration: none;
   margin-left: 0.4em;
+  font-weight: 500;
 }
 
 .organized-takes .tweet-entry a[href^="https://twitter.com"]:hover {
@@ -163,14 +189,171 @@ code, pre {
 
 .organized-takes .tweet-link {
   display: inline-block;
-  margin-left: 0.5em;
-  font-size: 0.93em;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
   color: #1DA1F2;
+  font-weight: 500;
 }
+
 .organized-takes .tweet-link a {
   color: #1DA1F2;
   text-decoration: none;
+  transition: color 0.2s ease;
 }
+
 .organized-takes .tweet-link a:hover {
   text-decoration: underline;
+}
+
+.organized-takes .tweet-entry ul {
+  margin-top: 0.5rem;
+  margin-left: 1.5rem;
+}
+
+.organized-takes .tweet-entry li {
+  margin-bottom: 0.25rem;
+  color: #444;
+}
+
+.organized-takes .tweet-entry em {
+  color: #666;
+  font-style: italic;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  display: block;
+}
+
+// Mobile responsive design for QuickWits
+@media screen and (max-width: 600px) {
+  .organized-takes {
+    gap: 1.5rem;
+  }
+
+  .organized-takes h2 {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .organized-takes h2::after {
+    width: 40px;
+  }
+
+  .organized-takes .tweet-entry {
+    padding: 1rem;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .organized-takes .tweet-entry .tweet-date {
+    font-size: 0.8rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .organized-takes .tweet-link {
+    font-size: 0.8rem;
+    margin-top: 0.4rem;
+  }
+
+  .organized-takes .tweet-entry a[href^="https://twitter.com"] {
+    font-size: 0.8rem;
+  }
+
+  .organized-takes .tweet-entry ul {
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .organized-takes .tweet-entry {
+    padding: 0.8rem;
+  }
+
+  .organized-takes h2 {
+    font-size: 1.2rem;
+  }
+}
+
+// QuickWits specific styling for header and footer integration
+.quick-takes {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.quick-takes .quick-wits-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
+}
+
+.quick-takes .section-description {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 2rem;
+  line-height: 1.7;
+  font-style: italic;
+}
+
+.quick-takes .quick-takes-meta {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.quick-takes .quick-takes-meta .separator {
+  margin: 0 0.5rem;
+  color: #999;
+}
+
+.quick-takes .quick-takes-meta a {
+  color: #4d74eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.quick-takes .quick-takes-meta a:hover {
+  text-decoration: underline;
+}
+
+.quick-takes .quick-takes-footer {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e8e8e8;
+  font-size: 0.95rem;
+  color: #666;
+  text-align: center;
+}
+
+.quick-takes .quick-takes-footer a {
+  color: #4d74eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.quick-takes .quick-takes-footer a:hover {
+  text-decoration: underline;
+}
+
+// Mobile responsive for QuickWits header and footer
+@media screen and (max-width: 600px) {
+  .quick-takes .quick-wits-title {
+    font-size: 2rem;
+  }
+
+  .quick-takes .section-description {
+    font-size: 1rem;
+  }
+
+  .quick-takes .quick-takes-meta {
+    font-size: 0.85rem;
+    text-align: center;
+  }
+
+  .quick-takes .quick-takes-footer {
+    font-size: 0.9rem;
+  }
 }

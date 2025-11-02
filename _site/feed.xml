@@ -1,14 +1,215 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://parthbatra99.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://parthbatra99.github.io/" rel="alternate" type="text/html" /><updated>2025-10-25T02:00:25+05:30</updated><id>https://parthbatra99.github.io/feed.xml</id><title type="html">Parth Batra | batra.blog</title><subtitle>Data scientist by day, music critic by night. Building ML systems, writing about tech, and collecting spotify minutes like they&apos;re infinity stones.</subtitle><author><name>Parth Batra</name></author><entry><title type="html">When Does Your Streaming Habit Become a Loss for Spotify?</title><link href="https://parthbatra99.github.io/2025/02/23/second-post.html" rel="alternate" type="text/html" title="When Does Your Streaming Habit Become a Loss for Spotify?" /><published>2025-02-23T17:30:00+05:30</published><updated>2025-02-23T17:30:00+05:30</updated><id>https://parthbatra99.github.io/2025/02/23/second-post</id><content type="html" xml:base="https://parthbatra99.github.io/2025/02/23/second-post.html"><![CDATA[<p>As someone who has clocked over 100,000 minutes on Spotify for three years running, a question started bugging me: at what point does my listening habit stop being profitable for Spotify and start costing them money? Am I, a dedicated “super-listener,” actually a freeloader in disguise?</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://parthbatra99.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://parthbatra99.github.io/" rel="alternate" type="text/html" /><updated>2025-11-03T00:27:04+05:30</updated><id>https://parthbatra99.github.io/feed.xml</id><title type="html">Parth Batra | batra.blog</title><subtitle>Data scientist by day, music critic by night. Building ML systems, writing about tech, and collecting spotify minutes like they&apos;re infinity stones.</subtitle><author><name>Parth Batra</name></author><entry><title type="html">I Built a Neovim Plugin in a Language I Don’t Know. Here’s the Story.</title><link href="https://parthbatra99.github.io/2025/11/02/how-i-built-an-ai-powered-neovim-plugin-by-vibe-coding-with-claude.html" rel="alternate" type="text/html" title="I Built a Neovim Plugin in a Language I Don’t Know. Here’s the Story." /><published>2025-11-02T12:00:00+05:30</published><updated>2025-11-02T12:00:00+05:30</updated><id>https://parthbatra99.github.io/2025/11/02/how-i-built-an-ai-powered-neovim-plugin-by-vibe-coding-with-claude</id><content type="html" xml:base="https://parthbatra99.github.io/2025/11/02/how-i-built-an-ai-powered-neovim-plugin-by-vibe-coding-with-claude.html"><![CDATA[<p>I have a confession to make.</p>
 
-<p>So, I did what any data scientist with a music obsession would do: I dove into the numbers, ran an analysis, and built a model to find the break-even point. The subject of my little experiment? The Indian market—a place with some of the lowest subscription prices in the world.</p>
+<p>I don’t know Lua. I’ve never written it, I’ve never studied it, and I don’t even have the interpreter installed on my machine.</p>
+
+<p>Yet, over a single weekend, I shipped a Neovim plugin with over 2,800 lines of Lua code, 89% test coverage, and a feature set which a hardcore minimalist neovim guy will appreciate. It’s called <a href="https://github.com/parthbatra99/hexwitch.nvim">hexwitch.nvim</a>, and it lets you generate your editor’s colorscheme from plain English.</p>
+
+<p>This isn’t some 10x developer fairytale. It’s a story about a new way of building software I’m calling “vibe-driven development.” It’s about pairing years of programming fundamentals with an AI to build high-quality projects in languages you’ve never touched. It’s the story of how I used an AI as my product guy and my code monkey - Claude Code, and then had to step in as the adult in the room to make it safe for the public.</p>
+
+<h2 id="phase-1-the-idea-guy-and-the-ai">Phase 1: The Idea Guy (and the AI)</h2>
+
+<p>It all started with the classic developer addiction: endlessly tweaking my colorscheme. I had a vague idea: “What if I could just <em>describe</em> a theme?” But the vision was fuzzy. So, before writing a single line of code, I opened a chat with Claude and treated it as my product guy.</p>
+
+<p>We just spitballed. I threw out half-baked ideas, and it threw back refined concepts. We debated features, user flows, and what would make this thing actually cool. What started as a simple “generate a theme” command evolved into a full-fledged vision:</p>
+
+<ul>
+  <li>Generate themes from a prompt, obviously.</li>
+  <li><em>Refine</em> existing themes with ease (the real magic).</li>
+  <li>Save and manage a whole library of your creations.</li>
+  <li>Browse themes with a proper UI (because who wants to remember filenames?).</li>
+  <li>Support for multiple AI providers, so you’re not locked in.</li>
+</ul>
+
+<p>After a few hours, we had a rock-solid plan. The AI didn’t just help me think; it helped me design a better product before a single line of code existed.</p>
+
+<h2 id="phase-2-the-code-monkey---claude-code-also-the-ai">Phase 2: The Code Monkey - Claude Code (Also the AI)</h2>
+
+<p>With a plan in hand, I switched hats. I was now the architect, and Claude was my specialist Lua contractor who only does exactly what they’re told.</p>
+
+<p>I opened a new chat and started directing the work, module by module. The entire plugin was built in a series of 15-20 small, focused conversations.</p>
+
+<p><strong>Me (The Architect):</strong> “Okay, build me a storage module. It needs to save themes as JSON. Give me <code class="language-plaintext highlighter-rouge">save_theme</code> and <code class="language-plaintext highlighter-rouge">load_theme</code> functions. Oh, and sanitize the theme name before you write it to disk.”</p>
+
+<p><strong>Claude (The Lua Specialist):</strong> <em>spits out a perfect little Lua module with everything I asked for.</em></p>
+
+<p>I’d grab the code, run a quick test, and move on.</p>
+
+<p><strong>Me:</strong> “Nice. Now, let’s build a UI. Use Telescope to browse the themes we just saved. Read the JSON files and show them in a list.”</p>
+
+<p>This loop was ridiculously fast. We built the AI provider module, the theme applier, the command registration—each piece in its own little sandbox. I didn’t need to know Lua syntax; I just needed to know how to structure a program and delegate.</p>
+
+<h2 id="phase-3-the-adult-in-the-room-me">Phase 3: The Adult in the Room (Me)</h2>
+
+<p>After a weekend of this, I had a pile of working modules. I stitched them together, debugged the flow, and… it worked. The magic moment of generating a theme from a prompt was real. I had a functional prototype.</p>
+
+<!-- ![A short video showing the :Hexwitch command being used to generate a new colorscheme from a text prompt, with the editor's colors changing in real-time.](https://i.imgur.com/placeholder-video-generation.mp4)
+*It’s alive! A live demo of generating a theme from scratch.* -->
+
+<p>But here’s the catch: a functional prototype is <strong>not</strong> a secure product. This is where the AI’s job ended and my job as an experienced engineer began.</p>
+
+<p>I put the plugin through a rigorous security audit, and what I found was a glorious, functional, and deeply insecure mess. The AI-generated code was riddled with the exact kind of vulnerabilities you’d expect from a system that just pattern-matches without understanding the consequences. It was time to clean up the mess.</p>
+
+<p>Here’s a summary of the critical fixes I had to implement myself, line by line:</p>
+
+<ol>
+  <li><strong>Command Injection:</strong> The AI was building system calls with simple string concatenation. A malicious theme name could have run any command on my machine. I ripped it out and replaced it with parameterized calls.</li>
+  <li><strong>Path Traversal:</strong> The AI didn’t sanitize theme names properly, leaving the front door open for an attacker to use <code class="language-plaintext highlighter-rouge">../../..</code> to read or write files anywhere on my system. Fixed.</li>
+  <li><strong>Malicious Theme Data:</strong> The plugin blindly trusted the theme data from the AI. A malformed theme could have crashed the editor or worse. I added a strict validation layer to sanitize the data before applying it.</li>
+  <li><strong>API Key Leakage:</strong> The AI was happily logging my full API key in debug messages. I scrubbed all the logs to make sure no secrets ever saw the light of day.</li>
+</ol>
+
+<p>To prove the fixes were solid, I built a security test suite from scratch. The difference was night and day.</p>
+
+<h3 id="security-posture-before-vs-after">Security Posture: Before vs. After</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Issue</th>
+      <th>AI-Generated Code (The Intern)</th>
+      <th>My Hardening (The Senior Dev)</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Command Injection</td>
+      <td>❌ Wide Open</td>
+      <td>✅ Locked Down</td>
+      <td><strong>Fixed</strong></td>
+    </tr>
+    <tr>
+      <td>Path Traversal</td>
+      <td>❌ Vulnerable</td>
+      <td>✅ Protected</td>
+      <td><strong>Fixed</strong></td>
+    </tr>
+    <tr>
+      <td>Theme Validation</td>
+      <td>❌ YOLO</td>
+      <td>✅ Comprehensive</td>
+      <td><strong>Added</strong></td>
+    </tr>
+    <tr>
+      <td>API Key Exposure</td>
+      <td>❌ Leaking Secrets</td>
+      <td>✅ Sanitized</td>
+      <td><strong>Fixed</strong></td>
+    </tr>
+    <tr>
+      <td>Security Tests</td>
+      <td>❌ 0%</td>
+      <td>✅ 100% Coverage</td>
+      <td><strong>Added</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Only after this manual, expert-led hardening was I confident enough to post <code class="language-plaintext highlighter-rouge">hexwitch.nvim</code> on Reddit and not get roasted.</p>
+
+<h2 id="the-result-meet-hexwitchnvim">The Result: Meet <code class="language-plaintext highlighter-rouge">hexwitch.nvim</code></h2>
+
+<p>This whole process—AI for vision, AI for code, human for quality—produced a plugin I’m genuinely proud of.</p>
+
+<ul>
+  <li><strong>Generate Themes with Plain English:</strong> <code class="language-plaintext highlighter-rouge">:Hexwitch "a moody, high-contrast sci-fi theme with neon green accents"</code></li>
+  <li><strong>Iterate and Refine on the Fly:</strong> <code class="language-plaintext highlighter-rouge">:Hexwitch refine</code></li>
+  <li><strong>Browse Your Creations:</strong> A slick, built-in <a href="https://github.com/nvim-telescope/telescope.nvim">Telescope</a> UI to browse, search, and apply your saved themes.</li>
+  <li><strong>Full History with Undo/Redo:</strong> Because creativity needs an escape hatch.</li>
+  <li><strong>Bring Your Own AI:</strong> Supports OpenAI, OpenRouter, and custom endpoints out of the box.</li>
+</ul>
+
+<!-- ![A screenshot of the Telescope UI, showing a list of saved themes that the user can browse and apply.](https://i.imgur.com/placeholder-telescope.png)
+*The built-in Telescope UI for browsing your theme library.* -->
+
+<p>It’s a robust tool, and you can install it today:</p>
+
+<div class="language-lua highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">-- With lazy.nvim</span>
+<span class="p">{</span>
+  <span class="s2">"parthbatra99/hexwitch.nvim"</span><span class="p">,</span>
+  <span class="n">dependencies</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">"nvim-lua/plenary.nvim"</span><span class="p">,</span>
+    <span class="s2">"nvim-telescope/telescope.nvim"</span><span class="p">,</span>
+  <span class="p">},</span>
+  <span class="n">config</span> <span class="o">=</span> <span class="k">function</span><span class="p">()</span>
+    <span class="c1">-- Don't forget to set your OPENAI_API_KEY or OPENROUTER_API_KEY!</span>
+    <span class="nb">require</span><span class="p">(</span><span class="s2">"hexwitch"</span><span class="p">).</span><span class="n">setup</span><span class="p">({</span>
+      <span class="n">ai_provider</span> <span class="o">=</span> <span class="s2">"openrouter"</span><span class="p">,</span>
+      <span class="n">model</span> <span class="o">=</span> <span class="s2">"anthropic/claude-3-haiku"</span><span class="p">,</span>
+    <span class="p">})</span>
+  <span class="k">end</span><span class="p">,</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="the-scorecard">The Scorecard</h2>
+
+<p>Because I’m a data scientist at heart, here’s the final tally from my weekend experiment:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Metric</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Lines of Lua Written by Me</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Lines of Lua Code Generated</td>
+      <td>2,847</td>
+    </tr>
+    <tr>
+      <td>Test Coverage</td>
+      <td>89%</td>
+    </tr>
+    <tr>
+      <td>Time Spent</td>
+      <td>~48 hours</td>
+    </tr>
+    <tr>
+      <td>Sanity Remaining</td>
+      <td>Questionable</td>
+    </tr>
+    <tr>
+      <td>My Personal Theme Count</td>
+      <td>47 (current favorite: “autumn rain in Tokyo”)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="my-new-hot-take-ai-is-a-superpower-for-people-who-already-know-their-stuff">My New Hot Take: AI is a Superpower for People Who Already Know Their Stuff</h2>
+
+<p>This experiment fundamentally changed how I see software development. It’s a two-part process:</p>
+
+<ol>
+  <li><strong>AI-Accelerated Prototyping:</strong> Use AI as a hyper-fast intern to turn your architectural vision into code, letting you skip the boring syntax-learning phase.</li>
+  <li><strong>Expert-Led Hardening:</strong> Apply your deep human expertise to the critical last 10%—security, performance, and reliability—to turn the prototype into a real product.</li>
+</ol>
+
+<p>This is a superpower. It means your value as a developer isn’t just knowing a language; it’s your deep understanding of programming fundamentals that work everywhere. The AI handles the syntax; you handle the safety, quality, and taste.</p>
+
+<h3 id="your-turn">Your Turn</h3>
+
+<p>You have years of experience. What could you build this weekend if you could instantly get a functional-but-insecure v0.9 of any idea? Go try it. The future of development isn’t about replacing us; it’s about amplifying our expertise to ship better, safer products, faster than ever before.</p>
+
+<hr />
+
+<p><em>Check out the project on <a href="https://github.com/parthbatra99/hexwitch.nvim">GitHub</a>. The source code is completely open, and I’d love to see what themes you create!</em></p>]]></content><author><name>Parth Batra</name></author><summary type="html"><![CDATA[I have a confession to make.]]></summary></entry><entry><title type="html">When Does Your Streaming Habit Become a Loss for Spotify?</title><link href="https://parthbatra99.github.io/2025/05/23/when-does-your-streaming-habit-spotify.html" rel="alternate" type="text/html" title="When Does Your Streaming Habit Become a Loss for Spotify?" /><published>2025-05-23T17:30:00+05:30</published><updated>2025-05-23T17:30:00+05:30</updated><id>https://parthbatra99.github.io/2025/05/23/when-does-your-streaming-habit-spotify</id><content type="html" xml:base="https://parthbatra99.github.io/2025/05/23/when-does-your-streaming-habit-spotify.html"><![CDATA[<p>For three years running, my Spotify Wrapped has clocked in at over 100,000 minutes. That’s not a flex; it’s a confession. It’s more than two full months of non-stop audio, and it got me thinking: at what point does my obsession become a money pit for Spotify?</p>
+
+<p>Am I a dedicated super-listener, or am I just a freeloader in disguise?</p>
+
+<p>So, I did what any data scientist with a music obsession would do: I dove into the numbers. My guinea pig? The Indian market—a place with some of the most ridiculously low subscription prices in the world. If I was going to be a freeloader anywhere, it would be here.</p>
 
 <p>Let’s get into it.</p>
 
-<h3 id="first-lets-talk-revenue-the-money-spotify-makes-off-you">First, Let’s Talk Revenue (The Money Spotify Makes Off You)</h3>
+<h3 id="part-1-the-revenue-the-money-spotify-makes-off-you">Part 1: The Revenue (The Money Spotify Makes Off You)</h3>
 
-<p>Spotify’s pricing in India is… aggressive. To give you some perspective, a Premium plan in the US is about $10.99. In India, it’s ₹139, which is roughly $1.40.<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup> That’s a massive difference, and it’s the first key to our puzzle.</p>
+<p>Spotify’s pricing in India is… aggressive. To give you some perspective, a Premium plan in the US is $10.99. In India, it’s ₹139, which is roughly <strong>$1.40</strong>.<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup> That’s a massive difference, and it’s the first key to our puzzle.</p>
 
-<p>Here’s a quick breakdown of what you pay and what Spotify actually <em>gets</em> per user on their most common plans:<sup id="fnref:1:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></p>
+<p>Here’s a quick breakdown of what you pay and what Spotify <em>actually</em> pockets per user on their most common plans:<sup id="fnref:1:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></p>
 
 <table>
   <thead>
@@ -47,35 +248,34 @@
   </tbody>
 </table>
 
-<p>The Family plan is the real kicker here. If you max it out with six people, Spotify is only making about ₹38 per person. That’s barely the cost of a fancy coffee. They also run wild promotional deals, like a full year of Premium for ₹499 during Diwali,<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup> which drops the monthly revenue for an individual to just <strong>₹41.58</strong>.</p>
+<p>The Family plan is the real kicker. If you max it out with six people, Spotify is making about ₹38 per person. That’s barely the cost of a fancy coffee. They also run wild promotional deals, like a full year of Premium for ₹499 during Diwali,<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup> which drops the monthly revenue for an individual to just <strong>₹41.58</strong> (about 50 cents).</p>
 
-<p>This low average revenue per user (ARPU) is a strategic choice. Spotify is playing the long game: get everyone hooked now, figure out how to make more money later.</p>
+<p>This isn’t a bug; it’s a feature. Spotify is playing the long game: get everyone hooked now, figure out how to make more money later.</p>
 
-<h3 id="now-the-costs-the-money-spotify-spends-on-you">Now, The Costs (The Money Spotify Spends on You)</h3>
+<h3 id="part-2-the-costs-the-money-spotify-spends-on-you">Part 2: The Costs (The Money Spotify Spends on You)</h3>
 
-<p>This is where it gets interesting. Spotify doesn’t pay artists a fixed amount every time you play a song. Instead, they use a “pro-rata” model.</p>
+<p>This is where it gets interesting. Spotify doesn’t just pay artists a fixed fee. Instead, they use a “pro-rata” model. Think of it like a pizza party.</p>
 
-<p>Here’s the simplified version:</p>
 <ol>
-  <li>Spotify pools all the money it makes in a country (from subscriptions and ads).</li>
-  <li>They take their cut (around 30%).</li>
-  <li>The remaining 70% becomes the “royalty pool.”</li>
-  <li>This pool is divided by the <em>total</em> number of streams in that country to get a “per-stream value.”</li>
+  <li>Spotify gathers all the money from subscriptions and ads in India into one giant pizza.</li>
+  <li>They take their cut first (about 30% of the pizza).</li>
+  <li>The remaining 70% is the “royalty pizza” for all the artists.</li>
+  <li>This pizza is then sliced up based on who got the most streams. More streams, bigger slice.</li>
 </ol>
 
-<p>Because the revenue pool in India is smaller (thanks to those low prices), the per-stream payout is also one of the lowest in the world. After digging through a bunch of sources, the most solid estimate for India is about <strong>$0.0008 per stream</strong>.<sup id="fnref:3"><a href="#fn:3" class="footnote" rel="footnote" role="doc-noteref">3</a></sup></p>
+<p>Because the revenue pizza in India is smaller, the slices are naturally smaller. After digging through a bunch of sources, the most solid estimate for India is about <strong>$0.0008 per stream</strong>.<sup id="fnref:3"><a href="#fn:3" class="footnote" rel="footnote" role="doc-noteref">3</a></sup></p>
 
-<p>Converting that to INR, we get our magic number: <strong>₹0.067 per stream</strong>.</p>
+<p>Converting that to INR, we get our magic number: <strong>₹0.07 per stream</strong>.</p>
 
 <p>This is the <em>marginal cost</em>—the direct cost of you listening to one more song.</p>
 
-<h3 id="the-break-even-point-where-your-listening-becomes-a-loss">The Break-Even Point: Where Your Listening Becomes a Loss</h3>
+<h3 id="round-1-the-break-even-point">Round 1: The Break-Even Point</h3>
 
 <p>Okay, we have the revenue and the cost. Time for some simple math.</p>
 
 <p><code class="language-plaintext highlighter-rouge">Break-Even Streams = Monthly Revenue / Cost Per Stream</code></p>
 
-<p>Let’s run the numbers for each plan:</p>
+<p>Let’s see what that means in terms of your daily listening habit:</p>
 
 <table>
   <thead>
@@ -104,9 +304,11 @@
   </tbody>
 </table>
 
-<p>If you’re on a Family plan, listening for just over an hour a day makes you a <em>marginal loss</em> for Spotify. For an individual user, it takes a more respectable 4 hours—basically a part-time job.</p>
+<p>If you’re on a Family plan, listening for just over an hour a day makes you a <em>marginal loss</em> for Spotify. For a solo user, it takes a more respectable 4 hours—basically a part-time job.</p>
 
-<h3 id="but-wait-theres-the-real-cost">But Wait, There’s the <em>Real</em> Cost…</h3>
+<p>But wait, there’s more.</p>
+
+<h3 id="part-3-the-real-cost-the-boring-stuff-that-actually-matters">Part 3: The <em>Real</em> Cost (The Boring Stuff That Actually Matters)</h3>
 
 <p>Here’s the thing: royalties are just one piece of the pie. Spotify is a massive tech company with huge overheads. They spend a fortune on:</p>
 <ul>
@@ -116,17 +318,19 @@
 
 <p>In Q2 2025 alone, they spent a combined <strong>€779 million</strong> on this stuff.<sup id="fnref:4"><a href="#fn:4" class="footnote" rel="footnote" role="doc-noteref">4</a></sup> To figure out the <em>true</em> cost of a user, we need to allocate a slice of that overhead to every subscriber.</p>
 
-<p>After running the numbers from their quarterly reports, the global overhead cost comes out to about <strong>₹84.60 per subscriber, per month</strong>.</p>
+<p>After running the numbers from their quarterly reports, the global overhead cost comes out to about <strong>₹38.60 per subscriber, per month</strong>.</p>
 
-<p>This is the “fully-loaded” cost.</p>
+<p>This is the “fully-loaded” cost, and it’s a game-changer.</p>
 
-<h3 id="the-real-break-even-point-the-one-that-matters">The <em>Real</em> Break-Even Point (The One That Matters)</h3>
+<h3 id="the-final-showdown-the-real-break-even-point">The Final Showdown: The <em>Real</em> Break-Even Point</h3>
 
-<p>Let’s redo our calculation, but this time, your subscription fee has to cover both the royalties <em>and</em> your share of the overhead.</p>
+<p>Let’s redo our calculation. Your subscription fee needs to cover both the royalty cost <em>and</em> your share of the overhead.</p>
 
-<p><code class="language-plaintext highlighter-rouge">Break-Even Streams = (Monthly Revenue + Monthly Overhead) / Cost Per Stream</code></p>
+<p>With an average user streaming about 600 songs per month, the overhead allocation comes to about <strong>₹0.064 per stream</strong>.</p>
 
-<p>The results are pretty staggering:</p>
+<p>So the total, fully-loaded cost per stream is ₹0.07 (royalty) + ₹0.064 (overhead) = <strong>₹0.134 per stream</strong>.</p>
+
+<p>Now let’s see the <em>real</em> break-even points:</p>
 
 <table>
   <thead>
@@ -138,36 +342,36 @@
   <tbody>
     <tr>
       <td style="text-align: left"><strong>Premium Individual</strong></td>
-      <td style="text-align: left"><strong>~6.5 hours/day</strong></td>
+      <td style="text-align: left"><strong>~2.6 hours/day</strong></td>
     </tr>
     <tr>
       <td style="text-align: left"><strong>Premium Student</strong></td>
-      <td style="text-align: left"><strong>~4.5 hours/day</strong></td>
+      <td style="text-align: left"><strong>~1.3 hours/day</strong></td>
     </tr>
     <tr>
       <td style="text-align: left"><strong>Premium Duo</strong></td>
-      <td style="text-align: left"><strong>~5.1 hours/day</strong></td>
+      <td style="text-align: left"><strong>~1.7 hours/day</strong></td>
     </tr>
     <tr>
       <td style="text-align: left"><strong>Premium Family</strong></td>
-      <td style="text-align: left"><strong>~3.6 hours/day</strong></td>
+      <td style="text-align: left"><strong>~0.7 hours/day</strong> (that’s just 42 minutes!)</td>
     </tr>
   </tbody>
 </table>
 
-<p>To truly cost Spotify money, an individual user has to be streaming for <strong>six and a half hours. Every. Single. Day.</strong> Even on the dirt-cheap Family plan, you need to be locked in for over 3.5 hours daily.</p>
+<p>To truly cost Spotify money, an individual user has to be streaming for <strong>about two and a half hours. Every. Single. Day.</strong> And on the dirt-cheap Family plan, you only need to be locked in for <strong>42 minutes</strong> daily before you’re in the red.</p>
 
 <h3 id="so-whats-the-punchline">So, What’s the Punchline?</h3>
 
-<p>It’s actually <em>really</em> hard to be a freeloader on Spotify.</p>
+<p>It’s actually <em>way easier</em> than you might think to be a freeloader on Spotify.</p>
 
-<p>The entire business model is built on a system of cross-subsidization. The millions of users who listen for an hour or two a day generate a massive profit surplus. That surplus easily covers the costs of the few “super-listeners” like me who are glued to their headphones all day.</p>
+<p>The entire business model is built on a system of <strong>cross-subsidization</strong>. The millions of casual users who listen for 30-60 minutes a day are footing the bill for the more dedicated listeners, and yes, even “super-listeners” like me.</p>
 
-<p>Spotify isn’t trying to make a profit on every single user, especially not in a growth market like India. Their strategy is to capture the market, become the default audio app, and then slowly figure out how to raise revenue through price hikes or new features.</p>
+<p>Spotify isn’t trying to maximize profit from every single user, especially not in a strategic growth market like India. Their game plan is clear: capture market dominance, become the default audio app, and then gradually increase revenue through pricing power and new features.</p>
 
 <p>So, am I costing Spotify money with my 100k+ minutes a year?</p>
 
-<p>Nope. Not even close. It turns out, my listening habit is exactly what they’re counting on.</p>
+<p>Nope. Not even close. It turns out my listening habit isn’t just tolerated—it’s exactly the kind of engagement they’re betting on for long-term growth.</p>
 
 <h3 id="sources">Sources</h3>
 <div class="footnotes" role="doc-endnotes">
@@ -179,10 +383,77 @@
       <p>Based on a promotional offer reported by publications like The Times of India for Diwali 2025. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
     <li id="fn:3">
-      <p>This per-stream payout rate is an estimate for the Indian market from industry analysis by sources like Lost Stories Academy. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+      <p>This per-stream payout rate is an estimate for the Indian market from industry analysis by sources like Lost Stories Academy. Currency conversion uses $1 = ₹87.5 (approximate 2025 rate). <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
     <li id="fn:4">
-      <p>Combined Research &amp; Development and Sales &amp; Marketing expenses, as reported in Spotify’s official Q2 2025 earnings release. <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+      <p>Combined Research &amp; Development and Sales &amp; Marketing expenses, as reported in Spotify’s official Q2 2025 earnings release. Overhead allocation calculated as €779M ÷ 602M global subscribers ÷ 3 months = ₹38.60 per subscriber monthly. <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Parth Batra</name></author><summary type="html"><![CDATA[As someone who has clocked over 100,000 minutes on Spotify for three years running, a question started bugging me: at what point does my listening habit stop being profitable for Spotify and start costing them money? Am I, a dedicated “super-listener,” actually a freeloader in disguise?]]></summary></entry><entry><title type="html">Weekend Project: Crafting Your Own Keyboard</title><link href="https://parthbatra99.github.io/2024/02/22/first-post.html" rel="alternate" type="text/html" title="Weekend Project: Crafting Your Own Keyboard" /><published>2024-02-22T00:00:00+05:30</published><updated>2024-02-22T00:00:00+05:30</updated><id>https://parthbatra99.github.io/2024/02/22/first-post</id><content type="html" xml:base="https://parthbatra99.github.io/2024/02/22/first-post.html"><![CDATA[<p>Keyboard is working pretty well. How-to is on the way!</p>]]></content><author><name>Parth Batra</name></author><summary type="html"><![CDATA[Keyboard is working pretty well. How-to is on the way!]]></summary></entry></feed>
+</div>]]></content><author><name>Parth Batra</name></author><summary type="html"><![CDATA[For three years running, my Spotify Wrapped has clocked in at over 100,000 minutes. That’s not a flex; it’s a confession. It’s more than two full months of non-stop audio, and it got me thinking: at what point does my obsession become a money pit for Spotify?]]></summary></entry><entry><title type="html">I Resurrected a 12-Year-Old Keyboard, and It’s Now My Daily Driver</title><link href="https://parthbatra99.github.io/2025/03/02/first-keyboard-that-i-made-weekend-diy.html" rel="alternate" type="text/html" title="I Resurrected a 12-Year-Old Keyboard, and It’s Now My Daily Driver" /><published>2025-03-02T09:59:00+05:30</published><updated>2025-03-02T09:59:00+05:30</updated><id>https://parthbatra99.github.io/2025/03/02/first-keyboard-that-i-made-weekend-diy</id><content type="html" xml:base="https://parthbatra99.github.io/2025/03/02/first-keyboard-that-i-made-weekend-diy.html"><![CDATA[<p>My Keychron K8, a <strong>perfectly respectable</strong> modern mechanical keyboard, is currently serving as a <em>very expensive</em> dust cover. For the past three months, it’s been sitting in my office, <strong>completely ignored</strong>.</p>
+
+<p>The culprit? A <strong>12-year-old TVS Gold</strong> I unearthed from a forgotten box while shifting homes. I should have thrown it out. It was <em>disgusting</em>. But now, it’s the <strong>only keyboard I want to use</strong>.</p>
+
+<h3 id="the-archaeological-dig">The Archaeological Dig</h3>
+
+<p>Opening this thing up was less of a tech project and more of a <strong><em>hazmat situation</em></strong>. A <strong>decade of neglect</strong> had turned the inside into a fluffy graveyard of dust, grime, and things I don’t want to identify. It was <em>crusty</em>.</p>
+
+<p><img src="/assets/images/step1.jpeg" alt="Opening the keyboard, cleaning the internals, and fixing the wiring." /></p>
+
+<p>After a vigorous session with a brush and compressed air, I plugged it in. Nothing. Of course. I was ready to call it a day, but then I saw the connector pins. They were green with corrosion.</p>
+
+<p>A bit of IPA, some <em>creative rewiring</em>, and a prayer later, I plugged it in again.</p>
+
+<p><strong>It worked.</strong> Every single key. This <strong>old tank</strong> was still kicking.</p>
+
+<h3 id="decontamination-protocol">Decontamination Protocol</h3>
+
+<p>With the guts <em>surprisingly functional</em>, it was time to face the <strong>horror of the exterior</strong>. The plastic frame was a mottled, Jackson Pollock-esque mess of grey and black. It looked like it had been stored in a swamp.</p>
+
+<p><img src="/assets/images/step2.jpeg" alt="The discolored and degraded plastic frame of the keyboard." /></p>
+
+<p>This is where <strong>my weekend disappeared</strong>. I dismantled the entire keyboard. The board cleaned up nicely, but the keycaps were a <em>special kind of hell</em>.</p>
+
+<p><img src="/assets/images/step3.jpeg" alt="The cleaned keyboard circuit board." /></p>
+
+<p>I scrubbed <strong>every single keycap by hand</strong>. It was <em>tedious, soul-crushing work</em>. My fingers were raw. My spirit was nearly broken. But I was in <strong>too deep to stop</strong>.</p>
+
+<p><img src="/assets/images/step4.jpeg" alt="Cleaning each keycap individually." /></p>
+
+<h3 id="keyboard-heresy-and-questionable-lubricants">Keyboard Heresy and Questionable Lubricants</h3>
+
+<p>The keys worked, but they felt <em>awful</em>—stiff, scratchy, and loud in all the wrong ways. They needed lube. On a modern board, I’d desolder the switches and do it properly. But this was a <strong>12-year-old board</strong> I’d just barely coaxed back to life. My soldering skills are, let’s say, <strong><em>developing</em></strong>. I wasn’t about to risk its life.</p>
+
+<p>So, I committed a <strong><em>cardinal sin</em></strong> in the eyes of keyboard purists. I grabbed a syringe and some Rubik’s cube lube I had lying around.</p>
+
+<p><img src="/assets/images/step5.jpeg" alt="Using a syringe to apply lube to the key switches." /></p>
+
+<p>I can hear the <strong>gasps from here</strong>. But guess what? It worked <em>beautifully</em>. The keys are now <strong>buttery smooth</strong>, with a deep, satisfying <em>“thock”</em> that modern boards just can’t replicate.</p>
+
+<h3 id="the-car-detailing-trick">The Car Detailing Trick</h3>
+
+<p>The frame was still a problem. It was clean, but the plastic was faded and sad. I’d seen people try all sorts of weird retro-brighting techniques, but I had a different idea. I reached for the ceramic wax I use on my car.</p>
+
+<p><img src="/assets/images/step6.jpeg" alt="Applying ceramic wax to the plastic frame to restore its color." /></p>
+
+<p>The result was <strong>genuinely shocking</strong>. The wax didn’t just shine it up; it restored the <strong>deep, rich black</strong> of the plastic. It looks <em>almost new</em>.</p>
+
+<h3 id="the-aftermath">The Aftermath</h3>
+
+<p>After a weekend of grime, <em>questionable hacks</em>, and a lot of patience, the <strong>TVS Gold was reborn</strong>. It’s been my <strong>daily driver for three months</strong>, and I’m not looking back. It’s a <em>joy to type on</em>, and it gets <strong>more comments than any fancy gadget I own</strong>.</p>
+
+<p><img src="/assets/images/step7.jpeg" alt="The fully restored TVS Gold mechanical keyboard, looking like new." /></p>
+
+<h3 id="the-sound-of-victory">The Sound of Victory</h3>
+
+<p>The <strong>best part</strong>, though, is the <strong>sound</strong>. This keyboard has the <em>original blue switches</em>, and they are <strong>magnificent</strong>. They have a <em>crisp, clicky, tactile feedback</em> that’s been lost in most modern keyboards. Here’s a sample:</p>
+
+<audio controls="">
+  <source src="/assets/audio/tvs_gold.m4a" type="audio/mpeg" />
+  Your browser does not support the audio element.
+</audio>
+
+<p>This is the <strong>quality TVS was famous for</strong>. Their new switches feel <em>mushy and cheap</em> in comparison. It’s a shame, but it makes me <strong>all the more grateful</strong> I was able to save this one.</p>
+
+<p>So yeah, my fancy wireless keyboard is taking a <strong>long vacation</strong>. Sometimes the best tech isn’t the newest or the shiniest. It’s the <strong>old workhorse</strong> you rescue from a dusty box and <strong>bring back from the dead</strong>.</p>
+
+<p><em>I’m sure the Keychron understands.</em></p>]]></content><author><name>Parth Batra</name></author><summary type="html"><![CDATA[My Keychron K8, a perfectly respectable modern mechanical keyboard, is currently serving as a very expensive dust cover. For the past three months, it’s been sitting in my office, completely ignored.]]></summary></entry></feed>
