@@ -13,6 +13,8 @@ Yet, over a single weekend, I shipped a Neovim plugin with over 2,800 lines of L
 
 This isn’t some 10x developer fairytale. It’s a story about a new way of building software I’m calling “vibe-driven development.” It’s about pairing years of programming fundamentals with an AI to build high-quality projects in languages you’ve never touched. It’s the story of how I used an AI as my product guy and my code monkey - Claude Code, and then had to step in as the adult in the room to make it safe for the public.
 
+![My current neovim theme](/assets/images/theme-showcase.jpeg)
+
 ## Phase 1: The Idea Guy (and the AI)
 
 It all started with the classic developer addiction: endlessly tweaking my colorscheme. I had a vague idea: “What if I could just *describe* a theme?” But the vision was fuzzy. So, before writing a single line of code, I opened a chat with Claude and treated it as my product guy.
@@ -47,8 +49,10 @@ This loop was ridiculously fast. We built the AI provider module, the theme appl
 
 After a weekend of this, I had a pile of working modules. I stitched them together, debugged the flow, and… it worked. The magic moment of generating a theme from a prompt was real. I had a functional prototype.
 
-<!-- ![A short video showing the :Hexwitch command being used to generate a new colorscheme from a text prompt, with the editor's colors changing in real-time.](https://i.imgur.com/placeholder-video-generation.mp4)
-*It’s alive! A live demo of generating a theme from scratch.* -->
+<video src="/assets/images/demo-vid.mp4" controls style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+  <p>Your browser doesn't support HTML video. Here's a <a href="/assets/images/demo-vid.mp4">link to the video</a> instead.</p>
+</video>
+*It’s alive! A live demo of generating a theme from scratch.*
 
 But here’s the catch: a functional prototype is **not** a secure product. This is where the AI’s job ended and my job as an experienced engineer began.
 
@@ -85,8 +89,8 @@ This whole process—AI for vision, AI for code, human for quality—produced a 
 -   **Full History with Undo/Redo:** Because creativity needs an escape hatch.
 -   **Bring Your Own AI:** Supports OpenAI, OpenRouter, and custom endpoints out of the box.
 
-<!-- ![A screenshot of the Telescope UI, showing a list of saved themes that the user can browse and apply.](https://i.imgur.com/placeholder-telescope.png)
-*The built-in Telescope UI for browsing your theme library.* -->
+![The built-in Telescope UI for browsing your theme library.](/assets/images/saved-themes.jpeg)
+![The refine window showing various tweaking configurations.](/assets/images/refine.jpeg)
 
 It’s a robust tool, and you can install it today:
 

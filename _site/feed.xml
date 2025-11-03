@@ -1,10 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://parthbatra99.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://parthbatra99.github.io/" rel="alternate" type="text/html" /><updated>2025-11-03T00:27:04+05:30</updated><id>https://parthbatra99.github.io/feed.xml</id><title type="html">Parth Batra | batra.blog</title><subtitle>Data scientist by day, music critic by night. Building ML systems, writing about tech, and collecting spotify minutes like they&apos;re infinity stones.</subtitle><author><name>Parth Batra</name></author><entry><title type="html">I Built a Neovim Plugin in a Language I Don’t Know. Here’s the Story.</title><link href="https://parthbatra99.github.io/2025/11/02/how-i-built-an-ai-powered-neovim-plugin-by-vibe-coding-with-claude.html" rel="alternate" type="text/html" title="I Built a Neovim Plugin in a Language I Don’t Know. Here’s the Story." /><published>2025-11-02T12:00:00+05:30</published><updated>2025-11-02T12:00:00+05:30</updated><id>https://parthbatra99.github.io/2025/11/02/how-i-built-an-ai-powered-neovim-plugin-by-vibe-coding-with-claude</id><content type="html" xml:base="https://parthbatra99.github.io/2025/11/02/how-i-built-an-ai-powered-neovim-plugin-by-vibe-coding-with-claude.html"><![CDATA[<p>I have a confession to make.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://parthbatra99.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://parthbatra99.github.io/" rel="alternate" type="text/html" /><updated>2025-11-04T00:10:51+05:30</updated><id>https://parthbatra99.github.io/feed.xml</id><title type="html">Parth Batra | batra.blog</title><subtitle>Data scientist by day, music critic by night. Building ML systems, writing about tech, and collecting spotify minutes like they&apos;re infinity stones.</subtitle><author><name>Parth Batra</name></author><entry><title type="html">I Built a Neovim Plugin in a Language I Don’t Know. Here’s the Story.</title><link href="https://parthbatra99.github.io/2025/11/02/how-i-built-an-ai-powered-neovim-plugin-by-vibe-coding-with-claude.html" rel="alternate" type="text/html" title="I Built a Neovim Plugin in a Language I Don’t Know. Here’s the Story." /><published>2025-11-02T12:00:00+05:30</published><updated>2025-11-02T12:00:00+05:30</updated><id>https://parthbatra99.github.io/2025/11/02/how-i-built-an-ai-powered-neovim-plugin-by-vibe-coding-with-claude</id><content type="html" xml:base="https://parthbatra99.github.io/2025/11/02/how-i-built-an-ai-powered-neovim-plugin-by-vibe-coding-with-claude.html"><![CDATA[<p>I have a confession to make.</p>
 
 <p>I don’t know Lua. I’ve never written it, I’ve never studied it, and I don’t even have the interpreter installed on my machine.</p>
 
 <p>Yet, over a single weekend, I shipped a Neovim plugin with over 2,800 lines of Lua code, 89% test coverage, and a feature set which a hardcore minimalist neovim guy will appreciate. It’s called <a href="https://github.com/parthbatra99/hexwitch.nvim">hexwitch.nvim</a>, and it lets you generate your editor’s colorscheme from plain English.</p>
 
 <p>This isn’t some 10x developer fairytale. It’s a story about a new way of building software I’m calling “vibe-driven development.” It’s about pairing years of programming fundamentals with an AI to build high-quality projects in languages you’ve never touched. It’s the story of how I used an AI as my product guy and my code monkey - Claude Code, and then had to step in as the adult in the room to make it safe for the public.</p>
+
+<p><img src="/assets/images/theme-showcase.jpeg" alt="My current neovim theme" /></p>
 
 <h2 id="phase-1-the-idea-guy-and-the-ai">Phase 1: The Idea Guy (and the AI)</h2>
 
@@ -42,8 +44,10 @@
 
 <p>After a weekend of this, I had a pile of working modules. I stitched them together, debugged the flow, and… it worked. The magic moment of generating a theme from a prompt was real. I had a functional prototype.</p>
 
-<!-- ![A short video showing the :Hexwitch command being used to generate a new colorscheme from a text prompt, with the editor's colors changing in real-time.](https://i.imgur.com/placeholder-video-generation.mp4)
-*It’s alive! A live demo of generating a theme from scratch.* -->
+<video src="/assets/images/demo-vid.mp4" controls="" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+  <p>Your browser doesn't support HTML video. Here's a <a href="/assets/images/demo-vid.mp4">link to the video</a> instead.</p>
+</video>
+<p><em>It’s alive! A live demo of generating a theme from scratch.</em></p>
 
 <p>But here’s the catch: a functional prototype is <strong>not</strong> a secure product. This is where the AI’s job ended and my job as an experienced engineer began.</p>
 
@@ -119,8 +123,8 @@
   <li><strong>Bring Your Own AI:</strong> Supports OpenAI, OpenRouter, and custom endpoints out of the box.</li>
 </ul>
 
-<!-- ![A screenshot of the Telescope UI, showing a list of saved themes that the user can browse and apply.](https://i.imgur.com/placeholder-telescope.png)
-*The built-in Telescope UI for browsing your theme library.* -->
+<p><img src="/assets/images/saved-themes.jpeg" alt="The built-in Telescope UI for browsing your theme library." />
+<img src="/assets/images/refine.jpeg" alt="The refine window showing various tweaking configurations." /></p>
 
 <p>It’s a robust tool, and you can install it today:</p>
 
