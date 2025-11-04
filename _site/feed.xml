@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://parthbatra99.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://parthbatra99.github.io/" rel="alternate" type="text/html" /><updated>2025-11-04T00:10:51+05:30</updated><id>https://parthbatra99.github.io/feed.xml</id><title type="html">Parth Batra | batra.blog</title><subtitle>Data scientist by day, music critic by night. Building ML systems, writing about tech, and collecting spotify minutes like they&apos;re infinity stones.</subtitle><author><name>Parth Batra</name></author><entry><title type="html">I Built a Neovim Plugin in a Language I Don’t Know. Here’s the Story.</title><link href="https://parthbatra99.github.io/2025/11/02/how-i-built-an-ai-powered-neovim-plugin-by-vibe-coding-with-claude.html" rel="alternate" type="text/html" title="I Built a Neovim Plugin in a Language I Don’t Know. Here’s the Story." /><published>2025-11-02T12:00:00+05:30</published><updated>2025-11-02T12:00:00+05:30</updated><id>https://parthbatra99.github.io/2025/11/02/how-i-built-an-ai-powered-neovim-plugin-by-vibe-coding-with-claude</id><content type="html" xml:base="https://parthbatra99.github.io/2025/11/02/how-i-built-an-ai-powered-neovim-plugin-by-vibe-coding-with-claude.html"><![CDATA[<p>I have a confession to make.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://parthbatra99.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://parthbatra99.github.io/" rel="alternate" type="text/html" /><updated>2025-11-04T09:23:15+05:30</updated><id>https://parthbatra99.github.io/feed.xml</id><title type="html">Parth Batra | batra.blog</title><subtitle>Senior ML Engineer by day, music critic by night. Building ML systems, writing about tech, and collecting spotify minutes like they&apos;re infinity stones.</subtitle><author><name>Parth Batra</name></author><entry><title type="html">I Built a Neovim Plugin in a Language I Don’t Know. Here’s the Story.</title><link href="https://parthbatra99.github.io/2025/11/02/how-i-built-an-ai-powered-neovim-plugin-by-vibe-coding-with-claude.html" rel="alternate" type="text/html" title="I Built a Neovim Plugin in a Language I Don’t Know. Here’s the Story." /><published>2025-11-02T12:00:00+05:30</published><updated>2025-11-02T12:00:00+05:30</updated><id>https://parthbatra99.github.io/2025/11/02/how-i-built-an-ai-powered-neovim-plugin-by-vibe-coding-with-claude</id><content type="html" xml:base="https://parthbatra99.github.io/2025/11/02/how-i-built-an-ai-powered-neovim-plugin-by-vibe-coding-with-claude.html"><![CDATA[<p>I have a confession to make.</p>
 
 <p>I don’t know Lua. I’ve never written it, I’ve never studied it, and I don’t even have the interpreter installed on my machine.</p>
 
@@ -147,7 +147,7 @@
 
 <h2 id="the-scorecard">The Scorecard</h2>
 
-<p>Because I’m a data scientist at heart, here’s the final tally from my weekend experiment:</p>
+<p>Because I’m an ML engineer at heart, here’s the final tally from my weekend experiment:</p>
 
 <table>
   <thead>
@@ -205,7 +205,7 @@
 
 <p>Am I a dedicated super-listener, or am I just a freeloader in disguise?</p>
 
-<p>So, I did what any data scientist with a music obsession would do: I dove into the numbers. My guinea pig? The Indian market—a place with some of the most ridiculously low subscription prices in the world. If I was going to be a freeloader anywhere, it would be here.</p>
+<p>So, I did what any ML engineer with a music obsession would do: I dove into the numbers. My guinea pig? The Indian market—a place with some of the most ridiculously low subscription prices in the world. If I was going to be a freeloader anywhere, it would be here.</p>
 
 <p>Let’s get into it.</p>
 

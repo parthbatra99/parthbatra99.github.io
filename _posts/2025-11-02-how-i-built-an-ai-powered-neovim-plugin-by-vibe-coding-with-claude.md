@@ -111,20 +111,6 @@ It’s a robust tool, and you can install it today:
   end,
 }
 ```
-
-## The Scorecard
-
-Because I'm a data scientist at heart, here's the final tally from my weekend experiment:
-
-| Metric                      | Value                                  |
-| --------------------------- | -------------------------------------- |
-| Lines of Lua Written by Me  | 0                                      |
-| Lines of Lua Code Generated | 2,847                                  |
-| Test Coverage               | 89%                                    |
-| Time Spent                  | ~48 hours                              |
-| Sanity Remaining            | Questionable                           |
-| My Personal Theme Count     | 47 (current favorite: "autumn rain in Tokyo") |
-
 ## My New Hot Take: AI is a Superpower for People Who Already Know Their Stuff
 
 This experiment fundamentally changed how I see software development. It’s a two-part process:

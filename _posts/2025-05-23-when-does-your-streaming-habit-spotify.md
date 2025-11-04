@@ -9,7 +9,7 @@ For three years running, my Spotify Wrapped has clocked in at over 100,000 minut
 
 Am I a dedicated super-listener, or am I just a freeloader in disguise?
 
-So, I did what any data scientist with a music obsession would do: I dove into the numbers. My guinea pig? The Indian market—a place with some of the most ridiculously low subscription prices in the world. If I was going to be a freeloader anywhere, it would be here.
+So, I did what any ML engineer with a music obsession would do: I dove into the numbers. My guinea pig? The Indian market—a place with some of the most ridiculously low subscription prices in the world. If I was going to be a freeloader anywhere, it would be here.
 
 Let’s get into it.
 
