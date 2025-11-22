@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * Reset some basic elements
  */
@@ -773,199 +774,102 @@ code, pre {
   font-weight: 600;
 }
 
-.organized-takes .tweet-entry {
+.tweet-entry {
   background: #fff;
-  border-radius: 8px;
-  border: 1px solid #e8e8e8;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-  padding: 1.25rem 1.5rem;
-  margin-bottom: 0;
-  transition: all 0.2s ease;
-  font-size: 1.05rem;
-  line-height: 1.7;
-  position: relative;
+  border: 1px solid #e1e8ed;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  transition: background-color 0.2s ease;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
-.organized-takes .tweet-entry:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  border-color: #d0d0d0;
-  transform: translateY(-1px);
+.tweet-entry:hover {
+  background-color: #f7f9fa;
 }
 
-.organized-takes .tweet-entry .tweet-date {
-  font-size: 0.85rem;
-  color: #666;
+.tweet-header {
+  display: flex;
+  align-items: center;
   margin-bottom: 0.5rem;
-  display: block;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
 }
 
-.organized-takes .tweet-entry a[href^="https://twitter.com"] {
-  color: #1DA1F2;
-  font-size: 0.85rem;
-  text-decoration: none;
-  margin-left: 0.4em;
-  font-weight: 500;
+.tweet-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-right: 10px;
 }
 
-.organized-takes .tweet-entry a[href^="https://twitter.com"]:hover {
-  text-decoration: underline;
+.tweet-user-info {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
 }
 
-.organized-takes .tweet-link {
-  display: inline-block;
-  margin-top: 0.5rem;
-  font-size: 0.85rem;
-  color: #1DA1F2;
-  font-weight: 500;
-}
-
-.organized-takes .tweet-link a {
-  color: #1DA1F2;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-.organized-takes .tweet-link a:hover {
-  text-decoration: underline;
-}
-
-.organized-takes .tweet-entry ul {
-  margin-top: 0.5rem;
-  margin-left: 1.5rem;
-}
-
-.organized-takes .tweet-entry li {
-  margin-bottom: 0.25rem;
-  color: #444;
-}
-
-.organized-takes .tweet-entry em {
-  color: #666;
-  font-style: italic;
-  font-size: 0.9rem;
-  margin-top: 0.5rem;
-  display: block;
-}
-
-@media screen and (max-width: 600px) {
-  .organized-takes {
-    gap: 1.5rem;
-  }
-  .organized-takes h2 {
-    font-size: 1.3rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-  }
-  .organized-takes h2::after {
-    width: 40px;
-  }
-  .organized-takes .tweet-entry {
-    padding: 1rem;
-    font-size: 1rem;
-    line-height: 1.6;
-  }
-  .organized-takes .tweet-entry .tweet-date {
-    font-size: 0.8rem;
-    margin-bottom: 0.4rem;
-  }
-  .organized-takes .tweet-link {
-    font-size: 0.8rem;
-    margin-top: 0.4rem;
-  }
-  .organized-takes .tweet-entry a[href^="https://twitter.com"] {
-    font-size: 0.8rem;
-  }
-  .organized-takes .tweet-entry ul {
-    margin-left: 1rem;
-  }
-}
-@media screen and (max-width: 400px) {
-  .organized-takes .tweet-entry {
-    padding: 0.8rem;
-  }
-  .organized-takes h2 {
-    font-size: 1.2rem;
-  }
-}
-.quick-takes {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.quick-takes .quick-wits-title {
-  font-size: 2.5rem;
+.tweet-name {
   font-weight: 700;
-  color: #111;
-  margin-bottom: 1rem;
-  letter-spacing: -0.02em;
+  color: #0f1419;
+  font-size: 15px;
 }
 
-.quick-takes .section-description {
-  font-size: 1.1rem;
-  color: #555;
-  margin-bottom: 2rem;
-  line-height: 1.7;
-  font-style: italic;
+.tweet-handle {
+  color: #536471;
+  font-size: 15px;
 }
 
-.quick-takes .quick-takes-meta {
-  font-size: 0.9rem;
-  color: #666;
-  margin-bottom: 2rem;
-  padding-bottom: 1.5rem;
-  border-bottom: 1px solid #e8e8e8;
+.tweet-date {
+  color: #536471;
+  font-size: 15px;
+  margin-left: auto; /* Push date to the right or keep it next to handle with a dot separator */
 }
 
-.quick-takes .quick-takes-meta .separator {
-  margin: 0 0.5rem;
-  color: #999;
+/* Optional: if you want date next to handle like Twitter */
+/* 
+.tweet-header { flex-wrap: wrap; }
+.tweet-date::before { content: "·"; margin: 0 5px; }
+*/
+.tweet-content {
+  font-size: 15px; /* Twitter uses 15px for body text */
+  color: #0f1419;
+  line-height: 1.5;
+  margin-bottom: 0.75rem;
+  white-space: pre-wrap; /* Preserve line breaks */
 }
 
-.quick-takes .quick-takes-meta a {
-  color: #4d74eb;
+.tweet-content ul {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+}
+
+.tweet-footer {
+  border-top: 1px solid #eff3f4;
+  padding-top: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.tweet-action {
+  color: #1d9bf0;
   text-decoration: none;
+  font-size: 14px;
   font-weight: 500;
 }
 
-.quick-takes .quick-takes-meta a:hover {
-  text-decoration: underline;
-}
-
-.quick-takes .quick-takes-footer {
-  margin-top: 3rem;
-  padding-top: 2rem;
-  border-top: 1px solid #e8e8e8;
-  font-size: 0.95rem;
-  color: #666;
-  text-align: center;
-}
-
-.quick-takes .quick-takes-footer a {
-  color: #4d74eb;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.quick-takes .quick-takes-footer a:hover {
+.tweet-action:hover {
   text-decoration: underline;
 }
 
 @media screen and (max-width: 600px) {
-  .quick-takes .quick-wits-title {
-    font-size: 2rem;
+  .tweet-entry {
+    padding: 0.75rem;
   }
-  .quick-takes .section-description {
-    font-size: 1rem;
+  .tweet-avatar {
+    width: 40px;
+    height: 40px;
   }
-  .quick-takes .quick-takes-meta {
-    font-size: 0.85rem;
-    text-align: center;
-  }
-  .quick-takes .quick-takes-footer {
-    font-size: 0.9rem;
+  .tweet-name, .tweet-handle, .tweet-date, .tweet-content {
+    font-size: 14px;
   }
 }
 
