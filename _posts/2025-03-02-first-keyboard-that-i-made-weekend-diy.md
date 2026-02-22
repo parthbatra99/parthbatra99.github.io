@@ -3,6 +3,12 @@ layout: post
 title: "I Resurrected a 12-Year-Old Keyboard, and It's Now My Daily Driver"
 subtitle: "How a weekend of questionable decisions and a lot of cleaning brought a classic TVS Gold back to life."
 date: 2025-03-02 10:00:00 +0531
+hero_art: /assets/images/mech-keyboard.png
+tags:
+  - diy
+  - mechanical-keyboard
+  - restoration
+  - hardware
 ---
 
 My Keychron K8, a **perfectly respectable** modern mechanical keyboard, is currently serving as a *very expensive* dust cover. For the past three months, it's been sitting in my office, **completely ignored**.

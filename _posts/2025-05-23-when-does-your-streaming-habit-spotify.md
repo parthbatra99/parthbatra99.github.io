@@ -3,6 +3,12 @@ layout: post
 title: "When Does Your Streaming Habit Become a Loss for Spotify?"
 subtitle: "An investigation into when your streaming habit becomes a money pit for Spotify, inspired by my own 100k+ minute listening history."
 date: 2025-05-23 12:00:00 +0000
+hero_art: /assets/images/spotify.png
+tags:
+  - spotify
+  - music-economics
+  - data-analysis
+  - business
 ---
 
 For three years running, my Spotify Wrapped has clocked in at over 100,000 minutes. That's not a flex; it's a confession. It’s more than two full months of non-stop audio, and it got me thinking: at what point does my obsession become a money pit for Spotify?

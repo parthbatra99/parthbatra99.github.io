@@ -4,27 +4,24 @@ title: A Century of Dreams
 permalink: /list-100/
 ---
 
-_(Because every dream counts)_
+<p class="muted-note">(Because every dream counts)</p>
 
-Last Updated: March 15, 2025
+<p class="muted-note">Last Updated: March 15, 2025</p>
 
-#### Progress Tracker
-<div style="margin: 15px 0;">
-    <div style="background-color: #eee; height: 15px; border-radius: 7px; position: relative; max-width: 400px; margin: 0 auto;">
-        <div style="background-color: #4CAF50; width: 20%; height: 100%; border-radius: 7px 0 0 7px; display: inline-block;"></div>
-        <div style="background-color: #FFC107; width: 27%; height: 100%; display: inline-block;">
-            <span style="position: absolute; width: 100%; text-align: center; color: #000; font-size: 0.9em; line-height: 15px;">
-                47% (21/45)
-            </span>
-        </div>
-    </div>
-</div>
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin: 10px 0; font-size: 0.9em;">
-    <span style="color: #4CAF50;">✓ Completed: 9</span>
-    <span style="color: #FFC107;">⚡ In Progress: 12</span>
-    <span>◯ Remaining: 24</span>
+## Progress Tracker
+<div class="goal-progress" role="img" aria-label="47 percent complete, 21 out of 45 goals tracked">
+  <div class="goal-progress-bar">
+    <span class="goal-progress-completed" style="width: 20%"></span>
+    <span class="goal-progress-active" style="width: 27%"></span>
+  </div>
+  <p class="goal-progress-text">47% (21/45)</p>
 </div>
 
+<div class="goal-legend">
+  <span class="goal-complete">Completed: 9</span>
+  <span class="goal-active">In Progress: 12</span>
+  <span class="goal-remaining">Remaining: 24</span>
+</div>
 
 1. ✗ Become the first author of a paper at a top-tier conference
 2. ✗ Start my own company
@@ -84,16 +81,14 @@ Last Updated: March 15, 2025
 44. ✗ Witness a historic world event
 45. ✗ Change someone's life for the better
 
-#### Future Dreams
+## Future Dreams
 _[46-99] This list is intentionally incomplete. The journey of collecting these dreams is as important as achieving them..._
 
-#### The Final Goal
+## The Final Goal
 **100.** ✗ Die with no regrets
 
----
-
-#### Reflections so far
-What began as a simple bucket list has evolved into something far more meaningful—a living document of aspirations and growth. Each completed goal has taught me that the real treasure lies in the journey: the late-night preparations, the occasional setbacks, and the unexpected victories.
+## Reflections so far
+What began as a simple bucket list has evolved into something far more meaningful - a living document of aspirations and growth. Each completed goal has taught me that the real treasure lies in the journey: the late-night preparations, the occasional setbacks, and the unexpected victories.
 
 _"The beauty of any pursuit isn't in the destination, but in showing up every day with the courage to try."_
 

@@ -2,30 +2,29 @@
 layout: default
 ---
 
-<div class="home-content">
+<section class="home-content shell section-shell">
   <div class="bio-container">
-    <div class="profile-image"
-      style="float: right; width: 200px; margin: 0 0 1rem 2rem; border: 1px solid #ddd; padding: 5px; border-radius: 50%;">
-      <img src="/assets/images/profile.jpg" alt="Profile photo"
-        style="width: 100%; border-radius: 50%; aspect-ratio: 1;">
-    </div>
+    <a class="profile-image profile-image-link" href="https://x.com/batra99" target="_blank" rel="noopener" aria-label="Visit Parth Batra on Twitter">
+      <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Profile photo">
+      <span class="profile-caption">parth.batra</span>
+    </a>
 
-    <div class="bio-text">
+    <div class="bio-text prose">
       <p>Hey, I'm <strong>Parth Batra</strong>.</p>
       <p>ML Engineer by day, music critic by night.</p>
-      <p>I grew up in <a href="https://en.wikipedia.org/wiki/Rewari" target="_blank">Rewari</a>—a small town near
+      <p>I grew up in <a href="https://en.wikipedia.org/wiki/Rewari" target="_blank" rel="noopener">Rewari</a>—a small town near
         Delhi-NCR—and have been navigating the data science landscape for about four years now.</p>
 
-      <p>Right now, I'm a Senior ML Engineer at <a href="https://www.procol.io/" target="_blank">Procol</a> (mostly, <a
-          href="https://www.procol.ai" target="_blank">procol.ai</a>), wrangling data and building AI solutions. Before
+      <p>Right now, I'm a Senior ML Engineer at <a href="https://www.procol.io/" target="_blank" rel="noopener">Procol</a> (mostly, <a
+          href="https://www.procol.ai" target="_blank" rel="noopener">procol.ai</a>), wrangling data and building AI solutions. Before
         this, my journey included
-        summer internship at <a href="https://www.marutisuzuki.com/" target="_blank">Maruti Suzuki</a>
-        , AI engineering at <a href="https://www.genpact.com" target="_blank">Genpact</a> and software
-        engineering at <a href="https://brightchamps.com/" target="_blank">Brightchamps</a> and <a
-          href="https://www.getmunch.com/" target="_blank">Munch</a>.</p>
+        summer internship at <a href="https://www.marutisuzuki.com/" target="_blank" rel="noopener">Maruti Suzuki</a>
+        , AI engineering at <a href="https://www.genpact.com" target="_blank" rel="noopener">Genpact</a> and software
+        engineering at <a href="https://brightchamps.com/" target="_blank" rel="noopener">Brightchamps</a> and <a
+          href="https://www.getmunch.com/" target="_blank" rel="noopener">Munch</a>.</p>
 
       <p>I call myself a <strong>Full Stack ML Engineer</strong> because I enjoy the entire lifecycle:</p>
-      <ul style="list-style-type: disc; margin-left: 20px;">
+      <ul class="bio-points">
         <li>Building data pipelines that actually work</li>
         <li>Training ML models that don't just look pretty on slides</li>
         <li>Creating LLM agents that might just flirt with the Turing test</li>
@@ -39,24 +38,22 @@ layout: default
         Python for clean code). It's raw, sometimes messy, but always authentic—like a journal that
         accidentally went public.</p>
 
-      <p>I graduated from <a href="https://www.bits-pilani.ac.in/" target="_blank">BITS Pilani</a> with
+      <p>I graduated from <a href="https://www.bits-pilani.ac.in/" target="_blank" rel="noopener">BITS Pilani</a> with
         a dual-degree flex: B.E. (Hons.) in Mechanical Engineering and M.S. (Hons.) in
         Mathematics. And yeah, I've logged over 100k minutes on <a href="https://spotify.com"
-          target="_blank">Spotify</a> Rewind in the last three years— arguably my bigger life achievement.</p>
+          target="_blank" rel="noopener">Spotify</a> Rewind in the last three years— arguably my bigger life achievement.</p>
 
       <p>When I'm not wrangling data or debugging code, I'm deep in POP-culture rabbit holes, grabbing
         popcorn for Twitter meltdowns, or discovering artists before they hit your Discover Weekly.
-        Check out my <a href="/blog" target="_blank">articles</a> if that sounds like your vibe.</p>
+        Check out my <a href="{{ '/blog/' | relative_url }}" target="_blank" rel="noopener">articles</a> if that sounds like your vibe.</p>
     </div>
   </div>
 
-  <div class="social-links" style="clear: both; margin-top: 1rem;">
-    <p>
-      <a href="https://github.com/parthbatra99" target="_blank" class="social-link">GitHub</a>
-      <span class="separator">•</span>
-      <a href="https://x.com/batra99" target="_blank" class="social-link">Twitter</a>
-      <span class="separator">•</span>
-      <a href="https://www.linkedin.com/in/parth-batra99/" target="_blank" class="social-link">LinkedIn</a>
-    </p>
-  </div>
-</div>
+  <nav class="social-links" aria-label="Social links">
+    <a href="https://github.com/parthbatra99" target="_blank" rel="noopener" class="social-link">GitHub</a>
+    <span class="separator">•</span>
+    <a href="https://x.com/batra99" target="_blank" rel="noopener" class="social-link">Twitter</a>
+    <span class="separator">•</span>
+    <a href="https://www.linkedin.com/in/parth-batra99/" target="_blank" rel="noopener" class="social-link">LinkedIn</a>
+  </nav>
+</section>

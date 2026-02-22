@@ -3,6 +3,12 @@ layout: post
 title: "I Built a Neovim Plugin in a Language I Don't Know. Here's the Story."
 subtitle: "How I shipped a high-quality Lua plugin with 2,800+ lines of code without knowing Lua, by treating AI as a specialist I could direct."
 date: 2025-11-02 12:00:00 +0530
+hero_art: /assets/images/neovim.png
+tags:
+  - neovim
+  - lua
+  - ai
+  - developer-tools
 ---
 
 I have a confession to make.

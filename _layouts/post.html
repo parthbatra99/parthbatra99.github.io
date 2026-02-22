@@ -2,29 +2,45 @@
 layout: default
 ---
 
-<article class="post">
-  <div class="wrapper">
-    <h1>{{ page.title }}</h1>
-    <div class="post-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {{ page.date | date: "%B %d, %Y" }}
-      </time>
-      {% assign words = content | number_of_words %}
-      {% assign reading_time = words | divided_by: 225 %}
-      {% if reading_time < 1 %}
-        {% assign reading_time = 1 %}
-      {% endif %}
-      •
-      {% if reading_time == 1 %}
-        1 min read
-      {% else %}
-        {{ reading_time }} mins read
-      {% endif %}
+{% assign words = content | number_of_words %}
+{% assign reading_time = words | divided_by: 225 %}
+{% if reading_time < 1 %}
+  {% assign reading_time = 1 %}
+{% endif %}
+
+{% capture table_of_contents %}{% toc %}{% endcapture %}
+
+<article class="post-article shell section-shell">
+  <header class="post-hero">
+    <p class="section-kicker">Article</p>
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.subtitle %}
+      <p class="post-subtitle">{{ page.subtitle }}</p>
+    {% endif %}
+    <p class="post-meta-row">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+      <span aria-hidden="true">·</span>
+      <span>{{ reading_time }} min read</span>
+    </p>
+    {% if page.tags and page.tags.size > 0 %}
+      <p class="post-tags">
+        {% for tag in page.tags %}
+          <span class="post-tag">#{{ tag }}</span>
+        {% endfor %}
+      </p>
+    {% endif %}
+  </header>
+
+  <div class="post-layout{% if table_of_contents contains '<li' %} has-toc{% endif %}">
+    {% if table_of_contents contains '<li' %}
+      <aside class="post-toc" aria-label="Table of contents">
+        <p class="post-toc-title">On this page</p>
+        {{ table_of_contents }}
+      </aside>
+    {% endif %}
+
+    <div class="post-content prose">
+      {{ content }}
     </div>
-
-    {{ content }}
-    {% toc %}
-
   </div>
 </article>
-
