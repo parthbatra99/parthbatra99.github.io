@@ -612,27 +612,145 @@ summary:focus-visible,
   max-width: 860px;
 }
 
-.tweet-entry {
+.quick-wits-page {
+  position: relative;
+}
+
+.quick-wits-hero {
+  max-width: 860px;
+  margin-bottom: clamp(1.2rem, 0.8rem + 1.3vw, 2.2rem);
+}
+
+.quick-wits-description {
+  max-width: 70ch;
+}
+
+.quick-wits-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.75rem;
+}
+
+.quick-wits-stat {
+  margin: 0;
+  padding: 0.3rem 0.65rem;
   border: 1px solid var(--line);
-  border-radius: 14px;
-  background: var(--surface);
-  padding: 0.95rem;
-  margin-bottom: 0.95rem;
-  box-shadow: 0 5px 16px rgba(15, 15, 15, 0.04);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--surface) 88%, white 12%);
+  color: var(--muted);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.77rem;
+}
+
+.quick-wits-stat-value {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.quick-takes-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.6rem;
+  color: var(--muted);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.82rem;
+}
+
+.quick-wits-page .takes-list.prose {
+  max-width: 860px;
+}
+
+.quick-wits-page .takes-list.prose > h3,
+.quick-wits-page .takes-list.prose > hr {
+  display: none;
+}
+
+.qw-month {
+  margin-bottom: 0.8rem;
+  border: 1px solid color-mix(in srgb, var(--line) 84%, #d2cfca 16%);
+  border-radius: 16px;
+  background: color-mix(in srgb, var(--surface) 92%, white 8%);
+  box-shadow: 0 8px 22px rgba(18, 18, 18, 0.045);
+  overflow: clip;
+}
+
+.qw-month-toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  padding: 0.7rem 0.85rem;
+  border: 0;
+  background: color-mix(in srgb, var(--surface-strong) 82%, #f9f8f4 18%);
+  color: var(--text);
+  cursor: pointer;
+  text-align: left;
+}
+
+.qw-month-label {
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(1.18rem, 1.04rem + 0.46vw, 1.45rem);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.qw-month-caret {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-right: 1.5px solid color-mix(in srgb, var(--text) 70%, var(--muted) 30%);
+  border-bottom: 1.5px solid color-mix(in srgb, var(--text) 70%, var(--muted) 30%);
+  transform: rotate(45deg) translateY(-1px);
+  transition: transform 180ms ease;
+  flex-shrink: 0;
+}
+
+.qw-month-toggle[aria-expanded=false] .qw-month-caret {
+  transform: rotate(-45deg) translateY(1px);
+}
+
+.qw-month-body {
+  padding: 0.55rem;
+}
+
+.qw-month.is-collapsed .qw-month-body {
+  display: none;
+}
+
+.tweet-entry {
+  border: 1px solid color-mix(in srgb, var(--line) 72%, #cbcac6 28%);
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--surface) 90%, white 10%);
+  padding: 0.9rem;
+  margin: 0;
+  box-shadow: 0 5px 16px rgba(15, 15, 15, 0.03);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.tweet-entry + .tweet-entry {
+  margin-top: 0.62rem;
+}
+
+.tweet-entry:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 11px 22px rgba(15, 15, 15, 0.065);
 }
 
 .tweet-header {
   display: flex;
   align-items: center;
-  gap: 0.55rem;
-  margin-bottom: 0.7rem;
+  gap: 0.6rem;
+  margin-bottom: 0.6rem;
 }
 
 .tweet-avatar {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  border: 1px solid var(--line);
+  border: 1px solid color-mix(in srgb, var(--line) 80%, #d4d0c8 20%);
 }
 
 .tweet-user-info {
@@ -648,7 +766,7 @@ summary:focus-visible,
 .tweet-handle,
 .tweet-date {
   font-size: 0.8rem;
-  color: var(--muted);
+  color: color-mix(in srgb, var(--muted) 88%, #5a5854 12%);
 }
 
 .tweet-date {
@@ -656,28 +774,25 @@ summary:focus-visible,
 }
 
 .tweet-content {
-  margin-bottom: 0.7rem;
+  margin-bottom: 0.65rem;
+  color: color-mix(in srgb, var(--text) 95%, black 5%);
 }
 
 .tweet-footer {
-  border-top: 1px solid var(--line);
-  padding-top: 0.6rem;
+  border-top: 1px solid color-mix(in srgb, var(--line) 80%, #cecbc3 20%);
+  padding-top: 0.55rem;
+}
+
+.tweet-action {
+  text-decoration: none;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.8rem;
 }
 
 .quick-takes-footer {
-  margin-top: 1.2rem;
+  margin-top: 1rem;
   color: var(--muted);
-}
-
-.quick-takes-meta {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.4rem;
-  margin-top: 0.5rem;
-  color: var(--muted);
-  font-family: "IBM Plex Mono", monospace;
-  font-size: 0.82rem;
+  font-size: 0.95rem;
 }
 
 .goal-progress {
@@ -804,6 +919,29 @@ summary:focus-visible,
   }
   .post-content {
     order: 1;
+  }
+  .quick-wits-hero {
+    margin-bottom: clamp(1.5rem, 1.1rem + 1vw, 2.4rem);
+  }
+  .qw-month {
+    position: relative;
+  }
+  .qw-month::before {
+    content: "";
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 3px;
+    background: linear-gradient(180deg, color-mix(in srgb, var(--accent) 72%, #537fc9 28%), transparent 94%);
+    opacity: 0.38;
+  }
+  .qw-month-toggle {
+    padding: 0.78rem 0.98rem 0.78rem 1.15rem;
+  }
+  .qw-month-body {
+    padding: 0.6rem 0.7rem 0.7rem 1rem;
+  }
+  .tweet-entry {
+    padding: 0.95rem 0.95rem 0.9rem;
   }
 }
 @media (prefers-reduced-motion: reduce) {
