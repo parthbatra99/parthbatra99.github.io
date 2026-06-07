@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a personal Jekyll blog for Parth Batra (batra.blog) built with the Minima theme. The site includes blog posts, various content sections (quick-wits, the-good-stuff, workbench), and is deployed to GitHub Pages at `https://parthbatra99.github.io`.
+This is a personal Jekyll blog for Parth Batra (fromparth.blog) built with the Minima theme. The site includes blog posts, various content sections (quick-wits, the-good-stuff, workbench), and is deployed to GitHub Pages at `https://fromparth.blog`.
 
 ## Architecture
 
