@@ -1,4 +1,4 @@
-- title: ✍️ blog
+- title: blog
   url: /blog/
 - title: quickwits
   url: /quick-wits/
@@ -8,3 +8,5 @@
   url: /workbench/
 - title: list 100
   url: /list-100/
+- title: CV
+  url: /cv/

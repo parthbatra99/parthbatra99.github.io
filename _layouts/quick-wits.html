@@ -2,19 +2,14 @@
 layout: default
 ---
 
-<article class="quick-takes shell section-shell quick-wits-page" data-quick-wits-page>
-  <header class="post-header quick-wits-hero">
-    <p class="section-kicker">Quick feed</p>
-    <h1 class="post-title quick-wits-title">{{ page.title }}</h1>
-    <p class="section-description quick-wits-description">{{ page.description }}</p>
-    <div class="quick-wits-stats" aria-label="Quick Wits feed stats">
-      <p class="quick-wits-stat"><span class="quick-wits-stat-value" data-qw-stat="tweets">0</span> takes</p>
-      <p class="quick-wits-stat"><span class="quick-wits-stat-value" data-qw-stat="months">0</span> month groups</p>
-    </div>
+<article class="shell section-shell quick-wits-page" data-quick-wits-page>
+  <header class="quick-wits-hero">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="quick-wits-description">{{ page.description }}</p>
     <div class="quick-takes-meta">
-      <span class="last-updated">Last updated: {{ site.time | date: "%B %d, %Y" }}</span>
-      <span class="separator" aria-hidden="true">•</span>
-      <a href="https://twitter.com/share?url={{ page.url | absolute_url }}" target="_blank" rel="noopener">Share on Twitter</a>
+      <span>Last updated: {{ site.time | date: "%B %d, %Y" }}</span>
+      <span aria-hidden="true">·</span>
+      <a href="https://twitter.com/batra99" target="_blank" rel="noopener">@batra99</a>
     </div>
   </header>
 
