@@ -16,13 +16,75 @@ permalink: /the-good-stuff/
 ---
 
 ## Books {#books}
-### **The Obesity Code** by Dr. Jason Fung  
-_This book was a real eye-opener for me. It clearly explains how our bodies work, what really causes weight gain, and the type of 'weight gain' we should actually be concerned about. This book makes a compelling case for intermittent fasting as a way to build a healthier lifestyle and even help undo past 'sins.' Highly recommended if you want to understand your body better._
+_things i've read and genuinely can't shut up about_
 
-### **Factfulness** by Hans Rosling  
-_This book is all about challenging the common biases we have about the world. It uses facts and data to confront our instinctive—and often wrong—assumptions on topics like poverty, population, and education. It's a must-read if you want to understand what's really happening on our planet. Its very tempting to call it a 'Book of Hope,' but it's really a 'Book of Reality.'_
+---
 
-### **The StatQuest Illustrated Guide to Machine Learning** by Josh Starmer  
+### **Shantaram**
+_Gregory David Roberts | autobiography_
+
+_an australian guy commits a crime, breaks out of prison, somehow ends up in bombay, lives in the slums as a white dude, and somehow, somehow, ends up fighting alongside the taliban in afghanistan. then makes it back to australia, gets pardoned, and writes this book. if i had 10,000 copies of this, i'd gift it to 10,000 people. no exaggeration._
+
+---
+
+### **Kafka on the Shore**
+_Haruki Murakami | fiction_
+
+_most of the first great art i experienced in my life somehow had japan in it, and this is the fiction part of that story. a masterclass in convergence writing: two parallel stories, alternate chapters, and they meet in the end in a way that makes you put the book down and just stare at the ceiling. an old man who talks to cats, a boy who is as directionless as you can get (apart from me, obviously), set in this dreamy, hypnotic world where two very different people find their identities, fight their fate, and carry their prophecies._
+
+---
+
+### **Outlive**
+_Peter Attia | health_
+
+_if what bryan johnson does syncs with you even a little bit, this is your next read. planning to live till 3 digits even after breathing delhi air, eating kebabs, and sipping old fashioneds? this is your next read. if you trust my taste even marginally, this is your next read. hands down the best book on health i've read in the past 3-4 years. read it before you start your bi-yearly fitness overhaul and you'll actually understand why you're doing what you're doing._
+
+---
+
+### **Kaisa Kutta Hai?**
+_Raahgir | poetry_
+
+_raahgir is one of those artists i discovered during covid, somewhere in my listening sprees, and instantly fell in love with his writing. calling him a poet with a guitar would be more apt than calling him a musician. this is basically a collection of his small poems: satire on society, heartbreak, the 'what is sukoon?' kind of questions, and quiet motivation. it'll hit you when you're not expecting it._
+
+    "surat station ke bahar thandi bench thi, chai garam thi;"
+    "bagal mei ek tau ke haath mei chai thi, jo lagbhag khatam thi;"
+    "maine bas 2-4 chuskiyaan li thi, utne mei tau nei dusri sulga li thi;"
+    "pehli ko faika zameen par aur jutti se kuchal dia;"
+    "mujhe kyu teri yaar aayi, mai utha aur chal dia;"
+
+---
+
+### **The 4-Hour Body**
+_Tim Ferriss | health_
+
+_if someone asked me to guess the author purely from writing style, tim ferriss would've been my top pick. scratch that, definitely top 1, given how much of his content i've consumed and how much he's shaped the way i think. i mean, just look: his personal blog is tim.blog and mine is fromparth.blog. the book itself is basically ferriss doing what he does best: treating his body like a lab experiment and handing you the results. slow-carb diet, rapid fat loss, unconventional strength hacks, sleep optimization, all tested on himself so you don't have to guinea-pig your way through it alone._
+
+---
+
+### **The Beginning of Infinity**
+_David Deutsch | philosophy_
+
+_david deutsch, a name you've probably seen floating around if you spend any real time on the internet. one of the great thinkers of our times. this book is about how human progress isn't just possible, it's inevitable. ngl, it's a dense read, i had to re-read some pages because i completely lost the chain of thought. but the core idea is something i keep coming back to: good explanations are the engine of all progress, testable, hard to falsify, immune to variation._
+
+---
+
+### **The Obesity Code**
+_Dr. Jason Fung | health_
+
+_a real eye-opener. clearly explains how our bodies work, what actually causes weight gain, and the type of weight gain we should actually be worried about. makes a compelling case for intermittent fasting, not as a trend, but as a way to build a healthier lifestyle and undo past sins. highly recommended if you want to understand your body better._
+
+---
+
+### **Factfulness**
+_Hans Rosling | nonfiction_
+
+_all about challenging the biases we carry about the world. uses facts and data to confront our instinctive and usually wrong assumptions on things like poverty, population, and education. tempting to call it a 'book of hope' but it's really a 'book of reality.' must-read if you want to understand what's actually happening on this planet._
+
+---
+
+### **The StatQuest Illustrated Guide to Machine Learning**
+_Josh Starmer_
+
 _Imagine someone took statistics, blended it with dad jokes and children's dinosaur comics, and created this absolute gem. If you've ever wanted to dive into machine learning but felt intimidated, this is the book for you. It's hands-down the most approachable and fun way to learn. P.S. I'm a huge fan and even have a signed copy from the author, Josh Starmer!_
 
 _**currently curating more...**_
