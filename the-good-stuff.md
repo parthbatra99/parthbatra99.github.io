@@ -8,7 +8,6 @@ permalink: /the-good-stuff/
 ### 🚀 Jump to a Section
 - [Books](#books)
 - [Bio Hacking](#bio-hacking)
-- [What's Next?](#whats-next)
 - [Movies & TV](#movies--tv)
 - [Music & Artists](#music--artists)
 - [Podcasts](#podcasts)
@@ -16,33 +15,31 @@ permalink: /the-good-stuff/
 ---
 
 ## Books {#books}
-_things i've read and genuinely can't shut up about_
 
----
 
 ### **Shantaram**
-_Gregory David Roberts | autobiography_
+_Gregory David Roberts_
 
 _an australian guy commits a crime, breaks out of prison, somehow ends up in bombay, lives in the slums as a white dude, and somehow, somehow, ends up fighting alongside the taliban in afghanistan. then makes it back to australia, gets pardoned, and writes this book. if i had 10,000 copies of this, i'd gift it to 10,000 people. no exaggeration._
 
 ---
 
 ### **Kafka on the Shore**
-_Haruki Murakami | fiction_
+_Haruki Murakami_
 
 _most of the first great art i experienced in my life somehow had japan in it, and this is the fiction part of that story. a masterclass in convergence writing: two parallel stories, alternate chapters, and they meet in the end in a way that makes you put the book down and just stare at the ceiling. an old man who talks to cats, a boy who is as directionless as you can get (apart from me, obviously), set in this dreamy, hypnotic world where two very different people find their identities, fight their fate, and carry their prophecies._
 
 ---
 
 ### **Outlive**
-_Peter Attia | health_
+_Peter Attia_
 
 _if what bryan johnson does syncs with you even a little bit, this is your next read. planning to live till 3 digits even after breathing delhi air, eating kebabs, and sipping old fashioneds? this is your next read. if you trust my taste even marginally, this is your next read. hands down the best book on health i've read in the past 3-4 years. read it before you start your bi-yearly fitness overhaul and you'll actually understand why you're doing what you're doing._
 
 ---
 
 ### **Kaisa Kutta Hai?**
-_Raahgir | poetry_
+_Raahgir_
 
 _raahgir is one of those artists i discovered during covid, somewhere in my listening sprees, and instantly fell in love with his writing. calling him a poet with a guitar would be more apt than calling him a musician. this is basically a collection of his small poems: satire on society, heartbreak, the 'what is sukoon?' kind of questions, and quiet motivation. it'll hit you when you're not expecting it._
 
@@ -55,28 +52,28 @@ _raahgir is one of those artists i discovered during covid, somewhere in my list
 ---
 
 ### **The 4-Hour Body**
-_Tim Ferriss | health_
+_Tim Ferriss_
 
 _if someone asked me to guess the author purely from writing style, tim ferriss would've been my top pick. scratch that, definitely top 1, given how much of his content i've consumed and how much he's shaped the way i think. i mean, just look: his personal blog is tim.blog and mine is fromparth.blog. the book itself is basically ferriss doing what he does best: treating his body like a lab experiment and handing you the results. slow-carb diet, rapid fat loss, unconventional strength hacks, sleep optimization, all tested on himself so you don't have to guinea-pig your way through it alone._
 
 ---
 
 ### **The Beginning of Infinity**
-_David Deutsch | philosophy_
+_David Deutsch_
 
 _david deutsch, a name you've probably seen floating around if you spend any real time on the internet. one of the great thinkers of our times. this book is about how human progress isn't just possible, it's inevitable. ngl, it's a dense read, i had to re-read some pages because i completely lost the chain of thought. but the core idea is something i keep coming back to: good explanations are the engine of all progress, testable, hard to falsify, immune to variation._
 
 ---
 
 ### **The Obesity Code**
-_Dr. Jason Fung | health_
+_Dr. Jason Fung_
 
 _a real eye-opener. clearly explains how our bodies work, what actually causes weight gain, and the type of weight gain we should actually be worried about. makes a compelling case for intermittent fasting, not as a trend, but as a way to build a healthier lifestyle and undo past sins. highly recommended if you want to understand your body better._
 
 ---
 
 ### **Factfulness**
-_Hans Rosling | nonfiction_
+_Hans Rosling_
 
 _all about challenging the biases we carry about the world. uses facts and data to confront our instinctive and usually wrong assumptions on things like poverty, population, and education. tempting to call it a 'book of hope' but it's really a 'book of reality.' must-read if you want to understand what's actually happening on this planet._
 
@@ -91,10 +88,10 @@ _**currently curating more...**_
 
 ---
 ## Bio Hacking {#bio-hacking}
-### **Why I Switched to Black Coffee**  
+### **Why I Switched to Black Coffee**
 _My simple rule for the last 7-8 months has been just black coffee. No sugar, no milk, no cream. For me, it's a sustainable way to support liver health while still getting that morning 'kick'. If you want to give it a shot, try easing into it: start with one sugar for a week, then half, and by week three, you'll be used to none. Your liver will thank you for it. And if you're sensitive to caffeine, decaf is your friend—I drink it all the time._
 
-### **CREATINE, creatine & CrEaTiNe**  
+### **CREATINE, creatine & CrEaTiNe**
 _I started taking 3g of creatine about 6 weeks ago—after doing a ton of research, of course—and my only thought is, "Why didn't I start sooner?" My workout intensity is up by a good 15-20%, and I feel like I recover way faster. I've noticed more muscle definition too, which I think is mostly because I can push myself harder. Definitely talk to a nutritionist to see if it's right for you, but I can't recommend looking into it enough._
 
 _**currently curating more...**_
