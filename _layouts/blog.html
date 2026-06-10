@@ -18,7 +18,10 @@ title: Blog
       {% endif %}
       <li class="post-list-item">
         <span class="post-list-date">{{ post.date | date: "%b %d" }}</span>
-        <a class="post-list-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        <div class="post-list-title-group">
+          <a class="post-list-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          {% if post.subtitle %}<span class="post-list-subtitle">{{ post.subtitle | escape }}</span>{% endif %}
+        </div>
       </li>
     {% endfor %}
   </ul>

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "I Built a Neovim Plugin in a Language I Don't Know. Here's the Story."
-subtitle: "How I shipped a high-quality Lua plugin with 2,800+ lines of code without knowing Lua, by treating AI as a specialist I could direct."
+title: "I Shipped a Neovim Plugin in Lua. I Don't Know Lua."
+subtitle: "The actual workflow: use AI as the Lua specialist, yourself as the architect, and your engineering instincts to catch what the AI can't."
 date: 2025-11-02 12:00:00 +0530
 hero_art: /assets/images/neovim.png
 tags:
@@ -11,94 +11,100 @@ tags:
   - developer-tools
 ---
 
-I have a confession to make.
+I don't know Lua. I've never written it, never studied it, don't have the interpreter installed.
 
-I don’t know Lua. I’ve never written it, I’ve never studied it, and I don’t even have the interpreter installed on my machine.
+Over a single weekend, I shipped a Neovim plugin with over 2,800 lines of Lua code, 89% test coverage, and a feature set I'm actually proud of. It's called [hexwitch.nvim](https://github.com/parthbatra99/hexwitch.nvim) — it generates your editor's colorscheme from plain English.
 
-Yet, over a single weekend, I shipped a Neovim plugin with over 2,800 lines of Lua code, 89% test coverage, and a feature set which a hardcore minimalist neovim guy will appreciate. It’s called [hexwitch.nvim](https://github.com/parthbatra99/hexwitch.nvim), and it lets you generate your editor’s colorscheme from plain English.
-
-This isn’t some 10x developer fairytale. It’s a story about a new way of building software I’m calling “vibe-driven development.” It’s about pairing years of programming fundamentals with an AI to build high-quality projects in languages you’ve never touched. It’s the story of how I used an AI as my product guy and my code monkey - Claude Code, and then had to step in as the adult in the room to make it safe for the public.
+This is the workflow I used. Not a story, not a hot take — a methodology I think you can replicate if you have a few years of engineering behind you. The "years of engineering" part matters, and I'll explain why at the end.
 
 ![My current neovim theme](/assets/images/theme-showcase.jpeg)
 
-## Phase 1: The Idea Guy (and the AI)
+---
 
-It all started with the classic developer addiction: endlessly tweaking my colorscheme. I had a vague idea: “What if I could just *describe* a theme?” But the vision was fuzzy. So, before writing a single line of code, I opened a chat with Claude and treated it as my product guy.
+## Step 1: Design before you delegate
 
-We just spitballed. I threw out half-baked ideas, and it threw back refined concepts. We debated features, user flows, and what would make this thing actually cool. What started as a simple “generate a theme” command evolved into a full-fledged vision:
+Before any code, I spent a few hours with Claude just talking through the idea. Not prompting for output — treating it as a product collaborator. I threw out half-formed ideas; it reflected back refined ones. We argued about features, user flows, what would actually be useful versus what would be cool to demo.
 
--   Generate themes from a prompt, obviously.
--   *Refine* existing themes with ease (the real magic).
--   Save and manage a whole library of your creations.
--   Browse themes with a proper UI (because who wants to remember filenames?).
--   Support for multiple AI providers, so you’re not locked in.
+What started as "generate a theme from a prompt" evolved into something more considered:
 
-After a few hours, we had a rock-solid plan. The AI didn't just help me think; it helped me design a better product before a single line of code existed.
+- Generate from a prompt, obviously.
+- *Refine* existing themes — the real use case once the novelty wears off.
+- Save and manage a library of what you've made.
+- Browse with a Telescope UI, not filename memorization.
+- Multiple AI provider support, so you're not locked in.
 
-## Phase 2: The Code Monkey - Claude Code (Also the AI)
+This step sounds optional. It isn't. AI is dramatically better at building something when the problem is well-specified. A vague brief produces vague code. Spending two hours on product design saved me a weekend of rework.
 
-With a plan in hand, I switched hats. I was now the architect, and Claude was my specialist Lua contractor who only does exactly what they’re told.
+The output of this phase should be a feature list and a rough module breakdown — not prose, something structural. That becomes your delegation map.
 
-I opened a new chat and started directing the work, module by module. The entire plugin was built in a series of 15-20 small, focused conversations.
+---
 
-**Me (The Architect):** “Okay, build me a storage module. It needs to save themes as JSON. Give me `save_theme` and `load_theme` functions. Oh, and sanitize the theme name before you write it to disk.”
+## Step 2: Delegate module by module, not project by project
 
-**Claude (The Lua Specialist):** *spits out a perfect little Lua module with everything I asked for.*
+This is the part that looks like magic but is really just discipline.
 
-I’d grab the code, run a quick test, and move on.
+I opened a fresh conversation and worked through the plugin module by module — 15 to 20 small, focused sessions. Each one had a narrow scope: one module, clear inputs and outputs, explicit constraints.
 
-**Me:** “Nice. Now, let’s build a UI. Use Telescope to browse the themes we just saved. Read the JSON files and show them in a list.”
+The prompting pattern that worked:
 
-This loop was ridiculously fast. We built the AI provider module, the theme applier, the command registration—each piece in its own little sandbox. I didn’t need to know Lua syntax; I just needed to know how to structure a program and delegate.
+> "Build me a storage module. Save themes as JSON to `~/.config/nvim/hexwitch/`. Give me `save_theme(name, data)` and `load_theme(name)`. Sanitize the theme name before writing to disk — no path traversal, alphanumeric and hyphens only."
 
-## Phase 3: The Adult in the Room (Me)
+Claude returned a clean Lua module. I ran a quick sanity check, confirmed the interface, moved on.
 
-After a weekend of this, I had a pile of working modules. I stitched them together, debugged the flow, and… it worked. The magic moment of generating a theme from a prompt was real. I had a functional prototype.
+> "Now build a UI on top of that. Use Telescope to browse saved themes. Show name and a preview of the color palette."
+
+And so on: AI provider module, theme applier, command registration, undo/redo history. Each piece in its own sandbox.
+
+Why this works: small scoped tasks produce better code than large ones. The AI isn't context-managing across 2,800 lines — it's solving one well-defined problem at a time. You're doing the context management. That's the architectural work, and it's where your experience is the actual input.
+
+After a weekend of this, I had a pile of working modules and could stitch them together into something functional.
 
 <video src="/assets/images/demo-vid.mp4" controls style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
   <p>Your browser doesn't support HTML video. Here's a <a href="/assets/images/demo-vid.mp4">link to the video</a> instead.</p>
 </video>
-*It’s alive! A live demo of generating a theme from scratch.*
 
-But here’s the catch: a functional prototype is **not** a secure product. This is where the AI’s job ended and my job as an experienced engineer began.
+*Generating a theme from scratch. The core feature, working.*
 
-I put the plugin through a rigorous security audit, and what I found was a glorious, functional, and deeply insecure mess. The AI-generated code was riddled with the exact kind of vulnerabilities you’d expect from a system that just pattern-matches without understanding the consequences. It was time to clean up the mess.
+---
 
-Here’s a summary of the critical fixes I had to implement myself, line by line:
+## Step 3: The security audit is not optional
 
-1.  **Command Injection:** The AI was building system calls with simple string concatenation. A malicious theme name could have run any command on my machine. I ripped it out and replaced it with parameterized calls.
-2.  **Path Traversal:** The AI didn’t sanitize theme names properly, leaving the front door open for an attacker to use `../../..` to read or write files anywhere on my system. Fixed.
-3.  **Malicious Theme Data:** The plugin blindly trusted the theme data from the AI. A malformed theme could have crashed the editor or worse. I added a strict validation layer to sanitize the data before applying it.
-4.  **API Key Leakage:** The AI was happily logging my full API key in debug messages. I scrubbed all the logs to make sure no secrets ever saw the light of day.
+This is where most vibe-coding write-ups stop, and it's exactly where they shouldn't.
 
-To prove the fixes were solid, I built a security test suite from scratch. The difference was night and day.
+A functional prototype is not a safe product. I put hexwitch through a rigorous security audit and found what I expected: the AI-generated code was architecturally coherent and security-naive by default. It builds things that work; it doesn't have intuitions about what can go wrong.
 
-### Security Posture: Before vs. After
+Here's what I found and fixed, line by line:
 
-| Issue                | AI-Generated Code (The Intern) | My Hardening (The Senior Dev) | Status      |
-|----------------------|--------------------------------|-------------------------------|-------------|
-| Command Injection    | ❌ Wide Open                   | ✅ Locked Down                 | **Fixed**   |
-| Path Traversal       | ❌ Vulnerable                  | ✅ Protected                   | **Fixed**   |
-| Theme Validation     | ❌ YOLO                        | ✅ Comprehensive               | **Added**   |
-| API Key Exposure     | ❌ Leaking Secrets             | ✅ Sanitized                   | **Fixed**   |
-| Security Tests       | ❌ 0%                          | ✅ 100% Coverage               | **Added**   |
+**Command injection.** The AI built system calls by concatenating strings. A theme name with shell metacharacters could execute arbitrary commands. Fixed by replacing string concatenation with parameterized calls.
 
-Only after this manual, expert-led hardening was I confident enough to post `hexwitch.nvim` on Reddit and not get roasted.
+**Path traversal.** Theme name sanitization wasn't strict enough — `../../.ssh/authorized_keys` as a theme name would write wherever you pointed it. Fixed by enforcing alphanumeric-and-hyphens-only validation before any file operation.
 
-## The Result: Meet `hexwitch.nvim`
+**Malformed theme data.** The plugin applied whatever the AI returned without validating the structure. A malformed theme could crash the editor or, in worse scenarios, overwrite config files. Fixed with a strict schema validation layer before any theme gets applied.
 
-This whole process—AI for vision, AI for code, human for quality—produced a plugin I’m genuinely proud of.
+**API key leakage.** The AI was logging the full API key in debug output. Every debug session would have exposed credentials. Scrubbed all logging to ensure no secrets appeared in any output path.
 
--   **Generate Themes with Plain English:** `:Hexwitch "a moody, high-contrast sci-fi theme with neon green accents"`
--   **Iterate and Refine on the Fly:** `:Hexwitch refine`
--   **Browse Your Creations:** A slick, built-in [Telescope](https://github.com/nvim-telescope/telescope.nvim) UI to browse, search, and apply your saved themes.
--   **Full History with Undo/Redo:** Because creativity needs an escape hatch.
--   **Bring Your Own AI:** Supports OpenAI, OpenRouter, and custom endpoints out of the box.
+| Issue | AI-Generated | After Audit | Status |
+|---|---|---|---|
+| Command Injection | ❌ Wide Open | ✅ Parameterized | Fixed |
+| Path Traversal | ❌ Vulnerable | ✅ Sanitized | Fixed |
+| Theme Validation | ❌ Blind trust | ✅ Schema validation | Added |
+| API Key Exposure | ❌ Leaking | ✅ Scrubbed | Fixed |
+| Security Tests | ❌ None | ✅ Full coverage | Added |
+
+None of these are exotic vulnerabilities. They're the standard things a senior engineer checks during code review — command injection, path traversal, input validation, secret handling. The AI didn't miss them because it's bad at security; it missed them because generating functional code and auditing for failure modes are different cognitive tasks.
+
+---
+
+## The full feature set
+
+After the audit I was confident enough to ship.
+
+- **`:Hexwitch "a moody sci-fi theme with neon green accents"`** — generate from plain English
+- **`:Hexwitch refine`** — iterate on the current theme without starting over
+- **Telescope browser** — search, preview, and apply saved themes
 
 ![The built-in Telescope UI for browsing your theme library.](/assets/images/saved-themes.jpeg)
 ![The refine window showing various tweaking configurations.](/assets/images/refine.jpeg)
-
-It’s a robust tool, and you can install it today:
 
 ```lua
 -- With lazy.nvim
@@ -109,7 +115,6 @@ It’s a robust tool, and you can install it today:
     "nvim-telescope/telescope.nvim",
   },
   config = function()
-    -- Don't forget to set your OPENAI_API_KEY or OPENROUTER_API_KEY!
     require("hexwitch").setup({
       ai_provider = "openrouter",
       model = "anthropic/claude-3-haiku",
@@ -117,19 +122,22 @@ It’s a robust tool, and you can install it today:
   end,
 }
 ```
-## My New Hot Take: AI is a Superpower for People Who Already Know Their Stuff
-
-This experiment fundamentally changed how I see software development. It’s a two-part process:
-
-1.  **AI-Accelerated Prototyping:** Use AI as a hyper-fast intern to turn your architectural vision into code, letting you skip the boring syntax-learning phase.
-2.  **Expert-Led Hardening:** Apply your deep human expertise to the critical last 10%—security, performance, and reliability—to turn the prototype into a real product.
-
-This is a superpower. It means your value as a developer isn’t just knowing a language; it’s your deep understanding of programming fundamentals that work everywhere. The AI handles the syntax; you handle the safety, quality, and taste.
-
-### Your Turn
-
-You have years of experience. What could you build this weekend if you could instantly get a functional-but-insecure v0.9 of any idea? Go try it. The future of development isn’t about replacing us; it’s about amplifying our expertise to ship better, safer products, faster than ever before.
 
 ---
 
-*Check out the project on [GitHub](https://github.com/parthbatra99/hexwitch.nvim). The source code is completely open, and I'd love to see what themes you create!*
+## The workflow distilled
+
+If you want to try this on something you're building:
+
+1. **Specify before you prompt.** Get to a module map and a feature list before touching a code conversation. The quality difference is real.
+2. **One module per session.** Keep scope narrow. Explicit interfaces, explicit constraints. You manage the context across sessions; AI manages the code within each one.
+3. **Audit like a senior engineer, not a user.** Run through OWASP Top 10 for anything that touches files, processes, network, or secrets. The AI won't catch these; that's your job.
+4. **Know what you're delegating the syntax of.** This workflow works because I understand how systems fail, how to structure programs, and what questions to ask during a security review. None of that came from knowing Lua. But all of it was necessary.
+
+---
+
+The thing that surprised me most: the security audit, the architectural decisions, knowing what to ask for at each step — none of it required Lua. Years of shipping things that broke at inconvenient times had taught me something more transferable than syntax.
+
+That's what I was actually delegating when I handed the code generation to the AI. Not my engineering judgment — just the part where you turn that judgment into the specific characters a compiler wants.
+
+hexwitch.nvim is [on GitHub](https://github.com/parthbatra99/hexwitch.nvim) if you want to look at what came out the other side.

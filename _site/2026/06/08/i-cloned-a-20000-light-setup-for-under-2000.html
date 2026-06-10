@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>I Cloned a ₹20,000 Light Setup for Under ₹2,000 · Parth Batra | fromparth.blog</title>
+  <meta name="description" content="Philips wants ₹20,000 for the Hue Play Gradient Lightstrip. Twenty. Thousand. Rupees. For LEDs.">
+  <link rel="icon" type="image/jpeg" href="/assets/images/profile.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/main.css">
+
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Parth Batra | fromparth.blog" />
+  
+</head>
+
+  <body>
+    <header class="site-header">
+  <div class="shell header-shell">
+    <a class="site-title" rel="author" href="/">Parth Batra</a>
+
+    <nav class="site-nav" aria-label="Main navigation">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+      <label for="nav-trigger" class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <div class="nav-links">
+        
+          <a class="page-link" href="/blog/">blog</a>
+        
+          <a class="page-link" href="/quick-wits/">quickwits</a>
+        
+          <a class="page-link" href="/the-good-stuff/">thegoodstuff</a>
+        
+          <a class="page-link" href="/workbench/">workbench</a>
+        
+          <a class="page-link" href="/list-100/">list 100</a>
+        
+          <a class="page-link" href="/cv/">CV</a>
+        
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      
+
+
+
+
+
+<article class="post-article shell section-shell">
+  <header class="post-hero">
+    <p class="section-kicker">Article</p>
+    <h1 class="post-title">I Cloned a ₹20,000 Light Setup for Under ₹2,000</h1>
+    
+      <p class="post-subtitle">How I built a real-time TV backlight that syncs colors with what's on screen, for less than the cost of a decent dinner.</p>
+    
+    <p class="post-meta-row">
+      <time datetime="2026-06-08T14:00:00+05:30">June 08, 2026</time>
+      <span aria-hidden="true">·</span>
+      <span>7 min read</span>
+    </p>
+    
+      <p class="post-tags">
+        
+          <span class="post-tag">#diy</span>
+        
+          <span class="post-tag">#hardware</span>
+        
+          <span class="post-tag">#raspberry-pi</span>
+        
+          <span class="post-tag">#embedded</span>
+        
+      </p>
+    
+  </header>
+
+  <div class="post-layout">
+    
+
+    <div class="post-content prose">
+      <p>Philips wants <strong>₹20,000</strong> for the Hue Play Gradient Lightstrip. Twenty. Thousand. Rupees. For LEDs.</p>
+
+<p>Let that sink in.</p>
+
+<p>The Hue Play does something genuinely cool — it reads what’s on your TV and projects matching colors onto the wall behind it, creating an ambient glow that makes everything feel more <em>immersive</em>. It’s the kind of thing you see in a tech reviewer’s setup video and immediately want.</p>
+
+<p>But ₹20k? For <em>colored lights</em>? That’s more than some phones. I refused on principle.</p>
+
+<p>So I built my own. For under ₹2,000.</p>
+
+<h3 id="the-plan-or-what-philips-is-actually-charging-you-for">The Plan (Or: What Philips Is Actually Charging You For)</h3>
+
+<p>The core idea is almost insultingly simple:</p>
+
+<ol>
+  <li><strong>Read</strong> what’s on the TV screen</li>
+  <li><strong>Sample</strong> the dominant colors from different regions — top, bottom, left, right, center</li>
+  <li><strong>Send</strong> those colors to an LED strip mounted on the back of the TV</li>
+  <li><strong>Repeat</strong> fast enough that it feels real-time</li>
+</ol>
+
+<p>That’s it. That’s the <em>entire product</em>. Philips wraps it in a polished app and a fancy brand name, but the engineering underneath is straightforward. Here’s what I needed:</p>
+
+<h3 id="the-bill-of-materials">The Bill of Materials</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Component</th>
+      <th style="text-align: left">What It Does</th>
+      <th style="text-align: left">Cost (₹)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><strong>Raspberry Pi Zero 2W</strong></td>
+      <td style="text-align: left">The brain. Runs the sampling software.</td>
+      <td style="text-align: left">750</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>WS2812B LED Strip</strong> (3m, 60 LEDs/m)</td>
+      <td style="text-align: left">Individually addressable RGB LEDs. The actual lights.</td>
+      <td style="text-align: left">450</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>HDMI Splitter</strong> (1-in, 2-out)</td>
+      <td style="text-align: left">Taps the TV signal without interrupting it.</td>
+      <td style="text-align: left">300</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>USB HDMI Capture Card</strong></td>
+      <td style="text-align: left">Converts the tapped HDMI into frames the Pi can read.</td>
+      <td style="text-align: left">250</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>5V 10A Power Supply</strong></td>
+      <td style="text-align: left">Powers the LED strip (these things are <em>hungry</em>).</td>
+      <td style="text-align: left">250</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Jumper Wires + Connectors</strong></td>
+      <td style="text-align: left">Wiring everything together.</td>
+      <td style="text-align: left">100</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"><strong>Total: ₹2,100</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Less than a tenth of the commercial price. And I’m being <em>generous</em> with the rounding.</p>
+
+<p>For reference:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"> </th>
+      <th style="text-align: left"><strong>My Build</strong></th>
+      <th style="text-align: left"><strong>Philips Hue Play Gradient</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><strong>Cost</strong></td>
+      <td style="text-align: left">~₹2,100</td>
+      <td style="text-align: left">~₹20,000</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Customizable</strong></td>
+      <td style="text-align: left">✅ Completely — it’s your code</td>
+      <td style="text-align: left">❌ Limited to app settings</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Open Source</strong></td>
+      <td style="text-align: left">✅ Yes</td>
+      <td style="text-align: left">❌ No</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Works with Any TV</strong></td>
+      <td style="text-align: left">✅ Yes (anything with HDMI)</td>
+      <td style="text-align: left">❌ Specific TV sizes</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Extendable</strong></td>
+      <td style="text-align: left">✅ Add more strips, go wild</td>
+      <td style="text-align: left">❌ Proprietary connectors</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="the-architecture">The Architecture</h3>
+
+<p>Here’s how the data flows, because understanding the pipeline is understanding where things go wrong:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>TV HDMI Out → HDMI Splitter ──┬── [Split 1] → TV (untouched, as if nothing happened)
+                               │
+                               └── [Split 2] → USB Capture Card → Raspberry Pi
+                                                                    │
+                                                              OpenCV reads frames
+                                                              Samples colors per region
+                                                              Averages &amp; smooths
+                                                                    │
+                                                              GPIO → WS2812B Strip → Glowing Wall
+</code></pre></div></div>
+
+<p>The HDMI splitter is the unsung hero. It lets me tap the video signal without the TV even knowing. The capture card turns that tapped signal into a video stream the Pi can process. Then a Python script — about 200 lines — does the actual work:</p>
+
+<ol>
+  <li><strong>Grab a frame</strong> from the capture card via OpenCV</li>
+  <li><strong>Divide the frame into regions</strong> that map to where the LEDs physically sit on the back of the TV</li>
+  <li><strong>Average the colors</strong> in each region (with perceptual weighting — naïve averaging looks <em>muddy</em>)</li>
+  <li><strong>Smooth the transitions</strong> using a rolling average so the colors don’t seizure-inducingly flicker</li>
+  <li><strong>Push the colors</strong> to the WS2812B strip via the Pi’s GPIO using the <code class="language-plaintext highlighter-rouge">rpi_ws281x</code> library</li>
+</ol>
+
+<p>Clean. Elegant. In theory.</p>
+
+<h3 id="the-build-where-things-went-sideways">The Build: Where Things Went Sideways</h3>
+
+<p>The theory is clean. The practice? <em>Less so.</em></p>
+
+<h4 id="the-latency-problem">The Latency Problem</h4>
+
+<p>The first prototype worked. The colors were… <em>mostly</em> right. But the latency was <strong>brutal</strong> — nearly <strong>500ms</strong>. The TV would show an explosion, and half a second later the wall behind it would finally, sheepishly, turn orange. It was like watching a badly dubbed movie, but for <em>lights</em>.</p>
+
+<p>The bottleneck was the capture card. USB 2.0 capture cards are cheap (₹250 cheap), but they add significant latency. And processing every single frame at 30fps on a Pi Zero 2W was… <em>optimistic</em>.</p>
+
+<p><strong>The fix:</strong> I stopped trying to process every frame. Instead, I sample at <strong>10fps</strong> — fast enough to feel responsive, slow enough to let the Pi actually keep up. Combined with a ring buffer for color smoothing (weighted average of the last 5 samples), the perceived latency dropped to under <strong>50ms</strong>.</p>
+
+<p>Still not instant. But your brain genuinely cannot tell the difference.</p>
+
+<h4 id="power-injection-or-why-my-leds-were-dying-at-the-edges">Power Injection (Or: Why My LEDs Were Dying at the Edges)</h4>
+
+<p>WS2812B LEDs are power-hungry little monsters. At full white, each LED draws about <strong>60mA</strong>. With 180 LEDs (3m × 60/m), that’s <strong>10.8A</strong> at full brightness. The Pi <em>cannot</em> supply that. I cannot stress this enough.</p>
+
+<p>The first time I turned everything on full white, the LEDs near the power supply were <em>blindingly</em> bright, and the ones at the far end of the strip were a sad, dim orange. Voltage drop along the strip was murdering my color accuracy.</p>
+
+<p><strong>The fix:</strong> Power injection. I ran additional power lines from the supply to the strip at <strong>every 1-meter interval</strong> (three injection points for a 3m strip). The difference was night and day — uniform brightness across the entire strip and no more color shift at the edges.</p>
+
+<p>This is one of those things that seems obvious in retrospect but absolutely <em>wasn’t</em> when I was staring at dim LEDs wondering what went wrong.</p>
+
+<h4 id="signal-integrity">Signal Integrity</h4>
+
+<p>The WS2812B data signal is timing-sensitive. It uses a single data line with very specific pulse widths — we’re talking <em>nanosecond-level</em> precision. On a Raspberry Pi, the GPIO timing can be jittery because Linux isn’t a real-time OS. Other processes can interrupt and mess with your signal timing.</p>
+
+<p>I was seeing random color flickers. A single LED occasionally flashing white or green in the middle of an otherwise smooth transition. It was subtle, but once you notice it, you can’t <em>un-notice</em> it.</p>
+
+<p><strong>The fix:</strong> The <code class="language-plaintext highlighter-rouge">rpi_ws281x</code> library uses the Pi’s <strong>PWM hardware</strong> (via DMA) to drive the data line, which sidesteps the OS jitter problem entirely. The key was making sure no other process was competing for the PWM hardware. I disabled the Pi’s audio output (which also uses PWM) in <code class="language-plaintext highlighter-rouge">/boot/config.txt</code>:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">dtparam</span><span class="o">=</span><span class="nv">audio</span><span class="o">=</span>off
+</code></pre></div></div>
+
+<p>Clean signal. No more flickers. A one-line fix for a problem I spent an entire evening diagnosing.</p>
+
+<h4 id="color-calibration">Color Calibration</h4>
+
+<p>This one snuck up on me. The colors on the wall didn’t match the colors on the TV. A bright red on screen would look more like an orange-ish <em>pink</em> on the LEDs. The WS2812B color reproduction isn’t perfect, and the white wall behind the TV shifts the color temperature.</p>
+
+<p><strong>The fix:</strong> A gamma correction table. I apply a per-channel gamma curve to the output values before sending them to the strip:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">GAMMA</span> <span class="o">=</span> <span class="mf">2.2</span>
+
+<span class="k">def</span> <span class="nf">gamma_correct</span><span class="p">(</span><span class="n">color</span><span class="p">):</span>
+    <span class="sh">"""</span><span class="s">Apply perceptual gamma correction to RGB tuple.</span><span class="sh">"""</span>
+    <span class="k">return</span> <span class="nf">tuple</span><span class="p">(</span><span class="nf">int</span><span class="p">((</span><span class="n">c</span> <span class="o">/</span> <span class="mi">255</span><span class="p">)</span> <span class="o">**</span> <span class="n">GAMMA</span> <span class="o">*</span> <span class="mi">255</span><span class="p">)</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">color</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>This alone made the colors feel <em>significantly</em> more accurate. I also clamped the maximum brightness to <strong>80%</strong> — not because of power concerns (the injection points handled that), but because at 100% the color reproduction degrades and the strip runs hot enough to <em>damage the adhesive backing</em>. Ask me how I know.</p>
+
+<h3 id="the-result">The Result</h3>
+
+<p>After a month of weekends and more than a few late nights, it works. <em>Really</em> well.</p>
+
+<p>The wall behind my TV now glows with the same colors on screen. Action scenes feel more immersive. The ambient mode during movies is genuinely cinematic — warm oranges during candle-lit scenes, cool blues during underwater shots, pitch black during… well, pitch black scenes.</p>
+
+<p>And the whole thing cost less than what Philips charges for a <em>single replacement power supply</em>.</p>
+
+<h3 id="what-id-do-differently">What I’d Do Differently</h3>
+
+<p>A few things I learned the hard way:</p>
+
+<ul>
+  <li><strong>Start with power injection.</strong> Don’t wait for the dim edges to appear. Just do it from day one. Run thick wires. You’ll thank yourself.</li>
+  <li><strong>The capture card matters more than you think.</strong> Spend the extra ₹100 on a USB 3.0 card if your Pi supports it. The latency improvement is worth every rupee.</li>
+  <li><strong>Heat management.</strong> The Pi Zero 2W gets warm during continuous frame processing. A ₹30 heatsink is a <em>very</em> good investment.</li>
+  <li><strong>Diffusion.</strong> Raw LED light is harsh and creates visible hotspots on the wall. A strip of frosted tape or a cheap diffuser channel softens the light beautifully. ₹50 well spent.</li>
+</ul>
+
+<h3 id="the-code">The Code</h3>
+
+<p>The entire sampling pipeline runs on about <strong>200 lines of Python</strong>. It’s clean, well-commented, and handles all the edge cases I discovered during the build. I’ll be open-sourcing it soon — keep an eye on <a href="https://github.com/parthbatra99">my GitHub</a>.</p>
+
+<hr />
+
+<p><em>Sometimes the best tech isn’t the most expensive. It’s the one you build yourself, learn from, and can actually fix when it breaks at 2am.</em></p>
+
+    </div>
+  </div>
+</article>
+
+    </main>
+
+    <footer class="site-footer">
+  <div class="shell footer-shell">
+    <p class="footer-note">© 2026 Parth Batra · <a href="mailto:hi@fromparth.blog">hi@fromparth.blog</a></p>
+    <p class="footer-note">Writing on ML, culture, and the internet.</p>
+  </div>
+</footer>
+
+  </body>
+</html>

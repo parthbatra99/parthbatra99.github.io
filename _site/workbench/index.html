@@ -59,11 +59,77 @@
   </header>
 
   <div class="workbench-content prose">
-    <h3 id="currently-curating">Currently curating…</h3>
+    <h3 id="hexwitchnvim--ai-colorscheme-generator">hexwitch.nvim — AI Colorscheme Generator</h3>
+
+<p><strong>[2025-11-01]</strong> Had a vague idea while tweaking my Neovim theme for the 400th time: <em>“What if I could just describe a vibe and get a colorscheme?”</em> Opened a chat with Claude and started spitballing.</p>
+
+<p><strong>[2025-11-02]</strong> Shipped it. 2,800 lines of Lua — a language I’d never written — in a single weekend. Claude was the product guy and the code monkey; I was the adult who caught command injection, path traversal, and API key leakage before they went public.</p>
+
+<blockquote>
+  <p><strong>Summary:</strong> A Neovim plugin that generates colorschemes from plain English prompts. Supports multiple AI providers, Telescope UI for browsing your library, and a full undo/redo history. Vibe-driven development at its finest.</p>
+
+  <p><code class="language-plaintext highlighter-rouge">lua · neovim · telescope · openai/openrouter</code></p>
+
+  <p>✅ Shipped — <a href="/blog/how-i-built-an-ai-powered-neovim-plugin-by-vibe-coding-with-claude/">Read the full story</a> · <a href="https://github.com/parthbatra99/hexwitch.nvim">GitHub</a></p>
+</blockquote>
 
 <hr />
 
-<p><em>Last Updated: April 27, 2025</em></p>
+<h3 id="diy-ambilight--real-time-tv-backlight-sync">DIY Ambilight — Real-time TV Backlight Sync</h3>
+
+<p><strong>[2026-03-15]</strong> Saw the Philips Hue Play Gradient Lightstrip. ₹20,000 for colored LEDs behind a TV. Absolutely not.</p>
+
+<p><strong>[2026-03-22]</strong> Parts arrived. HDMI splitter, USB capture card, WS2812B strip, Raspberry Pi Zero 2W. Total out of pocket: <strong>₹2,100</strong>. Less than a tenth of the commercial price.</p>
+
+<p><strong>[2026-04-05]</strong> First light. Colors are roughly right but the latency is brutal — nearly 500ms. The TV shows a sunset and the wall behind it is still rendering the previous scene.</p>
+
+<p><strong>[2026-04-20]</strong> Fixed the latency. Dropped from 500ms to under 50ms. The trick was sampling screen regions at 10fps instead of processing every frame, plus a ring buffer for color smoothing. Your brain genuinely can’t tell the difference.</p>
+
+<p><strong>[2026-05-01]</strong> Spent the weekend on power injection. WS2812B LEDs at full white draw ~60mA <em>each</em> — 180 LEDs means 10.8A. Without injection points every meter, the far end of the strip was a sad, dim orange. Fixed. Now uniform brightness edge to edge.</p>
+
+<p><strong>[2026-05-10]</strong> Signal integrity nightmare solved. Disabled the Pi’s audio output (it competes for PWM hardware) and the random color flickers disappeared. Added gamma correction for color accuracy. Also clamped brightness to 80% — not for power, but because at 100% the color reproduction degrades and the adhesive backing starts peeling.</p>
+
+<blockquote>
+  <p><strong>Summary:</strong> A homemade bias lighting system that reads TV content in real-time and syncs matching colors to a LED strip on the back. ~200 lines of Python, entirely open hardware, and the whole thing costs less than a decent dinner.</p>
+
+  <p><code class="language-plaintext highlighter-rouge">python · opencv · raspberry-pi · ws2812b · gpio</code></p>
+
+  <p>🔨 In Progress — Blog post coming soon</p>
+</blockquote>
+
+<hr />
+
+<h3 id="open-source-voice-ai-platform--a-vapi-alternative">Open-Source Voice AI Platform — A Vapi Alternative</h3>
+
+<p><strong>[2026-04-01]</strong> Started building a self-hosted voice AI platform at work. The motivation was simple: Vapi and Retell are proprietary black boxes. We needed something we could own, modify, and deploy on our own infrastructure.</p>
+
+<p><strong>[2026-04-15]</strong> Two weeks in. The WebRTC bridge is working — bidirectional audio streaming, ICE candidate handling, the works. The first time I heard my own voice loop back through the system was genuinely unsettling.</p>
+
+<p><strong>[2026-05-01]</strong> STT→LLM→TTS pipeline is functional but the latency is a disaster. Streaming tokens from the LLM helps, but TTS needs complete sentences. Built a sentence buffer that accumulates tokens until it hits a sentence boundary, then flushes to TTS. The AI’s first sentence reaches the user while the LLM is still generating the second one.</p>
+
+<p><strong>[2026-05-15]</strong> Spent a full week on <strong>echo detection</strong>. When the AI speaks, its voice comes out of the user’s speaker, bounces into the mic, and the STT transcribes it. The AI ends up having a conversation with itself. Implemented AEC combined with a playback state tracker that tells the pipeline exactly when AI audio is being played.</p>
+
+<p><strong>[2026-05-25]</strong> Barge-in support. Allowing users to interrupt the AI mid-sentence. The timing window is brutal — too sensitive and ambient noise cuts off the AI mid-word, too slow and the user has already repeated themselves. Landed on a two-signal confirmation: VAD <em>and</em> echo cancellation must both agree the user is speaking.</p>
+
+<p><strong>[2026-06-01]</strong> Fallback provider chains. When Deepgram goes down mid-call, transparently switch to Whisper. When OpenAI is slow, try Anthropic. Built a health monitor that tracks provider latency and error rates in real-time. The switch is invisible to the user.</p>
+
+<p><strong>[2026-06-05]</strong> The WebSocket situation is… a lot. Each active call maintains 4-5 concurrent WebSocket connections. Wrote a ConnectionManager that handles heartbeat timeouts, message ordering, and session isolation. With 50 concurrent calls, that’s 250 connections. It’s the single most valuable piece of infrastructure in the entire stack.</p>
+
+<p><strong>[2026-06-08]</strong> User unmute frames. When a user unmutes, the pipeline receives stale buffered audio. Implemented a frame sequence counter — on unmute, discard any frame with a sequence number lower than the current. Clean sync, no hallucinated transcriptions.</p>
+
+<p><strong>[2026-06-10]</strong> Docker-first packaging done. <code class="language-plaintext highlighter-rouge">docker compose up</code> and the entire stack is running — media server, orchestration API, workflow builder, Redis, reverse proxy. Open <code class="language-plaintext highlighter-rouge">localhost:3010</code>, describe your use case, and you’re talking to your first voice bot.</p>
+
+<blockquote>
+  <p><strong>Summary:</strong> A self-hosted, open-source voice AI platform. BYOK across LLM/STT/TTS providers, visual workflow builder, real-time telephony, MCP-native tool calling, and Docker-first deployment. 90% plumbing, 10% intelligence. Open-sourcing soon.</p>
+
+  <p><code class="language-plaintext highlighter-rouge">python · fastapi · webrtc · docker · websockets · twilio · openai · deepgram</code></p>
+
+  <p>🔨 Nearing Completion — <a href="https://github.com/dograh-hq/dograh">Follow on GitHub</a></p>
+</blockquote>
+
+<hr />
+
+<p><em>Last Updated: June 10, 2026</em></p>
 
   </div>
 </article>

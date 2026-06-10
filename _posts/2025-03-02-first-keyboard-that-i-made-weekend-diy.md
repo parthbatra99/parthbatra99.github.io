@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "I Resurrected a 12-Year-Old Keyboard, and It's Now My Daily Driver"
-subtitle: "How a weekend of questionable decisions and a lot of cleaning brought a classic TVS Gold back to life."
+title: "What a Rubik's Cube and Car Wax Have to Do With My Keyboard Setup"
+subtitle: "A 12-year-old TVS Gold. One weekend. Two things that have no business being in a keyboard teardown."
 date: 2025-03-02 10:00:00 +0531
 hero_art: /assets/images/mech-keyboard.png
 tags:
@@ -11,71 +11,77 @@ tags:
   - hardware
 ---
 
-My Keychron K8, a **perfectly respectable** modern mechanical keyboard, is currently serving as a *very expensive* dust cover. For the past three months, it's been sitting in my office, **completely ignored**.
+I have a Rubik's cube in my desk drawer and a bottle of ceramic car wax under my sink. Neither of these things should have anything to do with keyboards.
 
-The culprit? A **12-year-old TVS Gold** I unearthed from a forgotten box while shifting homes. I should have thrown it out. It was *disgusting*. But now, it's the **only keyboard I want to use**.
+And yet, that's exactly what brought a 12-year-old TVS Gold back from the dead.
 
-### The Archaeological Dig
+The Keychron K8 — modern, wireless, objectively the better keyboard on paper — has been a very expensive dust collector for three months. I don't miss it.
 
-Opening this thing up was less of a tech project and more of a ***hazmat situation***. A **decade of neglect** had turned the inside into a fluffy graveyard of dust, grime, and things I don't want to identify. It was *crusty*.
+---
+
+I found the TVS Gold while shifting homes. It was buried in a box I hadn't opened in years, the kind of box that's secretly a graveyard of past-self decisions. I almost threw it out. But I pressed one of the keys and it made a sound that the Keychron, with all its modernity and its RGB lighting, has never made.
+
+So it went in the keep pile.
+
+Opening it up was the wrong decision and also the only possible decision. A decade of neglect had turned the inside into something I'd rather not describe in detail — dust, grime, and textures that shouldn't exist. I cleaned it out with a brush and compressed air, and then I plugged it in to check if anything was worth saving.
+
+Nothing happened.
 
 ![Opening the keyboard, cleaning the internals, and fixing the wiring.](/assets/images/step1.jpeg)
 
-After a vigorous session with a brush and compressed air, I plugged it in. Nothing. Of course. I was ready to call it a day, but then I saw the connector pins. They were green with corrosion.
+I was ready to call it. Then I looked more carefully at the connector pins — green with corrosion. A bit of IPA, some rewiring that I'd charitably call creative, a prayer to no god in particular, and I plugged it in again.
 
-A bit of IPA, some *creative rewiring*, and a prayer later, I plugged it in again.
+Every key worked. The thing was just waiting.
 
-**It worked.** Every single key. This **old tank** was still kicking.
+---
 
-### Decontamination Protocol
-
-With the guts *surprisingly functional*, it was time to face the **horror of the exterior**. The plastic frame was a mottled, Jackson Pollock-esque mess of grey and black. It looked like it had been stored in a swamp.
+The guts being alive meant facing the exterior, which was a problem. The plastic frame had gone from black to a mottled grey-brown — not from dust, but from the plastic itself degrading.
 
 ![The discolored and degraded plastic frame of the keyboard.](/assets/images/step2.jpeg)
 
-This is where **my weekend disappeared**. I dismantled the entire keyboard. The board cleaned up nicely, but the keycaps were a *special kind of hell*.
+I dismantled the whole thing. The board cleaned up easily enough.
 
 ![The cleaned keyboard circuit board.](/assets/images/step3.jpeg)
 
-I scrubbed **every single keycap by hand**. It was *tedious, soul-crushing work*. My fingers were raw. My spirit was nearly broken. But I was in **too deep to stop**.
+The keycaps did not. I scrubbed every single one by hand. All 104 of them. I was crouched over my sink for longer than I want to admit, and somewhere around keycap 70 I had a very clear thought: *I could just buy a new keyboard*. I kept going anyway.
 
 ![Cleaning each keycap individually.](/assets/images/step4.jpeg)
 
-### Keyboard Heresy and Questionable Lubricants
+---
 
-The keys worked, but they felt *awful*—stiff, scratchy, and loud in all the wrong ways. They needed lube. On a modern board, I'd desolder the switches and do it properly. But this was a **12-year-old board** I'd just barely coaxed back to life. My soldering skills are, let's say, ***developing***. I wasn't about to risk its life.
+Clean keys, functional board — but the switches felt wrong. Stiff, scratchy, the kind of tactile experience that makes you not want to type. They needed lubing.
 
-So, I committed a ***cardinal sin*** in the eyes of keyboard purists. I grabbed a syringe and some Rubik's cube lube I had lying around.
+On a new board, I'd desolder each switch and do it properly. This was a 12-year-old board I'd just barely coaxed back to life, and my soldering is, generously, a work in progress. I was not about to risk it.
+
+So I did something I'm not entirely proud of: I grabbed a syringe and reached for the silicone lube I use on my Rubik's cubes.
 
 ![Using a syringe to apply lube to the key switches.](/assets/images/step5.jpeg)
 
-I can hear the **gasps from here**. But guess what? It worked *beautifully*. The keys are now **buttery smooth**, with a deep, satisfying *"thock"* that modern boards just can't replicate.
+This is, apparently, a sin in keyboard circles. I found this out after the fact, which was good, because by then the keys were buttery smooth and I didn't care. The lube that keeps a cube spinning through fingertips at speed turns out to be exactly what these switches wanted.
 
-### The Car Detailing Trick
+---
 
-The frame was still a problem. It was clean, but the plastic was faded and sad. I'd seen people try all sorts of weird retro-brighting techniques, but I had a different idea. I reached for the ceramic wax I use on my car.
+The keys were fixed. The frame was still an eyesore — clean, but faded and sad, the plastic dull in the way old plastic gets when it's given up on being black.
+
+I'd tried the conventional suggestions and wasn't excited about any of them. Then I thought about the ceramic wax I use on my car. It's designed to fill microscopic scratches and bond to clear coat, but the base mechanism is just restoring surface integrity.
+
+Worth trying.
 
 ![Applying ceramic wax to the plastic frame to restore its color.](/assets/images/step6.jpeg)
 
-The result was **genuinely shocking**. The wax didn't just shine it up; it restored the **deep, rich black** of the plastic. It looks *almost new*.
+The result was genuinely surprising. Not just shinier — the actual black came back. Deep, even, close to what it must have looked like new.
 
-### The Aftermath
+---
 
-After a weekend of grime, *questionable hacks*, and a lot of patience, the **TVS Gold was reborn**. It's been my **daily driver for three months**, and I'm not looking back. It's a *joy to type on*, and it gets **more comments than any fancy gadget I own**.
+So that's what a Rubik's cube and a car have to do with keyboards.
 
 ![The fully restored TVS Gold mechanical keyboard, looking like new.](/assets/images/step7.jpeg)
 
-### The Sound of Victory
-
-The **best part**, though, is the **sound**. This keyboard has the *original blue switches*, and they are **magnificent**. They have a *crisp, clicky, tactile feedback* that's been lost in most modern keyboards. Here's a sample:
+The TVS Gold has been my daily driver for three months. It gets more comments than anything else on my desk. And the original blue switches — the ones that made that sound when I found it in the box — they're still doing exactly that.
 
 <audio controls>
   <source src="/assets/audio/tvs_gold.m4a" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
-This is the **quality TVS was famous for**. Their new switches feel *mushy and cheap* in comparison. It's a shame, but it makes me **all the more grateful** I was able to save this one.
-
-So yeah, my fancy wireless keyboard is taking a **long vacation**. Sometimes the best tech isn't the newest or the shiniest. It's the **old workhorse** you rescue from a dusty box and **bring back from the dead**.
-
-*I'm sure the Keychron understands.*
+TVS used to build switches like this. Their current lineup doesn't come close. I don't know if that's a manufacturing decision or a cost decision or just time passing, but I'm glad this one survived long enough for me to find it in a box I almost threw away.
