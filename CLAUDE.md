@@ -59,3 +59,10 @@ bundle exec jekyll build
 - Blog posts: `YYYY-MM-DD-title.md` (Jekyll standard)
 - Layout files: `{section-name}.html` (e.g., `blog.html`, `workbench.html`)
 - Section pages: `{section-name}.md` with front matter specifying layout and permalink
+
+## Content Style Guides
+
+Before writing or reviewing a `_posts/` entry: read `.skills/blog-writing.md`.
+Before writing or reviewing an entry in `the-good-stuff.md`: read `.skills/the-good-stuff-writing.md`.
+
+Run the self-evaluation checklist in each file against any new entry and flag specific gaps before suggesting edits.
