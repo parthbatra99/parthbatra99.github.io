@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What Actually Happens in the Second After You Say Hello to an AI"
-subtitle: "Telephony, WebRTC, voice detection, transcription, all in under a second. A month building it from scratch, and every hard problem in between."
+subtitle: "Telephony, WebRTC, voice detection, transcription. A month building it from scratch, and where that second actually goes."
 date: 2026-06-10 09:00:00 +0530
 hero_art: /assets/images/voice-ai.png
 tags:
@@ -21,9 +21,25 @@ I spent a month building openVAPI, an open-source, self-hosted alternative to Va
 
 This is the engineering journal. The wins, the disasters, and what the git log actually says.
 
+### The Anatomy of That Second
+
+Before the war stories, here's where the second actually goes. These aren't marketing numbers. The first row is a value I chose myself, the rest are typical figures for the providers in my stack, and later you'll meet the `TurnMetrics` dataclass that stamps every one of these stages on every real turn.
+
+| Stage | Typical time | Where the number comes from |
+| :--- | :--- | :--- |
+| Confirming you've actually stopped talking | 800 ms | Configured: Silero VAD `stop_secs=0.8` |
+| Final transcript from STT | 100-300 ms | Typical for Deepgram streaming |
+| First token from the LLM | 200-400 ms | Typical for Groq and OpenAI |
+| First audio byte from TTS | 75-150 ms | Typical for ElevenLabs Flash |
+| Audio back down the line | 50-100 ms | 20 ms chunks plus the carrier network |
+
+Add it up and the full path from your last syllable runs somewhere between 1.2 and 1.7 seconds. The sub-second figure everyone quotes starts at row two, after the silence check. Which is fair, because that 800 ms is not the AI being slow. It's the pipeline being polite.
+
+Cut the silence window shorter and the bot interrupts you every time you pause to think. Leave it longer and every reply feels like a long-distance call from 1991. The single biggest lever in voice AI latency has nothing to do with the AI. It's deciding how long a human silence has to last before it counts as a turn.
+
 ### The Setup
 
-On May 11, 2026, I committed the entire scaffold in one shot: a FastAPI backend (Python's async web framework) with CRUD for assistants, phone numbers, and call logs. A Next.js UI with a dark theme. Postgres for durable storage, Redis for fast in-memory state, Docker to run it all. 57 files, 3,261 lines. The architecture was deliberate from day one: one process, no worker pool, no threads. Every incoming call rides on an asyncio Task. All IO is awaited. A semaphore caps concurrent calls at 50. You scale by running more pods.
+On May 11, 2026, I committed the entire scaffold in one shot: a FastAPI backend (Python's async web framework) with CRUD for assistants, phone numbers, and call logs. A Next.js UI with a dark theme, because I already knew what hours I'd be keeping. Postgres for durable storage, Redis for fast in-memory state, Docker to run it all. 57 files, 3,261 lines. The architecture was deliberate from day one: one process, no worker pool, no threads. Every incoming call rides on an asyncio Task. All IO is awaited. A semaphore caps concurrent calls at 50. You scale by running more pods.
 
 Three days later, the voice pipeline landed. I built it on top of **Pipecat**, a Python framework for real-time voice AI from the folks at Daily. Pipecat handles the hard distributed-systems problems: moving audio around, passing it between processing stages as "frames," and managing whose turn it is to speak. What I built on top was the production layer Pipecat doesn't give you.
 
@@ -31,21 +47,21 @@ That layer is a tour of the modern voice stack. **Twilio and Plivo** for telepho
 
 One detail that trips up everyone: phone audio is bad on purpose. The telephony pipeline runs at 8kHz mulaw, a low-fidelity, narrow-band format designed in an era when bandwidth was precious. It's why every phone call sounds slightly muffled. That commit was 69 files, 14,521 lines. The first phone call actually connected.
 
-Around May 18, I added browser calls. For those I used **WebRTC**, the same peer-to-peer audio and video tech that powers Google Meet and Discord. Getting a server to speak WebRTC (browsers do it natively, servers don't) means **aiortc**, the Python library that implements the protocol, wrapped here by Pipecat's `SmallWebRTCTransport`. Browser audio comes in at a cleaner 16kHz instead of the phone's 8kHz, so the same pipeline now has to juggle two sample rates depending on where the call came from. I also built a cost calculator so I'd know exactly what each call cost, down to the token and the character.
+Around May 18, I added browser calls. For those I used **WebRTC**, the same peer-to-peer audio and video tech that powers Google Meet and Discord. Getting a server to speak WebRTC (browsers do it natively, servers don't) means **aiortc**, the Python library that implements the protocol, wrapped here by Pipecat's `SmallWebRTCTransport`. Browser audio comes in at a cleaner 16kHz instead of the phone's 8kHz, so the same pipeline now has to juggle two sample rates depending on where the call came from. I also built a cost calculator so I'd know exactly what each call cost, down to the token and the character. On the cheapest stack (Groq for the brain, Deepgram for the ears, ElevenLabs for the voice, Twilio for the line), a 3-minute call comes out to roughly $0.10. About 8 rupees. Less than the chai you'd drink while debugging it.
 
 ### 1 AM, `docker compose up`, Again
 
 The git log for May 20 is telling. Between 01:13 and 02:04, there are 28 commits, all in under an hour. What was I actually doing? Trying to get a single outbound phone call to connect end to end.
 
-Telephony providers do not agree on anything. The handshake itself is a little dance: the carrier answers the call, pings your server over the internet, you hand back a set of instructions that tells it to open a live audio socket, and then it streams the call's raw audio to you in real time. Twilio sends that audio as JSON with base64-encoded mulaw. Plivo uses a slightly different framing. A serializer has to abstract both so the rest of the pipeline just sees a uniform `InputAudioRawFrame` and `OutputAudioRawFrame` and never has to care which carrier is on the line. Getting that right took many attempts.
+Telephony providers do not agree on anything. The handshake itself is a little dance: the carrier answers the call, pings your server over the internet, you hand back a set of instructions that tells it to open a live audio socket, and then it streams the call's raw audio to you in real time. Twilio sends that audio as JSON with base64-encoded mulaw. Plivo uses a slightly different framing. A serializer has to abstract both so the rest of the pipeline just sees a uniform `InputAudioRawFrame` and `OutputAudioRawFrame` and never has to care which carrier is on the line. Getting that right took 14 attempts in 51 minutes.
 
-That's what those 28 commits are. Not a clean, beautiful git history. One person at 1 AM, running `docker compose up` again and again, reading logs, fixing one framing issue at a time.
+That's what those 28 commits are: each attempt left a pair of snapshots. Not a clean, beautiful git history. One person at 1 AM, running `docker compose up` again and again, reading logs, fixing one framing issue at a time. Every run started with the same thought, *this is the one that fixes it*, and run 14 finally was.
 
 ### "wholesale improvements"
 
 On May 27, I made my biggest single commit and titled it "wholesale improvements" because I genuinely couldn't think of a better name. 47 files, 1,913 insertions, 312 deletions. Here's what was in it:
 
-**The webhook service.** When a call ends, you often need to tell some other server about it. That's a webhook, an HTTP call your system makes outward. Mine signs every payload with HMAC-SHA256 (so the receiver can prove it really came from me) and retries on failure with exponential backoff at [0, 5, 30, 300, 1800] seconds. A reconciliation loop finds unsent webhooks on startup and fires them. Every attempt is logged with status code, response body, and error.
+**The webhook service.** When a call ends, you often need to tell some other server about it. That's a webhook, an HTTP call your system makes outward. Mine signs every payload with HMAC-SHA256 (so the receiver can prove it really came from me) and retries on failure with exponential backoff at [0, 5, 30, 300, 1800] seconds. The last retry fires half an hour later, which in webhook time is a formal apology letter. A reconciliation loop finds unsent webhooks on startup and fires them. Every attempt is logged with status code, response body, and error.
 
 **The Vapi compatibility layer.** `vapi_compat.py` exposes a REST shape that matches Vapi's API exactly. Any tool already built against Vapi can point at openVAPI by changing one URL. That single decision probably removed more adoption friction than any feature I could build.
 
@@ -206,25 +222,22 @@ Then I kept going. Most people sleep after a 3 AM commit. That same day I shippe
 
 June 9 was cleanup day. Webhook retry triggers reworked. The transcript generation got a major overhaul, 214 lines added to `call_transcript.py`. Provider columns changed from a strict enum to a plain string, so adding a new provider no longer requires a database migration. Bug fixes across both carriers.
 
-On June 10 at 23:14, I pushed "complete ui revamp." 52 files changed. 3,512 insertions, 4,229 deletions, net negative because I deleted the old component structure and rebuilt it. Dashboard, analytics, and settings pages. A real component library: cards, modals, toggles, status dots, empty states, page headers. Every page got its own component instead of being smeared across a dialog, a table, and an edit page. The thing finally looks like a product.
+On June 10 at 23:14, I pushed "complete ui revamp." 52 files changed. 3,512 insertions, 4,229 deletions, net negative because I deleted the old component structure and rebuilt it. Best diff stat of the month. Dashboard, analytics, and settings pages. A real component library: cards, modals, toggles, status dots, empty states, page headers. Every page got its own component instead of being smeared across a dialog, a table, and an edit page. The thing finally looks like a product.
 
 ### The Architecture (What Actually Runs)
 
-Pipecat does the heavy lifting. One pipeline per call, running as an asyncio Task inside FastAPI. No workers, no threads. Each connection is a Task. A semaphore caps concurrent calls at 50.
+Pipecat does the heavy lifting. One pipeline per call, running as an asyncio Task inside FastAPI. No workers, no threads. A semaphore caps concurrent calls at 50.
 
-- **Telephony**: Twilio and Plivo with a plugin registry. Adding a carrier means three files (`provider.py`, `transport.py`, `config.py`) and registering at import time.
-- **STT**: Deepgram, wrapped in a custom class that does interim promotion, echo suppression via mute-frame handling, and per-turn WAV dumps for debugging.
-- **LLM**: OpenAI, Groq, Google Vertex, Together AI via a factory. Plus the OpenAI Realtime API, where listen-think-speak collapse into one service.
+- **Telephony**: Twilio and Plivo via a plugin registry. Adding a carrier means three files and a registration at import time.
+- **STT**: Deepgram, wrapped in a custom class: interim promotion, echo suppression, per-turn WAV dumps for debugging.
+- **LLM**: OpenAI, Groq, Google Vertex, Together AI via a factory, plus the OpenAI Realtime API where listen-think-speak collapse into one service.
 - **TTS**: ElevenLabs, OpenAI, Deepgram, Cartesia, Google, and Sarvam for Indian languages.
 - **WebRTC**: SmallWebRTCTransport (aiortc under the hood) at 16kHz for browser calls.
-- **VAD**: Silero VAD, the model that decides when you've stopped talking, tuned to 0.3s to start and 0.8s to confirm a stop.
-- **Recording**: a dual-processor approach. The user capture sits before the mute gate so it sees every frame; the bot capture stamps wall-clock offsets so the timeline can be rebuilt. Mixed to mono, uploaded to S3.
-- **State**: Redis for live call state, the transcript buffer (appended mid-call, zero database writes while a call is active), and the phone number pool (atomic claim and release).
-- **Persistence**: Postgres (SQLAlchemy async) plus S3.
-- **Webhooks**: HMAC-SHA256 signing, retry with exponential backoff, Redis lease-based deduplication.
-- **Crash recovery**: the background scheduler resolves orphaned calls on startup, flushes partial transcripts, and returns numbers to the pool.
-
-The Vapi compatibility layer is a separate router that mirrors Vapi's REST shape. Existing Vapi clients change one URL. That one decision probably saved more adoption friction than any feature I could build.
+- **VAD**: Silero, tuned to 0.3s to start and 0.8s to confirm a stop.
+- **Recording**: dual capture processors with wall-clock offsets, mixed to mono, uploaded to S3.
+- **State**: Redis for live call state, the transcript buffer (zero database writes while a call is active), and the phone number pool. Postgres and S3 for everything durable.
+- **Webhooks**: HMAC-SHA256 signing, exponential backoff, Redis lease-based deduplication.
+- **Crash recovery**: the scheduler resolves orphaned calls on startup, flushes partial transcripts, and returns numbers to the pool.
 
 ### Where We Are Now
 
@@ -249,13 +262,13 @@ Here's the honest status:
 | Post-call summary generation | Working |
 | Multi-language STT beyond Hindi | In progress |
 
+One caveat belongs next to that table. This is a one-person, one-month codebase: a single integration test, no CI pipeline, and nothing has pushed it past the 50-call semaphore yet. Every "Working" above means working on real calls, not battle-tested at scale.
+
 ### The Insight
 
 Building a voice AI platform is an exercise in managing complexity at every single layer. The intelligence, the part that sounds impressive in a pitch deck, is a few API calls. The other 90% is the plumbing.
 
-But here's what I actually learned: the hard problems aren't where you expect them. The recording desync took three days and demanded I understand PCM audio, sample rates, and wall-clock time. The race condition that ate the first message took a day and demanded I understand Pipecat's frame lifecycle. The XML tag leak took an hour but hit every single call. The empty response fallback fires on 3% of calls, and without it, those are all silent failures.
-
-The best code I wrote was four lines that strip XML tags from a voice stream. The bug that took the longest was wall-clock offsets in a recording mixer. The feature I'm proudest of is a Hindi voicemail pattern that took one line.
+What still surprises me is that effort and impact refuse to correlate. My best code is four lines that strip XML tags from a voice stream. The bug that took the longest was a recording mixer that didn't know what time it was. And the feature I'm proudest of is a Hindi voicemail pattern that took one line.
 
 This is what real voice infrastructure looks like. It's not glamorous. But it works.
 
