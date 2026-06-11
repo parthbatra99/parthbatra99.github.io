@@ -59,7 +59,35 @@
   </header>
 
   <div class="workbench-content prose">
-    <h3 id="hexwitchnvim--ai-colorscheme-generator">hexwitch.nvim — AI Colorscheme Generator</h3>
+    <h3 id="openvapi--open-source-voice-ai-platform">openVAPI — Open-Source Voice AI Platform</h3>
+
+<p><strong>[2026-05-11]</strong> Scaffolded the entire project in one commit. FastAPI + Next.js + Postgres + Redis. Assistants, phone numbers, call logs. 57 files, 3,261 lines. Architecture was deliberate from day one: one FastAPI process, asyncio Tasks for concurrency, no workers, no threads.</p>
+
+<p><strong>[2026-05-14]</strong> Voice pipeline lands. Pipecat-based with Twilio and Plivo telephony via plugin registry, Deepgram STT with custom echo suppression, ElevenLabs TTS, OpenAI/Groq LLM. First phone call connects. 69 files, 14,521 lines.</p>
+
+<p><strong>[2026-05-18]</strong> WebRTC pipeline for browser calls (SmallWebRTCTransport at 16kHz). Cost calculator, usage accumulator, enhanced provider flows.</p>
+
+<p><strong>[2026-05-27]</strong> “Wholesale improvements”: webhooks with HMAC-SHA256 signing and exponential backoff, Vapi compatibility layer (existing Vapi clients change one URL), background call scheduler with orphan crash recovery, S3 storage, per-turn millisecond diagnostic metrics tracking VAD through TTFB through bot speaking end.</p>
+
+<p><strong>[2026-05-28]</strong> The evening of the recording desync. Bot audio packed with no silence gaps between turns. Mixed recordings had all bot turns at position 0. Three days of debugging PCM audio and sample rates. Fix: wall-clock offset tracking per chunk, then reconstruct the full-length track by placing each TTS burst at its real-time position. Also: webhook deduplication with Redis lease claims, pipeline race condition fix (dual-event gate for startup + client connection).</p>
+
+<p><strong>[2026-06-08]</strong> 3:35 AM commit. Realtime voice pipelines (OpenAI/Azure Realtime APIs, completely different pipeline topology where STT+LLM+TTS are one service). Google Vertex, Google TTS/STT, Sarvam STT for Indian languages, Cartesia TTS. XML function tag filter (four lines, saved every call from TTS reading HTML tags aloud). In-memory audio buffering, pipeline metrics aggregator, Deepgram interim-promotion fix, crash recovery with orphan cleanup, max-duration watchdog backstop.</p>
+
+<p><strong>[2026-06-09]</strong> Production hardening. Docker-compose fixes, Caddy routing, webhook retry logic, bug fixes.</p>
+
+<p><strong>[2026-06-10]</strong> Complete UI revamp. Dashboard, analytics, settings pages. 52 files changed. 4,600 lines of core pipeline code total.</p>
+
+<blockquote>
+  <p><strong>Summary:</strong> Self-hosted, open-source voice AI platform. BYOK across LLM/STT/TTS providers, realtime voice pipelines, telephony via Twilio/Plivo, Vapi-compatible REST API, echo suppression, recording with wall-clock sync, crash recovery, per-turn millisecond metrics. Docker-first deployment. Open-sourcing soon.</p>
+
+  <p><code class="language-plaintext highlighter-rouge">python · fastapi · pipecat · webrtc · docker · deepgram · openai · twilio · plivo</code></p>
+
+  <p>🔨 Nearing Completion — <a href="/2026/06/10/building-an-open-source-vapi-alternative.html">Read the full story</a></p>
+</blockquote>
+
+<hr />
+
+<h3 id="hexwitchnvim--ai-colorscheme-generator">hexwitch.nvim — AI Colorscheme Generator</h3>
 
 <p><strong>[2025-11-01]</strong> Had a vague idea while tweaking my Neovim theme for the 400th time: <em>“What if I could just describe a vibe and get a colorscheme?”</em> Opened a chat with Claude and started spitballing.</p>
 
@@ -70,7 +98,7 @@
 
   <p><code class="language-plaintext highlighter-rouge">lua · neovim · telescope · openai/openrouter</code></p>
 
-  <p>✅ Shipped — <a href="/blog/how-i-built-an-ai-powered-neovim-plugin-by-vibe-coding-with-claude/">Read the full story</a> · <a href="https://github.com/parthbatra99/hexwitch.nvim">GitHub</a></p>
+  <p>✅ Shipped — <a href="/2025/11/02/how-i-built-an-ai-powered-neovim-plugin-by-vibe-coding-with-claude.html">Read the full story</a> · <a href="https://github.com/parthbatra99/hexwitch.nvim">GitHub</a></p>
 </blockquote>
 
 <hr />
@@ -95,34 +123,6 @@
   <p><code class="language-plaintext highlighter-rouge">python · opencv · raspberry-pi · ws2812b · gpio</code></p>
 
   <p>🔨 In Progress — Blog post coming soon</p>
-</blockquote>
-
-<hr />
-
-<h3 id="openvapi--open-source-voice-ai-platform">openVAPI — Open-Source Voice AI Platform</h3>
-
-<p><strong>[2026-05-11]</strong> Scaffolded the entire project in one commit. FastAPI + Next.js + Postgres + Redis. Assistants, phone numbers, call logs. 57 files, 3,261 lines. Architecture was deliberate from day one: one FastAPI process, asyncio Tasks for concurrency, no workers, no threads.</p>
-
-<p><strong>[2026-05-14]</strong> Voice pipeline lands. Pipecat-based with Twilio and Plivo telephony via plugin registry, Deepgram STT with custom echo suppression, ElevenLabs TTS, OpenAI/Groq LLM. First phone call connects. 69 files, 14,521 lines.</p>
-
-<p><strong>[2026-05-18]</strong> WebRTC pipeline for browser calls (SmallWebRTCTransport at 16kHz). Cost calculator, usage accumulator, enhanced provider flows.</p>
-
-<p><strong>[2026-05-27]</strong> “Wholesale improvements”: webhooks with HMAC-SHA256 signing and exponential backoff, Vapi compatibility layer (existing Vapi clients change one URL), background call scheduler with orphan crash recovery, S3 storage, per-turn millisecond diagnostic metrics tracking VAD through TTFB through bot speaking end.</p>
-
-<p><strong>[2026-05-28]</strong> The evening of the recording desync. Bot audio packed with no silence gaps between turns. Mixed recordings had all bot turns at position 0. Three days of debugging PCM audio and sample rates. Fix: wall-clock offset tracking per chunk, then reconstruct the full-length track by placing each TTS burst at its real-time position. Also: webhook deduplication with Redis lease claims, pipeline race condition fix (dual-event gate for startup + client connection).</p>
-
-<p><strong>[2026-06-08]</strong> 3:35 AM commit. Realtime voice pipelines (OpenAI/Azure Realtime APIs, completely different pipeline topology where STT+LLM+TTS are one service). Google Vertex, Google TTS/STT, Sarvam STT for Indian languages, Cartesia TTS. XML function tag filter (four lines, saved every call from TTS reading HTML tags aloud). In-memory audio buffering, pipeline metrics aggregator, Deepgram interim-promotion fix, crash recovery with orphan cleanup, max-duration watchdog backstop.</p>
-
-<p><strong>[2026-06-09]</strong> Production hardening. Docker-compose fixes, Caddy routing, webhook retry logic, bug fixes.</p>
-
-<p><strong>[2026-06-10]</strong> Complete UI revamp. Dashboard, analytics, settings pages. 52 files changed. 4,600 lines of core pipeline code total.</p>
-
-<blockquote>
-  <p><strong>Summary:</strong> Self-hosted, open-source voice AI platform. BYOK across LLM/STT/TTS providers, realtime voice pipelines, telephony via Twilio/Plivo, Vapi-compatible REST API, echo suppression, recording with wall-clock sync, crash recovery, per-turn millisecond metrics. Docker-first deployment. Open-sourcing soon.</p>
-
-  <p><code class="language-plaintext highlighter-rouge">python · fastapi · pipecat · webrtc · docker · deepgram · openai · twilio · plivo</code></p>
-
-  <p>🔨 Nearing Completion — <a href="/blog/building-an-open-source-vapi-alternative/">Read the full story</a></p>
 </blockquote>
 
 <hr />

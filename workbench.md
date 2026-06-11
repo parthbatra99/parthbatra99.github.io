@@ -27,7 +27,7 @@ permalink: /workbench/
 >
 > `python · fastapi · pipecat · webrtc · docker · deepgram · openai · twilio · plivo`
 >
-> 🔨 Nearing Completion — [Read the full story](/blog/building-an-open-source-vapi-alternative/)
+> 🔨 Nearing Completion — [Read the full story](/2026/06/10/building-an-open-source-vapi-alternative.html)
 
 ---
 
@@ -41,7 +41,7 @@ permalink: /workbench/
 >
 > `lua · neovim · telescope · openai/openrouter`
 >
-> ✅ Shipped — [Read the full story](/blog/how-i-built-an-ai-powered-neovim-plugin-by-vibe-coding-with-claude/) · [GitHub](https://github.com/parthbatra99/hexwitch.nvim)
+> ✅ Shipped — [Read the full story](/2025/11/02/how-i-built-an-ai-powered-neovim-plugin-by-vibe-coding-with-claude.html) · [GitHub](https://github.com/parthbatra99/hexwitch.nvim)
 
 ---
 

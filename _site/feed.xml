@@ -1,26 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-06-11T16:13:58+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Parth Batra | fromparth.blog</title><subtitle>Senior ML Engineer by day, music critic by night. Building ML systems, writing about tech, and collecting spotify minutes like they&apos;re infinity stones.</subtitle><author><name>Parth Batra</name></author><entry><title type="html">I Built a Voice AI Platform. 90% of It Is Plumbing.</title><link href="http://localhost:4000/2026/06/10/building-an-open-source-vapi-alternative.html" rel="alternate" type="text/html" title="I Built a Voice AI Platform. 90% of It Is Plumbing." /><published>2026-06-10T09:00:00+05:30</published><updated>2026-06-10T09:00:00+05:30</updated><id>http://localhost:4000/2026/06/10/building-an-open-source-vapi-alternative</id><content type="html" xml:base="http://localhost:4000/2026/06/10/building-an-open-source-vapi-alternative.html"><![CDATA[<p>Here’s something nobody tells you about building voice AI systems: the “AI” part is the easy 10%.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-06-11T18:51:07+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Parth Batra | fromparth.blog</title><subtitle>Senior ML Engineer by day, music critic by night. Building ML systems, writing about tech, and collecting spotify minutes like they&apos;re infinity stones.</subtitle><author><name>Parth Batra</name></author><entry><title type="html">What Actually Happens in the Second After You Say Hello to an AI</title><link href="http://localhost:4000/2026/06/10/building-an-open-source-vapi-alternative.html" rel="alternate" type="text/html" title="What Actually Happens in the Second After You Say Hello to an AI" /><published>2026-06-10T09:00:00+05:30</published><updated>2026-06-10T09:00:00+05:30</updated><id>http://localhost:4000/2026/06/10/building-an-open-source-vapi-alternative</id><content type="html" xml:base="http://localhost:4000/2026/06/10/building-an-open-source-vapi-alternative.html"><![CDATA[<p>You call a number, an AI picks up, you say “hello,” and it says “hello” back. Feels instant. Feels simple. It is neither.</p>
 
-<p>The other 90% is plumbing. It’s WebSocket connections that timeout silently at 3am. It’s a recording bug where bot audio packs itself tight with no silence between turns, so your mixed recording sounds like the AI is talking over itself. It’s an LLM that leaks <code class="language-plaintext highlighter-rouge">&lt;function&gt;call_api()&lt;/function&gt;</code> into its output, and your TTS reads it aloud to the user as “less than function call api greater than.” It’s race conditions between pipeline startup and client connection that drop the first message every other call.</p>
+<p>In the second after you speak, your voice leaves your phone, crosses a telephony network that still speaks a protocol older than the web, lands on a server that has to decide you’re actually talking and not just breathing, gets transcribed into text, gets sent to a large language model that thinks up a reply, gets turned back into a human-sounding voice, and gets pushed back down the same line to your ear. If any one of those steps takes too long, the AI talks over you, or sits in dead silence, or answers a question you didn’t ask. All of it has to happen in under a second, every turn, on every call, forever.</p>
 
-<p>I spent a month building openVAPI, an open-source, self-hosted alternative to Vapi and Retell. About 30 days. 4,600 lines of core pipeline code. One very long 3:35 AM commit. And I wrote every line of it.</p>
+<p>Here’s the part nobody tells you: the “AI” in that chain is the easy 10%. The model is a single API call. The other 90% is plumbing. It’s the WebSocket that times out silently at 3am. It’s a recording bug where the bot’s audio packs itself tight with no silence between turns, so the saved call sounds like the AI is talking over itself. It’s an LLM that leaks <code class="language-plaintext highlighter-rouge">&lt;function&gt;call_api()&lt;/function&gt;</code> into its output, and the voice engine reads it aloud as “less than function call api greater than.” It’s a race condition that drops the very first thing the AI says on every other call.</p>
+
+<p>I spent a month building openVAPI, an open-source, self-hosted alternative to Vapi and Retell. About 30 days. Around 4,600 lines of core pipeline code. One very long 3:35 AM commit. And I wrote every line of it.</p>
 
 <p>This is the engineering journal. The wins, the disasters, and what the git log actually says.</p>
 
 <h3 id="the-setup">The Setup</h3>
 
-<p>On May 11, 2026, I committed the entire scaffold in one shot: FastAPI backend with assistants, phone numbers, and call logs CRUD. Next.js UI with a dark theme. Postgres, Redis, Docker. 57 files, 3,261 lines. The architecture was deliberate from day one: one FastAPI process, no workers, no threads. Every incoming WebSocket is an asyncio Task. All IO is awaited. A semaphore caps concurrent calls at 50. You scale by running more pods.</p>
+<p>On May 11, 2026, I committed the entire scaffold in one shot: a FastAPI backend (Python’s async web framework) with CRUD for assistants, phone numbers, and call logs. A Next.js UI with a dark theme. Postgres for durable storage, Redis for fast in-memory state, Docker to run it all. 57 files, 3,261 lines. The architecture was deliberate from day one: one process, no worker pool, no threads. Every incoming call rides on an asyncio Task. All IO is awaited. A semaphore caps concurrent calls at 50. You scale by running more pods.</p>
 
-<p>Three days later, the voice pipeline landed. I built it on top of <strong>Pipecat</strong>, a Python framework for real-time voice AI from the folks at Daily. Pipecat handles the hard distributed systems problems: media transport, frame plumbing, processor pipelines, turn management. What I built on top was the production layer that Pipecat doesn’t give you: Twilio and Plivo telephony with a plugin registry pattern, Deepgram STT with custom echo suppression and interim promotion (more on that later), ElevenLabs TTS, OpenAI and Groq for the LLM. Event handlers with per-turn millisecond timing. A pipeline builder. A service factory. Cost calculation with <code class="language-plaintext highlighter-rouge">pricing.toml</code>.</p>
+<p>Three days later, the voice pipeline landed. I built it on top of <strong>Pipecat</strong>, a Python framework for real-time voice AI from the folks at Daily. Pipecat handles the hard distributed-systems problems: moving audio around, passing it between processing stages as “frames,” and managing whose turn it is to speak. What I built on top was the production layer Pipecat doesn’t give you.</p>
 
-<p>That commit was 69 files, 14,521 lines. The first phone call actually connected.</p>
+<p>That layer is a tour of the modern voice stack. <strong>Twilio and Plivo</strong> for telephony (the actual phone carriers that own the numbers and ring the call). <strong>Deepgram</strong> for STT, speech-to-text, turning what the caller says into words on the wire. <strong>ElevenLabs</strong> for TTS, text-to-speech, turning the AI’s reply back into a voice that sounds human. <strong>OpenAI and Groq</strong> as the LLM, the brain that decides what to say. I wired them together with a plugin registry for the carriers, a service factory, a pipeline builder, event handlers with per-turn millisecond timing, and cost calculation in a <code class="language-plaintext highlighter-rouge">pricing.toml</code>.</p>
 
-<p>Around May 18, I added the WebRTC pipeline for browser calls. <code class="language-plaintext highlighter-rouge">webrtc_pipeline.py</code>, using SmallWebRTCTransport with aiortc under the hood, running at 16kHz instead of the 8kHz mulaw that telephony speaks. Different sample rate, different transport, same pipeline. I also built a cost calculator so I’d know exactly what each call cost down to the token and character level.</p>
+<p>One detail that trips up everyone: phone audio is bad on purpose. The telephony pipeline runs at 8kHz mulaw, a low-fidelity, narrow-band format designed in an era when bandwidth was precious. It’s why every phone call sounds slightly muffled. That commit was 69 files, 14,521 lines. The first phone call actually connected.</p>
+
+<p>Around May 18, I added browser calls. For those I used <strong>WebRTC</strong>, the same peer-to-peer audio and video tech that powers Google Meet and Discord. Getting a server to speak WebRTC (browsers do it natively, servers don’t) means <strong>aiortc</strong>, the Python library that implements the protocol, wrapped here by Pipecat’s <code class="language-plaintext highlighter-rouge">SmallWebRTCTransport</code>. Browser audio comes in at a cleaner 16kHz instead of the phone’s 8kHz, so the same pipeline now has to juggle two sample rates depending on where the call came from. I also built a cost calculator so I’d know exactly what each call cost, down to the token and the character.</p>
 
 <h3 id="1-am-docker-compose-up-again">1 AM, <code class="language-plaintext highlighter-rouge">docker compose up</code>, Again</h3>
 
 <p>The git log for May 20 is telling. Between 01:13 and 02:04, there are 28 commits, all in under an hour. What was I actually doing? Trying to get a single outbound phone call to connect end to end.</p>
 
-<p>Telephony providers do not agree on anything. Twilio’s WebSocket protocol expects JSON with base64-encoded mulaw. Plivo uses a slightly different framing format. The serializer has to abstract both so the pipeline just sees <code class="language-plaintext highlighter-rouge">InputAudioRawFrame</code> and <code class="language-plaintext highlighter-rouge">OutputAudioRawFrame</code> uniformly. And the handshake is a dance: the provider answers, calls your webhook, you return TwiML that opens a WebSocket, then the provider connects back with audio. Getting that right took many attempts.</p>
+<p>Telephony providers do not agree on anything. The handshake itself is a little dance: the carrier answers the call, pings your server over the internet, you hand back a set of instructions that tells it to open a live audio socket, and then it streams the call’s raw audio to you in real time. Twilio sends that audio as JSON with base64-encoded mulaw. Plivo uses a slightly different framing. A serializer has to abstract both so the rest of the pipeline just sees a uniform <code class="language-plaintext highlighter-rouge">InputAudioRawFrame</code> and <code class="language-plaintext highlighter-rouge">OutputAudioRawFrame</code> and never has to care which carrier is on the line. Getting that right took many attempts.</p>
 
 <p>That’s what those 28 commits are. Not a clean, beautiful git history. One person at 1 AM, running <code class="language-plaintext highlighter-rouge">docker compose up</code> again and again, reading logs, fixing one framing issue at a time.</p>
 
@@ -28,29 +32,29 @@
 
 <p>On May 27, I made my biggest single commit and titled it “wholesale improvements” because I genuinely couldn’t think of a better name. 47 files, 1,913 insertions, 312 deletions. Here’s what was in it:</p>
 
-<p><strong>The webhook service.</strong> Outbound delivery for call events. HMAC-SHA256 signing following the Standard Webhooks spec. Exponential backoff retry with delays at [0, 5, 30, 300, 1800] seconds. A reconciliation loop that finds unsent webhooks on startup and fires them. Every attempt logged with status code, response body, and error.</p>
+<p><strong>The webhook service.</strong> When a call ends, you often need to tell some other server about it. That’s a webhook, an HTTP call your system makes outward. Mine signs every payload with HMAC-SHA256 (so the receiver can prove it really came from me) and retries on failure with exponential backoff at [0, 5, 30, 300, 1800] seconds. A reconciliation loop finds unsent webhooks on startup and fires them. Every attempt is logged with status code, response body, and error.</p>
 
-<p><strong>The Vapi compatibility layer.</strong> <code class="language-plaintext highlighter-rouge">vapi_compat.py</code> exposes a REST shape matching Vapi’s API. Existing Vapi clients, any tool built against the Vapi API, can point at openVAPI by changing one URL. That one decision probably saved more adoption friction than any feature I could build.</p>
+<p><strong>The Vapi compatibility layer.</strong> <code class="language-plaintext highlighter-rouge">vapi_compat.py</code> exposes a REST shape that matches Vapi’s API exactly. Any tool already built against Vapi can point at openVAPI by changing one URL. That single decision probably removed more adoption friction than any feature I could build.</p>
 
-<p><strong>The background scheduler with orphan cleanup.</strong> An asyncio task running every 60 seconds. It dials <code class="language-plaintext highlighter-rouge">QUEUED</code> calls whose <code class="language-plaintext highlighter-rouge">scheduled_at</code> is due. And on startup it resolves orphans: every call stuck in a non-terminal state from a previous crash gets hung up via the provider REST API, its partial transcript flushed from Redis to Postgres, its phone number returned to the pool.</p>
+<p><strong>The background scheduler with crash recovery.</strong> An asyncio task that wakes every 60 seconds, dials any call that was queued for a future time, and cleans up orphans: if the server crashed mid-call, on restart it finds every call stuck in limbo, hangs it up through the carrier’s API, flushes the half-finished transcript from Redis to Postgres, and returns the phone number to the pool.</p>
 
-<p><strong>S3 storage, consolidated migrations, and rewritten event handlers</strong> with a <code class="language-plaintext highlighter-rouge">TurnMetrics</code> dataclass tracking VAD start, transcript finalization, LLM start, first token, LLM completion, TTS start, bot speaking start, and bot speaking end. Every turn, every call, in milliseconds.</p>
+<p><strong>S3 storage, consolidated database migrations, and rewritten event handlers</strong> with a <code class="language-plaintext highlighter-rouge">TurnMetrics</code> dataclass that times every stage of every turn: when speech was detected, when the transcript finalized, when the LLM started, when its first token arrived, when it finished, when the voice started speaking, and when it stopped. Every turn, every call, in milliseconds.</p>
 
-<p>That’s the thing about voice AI. The “intelligence” is an API call. The work is everything around it.</p>
+<p>That’s the thing about voice AI. The intelligence is an API call. The work is everything around it.</p>
 
 <h3 id="the-disaster-section">The Disaster Section</h3>
 
-<p>Four bugs. Each one cost me days. Each one taught me something I couldn’t have learned from a tutorial.</p>
+<p>Four bugs. Each one cost me days. Each one taught me something no tutorial covers.</p>
 
 <p><strong>Bug 1: The recording desync (3 days)</strong></p>
 
-<p>This was the hardest bug I fixed in the entire project. It took three days to even understand. Once the math finally clicked, the actual fix landed in a 40-minute burst of commits on the evening of May 28.</p>
+<p>This was the hardest bug in the whole project. It took three days just to understand. Once the math finally clicked, the fix itself landed in a 40-minute burst of commits on the evening of May 28.</p>
 
-<p>The symptom: mixed call recordings were broken. Bot audio was packed tight with no silence between turns. When the mixer combined bot audio with user audio, all the bot’s turns landed at position 0. The mixed recording sounded like [bot1, bot2, bot3… user1… user2] instead of interleaving naturally. Two people having a conversation where one person lives in the past.</p>
+<p>The symptom: saved call recordings were broken. The system records both sides of a call, the human and the AI, then mixes them into one audio file. But the bot’s audio was packed tight with no silence between its turns. When the mixer combined the two tracks, all of the bot’s turns landed at the very start. The recording sounded like [bot1, bot2, bot3… then user1… user2], two people in a conversation where one of them lives in the past.</p>
 
-<p>The root cause was subtle. <code class="language-plaintext highlighter-rouge">BotAudioCaptureProcessor</code> was storing audio bytes without wall-clock offsets. The mixer had no idea <em>when</em> each TTS burst happened. It just concatenated them. User audio spanned the full call timeline because <code class="language-plaintext highlighter-rouge">UserAudioCaptureProcessor</code> was placed before the LLMUserAggregator’s mute gate, so it saw all frames regardless of mute state. But bot audio was positionless.</p>
+<p>The root cause was subtle. The processor capturing bot audio stored raw bytes with no timestamps. The mixer had no idea <em>when</em> each burst of speech actually happened, so it just concatenated them. The human’s audio, meanwhile, spanned the real call timeline correctly, because its capture processor sat earlier in the pipeline and saw every frame. The bot’s audio was positionless.</p>
 
-<p>The fix: store <code class="language-plaintext highlighter-rouge">(wall_clock_offset, audio_bytes)</code> tuples, then reconstruct the full-length track by placing each TTS burst at its real-time position with silence filling the gaps.</p>
+<p>The fix: store each chunk as a <code class="language-plaintext highlighter-rouge">(wall_clock_offset, audio_bytes)</code> pair, then rebuild the full track by dropping each burst at its real-time position, with silence filling the gaps between.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">_build_bot_track</span><span class="p">(</span><span class="n">chunks</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">tuple</span><span class="p">[</span><span class="nb">float</span><span class="p">,</span> <span class="nb">bytes</span><span class="p">]],</span> <span class="n">sample_rate</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bytes</span><span class="p">:</span>
     <span class="sh">"""</span><span class="s">Reconstruct bot audio track with silence gaps between turns preserved.</span><span class="sh">"""</span>
@@ -70,13 +74,13 @@
     <span class="k">return</span> <span class="nf">bytes</span><span class="p">(</span><span class="n">track</span><span class="p">)</span>
 </code></pre></div></div>
 
-<p>The tricky part: within a single turn, TTS frames stream faster than real-time, so consecutive frames land at <code class="language-plaintext highlighter-rouge">wall_pos &lt; write_pos</code> and append sequentially. Between turns, <code class="language-plaintext highlighter-rouge">wall_pos</code> jumps ahead of <code class="language-plaintext highlighter-rouge">write_pos</code>, inserting the correct silence gap. Getting this wrong by even a few samples means the entire recording desyncs. I rewrote it three times before the math clicked.</p>
+<p>The tricky part: within a single turn, the voice engine streams audio faster than real-time, so consecutive frames land at <code class="language-plaintext highlighter-rouge">wall_pos &lt; write_pos</code> and just append in sequence. Between turns, <code class="language-plaintext highlighter-rouge">wall_pos</code> jumps ahead, inserting exactly the right amount of silence. Get this wrong by a few samples and the entire recording drifts out of sync. I rewrote it three times before the math held.</p>
 
-<p>Two minutes after the recording fix, at 19:18, I pushed a commit titled “made pipeline complete.” 93 insertions across 9 files. The scheduler, the event handlers, the pipeline builder, the service factory, and the WebRTC pipeline all wired together and talking to each other for the first time. The quiet follow-up that made everything actually work.</p>
+<p>Two minutes after the recording fix, at 19:18, I pushed a commit titled “made pipeline complete.” 93 insertions across 9 files: the scheduler, the event handlers, the pipeline builder, the service factory, and the WebRTC pipeline all wired together and talking to each other for the first time. The quiet follow-up that made everything actually work.</p>
 
-<p><strong>Bug 2: The race condition between pipeline startup and client connection</strong></p>
+<p><strong>Bug 2: The race condition that ate the first message</strong></p>
 
-<p>The first message was getting dropped every other call. Here’s why: the pipeline needs two things to happen before it can speak. The pipeline has to be started <em>and</em> the client has to be connected. If the pipeline starts first and queues the greeting before the client is ready, the frames get dropped. If the client connects first, the pipeline hasn’t booted yet.</p>
+<p>The AI’s opening line was vanishing on every other call. Here’s why. Before the AI can speak, two things have to be true: the pipeline has to be booted <em>and</em> the caller has to be connected. If the pipeline boots first and queues the greeting before the caller is on the line, the audio goes nowhere. If the caller connects first, the pipeline isn’t ready yet.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">ready_state</span> <span class="o">=</span> <span class="p">{</span>
     <span class="sh">"</span><span class="s">pipeline_started</span><span class="sh">"</span><span class="p">:</span> <span class="bp">False</span><span class="p">,</span>
@@ -97,13 +101,13 @@
             <span class="p">)</span>
 </code></pre></div></div>
 
-<p>Two events, one gate. Whichever fires second triggers the greeting. It looks simple now. It took me a day to figure out why the first message was disappearing.</p>
+<p>Two events, one gate. Whichever fires second triggers the greeting. It looks obvious now. It took me a day to figure out why the greeting kept disappearing.</p>
 
-<p><strong>Bug 3: The XML function tag leak</strong></p>
+<p><strong>Bug 3: The XML tag leak</strong></p>
 
-<p>LLMs emit <code class="language-plaintext highlighter-rouge">&lt;function&gt;call_api()&lt;/function&gt;</code> in their output during tool calls. That’s expected. The problem is when these tags bleed into the TTS stream. The user hears “less than function call api greater than.” On every single call that triggers a tool.</p>
+<p>When an LLM uses a tool, it emits markup like <code class="language-plaintext highlighter-rouge">&lt;function&gt;call_api()&lt;/function&gt;</code> in its output. That’s expected and correct. The problem is when those tags slip through to the voice engine, which dutifully reads them aloud: “less than function call api greater than.” On every single call that triggers a tool.</p>
 
-<p>I wrote a filter that strips these before TTS with a regex:</p>
+<p>I wrote a filter that strips them before they reach TTS:</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">XMLFunctionTagFilter</span><span class="p">(</span><span class="n">BaseTextFilter</span><span class="p">):</span>
     <span class="n">_PATTERN</span> <span class="o">=</span> <span class="n">re</span><span class="p">.</span><span class="nf">compile</span><span class="p">(</span>
@@ -114,27 +118,25 @@
         <span class="k">return</span> <span class="n">self</span><span class="p">.</span><span class="n">_PATTERN</span><span class="p">.</span><span class="nf">sub</span><span class="p">(</span><span class="sh">""</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
 </code></pre></div></div>
 
-<p>Four lines. Zero dependencies. Saved every single call from sounding like someone reading HTML aloud.</p>
+<p>Four lines. Zero dependencies. Saved every call from sounding like someone reading HTML out loud.</p>
 
-<p><strong>Bug 4: Deepgram empty final transcripts</strong></p>
+<p><strong>Bug 4: Deepgram’s empty final transcripts</strong></p>
 
-<p>Deepgram returns a great interim transcript like “Okay.” Then it returns an empty final. Pipecat only creates <code class="language-plaintext highlighter-rouge">TranscriptionFrame</code> for non-empty finals, so the turn-stop strategy stalls. The VAD says the user stopped talking, but there’s no transcript to act on. The pipeline just… waits. Forever.</p>
+<p>Speech-to-text engines stream their best guess as you talk, refining it word by word. Deepgram would return a perfectly good interim guess like “Okay.” Then it would return an empty final. Pipecat only creates a transcript event for non-empty finals, so the logic that decides “the human is done talking, go reply” would stall. Voice Activity Detection said the caller stopped, but there was no transcript to act on. The pipeline just waited. Forever.</p>
 
-<p>The fix lives inside a custom <code class="language-plaintext highlighter-rouge">DeepgramSTTWithLogging</code> class I wrote (886 lines in <code class="language-plaintext highlighter-rouge">service_factory.py</code> alone). When a final comes back empty but I have a cached interim, the interim gets promoted as the real transcript. Deepgram’s API documentation does not mention this edge case. I found it by dumping per-turn WAV files and realizing the STT was hearing audio, producing a transcript, then throwing it away.</p>
+<p>The fix lives inside a custom STT wrapper I wrote (886 lines in <code class="language-plaintext highlighter-rouge">service_factory.py</code> alone). When a final comes back empty but I have a cached interim, I promote the interim as the real transcript. Deepgram’s docs don’t mention this edge case anywhere. I found it by dumping per-turn WAV files and realizing the engine was hearing audio, producing a transcript, then throwing it away.</p>
 
-<h3 id="the-echo-suppression-problem">The Echo Suppression Problem</h3>
+<h3 id="the-echo-problem">The Echo Problem</h3>
 
-<p>When the AI speaks, its voice comes out of the user’s speaker, bounces around the room, enters the microphone, and Deepgram transcribes it. The AI hears its own voice, generates a response to <em>that</em>, speaks it, which gets picked up again. Infinite loop of the AI talking to itself.</p>
+<p>When the AI speaks, its voice comes out of the caller’s speaker, bounces around the room, re-enters the microphone, and gets transcribed right back. The AI hears its own voice, treats it as the human talking, generates a reply to itself, speaks that, hears it again. An infinite loop of a robot arguing with its own echo.</p>
 
-<p>The standard solution is AEC (Acoustic Echo Cancellation). The correct solution involves subtracting the reference signal (what the AI is playing) from the input signal, accounting for room acoustics, speaker placement, and mic sensitivity. All of which change with every single call.</p>
+<p>The textbook fix is AEC, Acoustic Echo Cancellation: subtract the signal you’re playing from the signal you’re hearing. Done properly it has to account for room acoustics, speaker placement, and mic sensitivity, all of which change on every call. Heavy machinery.</p>
 
-<p>I landed on a different approach. Pipecat’s <code class="language-plaintext highlighter-rouge">LLMUserAggregator</code> has mute strategies that broadcast <code class="language-plaintext highlighter-rouge">UserMuteStartedFrame</code> and <code class="language-plaintext highlighter-rouge">UserMuteStoppedFrame</code> when the bot is speaking. The problem: these frames only broadcast the mute state. They do NOT emit <code class="language-plaintext highlighter-rouge">STTMuteFrame</code>, so the STT service never actually stops listening.</p>
-
-<p>I wrote a custom <code class="language-plaintext highlighter-rouge">EchoSuppressionMuteStrategy</code> that responds to these frames in the STT layer itself, combined with a <code class="language-plaintext highlighter-rouge">DebouncedExternalUserTurnStartStrategy</code> that adds a cooldown window. The VAD might fire from echo, but the debounce prevents it from triggering a new turn unless 1 second has passed since the last one. Two signals, one confirmation. False positives dropped by roughly 90%.</p>
+<p>I went a different way. Pipecat’s user aggregator already knows when the bot is speaking and broadcasts mute-start and mute-stop signals. The catch: those signals only announce the mute state, they don’t actually tell the STT engine to stop listening. So I wrote a custom <code class="language-plaintext highlighter-rouge">EchoSuppressionMuteStrategy</code> that acts on them inside the STT layer itself, paired with a <code class="language-plaintext highlighter-rouge">DebouncedExternalUserTurnStartStrategy</code> that adds a cooldown. Even if echo sneaks past and trips the voice detector, the debounce refuses to start a new turn unless a full second has passed since the last one. Two signals, one confirmation. False positives dropped by roughly 90%.</p>
 
 <h3 id="the-voicemail-detector">The Voicemail Detector</h3>
 
-<p>Indian phone networks have their own voicemail greetings. Some in English, some in Hindi. A voicemail detector that only understands English patterns is useless for calls in India.</p>
+<p>Indian phone networks have their own voicemail greetings, some English, some Hindi. A detector that only knows English patterns is useless for calls in India.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">_PATTERNS</span> <span class="o">=</span> <span class="p">[</span>
     <span class="sa">r</span><span class="sh">"</span><span class="s">please (leave|record) (a|your) message</span><span class="sh">"</span><span class="p">,</span>
@@ -145,13 +147,13 @@
 </span><span class="p">]</span>
 </code></pre></div></div>
 
-<p>It also has a fallback: if VAD stays active for more than 8 seconds before the first transcription arrives, the other end is almost certainly a voicemail greeting, not a person. The bot hangs up before it leaves a message on someone’s answering machine.</p>
+<p>It also has a fallback that needs no language at all: if the voice detector stays active for more than 8 seconds before the first transcript arrives, the other end is almost certainly a recorded greeting, not a person taking a breath. The bot hangs up before it starts leaving a message on someone’s answering machine.</p>
 
-<h3 id="the-llm-empty-response-fallback">The LLM Empty Response Fallback</h3>
+<h3 id="the-empty-response-fallback">The Empty Response Fallback</h3>
 
-<p>Sometimes the LLM returns absolutely nothing. No text, no tool call, no interruption flag. Just silence. Maybe the prompt was confusing. Maybe the provider hiccuped. Maybe a server somewhere sneezed.</p>
+<p>Sometimes the LLM returns absolutely nothing. No text, no tool call, no interruption. Just silence. Maybe the prompt confused it. Maybe the provider hiccuped. Maybe a server somewhere sneezed.</p>
 
-<p>Without a fallback, the pipeline sits in dead air. The user says “hello?” again. Still nothing. They hang up. You just lost a call to literally nothing.</p>
+<p>Without a fallback, the pipeline sits in dead air. The caller says “hello?” again. Still nothing. They hang up. You just lost a call to literally nothing.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">if </span><span class="p">(</span><span class="ow">not</span> <span class="n">_llm_turn_text_seen</span><span class="p">[</span><span class="sh">"</span><span class="s">value</span><span class="sh">"</span><span class="p">]</span>
         <span class="ow">and</span> <span class="ow">not</span> <span class="n">_llm_turn_tool_called</span><span class="p">[</span><span class="sh">"</span><span class="s">value</span><span class="sh">"</span><span class="p">]</span>
@@ -164,49 +166,49 @@
     <span class="p">)</span>
 </code></pre></div></div>
 
-<p>Three boolean checks. One apology. <code class="language-plaintext highlighter-rouge">append_to_context=True</code> so the LLM remembers it said this and doesn’t get confused on the next turn. This fallback fires on roughly 3% of calls. Without it, every one of those calls would have been a silent failure.</p>
+<p>Three boolean checks. One apology. <code class="language-plaintext highlighter-rouge">append_to_context=True</code> so the LLM remembers it said this and doesn’t get confused on the next turn. This fires on roughly 3% of calls. Without it, every one of those is a silent failure.</p>
 
 <h3 id="the-webhook-race-condition">The Webhook Race Condition</h3>
 
-<p>At 19:54 the same evening, I pushed the webhook dedupe fix. The race: when a call ends, the pipeline’s <code class="language-plaintext highlighter-rouge">finally</code> block fires and tries to deliver the call-ended webhook. But the scheduler’s reconciliation loop might also find that same unsent webhook and try to deliver it. Two workers, same payload, hitting the client’s server twice.</p>
+<p>At 19:54 that same evening, I pushed the webhook dedupe fix. The race: when a call ends, the pipeline’s cleanup block fires and tries to deliver the call-ended webhook. But the scheduler’s reconciliation loop might find that same unsent webhook and try to deliver it too. Two workers, same payload, hitting the customer’s server twice.</p>
 
-<p>The fix: lease-based dispatch backed by Redis. Before sending, a worker claims the dispatch with a TTL. <code class="language-plaintext highlighter-rouge">claim_webhook_dispatch()</code> atomically checks and sets a <code class="language-plaintext highlighter-rouge">webhook_sent</code> flag. If someone else claimed it first, you skip. After delivery, <code class="language-plaintext highlighter-rouge">mark_webhook_sent()</code>. If all retries exhaust, <code class="language-plaintext highlighter-rouge">mark_webhook_exhausted()</code> so it never gets retried forever.</p>
+<p>The fix: lease-based dispatch backed by Redis. Before sending, a worker claims the dispatch with a short-lived lock. <code class="language-plaintext highlighter-rouge">claim_webhook_dispatch()</code> atomically checks and sets a “sent” flag. If someone else already claimed it, you skip. After delivery, <code class="language-plaintext highlighter-rouge">mark_webhook_sent()</code>. If all retries exhaust, <code class="language-plaintext highlighter-rouge">mark_webhook_exhausted()</code> so it never loops forever.</p>
 
 <p>Three commits in 40 minutes on a Tuesday evening: the recording fix, the pipeline wiring, and the race condition. That’s what voice infrastructure engineering actually looks like.</p>
 
 <h3 id="the-335-am-commit">The 3:35 AM Commit</h3>
 
-<p>On June 8, at 3:35 AM, I pushed my biggest feature drop. Realtime voice pipelines for OpenAI and Azure OpenAI Realtime APIs, the new approach where STT, LLM, and TTS are one service. This meant a completely different pipeline topology: no separate STT or TTS processors, just a single realtime LLM service handling audio in and audio out. I had to write <code class="language-plaintext highlighter-rouge">build_realtime_pipeline()</code> as a separate builder because the frame graph is fundamentally different.</p>
+<p>On June 8, at 3:35 AM, I pushed my biggest feature drop. Realtime voice pipelines for the <strong>OpenAI and Azure OpenAI Realtime APIs</strong>, a fundamentally different design where listening, thinking, and speaking all happen inside one model over a single connection, instead of the traditional relay of STT to LLM to TTS. Lower latency, but a completely different shape, so I had to write a separate <code class="language-plaintext highlighter-rouge">build_realtime_pipeline()</code> because the frame graph isn’t the same.</p>
 
-<p>New providers: Google Vertex LLM, Google TTS and STT, Sarvam STT for Indian language support, Cartesia TTS. The <code class="language-plaintext highlighter-rouge">XMLFunctionTagFilter</code>. In-memory audio buffering with background S3 uploads using fire-and-forget tasks with strong refs (prevents GC cancellation mid-upload). <code class="language-plaintext highlighter-rouge">PipelineMetricsAggregator</code> tracking prompt tokens, completion tokens, TTS characters, and processing time across every processor. A <code class="language-plaintext highlighter-rouge">PipelineEngineCallbacksProcessor</code> for post-processing hooks. And an independent max-duration watchdog as a backstop: if the pipeline somehow doesn’t end the call, an async task forces it after the timeout.</p>
+<p>New providers landed in the same commit: <strong>Google Vertex</strong> as another LLM option, <strong>Google TTS and STT</strong>, <strong>Sarvam</strong> STT for Indian languages, <strong>Cartesia</strong> for a faster voice. The <code class="language-plaintext highlighter-rouge">XMLFunctionTagFilter</code>. In-memory audio buffering with background S3 uploads (fire-and-forget tasks held by a strong reference so the garbage collector doesn’t kill an upload mid-flight). A metrics aggregator that tracks prompt tokens, completion tokens, voice characters, and processing time across every stage. And an independent max-duration watchdog as a backstop: if the pipeline somehow never ends a call, a separate task forces it after a timeout.</p>
 
-<p>Then I kept going. Most people sleep after a 3 AM commit. That same day I shipped production configs (a <code class="language-plaintext highlighter-rouge">docker-compose.prod.yml</code> that removes host port bindings from Redis and Postgres so they aren’t exposed on the network, plus a Caddyfile for reverse proxy routing) and post-call summary generation (when an assistant has a <code class="language-plaintext highlighter-rouge">summary_prompt</code> configured, the transcript goes to OpenAI after hang-up and the summary lands in the database). The 3 AM commit was the headline. The production configs are what turned it from a prototype into a product.</p>
+<p>Then I kept going. Most people sleep after a 3 AM commit. That same day I shipped production configs (a <code class="language-plaintext highlighter-rouge">docker-compose.prod.yml</code> that stops exposing Redis and Postgres on the network, plus a Caddy reverse proxy) and post-call summaries (when an assistant has a <code class="language-plaintext highlighter-rouge">summary_prompt</code>, the transcript goes to the LLM after hang-up and the summary lands in the database). The 3 AM commit was the headline. The production configs are what turned it from a prototype into a product.</p>
 
 <h3 id="production-hardening-and-the-ui-revamp">Production Hardening and the UI Revamp</h3>
 
-<p>June 9 was cleanup day. Webhook retry triggers reworked. The transcript generation got a major overhaul, 214 lines added to <code class="language-plaintext highlighter-rouge">call_transcript.py</code>. Provider columns changed from enum to string so adding a new provider no longer requires a database migration. Bug fixes across both telephony providers.</p>
+<p>June 9 was cleanup day. Webhook retry triggers reworked. The transcript generation got a major overhaul, 214 lines added to <code class="language-plaintext highlighter-rouge">call_transcript.py</code>. Provider columns changed from a strict enum to a plain string, so adding a new provider no longer requires a database migration. Bug fixes across both carriers.</p>
 
-<p>On June 10 at 23:14, I pushed “complete ui revamp.” 52 files changed. 3,512 insertions, 4,229 deletions, net negative because I deleted the old component structure and rebuilt it. Dashboard, analytics, and settings pages. A real component library: cards, modals, toggles, status dots, empty states, page headers. Every page got its own full component instead of being split across a dialog, a table, and an edit page. The thing finally looks like a product.</p>
+<p>On June 10 at 23:14, I pushed “complete ui revamp.” 52 files changed. 3,512 insertions, 4,229 deletions, net negative because I deleted the old component structure and rebuilt it. Dashboard, analytics, and settings pages. A real component library: cards, modals, toggles, status dots, empty states, page headers. Every page got its own component instead of being smeared across a dialog, a table, and an edit page. The thing finally looks like a product.</p>
 
 <h3 id="the-architecture-what-actually-runs">The Architecture (What Actually Runs)</h3>
 
-<p>Pipecat does the heavy lifting. One pipeline per call, running as an asyncio Task inside FastAPI. No workers, no threads. Each WebSocket is a Task. A semaphore caps concurrent calls at 50.</p>
+<p>Pipecat does the heavy lifting. One pipeline per call, running as an asyncio Task inside FastAPI. No workers, no threads. Each connection is a Task. A semaphore caps concurrent calls at 50.</p>
 
 <ul>
-  <li><strong>Telephony</strong>: Twilio + Plivo with a plugin registry pattern. Adding a new provider means three files: <code class="language-plaintext highlighter-rouge">provider.py</code>, <code class="language-plaintext highlighter-rouge">transport.py</code>, <code class="language-plaintext highlighter-rouge">config.py</code>. Register at import time.</li>
-  <li><strong>STT</strong>: Deepgram with custom <code class="language-plaintext highlighter-rouge">DeepgramSTTWithLogging</code> (interim promotion, echo suppression via mute frame handling, per-turn WAV dumps for debugging)</li>
-  <li><strong>LLM</strong>: OpenAI, Groq, Google Vertex, Together AI via factory pattern. Plus OpenAI Realtime API where STT, LLM, and TTS collapse into one service.</li>
-  <li><strong>TTS</strong>: ElevenLabs, OpenAI TTS, Deepgram TTS, Cartesia, Google TTS, Sarvam (Indian language support)</li>
-  <li><strong>WebRTC</strong>: SmallWebRTCTransport at 16kHz for browser calls</li>
-  <li><strong>VAD</strong>: Silero VAD with tuned params (stop_secs=0.8, start_secs=0.3)</li>
-  <li><strong>Recording</strong>: Dual-processor approach. <code class="language-plaintext highlighter-rouge">UserAudioCaptureProcessor</code> placed before the mute gate so it sees all frames. <code class="language-plaintext highlighter-rouge">BotAudioCaptureProcessor</code> with wall-clock offsets for proper timeline reconstruction. Mixed to mono, uploaded to S3.</li>
-  <li><strong>State</strong>: Redis for call state, transcript buffer (RPUSH mid-call, zero DB writes during active calls), number pool (atomic SPOP/SADD)</li>
-  <li><strong>Persistence</strong>: Postgres (SQLAlchemy async) + S3</li>
-  <li><strong>Webhooks</strong>: HMAC-SHA256 signing, retry with exponential backoff, Redis lease-based deduplication (prevents double-sends on server restart)</li>
-  <li><strong>Crash recovery</strong>: Background scheduler resolves orphaned calls on startup. Flushes partial transcripts, returns phone numbers to pool.</li>
+  <li><strong>Telephony</strong>: Twilio and Plivo with a plugin registry. Adding a carrier means three files (<code class="language-plaintext highlighter-rouge">provider.py</code>, <code class="language-plaintext highlighter-rouge">transport.py</code>, <code class="language-plaintext highlighter-rouge">config.py</code>) and registering at import time.</li>
+  <li><strong>STT</strong>: Deepgram, wrapped in a custom class that does interim promotion, echo suppression via mute-frame handling, and per-turn WAV dumps for debugging.</li>
+  <li><strong>LLM</strong>: OpenAI, Groq, Google Vertex, Together AI via a factory. Plus the OpenAI Realtime API, where listen-think-speak collapse into one service.</li>
+  <li><strong>TTS</strong>: ElevenLabs, OpenAI, Deepgram, Cartesia, Google, and Sarvam for Indian languages.</li>
+  <li><strong>WebRTC</strong>: SmallWebRTCTransport (aiortc under the hood) at 16kHz for browser calls.</li>
+  <li><strong>VAD</strong>: Silero VAD, the model that decides when you’ve stopped talking, tuned to 0.3s to start and 0.8s to confirm a stop.</li>
+  <li><strong>Recording</strong>: a dual-processor approach. The user capture sits before the mute gate so it sees every frame; the bot capture stamps wall-clock offsets so the timeline can be rebuilt. Mixed to mono, uploaded to S3.</li>
+  <li><strong>State</strong>: Redis for live call state, the transcript buffer (appended mid-call, zero database writes while a call is active), and the phone number pool (atomic claim and release).</li>
+  <li><strong>Persistence</strong>: Postgres (SQLAlchemy async) plus S3.</li>
+  <li><strong>Webhooks</strong>: HMAC-SHA256 signing, retry with exponential backoff, Redis lease-based deduplication.</li>
+  <li><strong>Crash recovery</strong>: the background scheduler resolves orphaned calls on startup, flushes partial transcripts, and returns numbers to the pool.</li>
 </ul>
 
-<p>The Vapi compatibility layer is a separate router that matches Vapi’s REST API shape. Existing Vapi clients change one URL. That one decision probably saved more adoption friction than any feature I could build.</p>
+<p>The Vapi compatibility layer is a separate router that mirrors Vapi’s REST shape. Existing Vapi clients change one URL. That one decision probably saved more adoption friction than any feature I could build.</p>
 
 <h3 id="where-we-are-now">Where We Are Now</h3>
 
@@ -289,17 +291,17 @@
 
 <h3 id="the-insight">The Insight</h3>
 
-<p>Building a voice AI platform is an exercise in managing complexity at every single layer. The “AI”, the part that sounds impressive in a pitch deck, is a few API calls. The other 90% is the plumbing.</p>
+<p>Building a voice AI platform is an exercise in managing complexity at every single layer. The intelligence, the part that sounds impressive in a pitch deck, is a few API calls. The other 90% is the plumbing.</p>
 
-<p>But here’s what I actually learned: the hard problems aren’t where you expect them. The recording desync took three days and required understanding PCM audio, sample rates, and wall-clock time. The race condition between pipeline startup and client connection took a day and required understanding Pipecat’s frame lifecycle. The XML function tag leak took an hour but affected every single call. The empty LLM response fallback fires on 3% of calls and without it, those are all silent failures.</p>
+<p>But here’s what I actually learned: the hard problems aren’t where you expect them. The recording desync took three days and demanded I understand PCM audio, sample rates, and wall-clock time. The race condition that ate the first message took a day and demanded I understand Pipecat’s frame lifecycle. The XML tag leak took an hour but hit every single call. The empty response fallback fires on 3% of calls, and without it, those are all silent failures.</p>
 
-<p>The best code I wrote was four lines that strip XML tags from TTS output. The bug that took the longest was wall-clock offsets in a recording mixer. The feature I’m most proud of is a Hindi voicemail pattern that took one line.</p>
+<p>The best code I wrote was four lines that strip XML tags from a voice stream. The bug that took the longest was wall-clock offsets in a recording mixer. The feature I’m proudest of is a Hindi voicemail pattern that took one line.</p>
 
 <p>This is what real voice infrastructure looks like. It’s not glamorous. But it works.</p>
 
 <hr />
 
-<p><em>The commit messages are vague but the code tells the real story.</em></p>]]></content><author><name>Parth Batra</name></author><category term="voice-ai" /><category term="webrtc" /><category term="infrastructure" /><category term="open-source" /><summary type="html"><![CDATA[Here’s something nobody tells you about building voice AI systems: the “AI” part is the easy 10%.]]></summary></entry><entry><title type="html">I Cloned a ₹20,000 Light Setup for Under ₹2,000</title><link href="http://localhost:4000/2026/06/08/i-cloned-a-20000-light-setup-for-under-2000.html" rel="alternate" type="text/html" title="I Cloned a ₹20,000 Light Setup for Under ₹2,000" /><published>2026-06-08T14:00:00+05:30</published><updated>2026-06-08T14:00:00+05:30</updated><id>http://localhost:4000/2026/06/08/i-cloned-a-20000-light-setup-for-under-2000</id><content type="html" xml:base="http://localhost:4000/2026/06/08/i-cloned-a-20000-light-setup-for-under-2000.html"><![CDATA[<p>Philips wants <strong>₹20,000</strong> for the Hue Play Gradient Lightstrip. Twenty. Thousand. Rupees. For LEDs.</p>
+<p><em>The commit messages are vague but the code tells the real story.</em></p>]]></content><author><name>Parth Batra</name></author><category term="voice-ai" /><category term="webrtc" /><category term="infrastructure" /><category term="open-source" /><summary type="html"><![CDATA[You call a number, an AI picks up, you say “hello,” and it says “hello” back. Feels instant. Feels simple. It is neither.]]></summary></entry><entry><title type="html">I Cloned a ₹20,000 Light Setup for Under ₹2,000</title><link href="http://localhost:4000/2026/06/08/i-cloned-a-20000-light-setup-for-under-2000.html" rel="alternate" type="text/html" title="I Cloned a ₹20,000 Light Setup for Under ₹2,000" /><published>2026-06-08T14:00:00+05:30</published><updated>2026-06-08T14:00:00+05:30</updated><id>http://localhost:4000/2026/06/08/i-cloned-a-20000-light-setup-for-under-2000</id><content type="html" xml:base="http://localhost:4000/2026/06/08/i-cloned-a-20000-light-setup-for-under-2000.html"><![CDATA[<p>Philips wants <strong>₹20,000</strong> for the Hue Play Gradient Lightstrip. Twenty. Thousand. Rupees. For LEDs.</p>
 
 <p>Let that sink in.</p>
 
