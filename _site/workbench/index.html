@@ -99,37 +99,35 @@
 
 <hr />
 
-<h3 id="open-source-voice-ai-platform--a-vapi-alternative">Open-Source Voice AI Platform — A Vapi Alternative</h3>
+<h3 id="openvapi--open-source-voice-ai-platform">openVAPI — Open-Source Voice AI Platform</h3>
 
-<p><strong>[2026-04-01]</strong> Started building a self-hosted voice AI platform at work. The motivation was simple: Vapi and Retell are proprietary black boxes. We needed something we could own, modify, and deploy on our own infrastructure.</p>
+<p><strong>[2026-05-11]</strong> Scaffolded the entire project in one commit. FastAPI + Next.js + Postgres + Redis. Assistants, phone numbers, call logs. 57 files, 3,261 lines. Architecture was deliberate from day one: one FastAPI process, asyncio Tasks for concurrency, no workers, no threads.</p>
 
-<p><strong>[2026-04-15]</strong> Two weeks in. The WebRTC bridge is working — bidirectional audio streaming, ICE candidate handling, the works. The first time I heard my own voice loop back through the system was genuinely unsettling.</p>
+<p><strong>[2026-05-14]</strong> Voice pipeline lands. Pipecat-based with Twilio and Plivo telephony via plugin registry, Deepgram STT with custom echo suppression, ElevenLabs TTS, OpenAI/Groq LLM. First phone call connects. 69 files, 14,521 lines.</p>
 
-<p><strong>[2026-05-01]</strong> STT→LLM→TTS pipeline is functional but the latency is a disaster. Streaming tokens from the LLM helps, but TTS needs complete sentences. Built a sentence buffer that accumulates tokens until it hits a sentence boundary, then flushes to TTS. The AI’s first sentence reaches the user while the LLM is still generating the second one.</p>
+<p><strong>[2026-05-18]</strong> WebRTC pipeline for browser calls (SmallWebRTCTransport at 16kHz). Cost calculator, usage accumulator, enhanced provider flows.</p>
 
-<p><strong>[2026-05-15]</strong> Spent a full week on <strong>echo detection</strong>. When the AI speaks, its voice comes out of the user’s speaker, bounces into the mic, and the STT transcribes it. The AI ends up having a conversation with itself. Implemented AEC combined with a playback state tracker that tells the pipeline exactly when AI audio is being played.</p>
+<p><strong>[2026-05-27]</strong> “Wholesale improvements”: webhooks with HMAC-SHA256 signing and exponential backoff, Vapi compatibility layer (existing Vapi clients change one URL), background call scheduler with orphan crash recovery, S3 storage, per-turn millisecond diagnostic metrics tracking VAD through TTFB through bot speaking end.</p>
 
-<p><strong>[2026-05-25]</strong> Barge-in support. Allowing users to interrupt the AI mid-sentence. The timing window is brutal — too sensitive and ambient noise cuts off the AI mid-word, too slow and the user has already repeated themselves. Landed on a two-signal confirmation: VAD <em>and</em> echo cancellation must both agree the user is speaking.</p>
+<p><strong>[2026-05-28]</strong> The evening of the recording desync. Bot audio packed with no silence gaps between turns. Mixed recordings had all bot turns at position 0. Three days of debugging PCM audio and sample rates. Fix: wall-clock offset tracking per chunk, then reconstruct the full-length track by placing each TTS burst at its real-time position. Also: webhook deduplication with Redis lease claims, pipeline race condition fix (dual-event gate for startup + client connection).</p>
 
-<p><strong>[2026-06-01]</strong> Fallback provider chains. When Deepgram goes down mid-call, transparently switch to Whisper. When OpenAI is slow, try Anthropic. Built a health monitor that tracks provider latency and error rates in real-time. The switch is invisible to the user.</p>
+<p><strong>[2026-06-08]</strong> 3:35 AM commit. Realtime voice pipelines (OpenAI/Azure Realtime APIs, completely different pipeline topology where STT+LLM+TTS are one service). Google Vertex, Google TTS/STT, Sarvam STT for Indian languages, Cartesia TTS. XML function tag filter (four lines, saved every call from TTS reading HTML tags aloud). In-memory audio buffering, pipeline metrics aggregator, Deepgram interim-promotion fix, crash recovery with orphan cleanup, max-duration watchdog backstop.</p>
 
-<p><strong>[2026-06-05]</strong> The WebSocket situation is… a lot. Each active call maintains 4-5 concurrent WebSocket connections. Wrote a ConnectionManager that handles heartbeat timeouts, message ordering, and session isolation. With 50 concurrent calls, that’s 250 connections. It’s the single most valuable piece of infrastructure in the entire stack.</p>
+<p><strong>[2026-06-09]</strong> Production hardening. Docker-compose fixes, Caddy routing, webhook retry logic, bug fixes.</p>
 
-<p><strong>[2026-06-08]</strong> User unmute frames. When a user unmutes, the pipeline receives stale buffered audio. Implemented a frame sequence counter — on unmute, discard any frame with a sequence number lower than the current. Clean sync, no hallucinated transcriptions.</p>
-
-<p><strong>[2026-06-10]</strong> Docker-first packaging done. <code class="language-plaintext highlighter-rouge">docker compose up</code> and the entire stack is running — media server, orchestration API, workflow builder, Redis, reverse proxy. Open <code class="language-plaintext highlighter-rouge">localhost:3010</code>, describe your use case, and you’re talking to your first voice bot.</p>
+<p><strong>[2026-06-10]</strong> Complete UI revamp. Dashboard, analytics, settings pages. 52 files changed. 4,600 lines of core pipeline code total.</p>
 
 <blockquote>
-  <p><strong>Summary:</strong> A self-hosted, open-source voice AI platform. BYOK across LLM/STT/TTS providers, visual workflow builder, real-time telephony, MCP-native tool calling, and Docker-first deployment. 90% plumbing, 10% intelligence. Open-sourcing soon.</p>
+  <p><strong>Summary:</strong> Self-hosted, open-source voice AI platform. BYOK across LLM/STT/TTS providers, realtime voice pipelines, telephony via Twilio/Plivo, Vapi-compatible REST API, echo suppression, recording with wall-clock sync, crash recovery, per-turn millisecond metrics. Docker-first deployment. Open-sourcing soon.</p>
 
-  <p><code class="language-plaintext highlighter-rouge">python · fastapi · webrtc · docker · websockets · twilio · openai · deepgram</code></p>
+  <p><code class="language-plaintext highlighter-rouge">python · fastapi · pipecat · webrtc · docker · deepgram · openai · twilio · plivo</code></p>
 
-  <p>🔨 Nearing Completion — <a href="https://github.com/dograh-hq/dograh">Follow on GitHub</a></p>
+  <p>🔨 Nearing Completion — <a href="/blog/building-an-open-source-vapi-alternative/">Read the full story</a></p>
 </blockquote>
 
 <hr />
 
-<p><em>Last Updated: June 10, 2026</em></p>
+<p><em>Last Updated: June 11, 2026</em></p>
 
   </div>
 </article>
