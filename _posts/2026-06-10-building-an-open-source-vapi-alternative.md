@@ -43,7 +43,7 @@ On May 11, 2026, I committed the entire scaffold in one shot: a FastAPI backend 
 
 Three days later, the voice pipeline landed. I built it on top of **Pipecat**, a Python framework for real-time voice AI from the folks at Daily. Pipecat handles the hard distributed-systems problems: moving audio around, passing it between processing stages as "frames," and managing whose turn it is to speak. What I built on top was the production layer Pipecat doesn't give you.
 
-That layer is a tour of the modern voice stack. **Twilio and Plivo** for telephony (the actual phone carriers that own the numbers and ring the call). **Deepgram** for STT, speech-to-text, turning what the caller says into words on the wire. **ElevenLabs** for TTS, text-to-speech, turning the AI's reply back into a voice that sounds human. **OpenAI and Groq** as the LLM, the brain that decides what to say. I wired them together with a plugin registry for the carriers, a service factory, a pipeline builder, event handlers with per-turn millisecond timing, and cost calculation in a `pricing.toml`.
+That layer is a tour of the modern voice stack. **Twilio and Plivo** for telephony (the actual phone carriers that own the numbers and ring the call). **Deepgram** for STT, speech-to-text, turning what the caller says into words on the wire. **ElevenLabs** for TTS, text-to-speech, turning the AI's reply back into a voice that sounds human. **OpenAI and Groq** as the LLM, the brain that decides what to say. I wired them together with a plugin registry for the carriers, a service factory, a pipeline builder, event handlers with per-turn millisecond timing, and cost calculation in a `pricing.toml`. Four vendors, four billing models, one TOML file to keep them all honest.
 
 One detail that trips up everyone: phone audio is bad on purpose. The telephony pipeline runs at 8kHz mulaw, a low-fidelity, narrow-band format designed in an era when bandwidth was precious. It's why every phone call sounds slightly muffled. That commit was 69 files, 14,521 lines. The first phone call actually connected.
 
@@ -110,7 +110,7 @@ Two minutes after the recording fix, at 19:18, I pushed a commit titled "made pi
 
 **Bug 2: The race condition that ate the first message**
 
-The AI's opening line was vanishing on every other call. Here's why. Before the AI can speak, two things have to be true: the pipeline has to be booted *and* the caller has to be connected. If the pipeline boots first and queues the greeting before the caller is on the line, the audio goes nowhere. If the caller connects first, the pipeline isn't ready yet.
+The AI's opening line was vanishing on every other call. Half the time the bot was a stand-up comedian delivering the opener before the doors opened. Here's why. Before the AI can speak, two things have to be true: the pipeline has to be booted *and* the caller has to be connected. If the pipeline boots first and queues the greeting before the caller is on the line, the audio goes nowhere. If the caller connects first, the pipeline isn't ready yet.
 
 ```python
 ready_state = {
@@ -156,7 +156,7 @@ Four lines. Zero dependencies. Saved every call from sounding like someone readi
 
 Speech-to-text engines stream their best guess as you talk, refining it word by word. Deepgram would return a perfectly good interim guess like "Okay." Then it would return an empty final. Pipecat only creates a transcript event for non-empty finals, so the logic that decides "the human is done talking, go reply" would stall. Voice Activity Detection said the caller stopped, but there was no transcript to act on. The pipeline just waited. Forever.
 
-The fix lives inside a custom STT wrapper I wrote (886 lines in `service_factory.py` alone). When a final comes back empty but I have a cached interim, I promote the interim as the real transcript. Deepgram's docs don't mention this edge case anywhere. I found it by dumping per-turn WAV files and realizing the engine was hearing audio, producing a transcript, then throwing it away.
+The fix lives inside a custom STT wrapper I wrote (886 lines in `service_factory.py` alone). When a final comes back empty but I have a cached interim, I promote the interim as the real transcript. Deepgram's docs don't mention this edge case anywhere. I found it by dumping per-turn WAV files and realizing the engine was hearing audio, producing a transcript, then throwing it away. A waiter who takes your order, reads it back to you, and bins it on the way to the kitchen.
 
 ### The Echo Problem
 
@@ -204,7 +204,7 @@ Three boolean checks. One apology. `append_to_context=True` so the LLM remembers
 
 ### The Webhook Race Condition
 
-At 19:54 that same evening, I pushed the webhook dedupe fix. The race: when a call ends, the pipeline's cleanup block fires and tries to deliver the call-ended webhook. But the scheduler's reconciliation loop might find that same unsent webhook and try to deliver it too. Two workers, same payload, hitting the customer's server twice.
+At 19:54 that same evening, I pushed the webhook dedupe fix. The race: when a call ends, the pipeline's cleanup block fires and tries to deliver the call-ended webhook. But the scheduler's reconciliation loop might find that same unsent webhook and try to deliver it too. Two workers, same payload, hitting the customer's server twice. The call gets announced as ended twice, which is one more ending than most calls have.
 
 The fix: lease-based dispatch backed by Redis. Before sending, a worker claims the dispatch with a short-lived lock. `claim_webhook_dispatch()` atomically checks and sets a "sent" flag. If someone else already claimed it, you skip. After delivery, `mark_webhook_sent()`. If all retries exhaust, `mark_webhook_exhausted()` so it never loops forever.
 
@@ -220,7 +220,7 @@ Then I kept going. Most people sleep after a 3 AM commit. That same day I shippe
 
 ### Production Hardening and the UI Revamp
 
-June 9 was cleanup day. Webhook retry triggers reworked. The transcript generation got a major overhaul, 214 lines added to `call_transcript.py`. Provider columns changed from a strict enum to a plain string, so adding a new provider no longer requires a database migration. Bug fixes across both carriers.
+June 9 was cleanup day, the kind of day where nothing demos well and everything matters. Webhook retry triggers reworked. The transcript generation got a major overhaul, 214 lines added to `call_transcript.py`. Provider columns changed from a strict enum to a plain string, so adding a new provider no longer requires a database migration. Bug fixes across both carriers.
 
 On June 10 at 23:14, I pushed "complete ui revamp." 52 files changed. 3,512 insertions, 4,229 deletions, net negative because I deleted the old component structure and rebuilt it. Best diff stat of the month. Dashboard, analytics, and settings pages. A real component library: cards, modals, toggles, status dots, empty states, page headers. Every page got its own component instead of being smeared across a dialog, a table, and an edit page. The thing finally looks like a product.
 
@@ -262,7 +262,7 @@ Here's the honest status:
 | Post-call summary generation | Working |
 | Multi-language STT beyond Hindi | In progress |
 
-One caveat belongs next to that table. This is a one-person, one-month codebase: a single integration test, no CI pipeline, and nothing has pushed it past the 50-call semaphore yet. Every "Working" above means working on real calls, not battle-tested at scale.
+One caveat belongs next to that table. This is a one-person, one-month codebase: a single integration test, no CI pipeline, and nothing has pushed it past the 50-call semaphore yet. Every "Working" above means working on real calls, not battle-tested at scale. The QA department is me, my phone, and a 1 AM `docker compose` habit.
 
 ### The Insight
 
