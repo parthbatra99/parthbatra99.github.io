@@ -2,7 +2,7 @@
 layout: post
 title: "What Actually Happens in the Second After You Say Hello to an AI"
 subtitle: "Telephony, WebRTC, voice detection, transcription. A month building it from scratch, and where that second actually goes."
-date: 2026-06-10 09:00:00 +0530
+date: 2026-05-24
 hero_art: /assets/images/voice-ai.png
 tags:
   - voice-ai

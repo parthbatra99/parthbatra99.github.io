@@ -1,4 +1,172 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-06-11T20:03:32+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Parth Batra | fromparth.blog</title><subtitle>Senior ML Engineer by day, music critic by night. Building ML systems, writing about tech, and collecting spotify minutes like they&apos;re infinity stones.</subtitle><author><name>Parth Batra</name></author><entry><title type="html">What Actually Happens in the Second After You Say Hello to an AI</title><link href="http://localhost:4000/2026/06/10/building-an-open-source-vapi-alternative.html" rel="alternate" type="text/html" title="What Actually Happens in the Second After You Say Hello to an AI" /><published>2026-06-10T09:00:00+05:30</published><updated>2026-06-10T09:00:00+05:30</updated><id>http://localhost:4000/2026/06/10/building-an-open-source-vapi-alternative</id><content type="html" xml:base="http://localhost:4000/2026/06/10/building-an-open-source-vapi-alternative.html"><![CDATA[<p>You call a number, an AI picks up, you say “hello,” and it says “hello” back. Feels instant. Feels simple. It is neither.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-06-13T03:25:32+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Parth Batra | fromparth.blog</title><subtitle>Senior ML Engineer by day, music critic by night. Building ML systems, writing about tech, and collecting spotify minutes like they&apos;re infinity stones.</subtitle><author><name>Parth Batra</name></author><entry><title type="html">Spiti Took Five Days to Take Me Apart. A 9-Year-Old Did It in Four Seconds.</title><link href="http://localhost:4000/2026/06/08/spiti-took-five-days-to-take-me-apart.html" rel="alternate" type="text/html" title="Spiti Took Five Days to Take Me Apart. A 9-Year-Old Did It in Four Seconds." /><published>2026-06-08T00:00:00+05:30</published><updated>2026-06-08T00:00:00+05:30</updated><id>http://localhost:4000/2026/06/08/spiti-took-five-days-to-take-me-apart</id><content type="html" xml:base="http://localhost:4000/2026/06/08/spiti-took-five-days-to-take-me-apart.html"><![CDATA[<p>It rained the morning we left Spiti.</p>
+
+<p>Five days of hard blue skies, the kind that make you squint at your own photos later, and the valley picked our last hour to rain. We stood next to our bus, bags fully loaded, nobody moving towards the door. Just standing there, getting wet, like the rain was saying something and it would be rude to leave mid-sentence.</p>
+
+<p>Mountains don’t wave goodbye. They just rain.</p>
+
+<p>But let me go back.</p>
+
+<hr />
+
+<h2 id="day-one-the-point-where-maps-become-decorative">Day One: The Point Where Maps Become Decorative</h2>
+
+<p>The road from Shimla into Kinnaur is carved into the side of a cliff. Not metaphorically. Someone took a drill to a rock face several hundred meters above the Sutlej and decided that was a road now, and for sixty years everyone has agreed to believe him.</p>
+
+<p>Our driver, a man of monk-grade calm, took these roads the way I drink coffee. <em>automatic. present. unbothered</em>.</p>
+
+<p>The rest of us had a more complicated relationship with the route. I won’t say we were scared. I’ll say we developed a sudden, collective interest in the view from the left side of the car specifically, and that someone turned on WhatsApp live location for a family group chat. I don’t know what we thought Gurgaon was going to do about a cliff in Kinnaur. It just felt important that they watch.</p>
+
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">"driver bhai ko yakeen tha. humein thoda kam."</code></p>
+</blockquote>
+
+<p>At one point the side mirror cleared the rock face by a margin engineers call “acceptable” and passengers call “I need a minute.”</p>
+
+<p>By Kalpa I had made peace with the roads. Convenient, because Spiti had five more days of them.</p>
+
+<hr />
+
+<h2 id="kalpa-the-flags-pray-without-you">Kalpa: The Flags Pray Without You</h2>
+
+<p>Kalpa is where the trip stopped being a road trip and started being whatever it ended up becoming.</p>
+
+<p>The prayer flags here don’t flutter, they spiral. Wind comes up the valley and the flags move like the landscape choreographed them. Each one is a prayer released into the air. I stood there trying to compute how many prayers had passed through that exact patch of sky over a few centuries, and concluded the math was not the point.</p>
+
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">"har jhanda ek dua hai. ye wali mere liye nahi thi. phir bhi lag gayi."</code></p>
+</blockquote>
+
+<p>Kinnaur Kailash sat across the valley the whole evening, lit up like it knew. My camera captured it. My brain accused the camera of editing. The camera was innocent. The place just looks like that.</p>
+
+<hr />
+
+<h2 id="tabo-nobody-tells-you-about-the-sky-thats-on-purpose">Tabo: Nobody Tells You About the Sky. That’s On Purpose.</h2>
+
+<p>The caves above Tabo are a twenty minute trek from the village, up a trail that is marked the way secrets are marked, which is to say not at all. Monks used them for meditation for a thousand years. I climbed up at night with a tripod.</p>
+
+<p>Here’s what happened: I set up a twenty minute timelapse of the sky, sat down on the cold ground, looked up, and didn’t say a word until the camera was done. Neither did anyone else. The Milky Way over Tabo isn’t a sight, it’s a ceiling. You think you’re prepared because you’ve seen photos and you consider yourself a person who appreciates a sky. You’re not prepared. It hangs there with absolutely no regard for what it’s doing to you.</p>
+
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">"tabo caves ke upar ka aasman. 20 min chale. milky way dekhi. kuch nahi bola."</code></p>
+</blockquote>
+
+<p>The monastery below has murals over a thousand years old. The sky above has a few billion on that. Both were watching us. Only one of us blinked.</p>
+
+<hr />
+
+<h2 id="kaza-four-seconds">Kaza: Four Seconds</h2>
+
+<p>I should be honest about what I thought I was doing in Spiti.</p>
+
+<p>I thought I was the guy who does pushups at what the signboard insists is the highest motorable road in the world. Who jumps in slow motion at the highest café in the world. Who shows up at 4,500 meters and meets the altitude on his own terms. And to be fair, all of that happened.</p>
+
+<p>The pushups happened at the top of the pass, in air thin enough that my lungs filed a formal complaint by rep six. I finished the set anyway. There’s something about effort at that altitude that strips the pose out of it. You’re not performing, your body is too busy negotiating with the oxygen for you to perform. It’s just you, the ground, and mountains watching with complete indifference.</p>
+
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">"sea level is for the weak."</code></p>
+</blockquote>
+
+<p>The slo-mo jump at the highest café in the world was filmed, reviewed, and refilmed, and looked significantly more cinematic in my head than on camera. Gravity at 15,000 feet works exactly like gravity at sea level. I have no idea why I expected a discount.</p>
+
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">"gravity ne koshish ki."</code></p>
+</blockquote>
+
+<p>Then, at a dhaba in Kaza, a girl who could not have been more than nine challenged me to arm wrestling.</p>
+
+<p>She had the energy of someone who had done this before. I realized mid-lock that she absolutely had, that I was not her first tourist, and that the outcome had been decided before I sat down. Four seconds. No trash talk, no celebration. She went back to her food the way you move on from something that was never really a question, while I sat there recalibrating my entire understanding of the week.</p>
+
+<p>Five days of altitude couldn’t humble me, because I was too busy doing pushups at it.</p>
+
+<p>A nine year old needed four seconds.</p>
+
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">"haar gaya. dil se. completely."</code></p>
+</blockquote>
+
+<hr />
+
+<h2 id="komic-the-sacred-absurd">Komic: The Sacred Absurd</h2>
+
+<p>Komic claims the title of highest village in Asia connected by motorable road, sits at 4,587 meters, and contains one monastery, a handful of houses, and on the day we visited, six adults doing Chaiya Chaiya in front of the Buddha statue.</p>
+
+<p>I can’t fully reconstruct how it started. Someone hummed. The hum found a second voice. And then it wasn’t humming anymore, it was the full routine, train-roof energy, shoulders and all, in front of a monastery that has stood there since the 14th century.</p>
+
+<p>No monk came out. I choose to believe he was deep in meditation. I also believe, with equal conviction, that he has seen worse.</p>
+
+<p>There’s a version of this story where it reads as disrespect. I don’t think it was. I think when a place overwhelms you past a certain point, you respond with the most instinctive joy you own. Ours happened to be a 90s Shah Rukh number. The Buddha kept smiling. Statues do that, but still.</p>
+
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">"komic mein chaiya chaiya. buddha ne dekha. kuch nahi kaha."</code></p>
+</blockquote>
+
+<hr />
+
+<h2 id="kalpa-again-28-at-9000-feet">Kalpa Again: 28 at 9,000 Feet</h2>
+
+<p>Coming back through a place you’ve already seen has a different texture. Kalpa on the way in was a view. Kalpa on the way back was a verdict, the same valley asking what you did with the last five days.</p>
+
+<p>The cake came out after dinner.</p>
+
+<p>Nobody had planned it, exactly. Someone slipped away in the morning, found the one bakery in Kalpa that half exists, and convinced it to fully exist for a day. The cake tasted like the effort of sourcing a cake at 9,000 feet, which is to say it tasted incredible and a little structurally unsound. Twenty-eight, in the mountains, with people who had survived the same roads, the same thin air, and the same choreography in front of the same Buddha.</p>
+
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">"28 saal. abhi bhi."</code></p>
+</blockquote>
+
+<p>The bonfire that night turned everything orange. Cold came down from the valley, the fire pushed back, and we sat inside that negotiation for hours. Around midnight I caught myself thinking: I don’t want more Spiti, exactly. I want more of this. The thing where you’re somewhere you chose, with people you chose, and there is nowhere else you’re supposed to be.</p>
+
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">"ek raat aur maang lete."</code></p>
+</blockquote>
+
+<hr />
+
+<h2 id="chitkul-the-river-knows">Chitkul: The River Knows</h2>
+
+<p>Chitkul is the last village before the Indo-Tibetan border. Past it you need permits, and past those you need a different passport. The Baspa river runs through it carrying glacier melt, and it is the exact colour of somewhere you haven’t been.</p>
+
+<p>I did pushups on the bank. Mid-rep, my face passed close enough to the water that an opportunity presented itself, and I have very little self-control near rivers. So I dipped my face in. Snowmelt cold is not regular cold. Regular cold is a tap on the shoulder. This was a slap with paperwork. I came up instantly, reconsidered my life, and went back down for another.</p>
+
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">"river ne decide kiya. humne agreed kiya."</code></p>
+</blockquote>
+
+<p>Later I found a flat rock by the water and lay down on it, intending to rest for a moment. The river was exactly the right sound and the rock was exactly the right temperature, and then it was twenty minutes later and someone was taking photos of me for evidence.</p>
+
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">"offline ho gaya."</code></p>
+</blockquote>
+
+<hr />
+
+<h2 id="the-last-sunset-and-then-the-rain">The Last Sunset, and Then the Rain</h2>
+
+<p>The sunset on the last evening was too good. I mean that as an accusation. It felt like the mountains had checked the calendar, seen we were leaving in the morning, and decided to run up the score. The sky went through its colours in the wrong order. The valley filled with light at angles that don’t survive geometry. We took photos knowing the photos would fail, because you have to try anyway.</p>
+
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">"aakhri shaam. sabse achhi shaam."</code></p>
+</blockquote>
+
+<p>And in the morning, it rained.</p>
+
+<p>Not a storm. Nothing dramatic. Just steady, considered rain, falling on roads we were about to drive out on, after five days of skies so clear they felt personal.</p>
+
+<p>So there we were. Bags half loaded. Nobody moving toward the car.</p>
+
+<p>I still don’t know if it was the valley saying goodbye or saying <em>you left something here</em>. I’ve turned it over a few times since. Both feel true, and neither explains why none of us could get in the car.</p>
+
+<p>We drove out of Spiti in the rain. I kept looking back, at the flags, at the roads, at all the altitude I’d left my ego at, at a dhaba in Kaza where a nine year old owns four seconds of my life. We didn’t talk much on the drive down. Not because we were tired.</p>
+
+<p>Some things you don’t want to name yet.</p>
+
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">"it rained. we stood there. neither was a surprise."</code></p>
+</blockquote>
+
+<hr />
+
+<p><em>Spiti doesn’t let you leave with all your edges intact. That’s probably the point.</em></p>]]></content><author><name>Parth Batra</name></author><category term="travel" /><category term="spiti" /><category term="personal" /><summary type="html"><![CDATA[It rained the morning we left Spiti.]]></summary></entry><entry><title type="html">What Actually Happens in the Second After You Say Hello to an AI</title><link href="http://localhost:4000/2026/05/24/building-an-open-source-vapi-alternative.html" rel="alternate" type="text/html" title="What Actually Happens in the Second After You Say Hello to an AI" /><published>2026-05-24T00:00:00+05:30</published><updated>2026-05-24T00:00:00+05:30</updated><id>http://localhost:4000/2026/05/24/building-an-open-source-vapi-alternative</id><content type="html" xml:base="http://localhost:4000/2026/05/24/building-an-open-source-vapi-alternative.html"><![CDATA[<p>You call a number, an AI picks up, you say “hello,” and it says “hello” back. Feels instant. Feels simple. It is neither.</p>
 
 <p>In the second after you speak, your voice leaves your phone, crosses a telephony network that still speaks a protocol older than the web, lands on a server that has to decide you’re actually talking and not just breathing, gets transcribed into text, gets sent to a large language model that thinks up a reply, gets turned back into a human-sounding voice, and gets pushed back down the same line to your ear. If any one of those steps takes too long, the AI talks over you, or sits in dead silence, or answers a question you didn’t ask. All of it has to happen in under a second, every turn, on every call, forever.</p>
 
@@ -343,7 +511,7 @@
 
 <hr />
 
-<p><em>The commit messages are vague but the code tells the real story.</em></p>]]></content><author><name>Parth Batra</name></author><category term="voice-ai" /><category term="webrtc" /><category term="infrastructure" /><category term="open-source" /><summary type="html"><![CDATA[You call a number, an AI picks up, you say “hello,” and it says “hello” back. Feels instant. Feels simple. It is neither.]]></summary></entry><entry><title type="html">I Cloned a ₹20,000 Light Setup for Under ₹2,000</title><link href="http://localhost:4000/2026/06/08/i-cloned-a-20000-light-setup-for-under-2000.html" rel="alternate" type="text/html" title="I Cloned a ₹20,000 Light Setup for Under ₹2,000" /><published>2026-06-08T14:00:00+05:30</published><updated>2026-06-08T14:00:00+05:30</updated><id>http://localhost:4000/2026/06/08/i-cloned-a-20000-light-setup-for-under-2000</id><content type="html" xml:base="http://localhost:4000/2026/06/08/i-cloned-a-20000-light-setup-for-under-2000.html"><![CDATA[<p>Philips wants <strong>₹20,000</strong> for the Hue Play Gradient Lightstrip. Twenty. Thousand. Rupees. For LEDs.</p>
+<p><em>The commit messages are vague but the code tells the real story.</em></p>]]></content><author><name>Parth Batra</name></author><category term="voice-ai" /><category term="webrtc" /><category term="infrastructure" /><category term="open-source" /><summary type="html"><![CDATA[You call a number, an AI picks up, you say “hello,” and it says “hello” back. Feels instant. Feels simple. It is neither.]]></summary></entry><entry><title type="html">I Cloned a ₹20,000 Light Setup for Under ₹2,000</title><link href="http://localhost:4000/2026/04/18/i-cloned-a-20000-light-setup-for-under-2000.html" rel="alternate" type="text/html" title="I Cloned a ₹20,000 Light Setup for Under ₹2,000" /><published>2026-04-18T00:00:00+05:30</published><updated>2026-04-18T00:00:00+05:30</updated><id>http://localhost:4000/2026/04/18/i-cloned-a-20000-light-setup-for-under-2000</id><content type="html" xml:base="http://localhost:4000/2026/04/18/i-cloned-a-20000-light-setup-for-under-2000.html"><![CDATA[<p>Philips wants <strong>₹20,000</strong> for the Hue Play Gradient Lightstrip. Twenty. Thousand. Rupees. For LEDs.</p>
 
 <p>Let that sink in.</p>
 
@@ -560,7 +728,335 @@
 
 <hr />
 
-<p><em>Sometimes the best tech isn’t the most expensive. It’s the one you build yourself, learn from, and can actually fix when it breaks at 2am.</em></p>]]></content><author><name>Parth Batra</name></author><category term="diy" /><category term="hardware" /><category term="raspberry-pi" /><category term="embedded" /><summary type="html"><![CDATA[Philips wants ₹20,000 for the Hue Play Gradient Lightstrip. Twenty. Thousand. Rupees. For LEDs.]]></summary></entry><entry><title type="html">I Shipped a Neovim Plugin in Lua. I Don’t Know Lua.</title><link href="http://localhost:4000/2025/11/02/how-i-built-an-ai-powered-neovim-plugin-by-vibe-coding-with-claude.html" rel="alternate" type="text/html" title="I Shipped a Neovim Plugin in Lua. I Don’t Know Lua." /><published>2025-11-02T12:00:00+05:30</published><updated>2025-11-02T12:00:00+05:30</updated><id>http://localhost:4000/2025/11/02/how-i-built-an-ai-powered-neovim-plugin-by-vibe-coding-with-claude</id><content type="html" xml:base="http://localhost:4000/2025/11/02/how-i-built-an-ai-powered-neovim-plugin-by-vibe-coding-with-claude.html"><![CDATA[<p>I don’t know Lua. I’ve never written it, never studied it, don’t have the interpreter installed.</p>
+<p><em>Sometimes the best tech isn’t the most expensive. It’s the one you build yourself, learn from, and can actually fix when it breaks at 2am.</em></p>]]></content><author><name>Parth Batra</name></author><category term="diy" /><category term="hardware" /><category term="raspberry-pi" /><category term="embedded" /><summary type="html"><![CDATA[Philips wants ₹20,000 for the Hue Play Gradient Lightstrip. Twenty. Thousand. Rupees. For LEDs.]]></summary></entry><entry><title type="html">Your Dream Retirement Costs 3,000 Euros. You Can Take It Now.</title><link href="http://localhost:4000/2026/03/15/i-read-the-4-hour-work-week.html" rel="alternate" type="text/html" title="Your Dream Retirement Costs 3,000 Euros. You Can Take It Now." /><published>2026-03-15T00:00:00+05:30</published><updated>2026-03-15T00:00:00+05:30</updated><id>http://localhost:4000/2026/03/15/i-read-the-4-hour-work-week</id><content type="html" xml:base="http://localhost:4000/2026/03/15/i-read-the-4-hour-work-week.html"><![CDATA[<p>A round-the-world plane ticket costs about €3,000. The retirement trip I’d been filing under “someday for the last decade” was sitting there the whole time, priced at less than a used motorcycle.</p>
+
+<p>I figured that out at 2am, the moment I finished <a href="https://www.youtube.com/watch?v=Kz663aIOSLg"><em>The 4-Hour Work Week</em></a> by Tim Ferriss. First thought: I’m stupid. Why didn’t I read this 10 years ago? Not a casual reaction. More like genuinely annoyed at my past self for sitting on a life I could already afford.</p>
+
+<p>Here are the 4 ideas that actually changed how I think about my time, my goals, and the life I’m building.</p>
+
+<figure class="diagram">
+<svg viewBox="0 0 360 200" width="100%" height="auto" role="img" aria-label="A narrowing funnel of four stacked stages: Define, Eliminate, Automate, Liberation." fill="none" stroke="currentColor" stroke-width="1.5">
+  <rect x="40" y="20" width="280" height="34" rx="3" />
+  <rect x="70" y="64" width="220" height="34" rx="3" />
+  <rect x="100" y="108" width="160" height="34" rx="3" />
+  <rect x="130" y="152" width="100" height="34" rx="3" />
+  <g stroke="none" fill="currentColor" font-family="-apple-system, sans-serif" font-size="13" text-anchor="middle">
+    <text x="180" y="42">Define</text>
+    <text x="180" y="86">Eliminate</text>
+    <text x="180" y="130">Automate</text>
+    <text x="180" y="174">Liberation</text>
+  </g>
+</svg>
+<figcaption>Tim Ferriss's DEAL sequence: each stage filters your life down to what's left worth doing.</figcaption>
+</figure>
+
+<hr />
+
+<h2 id="define-youre-fulfilling-a-dead-persons-dreams">Define: You’re Fulfilling a Dead Person’s Dreams</h2>
+
+<p>Tim makes a point that sounds weird at first: we’re always trying to fulfill the dreams of our past self. You dream something today, you work toward it, and by the time you get there, the person who wanted it doesn’t really exist anymore.</p>
+
+<p>Sounds philosophical, but it’s brutally practical. Think about it. We all say things like “I’ll travel the world after I retire.” But will you have the same energy at 65? The same excitement? The same knees?</p>
+
+<p>Remember that €3,000 round-the-world ticket from the top? That’s the whole “someday” trip, right there. Roughly Rs. 2.7 lakh and a passport.</p>
+
+<p>I always assumed India was cheap and everywhere else was a different planet. Then I checked rentals in San Sebastian, a genuinely pricey Spanish coastal city, and found one-bedroom flats around €700 a month. That’s about Rs. 63,000, the same as a decent 1BHK in central Bangalore. The dreams you’re postponing are cheaper than you think.</p>
+
+<p>Tim’s challenge: split that “someday” vacation into pieces you take now, not later. Every few years, not after you’re too tired to enjoy it.</p>
+
+<hr />
+
+<h2 id="eliminate-efficiency-is-a-trap">Eliminate: Efficiency Is a Trap</h2>
+
+<p>Our entire world is obsessed with efficiency. Buy this app, subscribe to this tool, optimize this workflow. Everything screams “do it faster.”</p>
+
+<p>Nobody asks if the thing needed doing at all.</p>
+
+<p>That’s the distinction that matters. You can be incredibly efficient at something that should have been eliminated entirely. The first question should always be: can I just not do this? If yes, done. If it’s genuinely important, <em>then</em> think about doing it efficiently.</p>
+
+<p>This is the <a href="https://en.wikipedia.org/wiki/Pareto_principle">80/20 principle</a> in action. 20% of your efforts produce 80% of your results. But in my experience, it’s even more extreme with people. Less than 5% of the people in your life create 95% of your headaches.</p>
+
+<p>I’ve had friends who complained every single time we hung out. Good life, no real problems, just endless negativity. I told them straight up: this isn’t fun anymore.</p>
+
+<p>Some people just need a nudge. Give them a couple weeks. If they don’t shift, start creating distance.</p>
+
+<p>One filter that’s saved me more time than any productivity app: ask yourself, “Am I inventing stuff to avoid the important things?” The magic you’re looking for is in the work you’re actively dodging.</p>
+
+<hr />
+
+<h2 id="automate-if-it-costs-less-than-your-hourly-rate-outsource-it">Automate: If It Costs Less Than Your Hourly Rate, Outsource It</h2>
+
+<p>After elimination, whatever’s left needs to be handled. The rule is simple: if a task costs less than your hourly salary to outsource, outsource it.</p>
+
+<p>I used to take a 40-minute bus across town to a cheaper supermarket to shave maybe Rs. 150 off a Rs. 1,500 grocery run. I’d buy in bulk for two weeks. Inevitably a couple things would spoil before I got to them. There go the savings, plus two hours of my Sunday.</p>
+
+<p>Add the mental overhead of planning, carrying, and storing, and you’re paying to stress yourself out.</p>
+
+<p>Now I buy from the supermarket near my institute on my way home. Zero hassle. Mental peace intact.</p>
+
+<p>Here’s the decision protocol that works:</p>
+
+<ol>
+  <li>Would you enjoy doing this task? If yes, do it.</li>
+  <li>If no, is it financially worthwhile? If not, eliminate it.</li>
+  <li>If it’s worthwhile but you won’t enjoy it, can you outsource it? Do that.</li>
+  <li>Only if you can’t outsource it and it’s mandatory should you do it yourself.</li>
+</ol>
+
+<figure class="diagram">
+<svg viewBox="0 0 380 280" width="100%" height="auto" role="img" aria-label="Decision flowchart: Enjoy it, yes do it; Worthwhile, no eliminate; Outsource, yes outsource; otherwise do it yourself." fill="none" stroke="currentColor" stroke-width="1.5" font-family="-apple-system, sans-serif" font-size="12.5">
+  <g text-anchor="middle">
+    <rect x="50" y="14" width="130" height="36" rx="3" />
+    <text x="115" y="36" stroke="none" fill="currentColor">Enjoy it?</text>
+    <rect x="50" y="86" width="130" height="36" rx="3" />
+    <text x="115" y="108" stroke="none" fill="currentColor">Worthwhile?</text>
+    <rect x="50" y="158" width="130" height="36" rx="3" />
+    <text x="115" y="180" stroke="none" fill="currentColor">Outsource?</text>
+    <rect x="50" y="230" width="130" height="36" rx="3" />
+    <text x="115" y="252" stroke="none" fill="currentColor">Do it yourself</text>
+    <rect x="250" y="14" width="110" height="36" rx="3" />
+    <text x="305" y="36" stroke="none" fill="currentColor">Do it</text>
+    <rect x="250" y="86" width="110" height="36" rx="3" />
+    <text x="305" y="108" stroke="none" fill="currentColor">Eliminate</text>
+    <rect x="250" y="158" width="110" height="36" rx="3" />
+    <text x="305" y="180" stroke="none" fill="currentColor">Outsource</text>
+  </g>
+  <path d="M115 50 V86 M115 122 V158 M115 194 V230" />
+  <path d="M180 32 H250 M180 104 H250 M180 176 H250" />
+  <g stroke="none" fill="currentColor" font-size="11" opacity="0.6">
+    <text x="200" y="28">yes</text>
+    <text x="200" y="100">no</text>
+    <text x="200" y="172">yes</text>
+    <text x="123" y="74">no</text>
+    <text x="123" y="146">yes</text>
+    <text x="123" y="218">no</text>
+  </g>
+</svg>
+<figcaption>The protocol as a flowchart: most tasks get answered before they ever reach "do it yourself."</figcaption>
+</figure>
+
+<p>Why eliminate and automate so aggressively? To free up time for the stuff you actually want to do. Learn that instrument. Spend time with family. Pick up a sport you’ve been “meaning to try” for three years.</p>
+
+<p>Or build a skill in what Tim calls the “and economy,” where you don’t need one career, you need a stack of complementary ones.</p>
+
+<hr />
+
+<h2 id="liberation-your-past-decisions-dont-own-your-future">Liberation: Your Past Decisions Don’t Own Your Future</h2>
+
+<p>This one hit different. Liberation is about not letting your past hold your future hostage.</p>
+
+<p>You’re still dealing with the consequences of decisions you made 5, 10, 15 years ago. If you don’t make new ones now, you’ll keep suffering for the next 15. The compound interest of indecision is brutal.</p>
+
+<p>Liberation comes from accepting your fears, not conquering them. When I started sharing my ideas publicly, I was terrified. Am I making sense? Is the structure right? What if someone who knows more reads it?</p>
+
+<p>You don’t overcome that list. You just start, with a deadline.</p>
+
+<p>Here’s what my advisor told me during my master’s, after I made a mistake so bad I wanted to dissolve into the floor: “The only way to not make mistakes is by not doing anything.” He was being kind. He was also completely right.</p>
+
+<p>You can’t break the machine in the lab if you never walk into the lab.</p>
+
+<p>Every action, even a failed one, trains your action muscle. You generate momentum. The only way to succeed is by failing faster.</p>
+
+<hr />
+
+<p>So no, I’m not stupid for reading this at 30 instead of 20. The book didn’t hand me a new life. It handed me back the one I already had, the Rs. 2.7 lakh trip and all, buried under tasks that didn’t matter and fears I’d never actually tested. The someday list was never waiting on money. It was waiting on me to do the arithmetic.</p>]]></content><author><name>Parth Batra</name></author><category term="productivity" /><category term="books" /><category term="mindset" /><summary type="html"><![CDATA[A round-the-world plane ticket costs about €3,000. The retirement trip I’d been filing under “someday for the last decade” was sitting there the whole time, priced at less than a used motorcycle.]]></summary></entry><entry><title type="html">I Checked the Math on a Shawshank Escape. It Checks Out.</title><link href="http://localhost:4000/2026/02/22/i-checked-the-math-on-a-shawshank-escape.html" rel="alternate" type="text/html" title="I Checked the Math on a Shawshank Escape. It Checks Out." /><published>2026-02-22T00:00:00+05:30</published><updated>2026-02-22T00:00:00+05:30</updated><id>http://localhost:4000/2026/02/22/i-checked-the-math-on-a-shawshank-escape</id><content type="html" xml:base="http://localhost:4000/2026/02/22/i-checked-the-math-on-a-shawshank-escape.html"><![CDATA[<p>It was 2 a.m. and I should’ve been asleep. Instead, I was lying in bed doing back-of-the-napkin calculations about whether Andy Dufresne could actually dig through that wall in 19 years with a tiny rock hammer. This is what happens when you spend years doing maths and still can’t turn off your brain at night.</p>
+
+<p>Turns out, the math checks out beautifully. And that simple fact sent me down a rabbit hole of seven ideas I picked up last month that I haven’t been able to stop thinking about.</p>
+
+<h2 id="lesson-1-shawshank-math-is-surprisingly-honest">Lesson 1: Shawshank math is surprisingly honest</h2>
+
+<p>Let me walk you through it. The tunnel looked roughly 10 meters long and half a meter wide based on Andy’s shoulder width. Assuming a circular cross-section, that’s a volume of about 1.96 cubic meters. With a density of roughly 1,600 kg per cubic meter for concrete and sand, we’re talking about 3,136 kg of material to remove.</p>
+
+<p>Nineteen years is 6,935 days. If Andy scraped out between half a liter and one liter per day, he’d remove about 5.2 cubic meters in that time. He only needed 1.96. The guy could’ve skipped every other day and still made it.</p>
+
+<figure class="diagram">
+<svg viewBox="0 0 380 130" width="100%" height="auto" role="img" aria-label="Two bars: needed 1.96 cubic meters versus removable 5.2 cubic meters over 19 years." font-family="-apple-system, sans-serif" font-size="12.5">
+  <g fill="none" stroke="currentColor" stroke-width="1.5">
+    <rect x="150" y="24" width="76" height="28" rx="2" fill="currentColor" />
+    <rect x="150" y="74" width="202" height="28" rx="2" />
+  </g>
+  <g stroke="none" fill="currentColor">
+    <text x="142" y="42" text-anchor="end">Needed</text>
+    <text x="142" y="92" text-anchor="end">Could dig</text>
+    <text x="234" y="42">1.96 m³</text>
+    <text x="344" y="92" text-anchor="end">~5.2 m³</text>
+  </g>
+</svg>
+<figcaption>Over 19 years he could remove ~5.2 m³ but needed only 1.96 — barely 38% of his capacity.</figcaption>
+</figure>
+
+<p>Here’s what hit me: the dreams you think will take 600 years are hardly 20 years away. That’s a 30x gap. Even if real life isn’t a movie and the factor is only 5x or 3x, the thing you’re certain will take a decade? It might take three and a half years. My master’s advisor said something similar when I started: small extra effort every day compounds brutally over 150 to 200 weeks.</p>
+
+<p>I wrote something on a sticky note a while back that still holds up: tiny steps taken consistently over a long period of time result in magic. The Shawshank math proves it.</p>
+
+<h2 id="lesson-2-stop-mixing-meetings-with-creative-work">Lesson 2: Stop mixing meetings with creative work</h2>
+
+<p>Paul Graham wrote a blog post years ago called <a href="https://www.paulgraham.com/makersschedule.html">“Maker’s Schedule, Manager’s Schedule”</a> and it explained something I’d been feeling but couldn’t articulate.</p>
+
+<p>The manager schedule is what we all aspire toward. Back-to-back meetings from 9 to 6. You finish one, walk into the next. It looks productive because important people do it.</p>
+
+<p>The maker schedule is different. You block your entire day for one deep task. Writing code, shooting a video, drafting a research paper. No meetings sprinkled in. No “quick catch-up” at 2 p.m. that destroys your entire afternoon.</p>
+
+<p>I’ve noticed this firsthand with my writing. If I have a meeting at 2, my brain starts preparing for it at noon. I can’t focus after it ends until at least 3:30. By then, the day is gone. That single meeting didn’t cost one hour. It cost five.</p>
+
+<p>Now I try to stack all my meetings on one day and protect the other days entirely. My own writing improved noticeably once I started doing this. Everything creative requires a maker schedule. And yes, solving equations counts as creative work.</p>
+
+<figure class="diagram">
+<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="Manager day split into many small meeting blocks; maker day is one long block broken by a single 2pm meeting." font-family="-apple-system, sans-serif" font-size="12.5">
+  <g fill="none" stroke="currentColor" stroke-width="1.5">
+    <rect x="90" y="22" width="38" height="26" rx="2" />
+    <rect x="132" y="22" width="38" height="26" rx="2" />
+    <rect x="174" y="22" width="38" height="26" rx="2" />
+    <rect x="216" y="22" width="38" height="26" rx="2" />
+    <rect x="258" y="22" width="38" height="26" rx="2" />
+    <rect x="300" y="22" width="38" height="26" rx="2" />
+    <rect x="90" y="92" width="116" height="26" rx="2" />
+    <rect x="210" y="92" width="38" height="26" rx="2" fill="currentColor" />
+    <rect x="252" y="92" width="86" height="26" rx="2" opacity="0.4" />
+  </g>
+  <g stroke="none" fill="currentColor">
+    <text x="82" y="40" text-anchor="end">Manager</text>
+    <text x="82" y="110" text-anchor="end">Maker</text>
+    <text x="229" y="138" text-anchor="middle" font-size="11" opacity="0.6">2pm meeting</text>
+  </g>
+</svg>
+<figcaption>One meeting dropped into a maker's day doesn't cost an hour — it fragments the whole afternoon.</figcaption>
+</figure>
+
+<h2 id="lesson-3-energy-isnt-exhaustible">Lesson 3: Energy isn’t exhaustible</h2>
+
+<p><a href="https://www.youtube.com/watch?v=P0Zgr9xwu4Y">Graham Weaver</a>, a professor at Stanford, made a point that sounds corny until you sit with it. Energy, he argues, is not exhaustible. Not the physics kind. The human kind.</p>
+
+<p>Think about it. You kiss someone you love today. Does that make you less capable of kissing them tomorrow? You play with your dog today. Less capable of playing with your dog tomorrow? Of course not.</p>
+
+<p>Burnout doesn’t come from doing too much. It comes from friction. That gap between what you want to be doing and what you have to be doing. That gap is what exhausts you.</p>
+
+<p>I’m not naive. We all have responsibilities, families, bills. You can’t just quit everything and follow your passion. That’s terrible advice. But you can find the thing you love and do it at a smaller scale. I make these videos not at the scale I’d like, but at the scale I can manage alongside a full-time job. And it gives me something to look forward to every single week. As long as it’s exciting, I’ll keep doing it. When it stops being exciting, I’ll switch topics. Don’t worry, it’ll be hard to get rid of me.</p>
+
+<h2 id="lesson-4-your-iphone-is-lying-to-you-about-progress">Lesson 4: Your iPhone is lying to you about progress</h2>
+
+<p>I’ve been reading <a href="https://www.simonandschuster.com/books/Chip-War/Chris-Miller/9781982172008"><em>Chip War</em></a> and one idea from it has been stuck in my head. We’ve been trained to expect linear technological progress. New iPhone every year, 20% faster, 20% more efficient. Science doesn’t work that way.</p>
+
+<p>A colleague recently shipped a project that took almost two years. For the first year and a half, nothing worked. Just optimization, failure, more optimization. Then devices started working and results came fast. If they were a smartphone company, they’d have to show progress every single year. How do you show progress when your devices aren’t working yet?</p>
+
+<p>Here’s what companies actually do. Say a manufacturing breakthrough gives a 35% improvement in processor performance. They don’t ship all 35% at once. They split it: 20% this year, 20% next year. The growth came in one big chunk, but they sell it in a line.</p>
+
+<p>Also, those bar charts companies show at keynotes? A 35% improvement bar drawn next to the previous year’s bar is sometimes three times taller, not a third taller. That’s not 35%. That’s 3x. Big companies are straight up manipulating data visualization and nobody calls them out.</p>
+
+<p>Hardware progress has been slowing for 15 to 20 years. We’re at the physical limits of how small a transistor can get. The improvements you see now are mostly software, not hardware. They’re not the same thing.</p>
+
+<h2 id="lesson-5-become-the-person-who-improves-others-by-just-being-thought-of">Lesson 5: Become the person who improves others by just being thought of</h2>
+
+<p>From <a href="https://dailystoic.com/"><em>The Daily Stoic</em></a>, March 10th:</p>
+
+<blockquote>
+  <p>“Happy is the person who can improve others not only when present but even in their thoughts.”</p>
+</blockquote>
+
+<p>Read that again. There are people who make us better when they’re around. Then there are people who make us better just by existing in our memory. You’re about to do something you wouldn’t want them to see, and their face pops into your head, and you stop.</p>
+
+<p>It hit me hard because I’ve felt this. A friend, a parent, a partner. Their very thought makes you choose better. It’s not the same as religion’s universal watcher concept, where fear of being seen keeps you in line. This is different. This comes from love, not fear. Their love inspires you to be a better human, which feels fundamentally different from being scared into being a good one.</p>
+
+<p>If you haven’t felt this yet, it’ll come when you find people who truly trust you. Hard to put into words. The philosopher did it better than I can.</p>
+
+<h2 id="lesson-6-make-it-easy-to-eat-healthy">Lesson 6: Make it easy to eat healthy</h2>
+
+<p>This one’s practical. The best fitness hack I used during my bachelor’s was embarrassingly simple: make healthy food easier to reach than junk food.</p>
+
+<p>In my hostel, evening snacks were always fried, oily stuff. Kids love fried stuff. So I kept brown bread, bananas, nuts, and a small portion of whatever snack I was craving in my room. I’d eat the nuts and fruit first, then have a small piece of the savory stuff. The 30 grams of nuts (one handful, roughly 200 calories of healthy fat) would fill me up enough that the craving for junk was mostly gone.</p>
+
+<p>I had a friend whose room was next to mine. We’d buy the same 200-gram snack pack on the same day. Mine would last a month. Two days later, we’d be walking somewhere and he’d say he needed to buy another one. Two days. The bananas and bread in his room sat untouched while the snack vanished.</p>
+
+<p>So the idea doesn’t work for everyone. But it worked for me, and it might work for you. The principle is simple: carry something healthy with you. Eat it first. The craving handles itself.</p>
+
+<h2 id="the-thread-connecting-all-seven">The thread connecting all seven</h2>
+
+<p>I started this whole exercise because I couldn’t sleep and a movie bothered me enough to do arithmetic at 2 a.m. But the thread through all these lessons is the same: we wildly misjudge what’s possible because we never actually run the numbers.</p>
+
+<p>Andy’s 600-year tunnel takes 19. A “quick meeting” costs a full day. The energy you think you’ve run out of is still there. The processor improvement chart is lying. The person you’re thinking of right now is already making you better without knowing it.</p>
+
+<p>Run the math. The gap between what you assume and what’s true is usually where the interesting stuff lives.</p>
+
+<p><em>Originally from a <a href="https://www.youtube.com/watch?v=LGmWZLfnMv4">video</a>.</em></p>]]></content><author><name>Parth Batra</name></author><category term="productivity" /><category term="life-lessons" /><category term="philosophy" /><category term="fitness" /><summary type="html"><![CDATA[It was 2 a.m. and I should’ve been asleep. Instead, I was lying in bed doing back-of-the-napkin calculations about whether Andy Dufresne could actually dig through that wall in 19 years with a tiny rock hammer. This is what happens when you spend years doing maths and still can’t turn off your brain at night.]]></summary></entry><entry><title type="html">I Read a 125-Year-Old Poem and Realized Why Our Generation Is So Lonely</title><link href="http://localhost:4000/2026/01/11/why-are-so-many-men-lonely.html" rel="alternate" type="text/html" title="I Read a 125-Year-Old Poem and Realized Why Our Generation Is So Lonely" /><published>2026-01-11T00:00:00+05:30</published><updated>2026-01-11T00:00:00+05:30</updated><id>http://localhost:4000/2026/01/11/why-are-so-many-men-lonely</id><content type="html" xml:base="http://localhost:4000/2026/01/11/why-are-so-many-men-lonely.html"><![CDATA[<p>If you can keep your head when all about you are losing theirs, you’ll be a man, my son.</p>
+
+<p>That’s how Rudyard Kipling’s poem <a href="https://www.poetryfoundation.org/poems/46473/if---">“If—”</a> ends. Written in 1910, it’s been recited at graduations, framed on walls, and turned into probably a thousand motivational YouTube videos with cinematic music and drone footage. It’s beautiful. It’s also a blueprint for loneliness.</p>
+
+<p>I went deep on this poem and what it reveals about how our whole generation thinks about strength, and I haven’t stopped thinking about it since.</p>
+
+<hr />
+
+<p>The poem tells you to trust yourself when others doubt you. To wait without tiring. To dream but not make dreams your master. To build things up with worn-out tools after watching everything you built get destroyed.</p>
+
+<p>Notice what’s missing? Other people. Your mother isn’t in there. Your partner isn’t in there. Your friends show up as “crowds” and “foes,” which is basically how most action movies treat relationships too. The poem is a portrait of someone who stands alone, conquers alone, and suffers alone. It’s a 125-year-old idea of strength, and our generation is still living inside it, just with better wifi and worse community.</p>
+
+<p>Here’s the thing that struck me: the poem isn’t wrong about resilience or integrity. Those matter. But it presents a world where the ultimate achievement is self-sufficiency, and that’s a trap.</p>
+
+<hr />
+
+<p>Nobody did it alone. Nobody.</p>
+
+<p>That’s not motivation-poster talk. That’s history. Einstein didn’t conjure special relativity from thin air. He built on <a href="https://en.wikipedia.org/wiki/Maxwell%27s_equations">Maxwell’s equations</a> and decades of work by physicists most people have never heard of. The narrative that one genius woke up one morning and rewrote physics is a story we tell because it’s clean and dramatic. The reality is messier: 99 people took 99 steps, and the 100th person crossed the finish line and got the trophy.</p>
+
+<figure class="diagram">
+<svg viewBox="0 0 380 170" width="100%" height="auto" role="img" aria-label="An ascending staircase of faint identical steps, with a trophy on the highlighted top step." fill="none" stroke="currentColor" stroke-width="1.5">
+  <g opacity="0.35">
+    <path d="M20 150 H68 V126 H116 V102 H164 V78 H212 V54 H272 V36" />
+  </g>
+  <g stroke="currentColor" stroke-width="1.5">
+    <path d="M298 12 H326 V20 a14 14 0 0 1 -28 0 Z" />
+    <path d="M312 34 V20 M302 38 H322" />
+  </g>
+  <g stroke="none" fill="currentColor" font-family="-apple-system, sans-serif" font-size="12">
+    <text x="20" y="166" opacity="0.5">99 steps</text>
+    <text x="312" y="56" text-anchor="middle" opacity="0.9">100th</text>
+  </g>
+</svg>
+<figcaption>Ninety-nine people took ninety-nine steps. The hundredth crossed the line and got the trophy.</figcaption>
+</figure>
+
+<p>I read the <a href="https://en.wikipedia.org/wiki/Steve_Jobs_(book)">Steve Jobs biography</a> and then read <a href="https://www.simonandschuster.com/books/Chip-War/Chris-Miller/9781982172008"><em>Chip War</em></a> shortly after. Put those two books together and you realize that Apple didn’t happen because one man was brilliant in a garage. It happened because the U.S. military poured billions into semiconductor research during the Cold War, an entire industry bloomed in Silicon Valley, and Jobs happened to be standing in the right place at the right time with the right instincts. He was smart. He had good ideas. But the ground was laid by thousands of people he’d never meet.</p>
+
+<p>Arnold Schwarzenegger <a href="https://www.marketplace.org/story/2017/05/12/schwarzenegger-self-made-man-myth">once said something similar</a>: “I didn’t do it alone. It just looks like that.”</p>
+
+<hr />
+
+<p>So why do we keep believing the solo-legend story? Because it’s flattering. Because it lets each of us imagine that we could be that one person. And because the internet has been pumping fuel on this fire for decades, selling the idea that true strength is needing nobody.</p>
+
+<p>This is where our loneliness starts. Not with some sudden cultural collapse. With a poem, a movie, a thousand stories that all say the same thing: strong people handle it alone. We grew up on that. Now surveys keep finding the same thing, that roughly one in four people under 30 say they have no one to call at 2am, and we sit there wondering why.</p>
+
+<hr />
+
+<p>If nobody did it alone, can one individual even aspire to do something extraordinary? That question bugged me. If you can’t find a team, if nobody around you sees the vision, should you just give up?</p>
+
+<p>No. Here’s how it actually works.</p>
+
+<p>One individual can always <em>start</em> the journey. Your dream is big, which means nobody around you can see what you see. That’s normal. If everyone understood your vision, it probably wasn’t that ambitious. So you believe in it first. You start acting on it. Your actions do two things: they solidify your own belief that this is possible, and they ignite belief in the people around you.</p>
+
+<p>And here’s the part I wish someone had told me earlier. You will get tired. Not halfway through. Not at 50%. You’ll be exhausted by the time you’ve done 10% of the journey. I felt it a few months into a side project I’d started after work, when nothing I built was working and I was ready to call it a wrong turn. The thing that kept me going wasn’t grit. It was that I’d already told two friends what I was chasing, and quitting now meant looking each of them in the eye and taking it back. That’s when the belief you planted in other people carries you. Because now they’re invested. Your quit feels like their quit. They won’t let you stop.</p>
+
+<p>It’s not weakness to need that. It’s architecture.</p>
+
+<hr />
+
+<p>There’s a second trap ambitious people fall into: the burden of expectations. Parents, siblings, that cousin who made it big and now everyone compares you to them. It piles up.</p>
+
+<p>I used to see expectations as weight on my shoulders. Now I see them differently. When someone expects something from you, it means they believe you’re capable of it. Nobody expects things from people they’ve given up on. Think about that. The last time you expected something from someone knowing full well they wouldn’t deliver, how’d that feel? You don’t do it. Expectations are a sign that someone still thinks you can do more.</p>
+
+<p>The scarier scenario isn’t people expecting too much from you. It’s people expecting nothing.</p>
+
+<hr />
+
+<p>I’ve made the mistake of pushing back on people who held me to standards I set myself. Friends who got angry when I fell below my own moral bar. My first reaction was defensive. “Who are you to tell me?” Classic ego move. But they weren’t being unfair. They were reminding me of something I’d declared, something I believed in, and I was the one walking away from it.</p>
+
+<p>Sometimes the people who love you hold up a mirror, and your first instinct is to break it. That’s not their problem. That’s yours.</p>
+
+<hr />
+
+<p>So here’s what I’m taking away from a 125-year-old poem. Don’t try to do it alone. The people who look like they did are lying, or at least the story being told about them is. Believe in something and act on it. Your actions will create belief in others, and that collective belief is what carries you through the 90% of the journey that’s just exhaustion and doubt. And stop treating expectations like a burden. They’re a signal that someone hasn’t given up on you yet.</p>
+
+<p>Kipling wrote “you’ll be a man, my son.” Maybe that was the test in 1910. For us, I don’t think it is. The real test isn’t standing alone when everything falls apart. It’s letting people stand next to you when you’re not sure you deserve it. That’s the part my generation forgot how to do.</p>
+
+<p><em>Read Kipling’s full poem <a href="https://www.poetryfoundation.org/poems/46473/if---">“If—”</a> at the Poetry Foundation.</em></p>]]></content><author><name>Parth Batra</name></author><category term="mindset" /><category term="loneliness" /><category term="generation" /><summary type="html"><![CDATA[If you can keep your head when all about you are losing theirs, you’ll be a man, my son.]]></summary></entry><entry><title type="html">I Shipped a Neovim Plugin in Lua. I Don’t Know Lua.</title><link href="http://localhost:4000/2025/12/07/i-shipped-a-neovim-plugin-in-lua.html" rel="alternate" type="text/html" title="I Shipped a Neovim Plugin in Lua. I Don’t Know Lua." /><published>2025-12-07T00:00:00+05:30</published><updated>2025-12-07T00:00:00+05:30</updated><id>http://localhost:4000/2025/12/07/i-shipped-a-neovim-plugin-in-lua</id><content type="html" xml:base="http://localhost:4000/2025/12/07/i-shipped-a-neovim-plugin-in-lua.html"><![CDATA[<p>I don’t know Lua. I’ve never written it, never studied it, don’t have the interpreter installed.</p>
 
 <p>Over a single weekend, I shipped a Neovim plugin with over 2,800 lines of Lua code, 89% test coverage, and a feature set I’m actually proud of. It’s called <a href="https://github.com/parthbatra99/hexwitch.nvim">hexwitch.nvim</a> — it generates your editor’s colorscheme from plain English.</p>
 
@@ -733,7 +1229,7 @@
 
 <p>That’s what I was actually delegating when I handed the code generation to the AI. Not my engineering judgment — just the part where you turn that judgment into the specific characters a compiler wants.</p>
 
-<p>hexwitch.nvim is <a href="https://github.com/parthbatra99/hexwitch.nvim">on GitHub</a> if you want to look at what came out the other side.</p>]]></content><author><name>Parth Batra</name></author><category term="neovim" /><category term="lua" /><category term="ai" /><category term="developer-tools" /><summary type="html"><![CDATA[I don’t know Lua. I’ve never written it, never studied it, don’t have the interpreter installed.]]></summary></entry><entry><title type="html">I Did the Math on My Spotify Obsession. I’m Spotify’s Problem.</title><link href="http://localhost:4000/2025/05/23/when-does-your-streaming-habit-spotify.html" rel="alternate" type="text/html" title="I Did the Math on My Spotify Obsession. I’m Spotify’s Problem." /><published>2025-05-23T17:30:00+05:30</published><updated>2025-05-23T17:30:00+05:30</updated><id>http://localhost:4000/2025/05/23/when-does-your-streaming-habit-spotify</id><content type="html" xml:base="http://localhost:4000/2025/05/23/when-does-your-streaming-habit-spotify.html"><![CDATA[<p>For three years running, my Spotify Wrapped has clocked in at over 100,000 minutes. That’s more than two full months of non-stop audio — not a flex, more a confession, and also the thing that made me want to actually run the numbers.</p>
+<p>hexwitch.nvim is <a href="https://github.com/parthbatra99/hexwitch.nvim">on GitHub</a> if you want to look at what came out the other side.</p>]]></content><author><name>Parth Batra</name></author><category term="neovim" /><category term="lua" /><category term="ai" /><category term="developer-tools" /><summary type="html"><![CDATA[I don’t know Lua. I’ve never written it, never studied it, don’t have the interpreter installed.]]></summary></entry><entry><title type="html">I Did the Math on My Spotify Obsession. I’m Spotify’s Problem.</title><link href="http://localhost:4000/2025/11/02/i-did-the-math-on-my-spotify-obsession.html" rel="alternate" type="text/html" title="I Did the Math on My Spotify Obsession. I’m Spotify’s Problem." /><published>2025-11-02T00:00:00+05:30</published><updated>2025-11-02T00:00:00+05:30</updated><id>http://localhost:4000/2025/11/02/i-did-the-math-on-my-spotify-obsession</id><content type="html" xml:base="http://localhost:4000/2025/11/02/i-did-the-math-on-my-spotify-obsession.html"><![CDATA[<p>For three years running, my Spotify Wrapped has clocked in at over 100,000 minutes. That’s more than two full months of non-stop audio — not a flex, more a confession, and also the thing that made me want to actually run the numbers.</p>
 
 <p>The question was simple: at what point does a subscriber like me become a money pit for Spotify?</p>
 
@@ -1004,7 +1500,125 @@
       <p>Average user streaming estimate based on industry data (~20 songs/day = 600 songs/month). Overhead cost per stream: ₹38.60 ÷ 600 = ₹0.064. <a href="#fnref:5" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Parth Batra</name></author><category term="spotify" /><category term="music-economics" /><category term="data-analysis" /><category term="business" /><summary type="html"><![CDATA[For three years running, my Spotify Wrapped has clocked in at over 100,000 minutes. That’s more than two full months of non-stop audio — not a flex, more a confession, and also the thing that made me want to actually run the numbers.]]></summary></entry><entry><title type="html">What a Rubik’s Cube and Car Wax Have to Do With My Keyboard Setup</title><link href="http://localhost:4000/2025/03/02/first-keyboard-that-i-made-weekend-diy.html" rel="alternate" type="text/html" title="What a Rubik’s Cube and Car Wax Have to Do With My Keyboard Setup" /><published>2025-03-02T09:59:00+05:30</published><updated>2025-03-02T09:59:00+05:30</updated><id>http://localhost:4000/2025/03/02/first-keyboard-that-i-made-weekend-diy</id><content type="html" xml:base="http://localhost:4000/2025/03/02/first-keyboard-that-i-made-weekend-diy.html"><![CDATA[<p>I have a Rubik’s cube in my desk drawer and a bottle of ceramic car wax under my sink. Neither of these things should have anything to do with keyboards.</p>
+</div>]]></content><author><name>Parth Batra</name></author><category term="spotify" /><category term="music-economics" /><category term="data-analysis" /><category term="business" /><summary type="html"><![CDATA[For three years running, my Spotify Wrapped has clocked in at over 100,000 minutes. That’s more than two full months of non-stop audio — not a flex, more a confession, and also the thing that made me want to actually run the numbers.]]></summary></entry><entry><title type="html">A 67-Page Book Taught Me Why Smart People Talk Nonsense</title><link href="http://localhost:4000/2025/10/05/i-read-a-67-page-book-about-bs-it-rewired-how-i-think.html" rel="alternate" type="text/html" title="A 67-Page Book Taught Me Why Smart People Talk Nonsense" /><published>2025-10-05T00:00:00+05:30</published><updated>2025-10-05T00:00:00+05:30</updated><id>http://localhost:4000/2025/10/05/i-read-a-67-page-book-about-bs-it-rewired-how-i-think</id><content type="html" xml:base="http://localhost:4000/2025/10/05/i-read-a-67-page-book-about-bs-it-rewired-how-i-think.html"><![CDATA[<p>I could write a blog post tomorrow claiming your phone notifications are quietly rewiring your brain to keep you broke. A confident tone, a few cherry-picked studies, some scary jargon. It would go viral. Guaranteed. And if I kept writing posts like that for a year or two, I’d eventually believe it myself.</p>
+
+<p>That’s not a hypothetical. That’s how brainrot works. And a 67-page philosophy book explained it to me better than years of scrolling, arguing, and forming opinions ever did.</p>
+
+<p>The book is <a href="https://press.princeton.edu/books/hardcover/9780691122946/on-bullshit"><em>On Bullshit</em></a> by <a href="https://en.wikipedia.org/wiki/Harry_Frankfurt">Harry Frankfurt</a>. It’s thin enough to read in one sitting, dense enough to rethink your entire relationship with truth. What Frankfurt does is draw a line between lying and bullshitting, and that distinction changes everything.</p>
+
+<hr />
+
+<h2 id="the-road-analogy">The Road Analogy</h2>
+
+<p>Imagine truth is a road. A person telling you the truth is driving on that road. They’re giving you an exact account of reality as they experience it.</p>
+
+<p>A liar is driving adjacent to the road. They can see it. They know it exists, they know exactly where it goes and how many lanes it has. But they choose not to drive on it because they have an agenda.</p>
+
+<p>Maybe they want to get ahead at work. Maybe they want something from you. The point is, a liar still knows what’s real.</p>
+
+<p>A bullshitter? They’re sitting at home, not even near the road, telling you how wide it is, where it curves, what color the asphalt is. All made up.</p>
+
+<p>They have no relationship with truth or falsehood. They’re not even playing the game.</p>
+
+<figure class="diagram">
+<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="A solid truth road; a liar's dashed line running alongside it; a bullshitter marked as a dot far off the road." font-family="-apple-system, sans-serif" font-size="12.5">
+  <g fill="none" stroke="currentColor">
+    <line x1="20" y1="60" x2="300" y2="60" stroke-width="2" />
+    <line x1="20" y1="84" x2="300" y2="84" stroke-width="1.5" stroke-dasharray="8 7" opacity="0.7" />
+    <circle cx="150" cy="132" r="4" fill="currentColor" />
+  </g>
+  <g stroke="none" fill="currentColor">
+    <text x="310" y="64">Truth</text>
+    <text x="310" y="88" opacity="0.7">Liar</text>
+    <text x="162" y="136" opacity="0.7">Bullshitter (at home)</text>
+  </g>
+</svg>
+<figcaption>The liar drives alongside the road — he still sees it. The bullshitter never left the house.</figcaption>
+</figure>
+
+<p>This hit me hard because I realized how much of public life runs on this exact dynamic.</p>
+
+<hr />
+
+<h2 id="why-bs-is-more-dangerous-than-lying">Why BS Is More Dangerous Than Lying</h2>
+
+<p>Here’s the counterintuitive part. You’d think lying is the worst thing someone can do to truth. It’s not.</p>
+
+<p>When I lie to my mom and say “I’m fine” when I’m actually sick, I haven’t lost my grip on reality. I still know I’m sick. I’m just choosing not to tell her because she’s 10,000 kilometers away and knowing would only make her worried and helpless.</p>
+
+<p>A benign lie. We all do it. It doesn’t detach us from what’s true.</p>
+
+<p>But bullshit is a completely different animal. A bullshitter isn’t trying to hide reality. They’re not even concerned with it. The only thing a BS statement serves is the moment itself.</p>
+
+<p>If I want to borrow money from you, I’ll say I have none. Doesn’t matter what’s actually in my pocket. If I want to impress you, I’ll claim I have thousands. Same pocket, zero relationship with reality.</p>
+
+<p>And here’s where it gets dark. Every BS statement you make is a dot. You make another one, then another, building a path that leads further and further from the road. At some point you’re so detached from reality that you completely lose your ability to recognize it. Your critical thinking doesn’t degrade. It evaporates.</p>
+
+<p>I’m not exaggerating. Imagine me spending two years writing posts about how your notifications are engineered to keep you poor. First I’d say it for views. Then I’d say it because the engagement felt good.</p>
+
+<p>Then I’d say it because I believed it. And then I’d be impossible to live with. Every article would look like propaganda. Every expert would feel like a shill. My brain would have lost the hardware for critical thinking entirely.</p>
+
+<p>That’s brainrot. And it doesn’t start with conspiracy theories. It starts with casual, everyday indifference to truth.</p>
+
+<hr />
+
+<h2 id="where-bs-comes-from">Where BS Comes From</h2>
+
+<p>Two places, mainly.</p>
+
+<p>First: public life. Any situation where you’re required to make statements about things you understand nothing about is a BS factory.</p>
+
+<p>Think about it. Politicians who only understand voter behavior are suddenly making declarations about biology, neuroscience, space engineering, and climate science. They won an election, not a degree. But now they’re commenting on every domain of human knowledge with absolute confidence.</p>
+
+<p>That’s not lying. That’s not truth. That’s just noise dressed up in a suit.</p>
+
+<p>Second: the <a href="https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect">Dunning-Kruger effect</a>. In the beginning, when you have very little knowledge about something, your confidence is at its peak. That’s where you’re most likely to make BS statements.</p>
+
+<figure class="diagram">
+<svg viewBox="0 0 360 190" width="100%" height="auto" role="img" aria-label="A confidence versus knowledge curve that spikes high at low knowledge, dips, then climbs slowly." font-family="-apple-system, sans-serif" font-size="12">
+  <g fill="none" stroke="currentColor" stroke-width="1.5">
+    <path d="M40 160 V20 M40 160 H330" />
+    <path d="M40 110 C 70 30, 95 22, 120 60 C 145 100, 170 140, 220 130 C 270 122, 310 95, 330 78" stroke-width="2" />
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="3 3" opacity="0.5">
+    <line x1="95" y1="30" x2="95" y2="160" />
+  </g>
+  <g stroke="none" fill="currentColor">
+    <text x="95" y="180" text-anchor="middle" font-size="11" opacity="0.7">peak BS zone</text>
+    <text x="36" y="16" text-anchor="end" font-size="11" opacity="0.7">confidence</text>
+    <text x="330" y="178" text-anchor="end" font-size="11" opacity="0.7">knowledge →</text>
+  </g>
+</svg>
+<figcaption>Confidence spikes highest exactly where you know the least — the danger zone for talking nonsense.</figcaption>
+</figure>
+
+<p>You don’t know much, someone asks you a question, you want to sound smart, so you fabricate. Not a lie. Not the truth. Just verbal filler that makes you feel competent for 30 seconds.</p>
+
+<p>I’ve caught myself doing this. Two chais deep at a family dinner, an uncle asks how the economy actually works, and I start talking with way more confidence than my knowledge warrants. It feels good in the moment. Everyone nods. Then I go home and realize I basically made up half of what I said. Not maliciously. Just… carelessly.</p>
+
+<hr />
+
+<h2 id="three-things-i-now-do-differently">Three Things I Now Do Differently</h2>
+
+<p>Frankfurt’s framework gave me a mental filter. Three rules I run things through now.</p>
+
+<p><strong>One. Before I make any statement, I ask myself: is this true, is this a lie, or is it neither?</strong> If it’s neither, I stop talking. Simple as that. Most BS dies at the moment you refuse to let it leave your mouth.</p>
+
+<p><strong>Two. I don’t have opinions about everything.</strong> One human cannot understand every single thing on this planet. If you ask me about the Israel-Palestine conflict, I’ll tell you I don’t understand it well enough to have a stance.</p>
+
+<p>Neutral is a valid position. “I don’t know” is not a weakness. It’s a boundary that protects your brain from rotting.</p>
+
+<p><strong>Three. I read more.</strong> Books force you to sit with complexity. They don’t let you scroll past a contradiction. You have to hold multiple ideas in your head simultaneously, and that’s the exact exercise that builds critical thinking. Every book you read is a firmware update for your bullshit detector.</p>
+
+<hr />
+
+<h2 id="the-realization-that-stuck">The Realization That Stuck</h2>
+
+<p>For years I thought the biggest threat to truth was dishonesty. People lying, cheating, hiding facts. Turns out that’s the wrong enemy entirely.</p>
+
+<p>A liar still lives in reality. They just don’t want you to see it. A bullshitter has moved out and built their own. And if you spend enough time in a world where people speak without caring whether what they say is true, you stop being able to tell the difference yourself.</p>
+
+<p>The most valuable thing I have isn’t anything I know. It’s the ability to look at a claim and ask: does this person care about what’s true? Because if they don’t, nothing they say matters. And if I stop caring, nothing I say will matter either.</p>]]></content><author><name>Parth Batra</name></author><category term="critical-thinking" /><category term="books" /><category term="philosophy" /><summary type="html"><![CDATA[I could write a blog post tomorrow claiming your phone notifications are quietly rewiring your brain to keep you broke. A confident tone, a few cherry-picked studies, some scary jargon. It would go viral. Guaranteed. And if I kept writing posts like that for a year or two, I’d eventually believe it myself.]]></summary></entry><entry><title type="html">What a Rubik’s Cube and Car Wax Have to Do With My Keyboard Setup</title><link href="http://localhost:4000/2025/09/14/what-a-rubiks-cube-and-car-wax-have-to-do-with-my-keyboard-setup.html" rel="alternate" type="text/html" title="What a Rubik’s Cube and Car Wax Have to Do With My Keyboard Setup" /><published>2025-09-14T00:00:00+05:30</published><updated>2025-09-14T00:00:00+05:30</updated><id>http://localhost:4000/2025/09/14/what-a-rubiks-cube-and-car-wax-have-to-do-with-my-keyboard-setup</id><content type="html" xml:base="http://localhost:4000/2025/09/14/what-a-rubiks-cube-and-car-wax-have-to-do-with-my-keyboard-setup.html"><![CDATA[<p>I have a Rubik’s cube in my desk drawer and a bottle of ceramic car wax under my sink. Neither of these things should have anything to do with keyboards.</p>
 
 <p>And yet, that’s exactly what brought a 12-year-old TVS Gold back from the dead.</p>
 

@@ -2,7 +2,7 @@
 layout: post
 title: "I Shipped a Neovim Plugin in Lua. I Don't Know Lua."
 subtitle: "The actual workflow: use AI as the Lua specialist, yourself as the architect, and your engineering instincts to catch what the AI can't."
-date: 2025-11-02 12:00:00 +0530
+date: 2025-12-07
 hero_art: /assets/images/neovim.png
 tags:
   - neovim

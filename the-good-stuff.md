@@ -45,11 +45,11 @@ Raahgir
 
 raahgir is one of those artists i discovered during covid, somewhere in my listening sprees, and instantly fell in love with his writing. calling him a poet with a guitar would be more apt than calling him a musician. this is basically a collection of his small poems: satire on society, heartbreak, the 'what is sukoon?' kind of questions, and quiet motivation. it'll hit you when you're not expecting it.
 
-    surat station ke bahar, thandi bench thi, chai garam thi
-    bagal mei ek tau ke haath mei chai thi, jo lagbhag khatam thi
-    maine bas do-chaar chuskiyaan li thi, utne mei tau nei dusri sulga li thi
-    pehli ko faika zameen par aur jutti se kuchal dia
-    mujhe kyu teri yaar aayi, mai utha aur chal dia;
+> surat station ke bahar, thandi bench thi, chai garam thi\
+> bagal mei ek tau ke haath mei chai thi, jo lagbhag khatam thi\
+> maine bas do-chaar chuskiyaan li thi, utne mei tau nei dusri sulga li thi\
+> pehli ko faika zameen par aur jutti se kuchal dia\
+> mujhe kyu teri yaar aayi, mai utha aur chal dia;
 
 ---
 

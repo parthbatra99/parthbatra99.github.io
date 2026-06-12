@@ -31,6 +31,23 @@ img, video, audio {
   max-width: 100%;
 }
 
+figure.diagram {
+  margin: 2.25rem 0;
+  text-align: center;
+}
+
+figure.diagram svg {
+  max-width: 100%;
+  height: auto;
+}
+
+figure.diagram figcaption {
+  margin-top: 0.5rem;
+  color: var(--muted);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.85rem;
+}
+
 a {
   color: var(--text);
   text-decoration-thickness: 1px;

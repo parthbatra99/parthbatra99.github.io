@@ -2,7 +2,7 @@
 layout: post
 title: "I Cloned a ₹20,000 Light Setup for Under ₹2,000"
 subtitle: "How I built a real-time TV backlight that syncs colors with what's on screen, for less than the cost of a decent dinner."
-date: 2026-06-08 14:00:00 +0530
+date: 2026-04-18
 hero_art: /assets/images/ambilight.png
 tags:
   - diy

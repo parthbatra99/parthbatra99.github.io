@@ -2,7 +2,7 @@
 layout: post
 title: "What a Rubik's Cube and Car Wax Have to Do With My Keyboard Setup"
 subtitle: "A 12-year-old TVS Gold. One weekend. Two things that have no business being in a keyboard teardown."
-date: 2025-03-02 10:00:00 +0531
+date: 2025-09-14
 hero_art: /assets/images/mech-keyboard.png
 tags:
   - diy

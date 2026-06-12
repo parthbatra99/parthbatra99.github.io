@@ -2,7 +2,7 @@
 layout: post
 title: "I Did the Math on My Spotify Obsession. I'm Spotify's Problem."
 subtitle: "A proper cost model for Indian subscribers — marginal royalty, fully-loaded overhead, break-even analysis, and what 100k+ minutes/year actually means for Spotify's P&L."
-date: 2025-05-23 12:00:00 +0000
+date: 2025-11-02
 hero_art: /assets/images/spotify.png
 tags:
   - spotify
