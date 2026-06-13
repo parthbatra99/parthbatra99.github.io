@@ -1,5 +1,6 @@
 ---
 layout: post
+kind: field-notes
 title: "Spiti Took Five Days to Take Me Apart. A 9-Year-Old Did It in Four Seconds."
 subtitle: "A loop story: one rain, one birthday cake at 9,000 feet, and an arm wrestling defeat I'm still processing."
 date: 2026-06-08
@@ -11,7 +12,29 @@ tags:
 
 It rained the morning we left Spiti.
 
-Five days of hard blue skies, the kind that make you squint at your own photos later, and the valley picked our last hour to rain. We stood next to our bus, bags fully loaded, nobody moving towards the door. Just standing there, getting wet, like the rain was saying something and it would be rude to leave mid-sentence.
+<figure class="diagram">
+<svg viewBox="0 0 400 170" width="100%" height="auto" role="img" aria-label="An altitude line across five days in Spiti, marked with the rain on day one, a birthday cake at 9,000 feet near the peak, and an arm-wrestling defeat on day four." font-family="-apple-system, sans-serif" font-size="10.5">
+  <polyline points="40,120 130,72 210,46 290,82 360,114" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <g fill="currentColor">
+    <circle cx="40" cy="120" r="4"/>
+    <circle cx="210" cy="46" r="4"/>
+    <circle cx="290" cy="82" r="4"/>
+  </g>
+  <g fill="currentColor">
+    <text x="40" y="138">rain</text>
+    <text x="210" y="38" text-anchor="middle">cake @ 9,000 ft</text>
+    <text x="300" y="76">arm wrestle</text>
+  </g>
+  <line x1="30" y1="150" x2="370" y2="150" stroke="#888" stroke-width="1"/>
+  <g fill="#888">
+    <text x="40" y="165" text-anchor="middle">Day 1</text>
+    <text x="360" y="165" text-anchor="middle">Day 5</text>
+  </g>
+</svg>
+<figcaption>Five days up and down the valley. It took all five to take me apart.</figcaption>
+</figure>
+
+Six days of hard blue skies, the kind that make you squint at your own photos later, and the valley picked our last day to rain. We stood next to our bus, bags fully loaded, nobody moving towards the door. Just standing there, feeling the drizzle, like the rain was saying something and it would be rude to leave mid-sentence.
 
 Mountains don't wave goodbye. They just rain.
 
@@ -49,7 +72,7 @@ Kinnaur Kailash sat across the valley the whole evening, lit up like it knew. My
 
 ## Tabo: Nobody Tells You About the Sky. That's On Purpose.
 
-The caves above Tabo are a twenty minute trek from the village, up a trail that is marked the way secrets are marked, which is to say not at all. Monks used them for meditation for a thousand years. I climbed up at night with a tripod.
+The caves above Tabo are a twenty minute trek from the village, up a trail that is marked the way secrets are marked, which is to say not at all. Monks used them for meditation for a thousand years. I climbed up at night with my pixel and lot of optimism in my phone's camera capabilities.
 
 Here's what happened: I set up a twenty minute timelapse of the sky, sat down on the cold ground, looked up, and didn't say a word until the camera was done. Neither did anyone else. The Milky Way over Tabo isn't a sight, it's a ceiling. You think you're prepared because you've seen photos and you consider yourself a person who appreciates a sky. You're not prepared. It hangs there with absolutely no regard for what it's doing to you.
 

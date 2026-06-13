@@ -1,5 +1,6 @@
 ---
 layout: post
+kind: rabbit-hole
 title: "Burnout Isn't From Doing Too Much. It's From Friction."
 subtitle: "The Monthly Rabbit Hole: a Stanford professor's case that human energy isn't actually exhaustible."
 date: 2026-04-22

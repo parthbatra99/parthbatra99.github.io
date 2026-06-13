@@ -1,5 +1,6 @@
 ---
 layout: post
+kind: theory
 title: "I Stopped Measuring My Day in 24 Hours. My Output Doubled."
 subtitle: "The three-slot method: shorter feedback loops, built-in error correction, and why a wasted morning doesn't have to mean a wasted day."
 date: 2026-08-31
@@ -10,6 +11,24 @@ tags:
 ---
 
 Here's a question that bothered me for months. Why is it that I can be productive for a full morning and then completely fall off after lunch? Not "kind of slow." Full stop. The afternoon vanishes into YouTube, half-read articles, and the kind of phone scrolling where you look up and 90 minutes are just gone.
+
+<figure class="diagram">
+<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="One long bar for a single 24-hour day above three shorter bars for morning, afternoon and evening slots." font-family="-apple-system, sans-serif" font-size="11">
+  <rect x="30" y="30" width="320" height="26" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <text x="190" y="48" text-anchor="middle" fill="currentColor">one 24-hour day</text>
+  <g fill="currentColor">
+    <rect x="30" y="92" width="100" height="26" rx="2"/>
+    <rect x="140" y="92" width="100" height="26" rx="2"/>
+    <rect x="250" y="92" width="100" height="26" rx="2"/>
+  </g>
+  <g fill="currentColor" text-anchor="middle">
+    <text x="80" y="134">morning</text>
+    <text x="190" y="134">afternoon</text>
+    <text x="300" y="134">evening</text>
+  </g>
+</svg>
+<figcaption>Three short days beat one long one. Shorter loops, faster correction.</figcaption>
+</figure>
 
 I assumed the answer was discipline. Or motivation. Or some supplement I hadn't heard about yet. Turns out it was none of those things. It was a measurement problem.
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+kind: from-a-book
 title: "I Stopped Putting Off 2-Minute Tasks. My Output Jumped."
 subtitle: "What Noah Kagan's Million Dollar Weekend taught me about action bias, asking for discounts at bookstores, and starting from exactly where you are."
 date: 2026-11-09
@@ -10,6 +11,19 @@ tags:
 ---
 
 I read a book called *Million Dollar Weekend* by Noah Kagan. Has it made me a millionaire? No. But it did something more useful: it gave me a rule so stupidly simple that I'm annoyed I didn't figure it out myself. If a task takes less than two minutes, I don't write it down, I don't add it to my notes, I don't schedule it. I just do it.
+
+<figure class="diagram">
+<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="A time axis with a two-minute cutoff: tasks under two minutes get done now, longer ones get parked on a list." font-family="-apple-system, sans-serif" font-size="12.5">
+  <line x1="30" y1="85" x2="350" y2="85" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="150" y1="52" x2="150" y2="118" stroke="#888" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="150" y="138" text-anchor="middle" fill="#888" font-size="11">2 min</text>
+  <g fill="currentColor" text-anchor="middle">
+    <text x="90" y="72">Do it now</text>
+    <text x="252" y="72">Park it</text>
+  </g>
+</svg>
+<figcaption>Under two minutes and it never makes the list. It just gets done.</figcaption>
+</figure>
 
 That's it. That's the whole rule. And somehow it bumped my daily output by roughly 40%.
 

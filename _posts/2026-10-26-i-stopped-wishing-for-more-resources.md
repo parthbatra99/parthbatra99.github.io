@@ -1,5 +1,6 @@
 ---
 layout: post
+kind: theory
 title: "I Stopped Wishing for More Resources. The Creativity Showed Up on Its Own."
 subtitle: "Why constraints aren't obstacles. They're the entire engine, plus what Hindi taught me about society and why I was doing productivity backwards."
 date: 2026-10-26
@@ -12,6 +13,18 @@ tags:
 Name one great songwriter who was born a billionaire.
 
 I'll wait.
+
+<figure class="diagram">
+<svg viewBox="0 0 380 160" width="100%" height="auto" role="img" aria-label="Two crossing lines: as resources fall, creativity rises." font-family="-apple-system, sans-serif" font-size="12">
+  <line x1="40" y1="40" x2="340" y2="130" stroke="#888" stroke-width="1.5"/>
+  <line x1="40" y1="130" x2="340" y2="40" stroke="currentColor" stroke-width="1.5"/>
+  <g font-size="11">
+    <text x="44" y="32" fill="#888">Resources</text>
+    <text x="336" y="32" text-anchor="end" fill="currentColor">Creativity</text>
+  </g>
+</svg>
+<figcaption>Fewer resources didn't limit the work. They were the engine.</figcaption>
+</figure>
 
 The pattern is so consistent it's almost a joke: the people who create the most extraordinary things are rarely the ones who started with the most resources. There's something about having less that forces a kind of thinking that abundance just... doesn't.
 

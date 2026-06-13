@@ -1,5 +1,6 @@
 ---
 layout: post
+kind: from-a-book
 title: "A 67-Page Book Taught Me Why Smart People Talk Nonsense"
 subtitle: "A liar still knows where the truth is. A bullshitter moved out and built their own."
 date: 2025-10-05

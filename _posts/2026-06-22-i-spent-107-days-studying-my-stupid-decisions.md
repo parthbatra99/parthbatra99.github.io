@@ -1,5 +1,6 @@
 ---
 layout: post
+kind: experiment
 title: "I Spent 107 Days Studying My Stupid Decisions"
 subtitle: "Survivorship bias, sunk cost fallacy, and confirmation bias: the three mental traps making you confidently wrong."
 date: 2026-06-22
@@ -10,6 +11,23 @@ tags:
 ---
 
 Here's a stat that will mess with you: 41.6 million Americans went to college but never finished. Dropouts, all of them. On the entire planet, there are 3,028 billionaires. Yet somehow we all "know" that dropping out is the billionaire move.
+
+<figure class="diagram">
+<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="Three mental traps sitting on one path of decisions: survivorship bias, sunk cost and confirmation bias." font-family="-apple-system, sans-serif" font-size="11">
+  <line x1="20" y1="75" x2="360" y2="75" stroke="#888" stroke-width="1"/>
+  <g fill="none" stroke="currentColor" stroke-width="1.5">
+    <rect x="16" y="57" width="106" height="36" rx="2"/>
+    <rect x="137" y="57" width="106" height="36" rx="2"/>
+    <rect x="258" y="57" width="106" height="36" rx="2"/>
+  </g>
+  <g fill="currentColor" text-anchor="middle">
+    <text x="69" y="79">Survivorship</text>
+    <text x="190" y="79">Sunk cost</text>
+    <text x="311" y="79">Confirmation</text>
+  </g>
+</svg>
+<figcaption>107 days of bad calls. Three traps did most of the damage.</figcaption>
+</figure>
 
 Steve Jobs did it. Zuckerberg did it. Gates did it. So did 41,599,997 other people you've never heard of, because nobody writes a magazine profile about the guy who dropped out and makes $22,000 a year.
 

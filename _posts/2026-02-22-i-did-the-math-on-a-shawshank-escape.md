@@ -1,5 +1,6 @@
 ---
 layout: post
+kind: rabbit-hole
 title: "I Did the Math on a Shawshank Escape. It Checks Out."
 subtitle: "The Monthly Rabbit Hole: a 2 a.m. calculation about a rock hammer, a prison wall, and why your big dreams are closer than they look."
 date: 2026-02-22

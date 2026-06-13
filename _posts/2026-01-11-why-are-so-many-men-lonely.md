@@ -1,5 +1,6 @@
 ---
 layout: post
+kind: from-a-book
 title: "I Read a 125-Year-Old Poem and Realized Why Our Generation Is So Lonely"
 subtitle: "The lie we've been sold about doing it alone, and why the last person to cross the finish line gets all the credit."
 date: 2026-01-11

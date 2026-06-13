@@ -1,5 +1,6 @@
 ---
 layout: post
+kind: theory
 title: "I Was a Proud Multitasker. It Isn't Real."
 subtitle: "What your brain actually does when you think you're doing two things at once."
 date: 2026-09-28
@@ -10,6 +11,22 @@ tags:
 ---
 
 I used to eat lunch with YouTube shorts in one hand and a group chat in the other. Emails got answered during meetings. Podcasts ran in the background while I coded. And I genuinely believed I was getting more done than the people around me.
+
+<figure class="diagram">
+<svg viewBox="0 0 600 150" width="100%" height="auto" role="img" aria-label="A line zig-zagging between two task lanes, showing that multitasking is really just rapid, costly switching back and forth." font-family="-apple-system, sans-serif" font-size="11">
+  <line x1="120" y1="45" x2="560" y2="45" stroke="#888" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="120" y1="110" x2="560" y2="110" stroke="#888" stroke-width="1" stroke-dasharray="3 3"/>
+  <polyline points="120,45 200,45 260,110 340,110 400,45 480,45 540,110 560,110" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <g fill="currentColor">
+    <circle cx="260" cy="110" r="3.5"/><circle cx="400" cy="45" r="3.5"/><circle cx="540" cy="110" r="3.5"/>
+  </g>
+  <g fill="currentColor" text-anchor="end">
+    <text x="104" y="49">Task A</text>
+    <text x="104" y="114">Task B</text>
+  </g>
+</svg>
+<figcaption>Not two things at once. Just an expensive toggle between them.</figcaption>
+</figure>
 
 Then I went down a rabbit hole about how the brain actually works, and it turns out multitasking is a complete fiction. Your brain doesn't do two things at once. It just switches between them really fast, and it's terrible at it.
 

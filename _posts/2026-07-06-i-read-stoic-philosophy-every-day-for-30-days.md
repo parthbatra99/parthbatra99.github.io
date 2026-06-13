@@ -1,5 +1,6 @@
 ---
 layout: post
+kind: experiment
 title: "I Read Stoic Philosophy Every Day for 30 Days. Stoicism Wasn't the Best Part."
 subtitle: "A 30-day reading challenge that taught me more about time, insecurity, and asking for what you want than any philosophy book ever did."
 date: 2026-07-06
@@ -11,6 +12,19 @@ tags:
 ---
 
 I signed up for a 30-day challenge hoping to learn Stoicism. Turns out, the philosophy was the least interesting thing I got out of it.
+
+<figure class="diagram">
+<svg viewBox="0 0 380 160" width="100%" height="auto" role="img" aria-label="A grid of thirty filled dots, one for each day of the reading challenge." font-family="-apple-system, sans-serif">
+  <g fill="currentColor">
+    <circle cx="65" cy="32" r="7"/><circle cx="115" cy="32" r="7"/><circle cx="165" cy="32" r="7"/><circle cx="215" cy="32" r="7"/><circle cx="265" cy="32" r="7"/><circle cx="315" cy="32" r="7"/>
+    <circle cx="65" cy="62" r="7"/><circle cx="115" cy="62" r="7"/><circle cx="165" cy="62" r="7"/><circle cx="215" cy="62" r="7"/><circle cx="265" cy="62" r="7"/><circle cx="315" cy="62" r="7"/>
+    <circle cx="65" cy="92" r="7"/><circle cx="115" cy="92" r="7"/><circle cx="165" cy="92" r="7"/><circle cx="215" cy="92" r="7"/><circle cx="265" cy="92" r="7"/><circle cx="315" cy="92" r="7"/>
+    <circle cx="65" cy="122" r="7"/><circle cx="115" cy="122" r="7"/><circle cx="165" cy="122" r="7"/><circle cx="215" cy="122" r="7"/><circle cx="265" cy="122" r="7"/><circle cx="315" cy="122" r="7"/>
+    <circle cx="65" cy="152" r="7"/><circle cx="115" cy="152" r="7"/><circle cx="165" cy="152" r="7"/><circle cx="215" cy="152" r="7"/><circle cx="265" cy="152" r="7"/><circle cx="315" cy="152" r="7"/>
+  </g>
+</svg>
+<figcaption>Thirty days in a row. The streak taught me more than the Stoics did.</figcaption>
+</figure>
 
 Every day for 30 days straight, I read and wrote about Stoic philosophy. One page of *The Daily Stoic* in the morning, a journal entry synthesizing what I read at night. I'm a PhD student who already spends 10 hours a day on research, so I didn't exactly have time lying around. That was sort of the point.
 

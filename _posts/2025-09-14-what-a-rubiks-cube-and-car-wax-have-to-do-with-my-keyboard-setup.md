@@ -1,5 +1,6 @@
 ---
 layout: post
+kind: built
 title: "What a Rubik's Cube and Car Wax Have to Do With My Keyboard Setup"
 subtitle: "A 12-year-old TVS Gold. One weekend. Two things that have no business being in a keyboard teardown."
 date: 2025-09-14
@@ -11,6 +12,24 @@ tags:
 ---
 
 I have a Rubik's cube in my desk drawer and a bottle of ceramic car wax under my sink. Neither of these things should have anything to do with keyboards.
+
+<figure class="diagram">
+<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="Three unrelated things — a Rubik's cube, car wax and an old motorcycle — converge into one keyboard build." font-family="-apple-system, sans-serif" font-size="12.5">
+  <g fill="currentColor">
+    <text x="16" y="39">Rubik's cube</text>
+    <text x="16" y="79">Car wax</text>
+    <text x="16" y="119">TVS Gold</text>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="1.5">
+    <path d="M120 34 C 178 34 188 75 236 75"/>
+    <path d="M120 75 L 236 75"/>
+    <path d="M120 114 C 178 114 188 75 236 75"/>
+    <rect x="236" y="58" width="128" height="34" rx="2"/>
+  </g>
+  <text x="300" y="79" text-anchor="middle" fill="currentColor">the build</text>
+</svg>
+<figcaption>Two things with no business near a keyboard. Both ended up in the teardown.</figcaption>
+</figure>
 
 And yet, that's exactly what brought a 12-year-old TVS Gold back from the dead.
 

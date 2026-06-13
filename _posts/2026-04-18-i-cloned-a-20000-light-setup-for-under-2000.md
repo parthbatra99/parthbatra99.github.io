@@ -1,5 +1,6 @@
 ---
 layout: post
+kind: built
 title: "I Cloned a ₹20,000 Light Setup for Under ₹2,000"
 subtitle: "How I built a real-time TV backlight that syncs colors with what's on screen, for less than the cost of a decent dinner."
 date: 2026-04-18
@@ -11,6 +12,24 @@ tags:
 ---
 
 Philips wants **₹20,000** for the Hue Play Gradient Lightstrip. Twenty. Thousand. Rupees. For LEDs.
+
+<figure class="diagram">
+<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="Two cost bars: twenty thousand rupees for the Philips kit versus two thousand rupees for the DIY build." font-family="-apple-system, sans-serif" font-size="12.5">
+  <g fill="currentColor">
+    <text x="60" y="46" text-anchor="end">Philips</text>
+    <text x="60" y="102" text-anchor="end">My build</text>
+  </g>
+  <g fill="currentColor">
+    <rect x="70" y="28" width="250" height="26" rx="2"/>
+    <rect x="70" y="84" width="25" height="26" rx="2"/>
+  </g>
+  <g fill="currentColor" font-size="11">
+    <text x="326" y="46">₹20,000</text>
+    <text x="103" y="102">₹2,000</text>
+  </g>
+</svg>
+<figcaption>Same glow behind the TV. One-tenth the price.</figcaption>
+</figure>
 
 Let that sink in.
 

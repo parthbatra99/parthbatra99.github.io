@@ -1,5 +1,6 @@
 ---
 layout: post
+kind: rabbit-hole
 title: "The People Who Make You Better Just by Existing"
 subtitle: "The Monthly Rabbit Hole: a line from the Stoics about the rare people who improve you even when they're only in your head."
 date: 2026-06-15

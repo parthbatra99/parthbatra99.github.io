@@ -1,5 +1,6 @@
 ---
 layout: post
+kind: theory
 title: "I Read 37 Pages About Free Will. I'm Not Sure I Chose to Write This."
 subtitle: "Brain scans that predict decisions, five murder scenarios, and why your best ideas were never really yours."
 date: 2026-08-03
@@ -10,6 +11,25 @@ tags:
 ---
 
 Here's an experiment. You're sitting alone in someone's room at 11:05 PM. You pick up a book, read for a while, and put it back at 11:14. Feels like your choice, right? You decided to read. You decided to stop.
+
+<figure class="diagram">
+<svg viewBox="0 0 600 140" width="100%" height="auto" role="img" aria-label="A timeline: the brain commits to a decision first, then you feel you chose, then the action happens. A gap separates the brain's commitment from your awareness." font-family="-apple-system, sans-serif" font-size="11">
+  <line x1="40" y1="72" x2="560" y2="72" stroke="currentColor" stroke-width="1.5"/>
+  <g stroke="currentColor" stroke-width="1.5">
+    <line x1="130" y1="60" x2="130" y2="84"/>
+    <line x1="360" y1="60" x2="360" y2="84"/>
+    <line x1="540" y1="60" x2="540" y2="84"/>
+  </g>
+  <line x1="130" y1="40" x2="360" y2="40" stroke="#888" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="245" y="32" text-anchor="middle" fill="#888">the gap</text>
+  <g fill="currentColor" text-anchor="middle">
+    <text x="130" y="104">brain commits</text>
+    <text x="360" y="104">you feel you chose</text>
+    <text x="540" y="104">action</text>
+  </g>
+</svg>
+<figcaption>The scan sees the decision a beat before "you" do.</figcaption>
+</figure>
 
 Except your brain scan tells a different story. Before 11:05, before you were even consciously aware of wanting to read, the scan already predicted you'd pick up that book. Not just that you'd read something, but *which* book. Not just which book, but the exact paragraph where you'd stop. Your brain made the call before "you" did.
 

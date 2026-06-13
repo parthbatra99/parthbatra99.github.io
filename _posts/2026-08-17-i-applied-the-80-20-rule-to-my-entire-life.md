@@ -1,5 +1,6 @@
 ---
 layout: post
+kind: theory
 title: "I Applied the 80/20 Rule to My Entire Life. Most of What I Do Doesn't Matter."
 subtitle: "Happiness, money, friends, time: the 7 areas where 20% of the effort gives you 80% of the results."
 date: 2026-08-17
@@ -10,6 +11,28 @@ tags:
 ---
 
 Most of what I do doesn't matter. That's not self-pity. That's math.
+
+<figure class="diagram">
+<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="Two proportion bars: a small slice of effort, about twenty percent, produces a large slice of results, about eighty percent." font-family="-apple-system, sans-serif" font-size="12">
+  <g fill="currentColor">
+    <text x="62" y="46" text-anchor="end">Effort</text>
+    <text x="62" y="102" text-anchor="end">Results</text>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="1.5">
+    <rect x="72" y="28" width="280" height="26" rx="2"/>
+    <rect x="72" y="84" width="280" height="26" rx="2"/>
+  </g>
+  <g fill="currentColor">
+    <rect x="72" y="28" width="56" height="26" rx="2"/>
+    <rect x="72" y="84" width="224" height="26" rx="2"/>
+  </g>
+  <g fill="currentColor" font-size="11">
+    <text x="136" y="46">20%</text>
+    <text x="304" y="102">80%</text>
+  </g>
+</svg>
+<figcaption>A fifth of the effort carries almost all of the result.</figcaption>
+</figure>
 
 The 80/20 principle says that 20% of your efforts produce 80% of your results. Sometimes the split is even more absurd: 5% of what you do can generate 95% of your gains. The moment you internalize that, not as a fun fact but as an operating system, everything changes.
 

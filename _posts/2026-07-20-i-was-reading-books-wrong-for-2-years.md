@@ -1,5 +1,6 @@
 ---
 layout: post
+kind: from-a-book
 title: "I Read Books Wrong for 2 Years. The Fix Was One Question."
 subtitle: "Why speed-reading through books meant for slow digestion was my biggest reading mistake, and the two-category system that fixed everything."
 date: 2026-07-20
@@ -10,6 +11,27 @@ tags:
 ---
 
 The year was 2021. I picked up my first book and it took me 3, maybe 4, maybe 5 months to finish it. I was bad at reading. So I went online for advice, like you do. Everyone on the internet was reading 20, 40, even 100 books a year. Naturally, I thought the answer was simple: read faster, read more. I was wrong. It took me 2 full years to figure out why.
+
+<figure class="diagram">
+<svg viewBox="0 0 380 160" width="100%" height="auto" role="img" aria-label="Two categories of books: a stack of thin bars to read fast, and a single thick bar to read slowly." font-family="-apple-system, sans-serif" font-size="12">
+  <g fill="none" stroke="currentColor" stroke-width="1.5">
+    <rect x="24" y="40" width="150" height="100" rx="2"/>
+    <rect x="206" y="40" width="150" height="100" rx="2"/>
+  </g>
+  <g fill="currentColor">
+    <rect x="40" y="58" width="118" height="9" rx="1"/>
+    <rect x="40" y="76" width="118" height="9" rx="1"/>
+    <rect x="40" y="94" width="118" height="9" rx="1"/>
+    <rect x="40" y="112" width="118" height="9" rx="1"/>
+    <rect x="240" y="58" width="82" height="63" rx="2"/>
+  </g>
+  <g fill="currentColor" text-anchor="middle">
+    <text x="99" y="32">Read fast</text>
+    <text x="281" y="32">Read slow</text>
+  </g>
+</svg>
+<figcaption>The fix was one question: finish this one fast, or sit with it slow?</figcaption>
+</figure>
 
 The pace at which you read a book should be decided by the *purpose* for which you're reading it. Not by a number some stranger on YouTube hit last December. Not by a Goodreads challenge. By the purpose.
 

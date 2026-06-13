@@ -1,5 +1,6 @@
 ---
 layout: post
+kind: from-a-book
 title: "Your Dream Retirement Costs 3,000 Euros. You Can Take It Now."
 subtitle: "4 ideas from Tim Ferriss that killed my 'someday' list."
 date: 2026-03-15

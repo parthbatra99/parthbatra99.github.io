@@ -1,0 +1,28 @@
+# Blog "channels" — browse-by-writing-mode shelves on /blog.
+# Order here = display order. Built It is pinned first for tech discoverability,
+# Field Notes second; the rest follow.
+# `kind` must match the `kind:` field in each post's front matter.
+- kind: built
+  name: Built It
+  icon: "⚡"
+  blurb: Things I made.
+- kind: field-notes
+  name: Field Notes
+  icon: "🌄"
+  blurb: Notes from the road.
+- kind: theory
+  name: Half-Formed Theories
+  icon: "🧠"
+  blurb: My own frameworks and interpretations.
+- kind: rabbit-hole
+  name: The Monthly Rabbit Hole
+  icon: "🕳️"
+  blurb: One curiosity, chased down.
+- kind: from-a-book
+  name: From a Book
+  icon: "📚"
+  blurb: Sparked by something I read.
+- kind: experiment
+  name: Tried It on Myself
+  icon: "🧪"
+  blurb: Self-experiments with a verdict.

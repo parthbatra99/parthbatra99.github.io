@@ -1,5 +1,6 @@
 ---
 layout: post
+kind: built
 title: "What Actually Happens in the Second After You Say Hello to an AI"
 subtitle: "Telephony, WebRTC, voice detection, transcription. A month building it from scratch, and where that second actually goes."
 date: 2026-05-24
@@ -12,6 +13,35 @@ tags:
 ---
 
 You call a number, an AI picks up, you say "hello," and it says "hello" back. Feels instant. Feels simple. It is neither.
+
+<figure class="diagram">
+<svg viewBox="0 0 640 130" width="100%" height="auto" role="img" aria-label="A five-stage pipeline — telephony, WebRTC, voice detection, transcription and response — all firing in the second after you say hello." font-family="-apple-system, sans-serif" font-size="11">
+  <g fill="none" stroke="currentColor" stroke-width="1.5">
+    <rect x="20" y="40" width="104" height="36" rx="2"/>
+    <rect x="144" y="40" width="104" height="36" rx="2"/>
+    <rect x="268" y="40" width="104" height="36" rx="2"/>
+    <rect x="392" y="40" width="104" height="36" rx="2"/>
+    <rect x="516" y="40" width="104" height="36" rx="2"/>
+    <path d="M124 58 L 144 58"/>
+    <path d="M248 58 L 268 58"/>
+    <path d="M372 58 L 392 58"/>
+    <path d="M496 58 L 516 58"/>
+  </g>
+  <g fill="currentColor" text-anchor="middle">
+    <text x="72" y="62">Telephony</text>
+    <text x="196" y="62">WebRTC</text>
+    <text x="320" y="62">Voice detect</text>
+    <text x="444" y="62">Transcribe</text>
+    <text x="568" y="62">Respond</text>
+  </g>
+  <line x1="20" y1="100" x2="620" y2="100" stroke="#888" stroke-width="1"/>
+  <g fill="#888" font-size="10">
+    <text x="20" y="118">0s</text>
+    <text x="620" y="118" text-anchor="end">~1s</text>
+  </g>
+</svg>
+<figcaption>Everything that has to fire in the second after you say hello.</figcaption>
+</figure>
 
 In the second after you speak, your voice leaves your phone, crosses a telephony network that still speaks a protocol older than the web, lands on a server that has to decide you're actually talking and not just breathing, gets transcribed into text, gets sent to a large language model that thinks up a reply, gets turned back into a human-sounding voice, and gets pushed back down the same line to your ear. If any one of those steps takes too long, the AI talks over you, or sits in dead silence, or answers a question you didn't ask. All of it has to happen in under a second, every turn, on every call, forever.
 

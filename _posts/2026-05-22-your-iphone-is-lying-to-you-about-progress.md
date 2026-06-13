@@ -1,5 +1,6 @@
 ---
 layout: post
+kind: rabbit-hole
 title: "Your iPhone Is Lying to You About Progress"
 subtitle: "The Monthly Rabbit Hole: real breakthroughs arrive in lumps, but companies sell them to you as a straight line."
 date: 2026-05-22

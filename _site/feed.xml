@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-06-13T14:32:50+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Parth Batra | fromparth.blog</title><subtitle>Senior ML Engineer by day, music critic by night. Building ML systems, writing about tech, and collecting spotify minutes like they&apos;re infinity stones.</subtitle><author><name>Parth Batra</name></author><entry><title type="html">How I Actually Measure Personal Growth</title><link href="http://localhost:4000/2026/06/12/how-i-measure-personal-growth.html" rel="alternate" type="text/html" title="How I Actually Measure Personal Growth" /><published>2026-06-12T00:00:00+05:30</published><updated>2026-06-12T00:00:00+05:30</updated><id>http://localhost:4000/2026/06/12/how-i-measure-personal-growth</id><content type="html" xml:base="http://localhost:4000/2026/06/12/how-i-measure-personal-growth.html"><![CDATA[<p>Nobody hands you a progress bar for your own life.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-06-14T02:58:35+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Parth Batra | fromparth.blog</title><subtitle>Senior ML Engineer by day, music critic by night. Building ML systems, writing about tech, and collecting spotify minutes like they&apos;re infinity stones.</subtitle><author><name>Parth Batra</name></author><entry><title type="html">How I Actually Measure Personal Growth</title><link href="http://localhost:4000/2026/06/12/how-i-measure-personal-growth.html" rel="alternate" type="text/html" title="How I Actually Measure Personal Growth" /><published>2026-06-12T00:00:00+05:30</published><updated>2026-06-12T00:00:00+05:30</updated><id>http://localhost:4000/2026/06/12/how-i-measure-personal-growth</id><content type="html" xml:base="http://localhost:4000/2026/06/12/how-i-measure-personal-growth.html"><![CDATA[<p>Nobody hands you a progress bar for your own life.</p>
 
 <p>That’s the annoying part. You get one for everything else. Step counts, Spotify minutes, GitHub streaks, a credit score that updates whether you asked it to or not. But the one thing you’d actually want to track, am I getting better at being alive, ships with no dashboard. So you reach for lazy stand-ins. How busy your week looks. How you’re doing against the people you started out with. Whether, from the outside, you seem like someone going somewhere.</p>
 
@@ -209,7 +209,29 @@
 
 <p>That’ll be the growth.</p>]]></content><author><name>Parth Batra</name></author><category term="self-improvement" /><category term="psychology" /><category term="mindset" /><summary type="html"><![CDATA[Nobody hands you a progress bar for your own life.]]></summary></entry><entry><title type="html">Spiti Took Five Days to Take Me Apart. A 9-Year-Old Did It in Four Seconds.</title><link href="http://localhost:4000/2026/06/08/spiti-took-five-days-to-take-me-apart.html" rel="alternate" type="text/html" title="Spiti Took Five Days to Take Me Apart. A 9-Year-Old Did It in Four Seconds." /><published>2026-06-08T00:00:00+05:30</published><updated>2026-06-08T00:00:00+05:30</updated><id>http://localhost:4000/2026/06/08/spiti-took-five-days-to-take-me-apart</id><content type="html" xml:base="http://localhost:4000/2026/06/08/spiti-took-five-days-to-take-me-apart.html"><![CDATA[<p>It rained the morning we left Spiti.</p>
 
-<p>Five days of hard blue skies, the kind that make you squint at your own photos later, and the valley picked our last hour to rain. We stood next to our bus, bags fully loaded, nobody moving towards the door. Just standing there, getting wet, like the rain was saying something and it would be rude to leave mid-sentence.</p>
+<figure class="diagram">
+<svg viewBox="0 0 400 170" width="100%" height="auto" role="img" aria-label="An altitude line across five days in Spiti, marked with the rain on day one, a birthday cake at 9,000 feet near the peak, and an arm-wrestling defeat on day four." font-family="-apple-system, sans-serif" font-size="10.5">
+  <polyline points="40,120 130,72 210,46 290,82 360,114" fill="none" stroke="currentColor" stroke-width="1.5" />
+  <g fill="currentColor">
+    <circle cx="40" cy="120" r="4" />
+    <circle cx="210" cy="46" r="4" />
+    <circle cx="290" cy="82" r="4" />
+  </g>
+  <g fill="currentColor">
+    <text x="40" y="138">rain</text>
+    <text x="210" y="38" text-anchor="middle">cake @ 9,000 ft</text>
+    <text x="300" y="76">arm wrestle</text>
+  </g>
+  <line x1="30" y1="150" x2="370" y2="150" stroke="#888" stroke-width="1" />
+  <g fill="#888">
+    <text x="40" y="165" text-anchor="middle">Day 1</text>
+    <text x="360" y="165" text-anchor="middle">Day 5</text>
+  </g>
+</svg>
+<figcaption>Five days up and down the valley. It took all five to take me apart.</figcaption>
+</figure>
+
+<p>Six days of hard blue skies, the kind that make you squint at your own photos later, and the valley picked our last day to rain. We stood next to our bus, bags fully loaded, nobody moving towards the door. Just standing there, feeling the drizzle, like the rain was saying something and it would be rude to leave mid-sentence.</p>
 
 <p>Mountains don’t wave goodbye. They just rain.</p>
 
@@ -251,7 +273,7 @@
 
 <h2 id="tabo-nobody-tells-you-about-the-sky-thats-on-purpose">Tabo: Nobody Tells You About the Sky. That’s On Purpose.</h2>
 
-<p>The caves above Tabo are a twenty minute trek from the village, up a trail that is marked the way secrets are marked, which is to say not at all. Monks used them for meditation for a thousand years. I climbed up at night with a tripod.</p>
+<p>The caves above Tabo are a twenty minute trek from the village, up a trail that is marked the way secrets are marked, which is to say not at all. Monks used them for meditation for a thousand years. I climbed up at night with my pixel and lot of optimism in my phone’s camera capabilities.</p>
 
 <p>Here’s what happened: I set up a twenty minute timelapse of the sky, sat down on the cold ground, looked up, and didn’t say a word until the camera was done. Neither did anyone else. The Milky Way over Tabo isn’t a sight, it’s a ceiling. You think you’re prepared because you’ve seen photos and you consider yourself a person who appreciates a sky. You’re not prepared. It hangs there with absolutely no regard for what it’s doing to you.</p>
 
@@ -376,6 +398,35 @@
 <hr />
 
 <p><em>Spiti doesn’t let you leave with all your edges intact. That’s probably the point.</em></p>]]></content><author><name>Parth Batra</name></author><category term="travel" /><category term="spiti" /><category term="self-improvement" /><summary type="html"><![CDATA[It rained the morning we left Spiti.]]></summary></entry><entry><title type="html">What Actually Happens in the Second After You Say Hello to an AI</title><link href="http://localhost:4000/2026/05/24/building-an-open-source-vapi-alternative.html" rel="alternate" type="text/html" title="What Actually Happens in the Second After You Say Hello to an AI" /><published>2026-05-24T00:00:00+05:30</published><updated>2026-05-24T00:00:00+05:30</updated><id>http://localhost:4000/2026/05/24/building-an-open-source-vapi-alternative</id><content type="html" xml:base="http://localhost:4000/2026/05/24/building-an-open-source-vapi-alternative.html"><![CDATA[<p>You call a number, an AI picks up, you say “hello,” and it says “hello” back. Feels instant. Feels simple. It is neither.</p>
+
+<figure class="diagram">
+<svg viewBox="0 0 640 130" width="100%" height="auto" role="img" aria-label="A five-stage pipeline — telephony, WebRTC, voice detection, transcription and response — all firing in the second after you say hello." font-family="-apple-system, sans-serif" font-size="11">
+  <g fill="none" stroke="currentColor" stroke-width="1.5">
+    <rect x="20" y="40" width="104" height="36" rx="2" />
+    <rect x="144" y="40" width="104" height="36" rx="2" />
+    <rect x="268" y="40" width="104" height="36" rx="2" />
+    <rect x="392" y="40" width="104" height="36" rx="2" />
+    <rect x="516" y="40" width="104" height="36" rx="2" />
+    <path d="M124 58 L 144 58" />
+    <path d="M248 58 L 268 58" />
+    <path d="M372 58 L 392 58" />
+    <path d="M496 58 L 516 58" />
+  </g>
+  <g fill="currentColor" text-anchor="middle">
+    <text x="72" y="62">Telephony</text>
+    <text x="196" y="62">WebRTC</text>
+    <text x="320" y="62">Voice detect</text>
+    <text x="444" y="62">Transcribe</text>
+    <text x="568" y="62">Respond</text>
+  </g>
+  <line x1="20" y1="100" x2="620" y2="100" stroke="#888" stroke-width="1" />
+  <g fill="#888" font-size="10">
+    <text x="20" y="118">0s</text>
+    <text x="620" y="118" text-anchor="end">~1s</text>
+  </g>
+</svg>
+<figcaption>Everything that has to fire in the second after you say hello.</figcaption>
+</figure>
 
 <p>In the second after you speak, your voice leaves your phone, crosses a telephony network that still speaks a protocol older than the web, lands on a server that has to decide you’re actually talking and not just breathing, gets transcribed into text, gets sent to a large language model that thinks up a reply, gets turned back into a human-sounding voice, and gets pushed back down the same line to your ear. If any one of those steps takes too long, the AI talks over you, or sits in dead silence, or answers a question you didn’t ask. All of it has to happen in under a second, every turn, on every call, forever.</p>
 
@@ -774,6 +825,24 @@
 <p>I’m not naive. We all have responsibilities, families, bills. You can’t just quit everything and follow your passion. That’s terrible advice. But you can find the thing you love and do it at a smaller scale. I write these poems, blogs, and stories not at the scale I’d like, but at the scale I can manage alongside a full-time job. And it gives me something to look forward to every single week. As long as it’s exciting, I’ll keep doing it. When it stops being exciting, I’ll switch topics. Don’t worry, it’ll be hard to get rid of me.</p>
 
 <p>So if you’re tired all the time, don’t just cut your workload. Look at the friction first. Sometimes the fix isn’t doing less. It’s closing the gap between what you do and what you actually want to do.</p>]]></content><author><name>Parth Batra</name></author><category term="mindset" /><category term="self-improvement" /><category term="productivity" /><summary type="html"><![CDATA[Graham Weaver, a professor at Stanford, made a point this month that sounds corny until you sit with it. Energy, he argues, is not exhaustible. Not the physics kind. The human kind.]]></summary></entry><entry><title type="html">I Cloned a ₹20,000 Light Setup for Under ₹2,000</title><link href="http://localhost:4000/2026/04/18/i-cloned-a-20000-light-setup-for-under-2000.html" rel="alternate" type="text/html" title="I Cloned a ₹20,000 Light Setup for Under ₹2,000" /><published>2026-04-18T00:00:00+05:30</published><updated>2026-04-18T00:00:00+05:30</updated><id>http://localhost:4000/2026/04/18/i-cloned-a-20000-light-setup-for-under-2000</id><content type="html" xml:base="http://localhost:4000/2026/04/18/i-cloned-a-20000-light-setup-for-under-2000.html"><![CDATA[<p>Philips wants <strong>₹20,000</strong> for the Hue Play Gradient Lightstrip. Twenty. Thousand. Rupees. For LEDs.</p>
+
+<figure class="diagram">
+<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="Two cost bars: twenty thousand rupees for the Philips kit versus two thousand rupees for the DIY build." font-family="-apple-system, sans-serif" font-size="12.5">
+  <g fill="currentColor">
+    <text x="60" y="46" text-anchor="end">Philips</text>
+    <text x="60" y="102" text-anchor="end">My build</text>
+  </g>
+  <g fill="currentColor">
+    <rect x="70" y="28" width="250" height="26" rx="2" />
+    <rect x="70" y="84" width="25" height="26" rx="2" />
+  </g>
+  <g fill="currentColor" font-size="11">
+    <text x="326" y="46">₹20,000</text>
+    <text x="103" y="102">₹2,000</text>
+  </g>
+</svg>
+<figcaption>Same glow behind the TV. One-tenth the price.</figcaption>
+</figure>
 
 <p>Let that sink in.</p>
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+kind: built
 title: "I Shipped a Neovim Plugin in Lua. I Don't Know Lua."
 subtitle: "The actual workflow: use AI as the Lua specialist, yourself as the architect, and your engineering instincts to catch what the AI can't."
 date: 2025-12-07
@@ -11,6 +12,24 @@ tags:
 ---
 
 I don't know Lua. I've never written it, never studied it, don't have the interpreter installed.
+
+<figure class="diagram">
+<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="Two inputs — you as the architect and the AI as the Lua specialist — combine into a shipped plugin." font-family="-apple-system, sans-serif" font-size="11.5">
+  <g fill="none" stroke="currentColor" stroke-width="1.5">
+    <rect x="14" y="26" width="158" height="32" rx="2"/>
+    <rect x="14" y="92" width="158" height="32" rx="2"/>
+    <rect x="232" y="59" width="134" height="32" rx="2"/>
+    <path d="M172 42 C 204 42 204 75 232 75"/>
+    <path d="M172 108 C 204 108 204 75 232 75"/>
+  </g>
+  <g fill="currentColor">
+    <text x="26" y="46">You — architect</text>
+    <text x="26" y="112">AI — Lua specialist</text>
+    <text x="299" y="79" text-anchor="middle">shipped plugin</text>
+  </g>
+</svg>
+<figcaption>I brought the judgement, the model brought the syntax. The plugin shipped.</figcaption>
+</figure>
 
 Over a single weekend, I shipped a Neovim plugin with over 2,800 lines of Lua code, 89% test coverage, and a feature set I'm actually proud of. It's called [hexwitch.nvim](https://github.com/parthbatra99/hexwitch.nvim) — it generates your editor's colorscheme from plain English.
 

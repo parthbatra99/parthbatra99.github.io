@@ -1,5 +1,6 @@
 ---
 layout: post
+kind: built
 title: "I Did the Math on My Spotify Obsession. I'm Spotify's Problem."
 subtitle: "A proper cost model for Indian subscribers — marginal royalty, fully-loaded overhead, break-even analysis, and what 100k+ minutes/year actually means for Spotify's P&L."
 date: 2025-11-02
@@ -11,6 +12,24 @@ tags:
 ---
 
 For three years running, my Spotify Wrapped has clocked in at over 100,000 minutes. That's more than two full months of non-stop audio — not a flex, more a confession, and also the thing that made me want to actually run the numbers.
+
+<figure class="diagram">
+<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="Two bars: the small amount I pay Spotify each month versus the large amount of listening I actually cost them." font-family="-apple-system, sans-serif" font-size="12.5">
+  <g fill="currentColor">
+    <text x="118" y="46" text-anchor="end">I pay</text>
+    <text x="118" y="102" text-anchor="end">I cost</text>
+  </g>
+  <g fill="currentColor">
+    <rect x="128" y="28" width="52" height="26" rx="2"/>
+    <rect x="128" y="84" width="200" height="26" rx="2"/>
+  </g>
+  <g fill="currentColor" font-size="11">
+    <text x="188" y="46">₹119/mo</text>
+    <text x="334" y="102">100k+ min/yr</text>
+  </g>
+</svg>
+<figcaption>I take out a lot more than the subscription puts in. I'm Spotify's problem.</figcaption>
+</figure>
 
 The question was simple: at what point does a subscriber like me become a money pit for Spotify?
 

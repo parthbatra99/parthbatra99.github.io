@@ -1,5 +1,6 @@
 ---
 layout: post
+kind: theory
 title: "I Mapped 9 Career Fundamentals. Most People Ignore 6 of Them."
 subtitle: "Health, geography, specific knowledge, and the uncomfortable truth about who you work with."
 date: 2026-10-12
@@ -10,6 +11,23 @@ tags:
 ---
 
 85% of billionaires are first generation. Not trust fund kids. Not nepotism cases. People who started with nothing and built something anyway.
+
+<figure class="diagram">
+<svg viewBox="0 0 380 160" width="100%" height="auto" role="img" aria-label="A three by three grid of nine dots; three are filled for the fundamentals most people work, six are hollow for the ones they ignore." font-family="-apple-system, sans-serif">
+  <g stroke="currentColor" stroke-width="1.5">
+    <circle cx="140" cy="40" r="13" fill="currentColor"/>
+    <circle cx="190" cy="40" r="13" fill="currentColor"/>
+    <circle cx="240" cy="40" r="13" fill="currentColor"/>
+    <circle cx="140" cy="90" r="13" fill="none"/>
+    <circle cx="190" cy="90" r="13" fill="none"/>
+    <circle cx="240" cy="90" r="13" fill="none"/>
+    <circle cx="140" cy="140" r="13" fill="none"/>
+    <circle cx="190" cy="140" r="13" fill="none"/>
+    <circle cx="240" cy="140" r="13" fill="none"/>
+  </g>
+</svg>
+<figcaption>Nine fundamentals. Most people work three and ignore six.</figcaption>
+</figure>
 
 I've been thinking about that number a lot lately. Not because I'm chasing a billion. But because it tells you something important about what actually drives an extraordinary career, and it's almost never what people assume.
 

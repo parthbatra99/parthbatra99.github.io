@@ -1,5 +1,6 @@
 ---
 layout: post
+kind: experiment
 title: "I Woke Up at 5 AM for a Week. It Made Me Worse at Everything."
 subtitle: "The productivity math, the placebo effect, and the one reason early rising actually works."
 date: 2026-09-14
@@ -10,6 +11,20 @@ tags:
 ---
 
 Waking up at 5 AM has become a luxury lifestyle product. Search "5:00 a.m." on YouTube and you'll drown in videos of people holding coffee mugs at dawn, preaching about how those extra hours changed their life. Nobody ever asks the obvious question: should you even be doing this?
+
+<figure class="diagram">
+<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="Two bars: the all-day edge the 5 AM trend promises versus the smaller, worse result it delivered." font-family="-apple-system, sans-serif" font-size="12.5">
+  <g fill="currentColor">
+    <text x="92" y="46" text-anchor="end">Promised</text>
+    <text x="92" y="102" text-anchor="end">Delivered</text>
+  </g>
+  <g fill="currentColor">
+    <rect x="102" y="28" width="230" height="26" rx="2"/>
+    <rect x="102" y="84" width="44" height="26" rx="2"/>
+  </g>
+</svg>
+<figcaption>The 5 AM payoff: advertised versus what actually showed up.</figcaption>
+</figure>
 
 I ran the experiment on myself, and the results were the opposite of what the productivity influencers promised.
 

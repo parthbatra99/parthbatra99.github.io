@@ -1,5 +1,6 @@
 ---
 layout: post
+kind: rabbit-hole
 title: "A 2 P.M. Meeting Costs Me Five Hours, Not One"
 subtitle: "The Monthly Rabbit Hole: Paul Graham figured out why a single meeting wrecks a whole day of creative work."
 date: 2026-03-22
