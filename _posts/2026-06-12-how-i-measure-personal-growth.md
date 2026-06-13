@@ -1,0 +1,197 @@
+---
+layout: post
+title: "How I Actually Measure Personal Growth"
+subtitle: "Four signals I trust now: how fast you change, the problems you've outgrown, what you can no longer unsee, and the day you stop keeping every door open."
+date: 2026-06-12
+tags: [personal, growth, reflection]
+---
+
+Nobody hands you a progress bar for your own life.
+
+That's the annoying part. You get one for everything else. Step counts, Spotify minutes, GitHub streaks, a credit score that updates whether you asked it to or not. But the one thing you'd actually want to track, am I getting better at being alive, ships with no dashboard. So you reach for lazy stand-ins. How busy your week looks. How you're doing against the people you started out with. Whether, from the outside, you seem like someone going somewhere.
+
+I leaned on those for years. They're noise. Looking busy isn't the same as moving, and a market can carry you or strand you without you having changed at all. So I went looking for signals that track the actual thing. Here are the four I trust now.
+
+---
+
+## Signal One: How Fast You Change
+
+The first one is just speed. How different are you from the version of you that existed two years ago?
+
+Most people can picture that version and quietly cringe. The opinions you'd defend to the death, the things that wrecked your week, the texts you agonised over for an hour before sending. If today's you finds some of that a little embarrassing, good. That embarrassment is the receipt for change.
+
+Here's the trap, though. Psychologists have a name for it: the [End of History Illusion](https://www.science.org/doi/10.1126/science.1229294). When researchers asked nineteen thousand people how much they'd changed in the last decade versus how much they'd change in the next, everyone said the same thing. Changed a lot before, won't change much from here. At every age. We all walk around convinced we've just now finished becoming ourselves, and we are all, reliably, wrong.
+
+So the real question isn't "have I changed." It's "am I changing right now." Not "have I changed jobs," anyone can change jobs. Has the operating system underneath updated. For me it shows up in the calendar, a week stacked with training, a sport, friends through the door, and a real trip most months, none of which the version of me from a few years ago could have run without falling apart.
+
+The point isn't my specific calendar. It's whether you can name a reinvention in progress, not one you finished and now narrate at parties. If your best evidence of change is a story from four years ago, you're not growing. You're reminiscing.
+
+<figure class="diagram">
+<svg viewBox="0 0 640 240" role="img" aria-label="A rising curve shows how much you actually change over the decades. At two points a flat dashed line branches off, each marking a moment you were certain you had finished changing. The curve climbs past both of them.">
+  <line x1="85" y1="45" x2="85" y2="195" stroke="#888" stroke-width="1"/>
+  <line x1="85" y1="195" x2="585" y2="195" stroke="#888" stroke-width="1"/>
+  <text transform="translate(58,120) rotate(-90)" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="#888">how much you've actually changed</text>
+  <text x="186" y="214" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="#888">25</text>
+  <text x="318" y="214" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="#888">35</text>
+  <text x="450" y="214" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="#888">45</text>
+
+  <line x1="186" y1="175" x2="312" y2="175" stroke="#888" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <text x="316" y="179" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="#888" font-style="italic">&#8220;done now&#8221;</text>
+  <line x1="386" y1="120" x2="500" y2="120" stroke="#888" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <text x="504" y="124" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="#888" font-style="italic">&#8220;done now&#8221;</text>
+
+  <path d="M95 185 C 250 178, 380 120, 560 58" fill="none" stroke="#1a1918" stroke-width="1.5"/>
+  <circle cx="186" cy="175" r="4" fill="#1a1918"/>
+  <circle cx="386" cy="120" r="4" fill="#1a1918"/>
+  <text x="560" y="50" text-anchor="end" font-family="Source Serif 4, Georgia, serif" font-size="15" fill="#1a1918">what actually happens</text>
+</svg>
+<figcaption>The End of History Illusion: every version of you is sure it's the finished one. The curve disagrees.</figcaption>
+</figure>
+
+A real rate of change feels slightly uncomfortable while it's happening. If it feels comfortable, it already finished.
+
+## Signal Two: The Problems You've Outgrown
+
+[Chip Huyen](https://huyenchip.com/2024/04/17/personal-growth.html) has the sharpest version of this. She measures growth by the problems you solve. Name the big things that kept you up five years ago that you don't even think about now. Then name the ones eating you today that you'd want gone five years from now. Growth is the gap between those two lists, plus the speed at which you move down them.
+
+It's a brutal little exercise because it ignores everything cosmetic. Not the title, not the money, just this: which problems have you outgrown, and which have you traded up to. The 2 AM money panic, gone, replaced by a quieter and harder question about what you actually want the money for. That's progress. Worrying about the same-sized thing five years apart is not, no matter what your CV did in between.
+
+When I run it on myself, the solved pile is reassuring and a little boring. The open pile is where it gets interesting, because the problems I've traded up to are bigger, vaguer, and don't bend to effort the way the old ones did. They also happen to start with the same letter, which I noticed too late to pretend I planned it.
+
+| Problem | Status | Honest take |
+|---|---|---|
+| Partner | Open | The big one. Can't optimise my way through it. |
+| Place | Open | Where do I actually want to wake up for the next ten years? |
+| Parents | Open | Their health. Not a problem you solve. One you show up for. |
+
+The first two are problems in the normal sense, you work them, you close them. The third isn't. You don't solve your parents getting older. You only get to prepare and be present. And if you're anywhere near my stage, your parents are on the same clock as everyone else's, quietly, in the background, while nobody at the dinner table brings it up. I think this is the paragraph someone reads twice.
+
+<figure class="diagram">
+<svg viewBox="0 0 640 320" role="img" aria-label="A ladder of problems. The lower rungs, money, work and friends, are marked solved. The upper rungs, partner, place and parents, are marked open. An arrow shows the problems get bigger as you climb.">
+  <line x1="150" y1="300" x2="150" y2="52" stroke="#888" stroke-width="1.5"/>
+  <polyline points="142,66 150,50 158,66" fill="none" stroke="#888" stroke-width="1.5"/>
+  <text transform="translate(120,180) rotate(-90)" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="#888">bigger, harder problems</text>
+
+  <circle cx="240" cy="60" r="6" fill="none" stroke="#1a1918" stroke-width="1.5"/>
+  <text x="262" y="65" font-family="Source Serif 4, Georgia, serif" font-size="16" fill="#1a1918">Parents</text>
+  <circle cx="240" cy="105" r="6" fill="none" stroke="#1a1918" stroke-width="1.5"/>
+  <text x="262" y="110" font-family="Source Serif 4, Georgia, serif" font-size="16" fill="#1a1918">Place</text>
+  <circle cx="240" cy="150" r="6" fill="none" stroke="#1a1918" stroke-width="1.5"/>
+  <text x="262" y="155" font-family="Source Serif 4, Georgia, serif" font-size="16" fill="#1a1918">Partner</text>
+  <text x="600" y="110" text-anchor="end" font-family="Source Serif 4, Georgia, serif" font-size="14" fill="#888" font-style="italic">open</text>
+
+  <line x1="210" y1="178" x2="600" y2="178" stroke="#e2dfd9" stroke-width="1"/>
+
+  <rect x="234" y="199" width="13" height="13" fill="#1a1918"/>
+  <polyline points="237,206 240,209 245,202" fill="none" stroke="#fafaf8" stroke-width="1.5"/>
+  <text x="262" y="211" font-family="Source Serif 4, Georgia, serif" font-size="16" fill="#1a1918">Friends</text>
+  <rect x="234" y="244" width="13" height="13" fill="#1a1918"/>
+  <polyline points="237,251 240,254 245,247" fill="none" stroke="#fafaf8" stroke-width="1.5"/>
+  <text x="262" y="256" font-family="Source Serif 4, Georgia, serif" font-size="16" fill="#1a1918">Work</text>
+  <rect x="234" y="289" width="13" height="13" fill="#1a1918"/>
+  <polyline points="237,296 240,299 245,292" fill="none" stroke="#fafaf8" stroke-width="1.5"/>
+  <text x="262" y="301" font-family="Source Serif 4, Georgia, serif" font-size="16" fill="#1a1918">Money</text>
+  <text x="600" y="256" text-anchor="end" font-family="Source Serif 4, Georgia, serif" font-size="14" fill="#888" font-style="italic">solved</text>
+</svg>
+<figcaption>Growth is climbing the ladder, not clearing it. The good problems are always still open.</figcaption>
+</figure>
+
+## Signal Three: What You Can No Longer Unsee
+
+Here's a quiet one that snuck up on me, and probably on you. You bail on a show by episode two. You put down a book you'd once have finished out of pure guilt. You sit in a meeting, or across from a date, and know in the first few minutes whether it's a yes or a polite no. And you clock people faster now, who's worth the time, who you could actually be friends with, who's just well-rehearsed. You're calling it quicker, and you're right more often.
+
+[Ira Glass](https://www.themarginalian.org/2014/01/29/ira-glass-success-daniel-sax/) has the cleanest description of how this gets built. When you start anything creative, your taste is already good, but your skill isn't, and the gap between the two is brutal. Most people quit inside that gap. You close it only by doing a huge volume of work, until one day the skill catches up to the taste you always had. That's the same gap from the first diagram, pointed inward.
+
+People love to call the result instinct, and that word hides what's actually going on. Watch any argument about the best captains in sport. Someone always insists MS Dhoni led on pure gut, a bowling change from nowhere, a stumping he started moving for before the batsman's foot had even lifted. But the gut is data. Thousands of overs, hundreds of matchups, every one filed away and compressed until the read arrives faster than he could ever explain it. It looks like instinct from the stands. Inside, it's the most experienced part of him doing the math too fast to narrate.
+
+Mine shows up everywhere now, including a new one: I can smell AI writing from across the room, that flat, agreeable, slightly damp prose that says everything and risks nothing. A few years back I'd have called some of it "polished."
+
+Taste is compounding judgement. It's every good and bad call you've ever made, finally paying out as instinct. You can't fake it and you can't buy it, which is exactly why it's a better growth signal than anything you can put on a CV.
+
+<figure class="diagram">
+<svg viewBox="0 0 640 200" role="img" aria-label="Many scattered small decisions over time gradually resolve into a single curve that rises steeply, labelled judgement compounded.">
+  <line x1="95" y1="40" x2="95" y2="165" stroke="#888" stroke-width="1"/>
+  <line x1="95" y1="165" x2="560" y2="165" stroke="#888" stroke-width="1"/>
+  <text x="560" y="186" text-anchor="end" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="#888">time, and a thousand calls</text>
+  <circle cx="135" cy="150" r="2.6" fill="#888"/>
+  <circle cx="165" cy="156" r="2.6" fill="#888"/>
+  <circle cx="200" cy="146" r="2.6" fill="#888"/>
+  <circle cx="235" cy="152" r="2.6" fill="#888"/>
+  <circle cx="270" cy="140" r="2.6" fill="#888"/>
+  <circle cx="305" cy="144" r="2.6" fill="#888"/>
+  <circle cx="340" cy="130" r="2.6" fill="#888"/>
+  <circle cx="375" cy="134" r="2.6" fill="#888"/>
+  <circle cx="410" cy="118" r="2.6" fill="#888"/>
+  <circle cx="445" cy="110" r="2.6" fill="#888"/>
+  <circle cx="480" cy="92" r="2.6" fill="#888"/>
+  <path d="M105 158 C 280 156, 400 140, 545 58" fill="none" stroke="#1a1918" stroke-width="1.5"/>
+  <text x="545" y="48" text-anchor="end" font-family="Source Serif 4, Georgia, serif" font-size="15" fill="#1a1918">instinct</text>
+</svg>
+<figcaption>No single call teaches you taste. The thousandth one does.</figcaption>
+</figure>
+
+## Signal Four: How Little It Costs You
+
+The last one is the most satisfying, and the easiest to feel in your own week. The same decisions take less out of you.
+
+The email that used to eat an hour goes out in five minutes. You say no without writing three paragraphs to justify it. The conversation you'd once have rehearsed for three days, you can just have, in one sitting, and survive. [Kahneman](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow) split thinking into two systems: the slow, effortful, deliberate one, and the fast, automatic one. Growth is watching whole categories of life migrate from the first to the second. What used to cost you everything becomes something you barely notice doing.
+
+Whole categories of anxiety have been quietly deleted too, not solved, just deleted, because I stopped granting them the rent. Even my packing got lighter. Turns out most of what I used to carry was fear with a zip on it.
+
+<figure class="diagram">
+<svg viewBox="0 0 640 220" role="img" aria-label="Two bars showing what the same decision costs. The before bar is tall, the now bar is much shorter.">
+  <text x="320" y="26" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="14" fill="#888" font-style="italic">the same decision</text>
+  <text transform="translate(74,118) rotate(-90)" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="#888">what it costs me</text>
+  <line x1="100" y1="180" x2="560" y2="180" stroke="#888" stroke-width="1"/>
+  <rect x="185" y="52" width="80" height="128" fill="none" stroke="#1a1918" stroke-width="1.5"/>
+  <text x="225" y="200" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="15" fill="#1a1918">before</text>
+  <rect x="375" y="120" width="80" height="60" fill="#1a1918"/>
+  <text x="415" y="200" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="15" fill="#1a1918">now</text>
+  <line x1="305" y1="80" x2="365" y2="130" stroke="#888" stroke-width="1.5"/>
+  <polyline points="356,118 366,132 350,132" fill="none" stroke="#888" stroke-width="1.5"/>
+</svg>
+<figcaption>You didn't shrink the decision. You stopped paying so much to make it.</figcaption>
+</figure>
+
+Growth doesn't always look like adding. Often it looks like the same load getting lighter because you got stronger underneath it.
+
+---
+
+## The Part That Actually Changed
+
+For a long time the smart move was keeping every door open. The job you didn't take but didn't fully rule out. The situationship. The three cities you might one day move to. Optionality. Don't commit, stay liquid, you can always decide later. For a decade that's genuinely the right play.
+
+[Dan Ariely](https://danariely.com/the-advantages-of-closing-a-few-doors/) once ran an experiment on exactly this. People played a game with doors that paid out money, and doors they ignored would slowly shrink and vanish. The smart move was to pick the best room and stay. Instead, players burned click after click frantically keeping the other doors alive, even when it cost them real money, even when reopening was free. Closing a door, it turns out, feels like a loss, so we pay through the nose to avoid it.
+
+That's the trap I'm in now, and maybe you are too. You can't build a home in a hallway. Partner, place, the shape of the next ten years, none of it gets better by staying maximally optional. At some point growth flips. It stops being about how many doors you can keep open and starts being about having the nerve to walk through one and let the rest swing shut.
+
+<figure class="diagram">
+<svg viewBox="0 0 640 210" role="img" aria-label="On the left, three open doorways labelled keep every door open. On the right, one open doorway with an arrow walking through it and two closed doors, labelled choose one and close the rest.">
+  <text x="148" y="34" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="14" fill="#1a1918">keep every door open</text>
+  <path d="M70 150 L70 64 L104 64 L104 150" fill="none" stroke="#1a1918" stroke-width="1.5"/>
+  <path d="M130 150 L130 64 L164 64 L164 150" fill="none" stroke="#1a1918" stroke-width="1.5"/>
+  <path d="M190 150 L190 64 L224 64 L224 150" fill="none" stroke="#1a1918" stroke-width="1.5"/>
+  <line x1="56" y1="150" x2="238" y2="150" stroke="#e2dfd9" stroke-width="1.5"/>
+
+  <text x="305" y="100" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="14" fill="#888" font-style="italic">the flip</text>
+  <line x1="262" y1="120" x2="348" y2="120" stroke="#888" stroke-width="1.5"/>
+  <polyline points="338,113 350,120 338,127" fill="none" stroke="#888" stroke-width="1.5"/>
+
+  <text x="492" y="34" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="14" fill="#1a1918">choose one, close the rest</text>
+  <rect x="400" y="64" width="34" height="86" fill="#f3f2ef" stroke="#1a1918" stroke-width="1.5"/>
+  <circle cx="428" cy="108" r="2.4" fill="#1a1918"/>
+  <path d="M475 150 L475 64 L509 64 L509 150" fill="none" stroke="#1a1918" stroke-width="2"/>
+  <line x1="452" y1="120" x2="500" y2="120" stroke="#1a1918" stroke-width="1.5"/>
+  <polyline points="491,113 502,120 491,127" fill="none" stroke="#1a1918" stroke-width="1.5"/>
+  <rect x="550" y="64" width="34" height="86" fill="#f3f2ef" stroke="#1a1918" stroke-width="1.5"/>
+  <circle cx="556" cy="108" r="2.4" fill="#1a1918"/>
+  <line x1="386" y1="150" x2="598" y2="150" stroke="#e2dfd9" stroke-width="1.5"/>
+</svg>
+<figcaption>Optionality was the asset for a decade. The flip is when it turns into the cost.</figcaption>
+</figure>
+
+That switch is terrifying, because closing a door means admitting the others are gone. Which is the whole point.
+
+So maybe that's the dashboard I was looking for at the top. Not step counts or salary. Just one needle: the day choosing one good thing and killing the alternatives stops scaring me. When that reading flips, it won't be settling.
+
+That'll be the growth.
