@@ -3,7 +3,10 @@ layout: post
 title: "Spiti Took Five Days to Take Me Apart. A 9-Year-Old Did It in Four Seconds."
 subtitle: "A loop story: one rain, one birthday cake at 9,000 feet, and an arm wrestling defeat I'm still processing."
 date: 2026-06-08
-tags: [travel, spiti, personal]
+tags:
+  - travel
+  - spiti
+  - self-improvement
 ---
 
 It rained the morning we left Spiti.

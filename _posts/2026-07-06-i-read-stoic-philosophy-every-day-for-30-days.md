@@ -4,10 +4,10 @@ title: "I Read Stoic Philosophy Every Day for 30 Days. Stoicism Wasn't the Best 
 subtitle: "A 30-day reading challenge that taught me more about time, insecurity, and asking for what you want than any philosophy book ever did."
 date: 2026-07-06
 tags:
-  - stoicism
-  - consistency
-  - challenge
+  - philosophy
   - mindset
+  - stoicism
+  - habits
 ---
 
 I signed up for a 30-day challenge hoping to learn Stoicism. Turns out, the philosophy was the least interesting thing I got out of it.

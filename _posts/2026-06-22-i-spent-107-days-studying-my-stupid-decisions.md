@@ -5,8 +5,8 @@ subtitle: "Survivorship bias, sunk cost fallacy, and confirmation bias: the thre
 date: 2026-06-22
 tags:
   - psychology
-  - decision-making
-  - cognitive-bias
+  - self-improvement
+  - mindset
 ---
 
 Here's a stat that will mess with you: 41.6 million Americans went to college but never finished. Dropouts, all of them. On the entire planet, there are 3,028 billionaires. Yet somehow we all "know" that dropping out is the billionaire move.

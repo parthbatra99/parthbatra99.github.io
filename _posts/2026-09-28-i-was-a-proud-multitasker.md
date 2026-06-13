@@ -5,8 +5,8 @@ subtitle: "What your brain actually does when you think you're doing two things 
 date: 2026-09-28
 tags:
   - productivity
-  - neuroscience
   - psychology
+  - mindset
 ---
 
 I used to eat lunch with YouTube shorts in one hand and a group chat in the other. Emails got answered during meetings. Podcasts ran in the background while I coded. And I genuinely believed I was getting more done than the people around me.

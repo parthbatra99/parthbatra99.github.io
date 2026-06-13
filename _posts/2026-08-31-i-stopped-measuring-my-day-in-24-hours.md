@@ -6,7 +6,7 @@ date: 2026-08-31
 tags:
   - productivity
   - habits
-  - systems
+  - mindset
 ---
 
 Here's a question that bothered me for months. Why is it that I can be productive for a full morning and then completely fall off after lunch? Not "kind of slow." Full stop. The afternoon vanishes into YouTube, half-read articles, and the kind of phone scrolling where you look up and 90 minutes are just gone.

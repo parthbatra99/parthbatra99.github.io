@@ -8,7 +8,6 @@ tags:
   - diy
   - hardware
   - raspberry-pi
-  - embedded
 ---
 
 Philips wants **₹20,000** for the Hue Play Gradient Lightstrip. Twenty. Thousand. Rupees. For LEDs.

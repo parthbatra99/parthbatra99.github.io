@@ -5,10 +5,10 @@ subtitle: "Telephony, WebRTC, voice detection, transcription. A month building i
 date: 2026-05-24
 hero_art: /assets/images/voice-ai.png
 tags:
-  - voice-ai
-  - webrtc
-  - infrastructure
+  - ai
+  - software
   - open-source
+  - vapi
 ---
 
 You call a number, an AI picks up, you say "hello," and it says "hello" back. Feels instant. Feels simple. It is neither.

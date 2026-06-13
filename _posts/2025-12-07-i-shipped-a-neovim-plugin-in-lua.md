@@ -5,10 +5,9 @@ subtitle: "The actual workflow: use AI as the Lua specialist, yourself as the ar
 date: 2025-12-07
 hero_art: /assets/images/neovim.png
 tags:
-  - neovim
-  - lua
+  - software
   - ai
-  - developer-tools
+  - neovim
 ---
 
 I don't know Lua. I've never written it, never studied it, don't have the interpreter installed.

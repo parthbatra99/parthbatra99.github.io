@@ -5,8 +5,8 @@ subtitle: "The productivity math, the placebo effect, and the one reason early r
 date: 2026-09-14
 tags:
   - productivity
-  - sleep
   - habits
+  - health
 ---
 
 Waking up at 5 AM has become a luxury lifestyle product. Search "5:00 a.m." on YouTube and you'll drown in videos of people holding coffee mugs at dawn, preaching about how those extra hours changed their life. Nobody ever asks the obvious question: should you even be doing this?

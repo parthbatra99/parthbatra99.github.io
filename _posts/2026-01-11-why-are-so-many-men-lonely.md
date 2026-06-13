@@ -5,8 +5,8 @@ subtitle: "The lie we've been sold about doing it alone, and why the last person
 date: 2026-01-11
 tags:
   - mindset
+  - philosophy
   - loneliness
-  - generation
 ---
 
 If you can keep your head when all about you are losing theirs, you'll be a man, my son.

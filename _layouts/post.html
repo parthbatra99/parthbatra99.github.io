@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign words = content | number_of_words %}
+{% assign words = content | strip_html | number_of_words %}
 {% assign reading_time = words | divided_by: 225 %}
 {% if reading_time < 1 %}
   {% assign reading_time = 1 %}

@@ -7,7 +7,6 @@ tags:
   - creativity
   - productivity
   - philosophy
-  - language
 ---
 
 Name one great songwriter who was born a billionaire.

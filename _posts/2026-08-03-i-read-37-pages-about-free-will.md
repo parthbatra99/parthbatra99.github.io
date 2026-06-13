@@ -5,7 +5,7 @@ subtitle: "Brain scans that predict decisions, five murder scenarios, and why yo
 date: 2026-08-03
 tags:
   - philosophy
-  - neuroscience
+  - psychology
   - free-will
 ---
 
