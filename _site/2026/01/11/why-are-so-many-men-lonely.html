@@ -19,6 +19,12 @@
 </head>
 
   <body>
+    <svg width="0" height="0" aria-hidden="true" style="position:absolute">
+      <filter id="sketch" x="-5%" y="-5%" width="110%" height="110%">
+        <feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="2" seed="7" result="n"/>
+        <feDisplacementMap in="SourceGraphic" in2="n" scale="2.2" xChannelSelector="R" yChannelSelector="G"/>
+      </filter>
+    </svg>
     <header class="site-header">
   <div class="shell header-shell">
     <a class="site-title" rel="author" href="/">Parth Batra</a>
@@ -106,17 +112,16 @@
 <p>That’s not motivation-poster talk. That’s history. Einstein didn’t conjure special relativity from thin air. He built on <a href="https://en.wikipedia.org/wiki/Maxwell%27s_equations">Maxwell’s equations</a> and decades of work by physicists most people have never heard of. The narrative that one genius woke up one morning and rewrote physics is a story we tell because it’s clean and dramatic. The reality is messier: 99 people took 99 steps, and the 100th person crossed the finish line and got the trophy.</p>
 
 <figure class="diagram">
-<svg viewBox="0 0 380 170" width="100%" height="auto" role="img" aria-label="An ascending staircase of faint identical steps, with a trophy on the highlighted top step." fill="none" stroke="currentColor" stroke-width="1.5">
-  <g opacity="0.35">
-    <path d="M20 150 H68 V126 H116 V102 H164 V78 H212 V54 H272 V36" />
+<svg viewBox="0 0 380 160" width="100%" height="auto" role="img" aria-label="An ascending staircase of faint identical steps, with a trophy on the highlighted top step." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+  <path d="M20 146 H68 V122 H116 V98 H164 V74 H212 V50 H272 V32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.3" />
+  <g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M298 10 H326 V18 a14 14 0 0 1 -28 0 Z" />
+    <path d="M312 32 V18" />
+    <path d="M300 36 H324" />
   </g>
-  <g stroke="currentColor" stroke-width="1.5">
-    <path d="M298 12 H326 V20 a14 14 0 0 1 -28 0 Z" />
-    <path d="M312 34 V20 M302 38 H322" />
-  </g>
-  <g stroke="none" fill="currentColor" font-family="-apple-system, sans-serif" font-size="12">
-    <text x="20" y="166" opacity="0.5">99 steps</text>
-    <text x="312" y="56" text-anchor="middle" opacity="0.9">100th</text>
+  <g stroke="none" fill="currentColor" font-size="13">
+    <text x="20" y="158" opacity="0.5">99 steps</text>
+    <text x="312" y="54" text-anchor="middle">100th</text>
   </g>
 </svg>
 <figcaption>Ninety-nine people took ninety-nine steps. The hundredth crossed the line and got the trophy.</figcaption>

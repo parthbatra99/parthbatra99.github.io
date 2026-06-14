@@ -19,6 +19,12 @@
 </head>
 
   <body>
+    <svg width="0" height="0" aria-hidden="true" style="position:absolute">
+      <filter id="sketch" x="-5%" y="-5%" width="110%" height="110%">
+        <feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="2" seed="7" result="n"/>
+        <feDisplacementMap in="SourceGraphic" in2="n" scale="2.2" xChannelSelector="R" yChannelSelector="G"/>
+      </filter>
+    </svg>
     <header class="site-header">
   <div class="shell header-shell">
     <a class="site-title" rel="author" href="/">Parth Batra</a>
@@ -88,18 +94,28 @@
       <p>I don’t know Lua. I’ve never written it, never studied it, don’t have the interpreter installed.</p>
 
 <figure class="diagram">
-<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="Two inputs — you as the architect and the AI as the Lua specialist — combine into a shipped plugin." font-family="-apple-system, sans-serif" font-size="11.5">
-  <g fill="none" stroke="currentColor" stroke-width="1.5">
-    <rect x="14" y="26" width="158" height="32" rx="2" />
-    <rect x="14" y="92" width="158" height="32" rx="2" />
-    <rect x="232" y="59" width="134" height="32" rx="2" />
-    <path d="M172 42 C 204 42 204 75 232 75" />
-    <path d="M172 108 C 204 108 204 75 232 75" />
+<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="A code editor split in two: the structure skeleton labelled me on the left, the dense code lines labelled AI on the right." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+  <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="30" y="22" width="320" height="100" rx="8" stroke-width="2" />
+    <line x1="30" y1="42" x2="350" y2="42" stroke-width="1.5" />
+    <line x1="150" y1="42" x2="150" y2="122" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.35" />
+    <path d="M70 56 V114 M70 56 H94 M70 114 H94" stroke-width="1.8" />
+    <path d="M82 70 V100 M82 70 H106 M82 100 H106" stroke-width="1.8" opacity="0.65" />
+    <g stroke-width="2">
+      <line x1="168" y1="58" x2="226" y2="58" />
+      <line x1="180" y1="70" x2="248" y2="70" />
+      <line x1="180" y1="82" x2="218" y2="82" />
+      <line x1="168" y1="94" x2="238" y2="94" />
+      <line x1="180" y1="106" x2="258" y2="106" />
+      <line x1="168" y1="118" x2="208" y2="118" />
+    </g>
   </g>
-  <g fill="currentColor">
-    <text x="26" y="46">You — architect</text>
-    <text x="26" y="112">AI — Lua specialist</text>
-    <text x="299" y="79" text-anchor="middle">shipped plugin</text>
+  <g fill="currentColor" stroke="none">
+    <circle cx="44" cy="32" r="2.4" />
+    <circle cx="54" cy="32" r="2.4" />
+    <circle cx="64" cy="32" r="2.4" />
+    <text x="100" y="140" text-anchor="middle" font-size="13">me</text>
+    <text x="213" y="140" text-anchor="middle" font-size="13">AI</text>
   </g>
 </svg>
 <figcaption>I brought the judgement, the model brought the syntax. The plugin shipped.</figcaption>

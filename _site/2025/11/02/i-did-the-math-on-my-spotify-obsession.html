@@ -19,6 +19,12 @@
 </head>
 
   <body>
+    <svg width="0" height="0" aria-hidden="true" style="position:absolute">
+      <filter id="sketch" x="-5%" y="-5%" width="110%" height="110%">
+        <feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="2" seed="7" result="n"/>
+        <feDisplacementMap in="SourceGraphic" in2="n" scale="2.2" xChannelSelector="R" yChannelSelector="G"/>
+      </filter>
+    </svg>
     <header class="site-header">
   <div class="shell header-shell">
     <a class="site-title" rel="author" href="/">Parth Batra</a>
@@ -88,18 +94,33 @@
       <p>For three years running, my Spotify Wrapped has clocked in at over 100,000 minutes. That’s more than two full months of non-stop audio — not a flex, more a confession, and also the thing that made me want to actually run the numbers.</p>
 
 <figure class="diagram">
-<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="Two bars: the small amount I pay Spotify each month versus the large amount of listening I actually cost them." font-family="-apple-system, sans-serif" font-size="12.5">
-  <g fill="currentColor">
-    <text x="118" y="46" text-anchor="end">I pay</text>
-    <text x="118" y="102" text-anchor="end">I cost</text>
+<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="A tipped balance scale: one tiny coin on the high side, a mountain of listening minutes crushing the low side." stroke-linecap="round" stroke-linejoin="round">
+  <g fill="none" stroke="currentColor" stroke-width="2">
+    <!-- Fulcrum triangle -->
+    <polygon points="190,95 183,115 197,115" />
+    <!-- Tipped scale beam -->
+    <line x1="60" y1="60" x2="310" y2="100" />
+    <!-- Left pan (high side — the tiny pay coin) -->
+    <line x1="60" y1="60" x2="46" y2="75" />
+    <line x1="60" y1="60" x2="74" y2="75" />
+    <!-- Right pan (low side — the listening mountain) -->
+    <line x1="310" y1="100" x2="296" y2="115" />
+    <line x1="310" y1="100" x2="324" y2="115" />
+    <!-- Tiny coin on the left pan -->
+    <circle cx="60" cy="82" r="6" />
+    <circle cx="60" cy="82" r="4" />
+    <!-- Tower of sound-burst / play-minutes on the right -->
+    <path d="M296,112 Q290,88 300,72 Q310,58 306,42" stroke-width="1.8" />
+    <path d="M304,112 Q300,94 308,78 Q316,64 312,46" stroke-width="1.8" />
+    <path d="M312,112 Q318,100 314,86 Q310,74 320,60" stroke-width="1.8" />
+    <!-- Extra little bursts piling up -->
+    <path d="M288,105 Q284,98 290,92" stroke-width="1.5" />
+    <path d="M322,108 Q328,100 324,94" stroke-width="1.5" />
+    <path d="M300,105 Q306,96 302,88" stroke-width="1.5" />
   </g>
-  <g fill="currentColor">
-    <rect x="128" y="28" width="52" height="26" rx="2" />
-    <rect x="128" y="84" width="200" height="26" rx="2" />
-  </g>
-  <g fill="currentColor" font-size="11">
-    <text x="188" y="46">₹119/mo</text>
-    <text x="334" y="102">100k+ min/yr</text>
+  <g fill="currentColor" stroke="none" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13">
+    <text x="60" y="100" text-anchor="middle">pay</text>
+    <text x="310" y="128" text-anchor="middle">cost</text>
   </g>
 </svg>
 <figcaption>I take out a lot more than the subscription puts in. I'm Spotify's problem.</figcaption>

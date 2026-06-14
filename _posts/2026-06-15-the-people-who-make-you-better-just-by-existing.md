@@ -17,21 +17,21 @@ This month, a single line from [*The Daily Stoic*](https://dailystoic.com/) stop
 Read that again. There are people who make us better when they're around. Then there are people who make us better just by existing in our memory. You're about to do something you wouldn't want them to see, and their face pops into your head, and you stop.
 
 <figure class="diagram">
-<svg viewBox="0 0 380 170" width="100%" height="auto" role="img" aria-label="A path forks into a worse branch and a better branch; a dotted thought of someone nudges the choice toward the better branch." font-family="-apple-system, sans-serif" font-size="12">
-  <g fill="none" stroke="currentColor" stroke-width="1.5">
-    <path d="M30 120 H150"/>
-    <path d="M150 120 L320 60"/>
-    <path d="M150 120 L320 150" opacity="0.4"/>
-    <circle cx="150" cy="120" r="3" fill="currentColor"/>
+<svg viewBox="0 0 380 160" width="100%" height="auto" role="img" aria-label="A path forks into a worse branch and a better branch; a dotted thought of someone nudges the choice toward the better branch." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+  <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 115 H150" stroke-width="2.2"/>
+    <path d="M150 115 L320 55" stroke-width="2.2"/>
+    <path d="M150 115 L320 145" stroke-width="1.8" opacity="0.35"/>
   </g>
-  <g fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="3 3" opacity="0.6">
-    <path d="M150 120 C 150 70, 200 50, 230 46"/>
-    <circle cx="245" cy="44" r="14"/>
+  <circle cx="150" cy="115" r="3.5" fill="currentColor"/>
+  <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-dasharray="3 3" opacity="0.6">
+    <path d="M150 115 C 150 70, 200 52, 228 48"/>
+    <circle cx="244" cy="46" r="15"/>
   </g>
-  <g stroke="none" fill="currentColor" font-size="11">
-    <text x="245" y="48" text-anchor="middle" opacity="0.7">them</text>
-    <text x="324" y="60">better</text>
-    <text x="324" y="154" opacity="0.5">worse</text>
+  <g stroke="none" fill="currentColor" font-size="13">
+    <text x="244" y="50" text-anchor="middle" opacity="0.75">them</text>
+    <text x="324" y="55">better</text>
+    <text x="324" y="149" opacity="0.5">worse</text>
   </g>
 </svg>
 <figcaption>The thought of one person you respect can nudge a choice down the better fork.</figcaption>

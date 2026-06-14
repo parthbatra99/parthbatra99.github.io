@@ -14,19 +14,32 @@ tags:
 I have a Rubik's cube in my desk drawer and a bottle of ceramic car wax under my sink. Neither of these things should have anything to do with keyboards.
 
 <figure class="diagram">
-<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="Three unrelated things — a Rubik's cube, car wax and an old motorcycle — converge into one keyboard build." font-family="-apple-system, sans-serif" font-size="12.5">
-  <g fill="currentColor">
-    <text x="16" y="39">Rubik's cube</text>
-    <text x="16" y="79">Car wax</text>
-    <text x="16" y="119">TVS Gold</text>
+<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="A keyboard where three absurd keys — a Rubik's cube, a tin of car wax, and a motorcycle — sit where normal keys should be." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+  <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="24" y="26" width="332" height="98" rx="8" stroke-width="2.2"/>
+    <g stroke-width="1.6" opacity="0.4">
+      <rect x="44" y="40" width="22" height="14" rx="2"/><rect x="70" y="40" width="22" height="14" rx="2"/><rect x="96" y="40" width="22" height="14" rx="2"/><rect x="122" y="40" width="22" height="14" rx="2"/><rect x="148" y="40" width="22" height="14" rx="2"/><rect x="174" y="40" width="22" height="14" rx="2"/><rect x="200" y="40" width="22" height="14" rx="2"/><rect x="226" y="40" width="22" height="14" rx="2"/><rect x="252" y="40" width="22" height="14" rx="2"/><rect x="278" y="40" width="22" height="14" rx="2"/><rect x="304" y="40" width="22" height="14" rx="2"/>
+    </g>
+    <rect x="120" y="104" width="180" height="12" rx="2" stroke-width="1.8" opacity="0.4"/>
   </g>
-  <g fill="none" stroke="currentColor" stroke-width="1.5">
-    <path d="M120 34 C 178 34 188 75 236 75"/>
-    <path d="M120 75 L 236 75"/>
-    <path d="M120 114 C 178 114 188 75 236 75"/>
-    <rect x="236" y="58" width="128" height="34" rx="2"/>
+  <g transform="translate(66,68)">
+    <rect width="30" height="30" rx="2" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="15" y1="0" x2="15" y2="30" stroke="currentColor" stroke-width="2"/>
+    <line x1="0" y1="15" x2="30" y2="15" stroke="currentColor" stroke-width="2"/>
+    <rect width="15" height="15" fill="currentColor"/>
+    <rect x="15" y="15" width="15" height="15" fill="currentColor"/>
   </g>
-  <text x="300" y="79" text-anchor="middle" fill="currentColor">the build</text>
+  <g transform="translate(162,66)" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round">
+    <ellipse cx="15" cy="5" rx="15" ry="5"/>
+    <path d="M0 5 V25 a15 5 0 0 0 30 0 V5"/>
+  </g>
+  <g transform="translate(248,68)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="7" cy="23" r="7"/>
+    <circle cx="27" cy="23" r="7"/>
+    <path d="M7 23 L16 8 L27 23 M16 8 L23 8"/>
+    <circle cx="7" cy="23" r="1.6" fill="currentColor" stroke="none"/>
+    <circle cx="27" cy="23" r="1.6" fill="currentColor" stroke="none"/>
+  </g>
 </svg>
 <figcaption>Two things with no business near a keyboard. Both ended up in the teardown.</figcaption>
 </figure>

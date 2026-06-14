@@ -14,14 +14,16 @@ tags:
 I signed up for a 30-day challenge hoping to learn Stoicism. Turns out, the philosophy was the least interesting thing I got out of it.
 
 <figure class="diagram">
-<svg viewBox="0 0 380 160" width="100%" height="auto" role="img" aria-label="A grid of thirty filled dots, one for each day of the reading challenge." font-family="-apple-system, sans-serif">
+<svg viewBox="0 0 380 160" width="100%" height="auto" role="img" aria-label="A grid of thirty dots, one for each day of the reading challenge; the thirtieth is ringed to mark the completed streak." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
   <g fill="currentColor">
-    <circle cx="65" cy="32" r="7"/><circle cx="115" cy="32" r="7"/><circle cx="165" cy="32" r="7"/><circle cx="215" cy="32" r="7"/><circle cx="265" cy="32" r="7"/><circle cx="315" cy="32" r="7"/>
-    <circle cx="65" cy="62" r="7"/><circle cx="115" cy="62" r="7"/><circle cx="165" cy="62" r="7"/><circle cx="215" cy="62" r="7"/><circle cx="265" cy="62" r="7"/><circle cx="315" cy="62" r="7"/>
-    <circle cx="65" cy="92" r="7"/><circle cx="115" cy="92" r="7"/><circle cx="165" cy="92" r="7"/><circle cx="215" cy="92" r="7"/><circle cx="265" cy="92" r="7"/><circle cx="315" cy="92" r="7"/>
-    <circle cx="65" cy="122" r="7"/><circle cx="115" cy="122" r="7"/><circle cx="165" cy="122" r="7"/><circle cx="215" cy="122" r="7"/><circle cx="265" cy="122" r="7"/><circle cx="315" cy="122" r="7"/>
-    <circle cx="65" cy="152" r="7"/><circle cx="115" cy="152" r="7"/><circle cx="165" cy="152" r="7"/><circle cx="215" cy="152" r="7"/><circle cx="265" cy="152" r="7"/><circle cx="315" cy="152" r="7"/>
+    <circle cx="65" cy="32" r="7.5"/><circle cx="115" cy="32" r="7.5"/><circle cx="165" cy="32" r="7.5"/><circle cx="215" cy="32" r="7.5"/><circle cx="265" cy="32" r="7.5"/><circle cx="315" cy="32" r="7.5"/>
+    <circle cx="65" cy="62" r="7.5"/><circle cx="115" cy="62" r="7.5"/><circle cx="165" cy="62" r="7.5"/><circle cx="215" cy="62" r="7.5"/><circle cx="265" cy="62" r="7.5"/><circle cx="315" cy="62" r="7.5"/>
+    <circle cx="65" cy="92" r="7.5"/><circle cx="115" cy="92" r="7.5"/><circle cx="165" cy="92" r="7.5"/><circle cx="215" cy="92" r="7.5"/><circle cx="265" cy="92" r="7.5"/><circle cx="315" cy="92" r="7.5"/>
+    <circle cx="65" cy="122" r="7.5"/><circle cx="115" cy="122" r="7.5"/><circle cx="165" cy="122" r="7.5"/><circle cx="215" cy="122" r="7.5"/><circle cx="265" cy="122" r="7.5"/><circle cx="315" cy="122" r="7.5"/>
+    <circle cx="65" cy="152" r="7.5"/><circle cx="115" cy="152" r="7.5"/><circle cx="165" cy="152" r="7.5"/><circle cx="215" cy="152" r="7.5"/><circle cx="265" cy="152" r="7.5"/>
   </g>
+  <circle cx="315" cy="152" r="7.5" fill="currentColor"/>
+  <circle cx="315" cy="152" r="13" fill="none" stroke="currentColor" stroke-width="2.2"/>
 </svg>
 <figcaption>Thirty days in a row. The streak taught me more than the Stoics did.</figcaption>
 </figure>

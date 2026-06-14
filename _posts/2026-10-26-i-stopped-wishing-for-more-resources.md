@@ -15,12 +15,26 @@ Name one great songwriter who was born a billionaire.
 I'll wait.
 
 <figure class="diagram">
-<svg viewBox="0 0 380 160" width="100%" height="auto" role="img" aria-label="Two crossing lines: as resources fall, creativity rises." font-family="-apple-system, sans-serif" font-size="12">
-  <line x1="40" y1="40" x2="340" y2="130" stroke="#888" stroke-width="1.5"/>
-  <line x1="40" y1="130" x2="340" y2="40" stroke="currentColor" stroke-width="1.5"/>
-  <g font-size="11">
-    <text x="44" y="32" fill="#888">Resources</text>
-    <text x="336" y="32" text-anchor="end" fill="currentColor">Creativity</text>
+<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="As resources fall and creativity rises, a dense cluster of idea-sprouts blooms at the constrained end while a single dead bulb sits at the abundant end." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+  <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="50" y1="32" x2="330" y2="118" stroke-width="1.8" stroke-dasharray="6 5" opacity="0.4"/>
+    <line x1="50" y1="118" x2="330" y2="32" stroke-width="2.2"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8">
+    <path d="M52 132 V106"/>
+    <path d="M52 116 C48 112 44 112 42 116"/>
+    <path d="M52 120 C56 116 60 116 62 120"/>
+    <path d="M66 132 V110"/>
+    <path d="M66 118 C62 114 58 114 56 118"/>
+    <path d="M78 132 V100"/>
+    <path d="M78 110 C74 106 70 106 68 110"/>
+    <path d="M78 106 C82 102 86 102 88 106"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" opacity="0.5">
+    <circle cx="312" cy="42" r="9"/>
+    <line x1="305" y1="35" x2="319" y2="49"/>
+    <line x1="319" y1="35" x2="305" y2="49"/>
+    <line x1="312" y1="51" x2="312" y2="62"/>
   </g>
 </svg>
 <figcaption>Fewer resources didn't limit the work. They were the engine.</figcaption>

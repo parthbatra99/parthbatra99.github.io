@@ -13,19 +13,19 @@ tags:
 Here's an experiment. You're sitting alone in someone's room at 11:05 PM. You pick up a book, read for a while, and put it back at 11:14. Feels like your choice, right? You decided to read. You decided to stop.
 
 <figure class="diagram">
-<svg viewBox="0 0 600 140" width="100%" height="auto" role="img" aria-label="A timeline: the brain commits to a decision first, then you feel you chose, then the action happens. A gap separates the brain's commitment from your awareness." font-family="-apple-system, sans-serif" font-size="11">
-  <line x1="40" y1="72" x2="560" y2="72" stroke="currentColor" stroke-width="1.5"/>
-  <g stroke="currentColor" stroke-width="1.5">
-    <line x1="130" y1="60" x2="130" y2="84"/>
-    <line x1="360" y1="60" x2="360" y2="84"/>
-    <line x1="540" y1="60" x2="540" y2="84"/>
+<svg viewBox="0 0 380 140" width="100%" height="auto" role="img" aria-label="A timeline: the brain commits to a decision first, then you feel you chose, then the action happens. A gap separates the brain's commitment from your awareness." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+  <line x1="30" y1="72" x2="350" y2="72" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  <g stroke="currentColor" stroke-width="2" stroke-linecap="round">
+    <line x1="90" y1="60" x2="90" y2="84"/>
+    <line x1="220" y1="60" x2="220" y2="84"/>
+    <line x1="330" y1="60" x2="330" y2="84"/>
   </g>
-  <line x1="130" y1="40" x2="360" y2="40" stroke="#888" stroke-width="1" stroke-dasharray="3 3"/>
-  <text x="245" y="32" text-anchor="middle" fill="#888">the gap</text>
-  <g fill="currentColor" text-anchor="middle">
-    <text x="130" y="104">brain commits</text>
-    <text x="360" y="104">you feel you chose</text>
-    <text x="540" y="104">action</text>
+  <line x1="90" y1="40" x2="220" y2="40" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.55"/>
+  <text x="155" y="32" text-anchor="middle" fill="currentColor" font-size="13" opacity="0.7">the gap</text>
+  <g fill="currentColor" font-size="13" text-anchor="middle">
+    <text x="90" y="104">brain</text>
+    <text x="220" y="104">you feel</text>
+    <text x="330" y="104">action</text>
   </g>
 </svg>
 <figcaption>The scan sees the decision a beat before "you" do.</figcaption>

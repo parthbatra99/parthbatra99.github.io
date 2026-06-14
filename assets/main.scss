@@ -7,6 +7,7 @@
   --text: #1a1918;
   --muted: #888;
   --line: #e2dfd9;
+  --accent: #c1492b;
   --shell: min(720px, calc(100vw - 2rem));
 }
 
@@ -33,6 +34,13 @@ figure.diagram {
 figure.diagram svg {
   max-width: 100%;
   height: auto;
+}
+figure.diagram svg,
+.channel-card-svg svg {
+  color: var(--accent);
+  filter: url(#sketch);
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 figure.diagram figcaption {
   margin-top: 0.5rem;

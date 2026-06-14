@@ -1,6 +1,8 @@
 ---
 layout: post
 kind: field-notes
+recommended: true
+recommended_order: 2
 title: "Spiti Took Five Days to Take Me Apart. A 9-Year-Old Did It in Four Seconds."
 subtitle: "A loop story: one rain, one birthday cake at 9,000 feet, and an arm wrestling defeat I'm still processing."
 date: 2026-06-08
@@ -13,22 +15,51 @@ tags:
 It rained the morning we left Spiti.
 
 <figure class="diagram">
-<svg viewBox="0 0 400 170" width="100%" height="auto" role="img" aria-label="An altitude line across five days in Spiti, marked with the rain on day one, a birthday cake at 9,000 feet near the peak, and an arm-wrestling defeat on day four." font-family="-apple-system, sans-serif" font-size="10.5">
-  <polyline points="40,120 130,72 210,46 290,82 360,114" fill="none" stroke="currentColor" stroke-width="1.5"/>
-  <g fill="currentColor">
-    <circle cx="40" cy="120" r="4"/>
-    <circle cx="210" cy="46" r="4"/>
-    <circle cx="290" cy="82" r="4"/>
+<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="Small doodles of things from the Spiti trip: rain, prayer flags, the Milky Way, a mountain peak, an arm-wrestle, a birthday cake, a bonfire, a river, and the last sunset." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+  <g transform="translate(75,38)" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+    <path d="M-9 -4 a5 5 0 0 1 9 -3 a4 4 0 0 1 5 4"/>
+    <line x1="-5" y1="3" x2="-7" y2="9"/>
+    <line x1="1" y1="3" x2="-1" y2="9"/>
+    <line x1="7" y1="3" x2="5" y2="9"/>
   </g>
-  <g fill="currentColor">
-    <text x="40" y="138">rain</text>
-    <text x="210" y="38" text-anchor="middle">cake @ 9,000 ft</text>
-    <text x="300" y="76">arm wrestle</text>
+  <g transform="translate(190,38)" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round">
+    <path d="M-13 -6 Q0 -11 13 -6"/>
+    <path d="M-7 -6 L-3 -6 L-5 1 Z" fill="currentColor"/>
+    <path d="M3 -6 L7 -6 L5 1 Z" fill="currentColor"/>
   </g>
-  <line x1="30" y1="150" x2="370" y2="150" stroke="#888" stroke-width="1"/>
-  <g fill="#888">
-    <text x="40" y="165" text-anchor="middle">Day 1</text>
-    <text x="360" y="165" text-anchor="middle">Day 5</text>
+  <g transform="translate(305,38)" fill="currentColor">
+    <path d="M0 -9 L2.5 -2.5 L9 0 L2.5 2.5 L0 9 L-2.5 2.5 L-9 0 L-2.5 -2.5 Z"/>
+    <circle cx="-11" cy="-7" r="1.5"/>
+    <circle cx="11" cy="6" r="1.5"/>
+  </g>
+  <g transform="translate(75,75)" stroke="currentColor" stroke-width="2" fill="none" stroke-linejoin="round">
+    <path d="M-13 8 L-3 -8 L4 1 L13 8 Z"/>
+    <path d="M-6 -3 L-3 -8 L0 -3 Z" fill="currentColor"/>
+  </g>
+  <g transform="translate(190,75)" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round">
+    <line x1="-13" y1="9" x2="-5" y2="0"/>
+    <line x1="13" y1="9" x2="5" y2="0"/>
+    <circle cx="-4" cy="-2" r="4.5" fill="currentColor" stroke="none"/>
+    <circle cx="4" cy="-2" r="4.5" fill="currentColor" stroke="none"/>
+  </g>
+  <g transform="translate(305,75)" stroke="currentColor" stroke-width="2" fill="none" stroke-linejoin="round">
+    <rect x="-9" y="-2" width="18" height="10" rx="1.5"/>
+    <line x1="0" y1="-2" x2="0" y2="-8" stroke-linecap="round"/>
+    <circle cx="0" cy="-10" r="2.2" fill="currentColor" stroke="none"/>
+  </g>
+  <g transform="translate(75,112)">
+    <path d="M0 8 C -8 3 -5 -3 -2 -8 C 0 -4 1 -3 0 -8 C 3 -4 8 1 0 8 Z" fill="currentColor"/>
+    <line x1="-10" y1="8" x2="10" y2="8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(190,112)" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M-12 -4 Q-6 -7 0 -4 T12 -4"/>
+    <path d="M-12 2 Q-6 -1 0 2 T12 2"/>
+    <path d="M-12 8 Q-6 5 0 8 T12 8"/>
+  </g>
+  <g transform="translate(305,112)" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M-12 2 A10 10 0 0 1 12 2"/>
+    <line x1="-13" y1="2" x2="13" y2="2"/>
+    <line x1="-7" y1="8" x2="7" y2="8" opacity="0.5"/>
   </g>
 </svg>
 <figcaption>Five days up and down the valley. It took all five to take me apart.</figcaption>

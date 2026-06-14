@@ -13,21 +13,21 @@ tags:
 The year was 2021. I picked up my first book and it took me 3, maybe 4, maybe 5 months to finish it. I was bad at reading. So I went online for advice, like you do. Everyone on the internet was reading 20, 40, even 100 books a year. Naturally, I thought the answer was simple: read faster, read more. I was wrong. It took me 2 full years to figure out why.
 
 <figure class="diagram">
-<svg viewBox="0 0 380 160" width="100%" height="auto" role="img" aria-label="Two categories of books: a stack of thin bars to read fast, and a single thick bar to read slowly." font-family="-apple-system, sans-serif" font-size="12">
-  <g fill="none" stroke="currentColor" stroke-width="1.5">
-    <rect x="24" y="40" width="150" height="100" rx="2"/>
-    <rect x="206" y="40" width="150" height="100" rx="2"/>
+<svg viewBox="0 0 380 160" width="100%" height="auto" role="img" aria-label="Two categories of books: a stack of thin bars to read fast, and a single thick bar to read slowly." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+  <g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="24" y="40" width="150" height="100" rx="4"/>
+    <rect x="206" y="40" width="150" height="100" rx="4"/>
   </g>
   <g fill="currentColor">
-    <rect x="40" y="58" width="118" height="9" rx="1"/>
-    <rect x="40" y="76" width="118" height="9" rx="1"/>
-    <rect x="40" y="94" width="118" height="9" rx="1"/>
-    <rect x="40" y="112" width="118" height="9" rx="1"/>
-    <rect x="240" y="58" width="82" height="63" rx="2"/>
+    <rect x="40" y="58" width="118" height="10" rx="2"/>
+    <rect x="40" y="76" width="118" height="10" rx="2"/>
+    <rect x="40" y="94" width="118" height="10" rx="2"/>
+    <rect x="40" y="112" width="118" height="10" rx="2"/>
+    <rect x="240" y="58" width="82" height="64" rx="3"/>
   </g>
-  <g fill="currentColor" text-anchor="middle">
-    <text x="99" y="32">Read fast</text>
-    <text x="281" y="32">Read slow</text>
+  <g fill="currentColor" text-anchor="middle" font-size="13">
+    <text x="99" y="32">fast</text>
+    <text x="281" y="32">slow</text>
   </g>
 </svg>
 <figcaption>The fix was one question: finish this one fast, or sit with it slow?</figcaption>

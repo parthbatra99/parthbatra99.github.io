@@ -13,13 +13,22 @@ tags:
 I read a book called *Million Dollar Weekend* by Noah Kagan. Has it made me a millionaire? No. But it did something more useful: it gave me a rule so stupidly simple that I'm annoyed I didn't figure it out myself. If a task takes less than two minutes, I don't write it down, I don't add it to my notes, I don't schedule it. I just do it.
 
 <figure class="diagram">
-<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="A time axis with a two-minute cutoff: tasks under two minutes get done now, longer ones get parked on a list." font-family="-apple-system, sans-serif" font-size="12.5">
-  <line x1="30" y1="85" x2="350" y2="85" stroke="currentColor" stroke-width="1.5"/>
-  <line x1="150" y1="52" x2="150" y2="118" stroke="#888" stroke-width="1" stroke-dasharray="3 3"/>
-  <text x="150" y="138" text-anchor="middle" fill="#888" font-size="11">2 min</text>
-  <g fill="currentColor" text-anchor="middle">
-    <text x="90" y="72">Do it now</text>
-    <text x="252" y="72">Park it</text>
+<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="A conveyor belt: small tasks roll straight off into a done bin, but one big task jams and gets shunted up onto a list." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+  <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="56" y1="96" x2="300" y2="96" stroke-width="2"/>
+    <line x1="56" y1="110" x2="300" y2="110" stroke-width="2"/>
+    <circle cx="56" cy="103" r="11" stroke-width="2"/>
+    <circle cx="300" cy="103" r="11" stroke-width="2"/>
+    <rect x="84" y="86" width="13" height="10" stroke="none" fill="currentColor"/>
+    <rect x="112" y="86" width="13" height="10" stroke="none" fill="currentColor"/>
+    <rect x="140" y="86" width="13" height="10" stroke="none" fill="currentColor"/>
+    <path d="M314 100 L320 132 L360 132 L366 100" stroke-width="2"/>
+    <rect x="196" y="78" width="42" height="32" stroke-width="2.2"/>
+    <path d="M217 78 V48" stroke-width="1.8"/>
+    <path d="M210 55 L217 48 L224 55" stroke-width="1.8"/>
+    <rect x="180" y="20" width="74" height="28" rx="2" stroke-width="2"/>
+    <line x1="190" y1="31" x2="244" y2="31" stroke-width="1.5" opacity="0.5"/>
+    <line x1="190" y1="40" x2="238" y2="40" stroke-width="1.5" opacity="0.5"/>
   </g>
 </svg>
 <figcaption>Under two minutes and it never makes the list. It just gets done.</figcaption>

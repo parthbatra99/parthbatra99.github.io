@@ -19,6 +19,12 @@
 </head>
 
   <body>
+    <svg width="0" height="0" aria-hidden="true" style="position:absolute">
+      <filter id="sketch" x="-5%" y="-5%" width="110%" height="110%">
+        <feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="2" seed="7" result="n"/>
+        <feDisplacementMap in="SourceGraphic" in2="n" scale="2.2" xChannelSelector="R" yChannelSelector="G"/>
+      </filter>
+    </svg>
     <header class="site-header">
   <div class="shell header-shell">
     <a class="site-title" rel="author" href="/">Parth Batra</a>
@@ -107,22 +113,22 @@
 
 <figure class="diagram">
 <svg viewBox="0 0 640 240" role="img" aria-label="A rising curve shows how much you actually change over the decades. At two points a flat dashed line branches off, each marking a moment you were certain you had finished changing. The curve climbs past both of them.">
-  <line x1="85" y1="45" x2="85" y2="195" stroke="#888" stroke-width="1" />
-  <line x1="85" y1="195" x2="585" y2="195" stroke="#888" stroke-width="1" />
-  <text transform="translate(58,120) rotate(-90)" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="#888">how much you've actually changed</text>
-  <text x="186" y="214" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="#888">25</text>
-  <text x="318" y="214" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="#888">35</text>
-  <text x="450" y="214" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="#888">45</text>
+  <line x1="85" y1="45" x2="85" y2="195" stroke="currentColor" stroke-width="1" opacity="0.5" />
+  <line x1="85" y1="195" x2="585" y2="195" stroke="currentColor" stroke-width="1" opacity="0.5" />
+  <text transform="translate(58,120) rotate(-90)" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="currentColor" opacity="0.5">how much you've actually changed</text>
+  <text x="186" y="214" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="currentColor" opacity="0.5">25</text>
+  <text x="318" y="214" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="currentColor" opacity="0.5">35</text>
+  <text x="450" y="214" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="currentColor" opacity="0.5">45</text>
 
-  <line x1="186" y1="175" x2="312" y2="175" stroke="#888" stroke-width="1.2" stroke-dasharray="4 4" />
-  <text x="316" y="179" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="#888" font-style="italic">&#8220;done now&#8221;</text>
-  <line x1="386" y1="120" x2="500" y2="120" stroke="#888" stroke-width="1.2" stroke-dasharray="4 4" />
-  <text x="504" y="124" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="#888" font-style="italic">&#8220;done now&#8221;</text>
+  <line x1="186" y1="175" x2="312" y2="175" stroke="currentColor" stroke-width="1.2" stroke-dasharray="4 4" opacity="0.5" />
+  <text x="316" y="179" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="currentColor" opacity="0.5" font-style="italic">&#8220;done now&#8221;</text>
+  <line x1="386" y1="120" x2="500" y2="120" stroke="currentColor" stroke-width="1.2" stroke-dasharray="4 4" opacity="0.5" />
+  <text x="504" y="124" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="currentColor" opacity="0.5" font-style="italic">&#8220;done now&#8221;</text>
 
-  <path d="M95 185 C 250 178, 380 120, 560 58" fill="none" stroke="#1a1918" stroke-width="1.5" />
-  <circle cx="186" cy="175" r="4" fill="#1a1918" />
-  <circle cx="386" cy="120" r="4" fill="#1a1918" />
-  <text x="560" y="50" text-anchor="end" font-family="Source Serif 4, Georgia, serif" font-size="15" fill="#1a1918">what actually happens</text>
+  <path d="M95 185 C 250 178, 380 120, 560 58" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+  <circle cx="186" cy="175" r="4.5" fill="currentColor" />
+  <circle cx="386" cy="120" r="4.5" fill="currentColor" />
+  <text x="560" y="50" text-anchor="end" font-family="Source Serif 4, Georgia, serif" font-size="15" fill="currentColor">what actually happens</text>
 </svg>
 <figcaption>The End of History Illusion: every version of you is sure it's the finished one. The curve disagrees.</figcaption>
 </figure>
@@ -168,30 +174,30 @@
 
 <figure class="diagram">
 <svg viewBox="0 0 640 320" role="img" aria-label="A ladder of problems. The lower rungs, money, work and friends, are marked solved. The upper rungs, partner, place and parents, are marked open. An arrow shows the problems get bigger as you climb.">
-  <line x1="150" y1="300" x2="150" y2="52" stroke="#888" stroke-width="1.5" />
-  <polyline points="142,66 150,50 158,66" fill="none" stroke="#888" stroke-width="1.5" />
-  <text transform="translate(120,180) rotate(-90)" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="#888">bigger, harder problems</text>
+  <line x1="150" y1="300" x2="150" y2="52" stroke="currentColor" stroke-width="1.5" opacity="0.5" />
+  <polyline points="142,66 150,50 158,66" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.5" />
+  <text transform="translate(120,180) rotate(-90)" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="currentColor" opacity="0.5">bigger, harder problems</text>
 
-  <circle cx="240" cy="60" r="6" fill="none" stroke="#1a1918" stroke-width="1.5" />
-  <text x="262" y="65" font-family="Source Serif 4, Georgia, serif" font-size="16" fill="#1a1918">Parents</text>
-  <circle cx="240" cy="105" r="6" fill="none" stroke="#1a1918" stroke-width="1.5" />
-  <text x="262" y="110" font-family="Source Serif 4, Georgia, serif" font-size="16" fill="#1a1918">Place</text>
-  <circle cx="240" cy="150" r="6" fill="none" stroke="#1a1918" stroke-width="1.5" />
-  <text x="262" y="155" font-family="Source Serif 4, Georgia, serif" font-size="16" fill="#1a1918">Partner</text>
-  <text x="600" y="110" text-anchor="end" font-family="Source Serif 4, Georgia, serif" font-size="14" fill="#888" font-style="italic">open</text>
+  <circle cx="240" cy="60" r="6" fill="none" stroke="currentColor" stroke-width="1.8" />
+  <text x="262" y="65" font-family="Source Serif 4, Georgia, serif" font-size="16" fill="currentColor">Parents</text>
+  <circle cx="240" cy="105" r="6" fill="none" stroke="currentColor" stroke-width="1.8" />
+  <text x="262" y="110" font-family="Source Serif 4, Georgia, serif" font-size="16" fill="currentColor">Place</text>
+  <circle cx="240" cy="150" r="6" fill="none" stroke="currentColor" stroke-width="1.8" />
+  <text x="262" y="155" font-family="Source Serif 4, Georgia, serif" font-size="16" fill="currentColor">Partner</text>
+  <text x="600" y="110" text-anchor="end" font-family="Source Serif 4, Georgia, serif" font-size="14" fill="currentColor" opacity="0.5" font-style="italic">open</text>
 
-  <line x1="210" y1="178" x2="600" y2="178" stroke="#e2dfd9" stroke-width="1" />
+  <line x1="210" y1="178" x2="600" y2="178" stroke="currentColor" stroke-width="1" opacity="0.3" />
 
-  <rect x="234" y="199" width="13" height="13" fill="#1a1918" />
-  <polyline points="237,206 240,209 245,202" fill="none" stroke="#fafaf8" stroke-width="1.5" />
-  <text x="262" y="211" font-family="Source Serif 4, Georgia, serif" font-size="16" fill="#1a1918">Friends</text>
-  <rect x="234" y="244" width="13" height="13" fill="#1a1918" />
-  <polyline points="237,251 240,254 245,247" fill="none" stroke="#fafaf8" stroke-width="1.5" />
-  <text x="262" y="256" font-family="Source Serif 4, Georgia, serif" font-size="16" fill="#1a1918">Work</text>
-  <rect x="234" y="289" width="13" height="13" fill="#1a1918" />
-  <polyline points="237,296 240,299 245,292" fill="none" stroke="#fafaf8" stroke-width="1.5" />
-  <text x="262" y="301" font-family="Source Serif 4, Georgia, serif" font-size="16" fill="#1a1918">Money</text>
-  <text x="600" y="256" text-anchor="end" font-family="Source Serif 4, Georgia, serif" font-size="14" fill="#888" font-style="italic">solved</text>
+  <rect x="234" y="199" width="13" height="13" fill="currentColor" />
+  <polyline points="237,206 240,209 245,202" fill="none" stroke="var(--bg)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="262" y="211" font-family="Source Serif 4, Georgia, serif" font-size="16" fill="currentColor">Friends</text>
+  <rect x="234" y="244" width="13" height="13" fill="currentColor" />
+  <polyline points="237,251 240,254 245,247" fill="none" stroke="var(--bg)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="262" y="256" font-family="Source Serif 4, Georgia, serif" font-size="16" fill="currentColor">Work</text>
+  <rect x="234" y="289" width="13" height="13" fill="currentColor" />
+  <polyline points="237,296 240,299 245,292" fill="none" stroke="var(--bg)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="262" y="301" font-family="Source Serif 4, Georgia, serif" font-size="16" fill="currentColor">Money</text>
+  <text x="600" y="256" text-anchor="end" font-family="Source Serif 4, Georgia, serif" font-size="14" fill="currentColor" opacity="0.5" font-style="italic">solved</text>
 </svg>
 <figcaption>Growth is climbing the ladder, not clearing it. The good problems are always still open.</figcaption>
 </figure>
@@ -210,22 +216,22 @@
 
 <figure class="diagram">
 <svg viewBox="0 0 640 200" role="img" aria-label="Many scattered small decisions over time gradually resolve into a single curve that rises steeply, labelled judgement compounded.">
-  <line x1="95" y1="40" x2="95" y2="165" stroke="#888" stroke-width="1" />
-  <line x1="95" y1="165" x2="560" y2="165" stroke="#888" stroke-width="1" />
-  <text x="560" y="186" text-anchor="end" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="#888">time, and a thousand calls</text>
-  <circle cx="135" cy="150" r="2.6" fill="#888" />
-  <circle cx="165" cy="156" r="2.6" fill="#888" />
-  <circle cx="200" cy="146" r="2.6" fill="#888" />
-  <circle cx="235" cy="152" r="2.6" fill="#888" />
-  <circle cx="270" cy="140" r="2.6" fill="#888" />
-  <circle cx="305" cy="144" r="2.6" fill="#888" />
-  <circle cx="340" cy="130" r="2.6" fill="#888" />
-  <circle cx="375" cy="134" r="2.6" fill="#888" />
-  <circle cx="410" cy="118" r="2.6" fill="#888" />
-  <circle cx="445" cy="110" r="2.6" fill="#888" />
-  <circle cx="480" cy="92" r="2.6" fill="#888" />
-  <path d="M105 158 C 280 156, 400 140, 545 58" fill="none" stroke="#1a1918" stroke-width="1.5" />
-  <text x="545" y="48" text-anchor="end" font-family="Source Serif 4, Georgia, serif" font-size="15" fill="#1a1918">instinct</text>
+  <line x1="95" y1="40" x2="95" y2="165" stroke="currentColor" stroke-width="1" opacity="0.5" />
+  <line x1="95" y1="165" x2="560" y2="165" stroke="currentColor" stroke-width="1" opacity="0.5" />
+  <text x="560" y="186" text-anchor="end" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="currentColor" opacity="0.5">time, and a thousand calls</text>
+  <circle cx="135" cy="150" r="2.8" fill="currentColor" opacity="0.5" />
+  <circle cx="165" cy="156" r="2.8" fill="currentColor" opacity="0.5" />
+  <circle cx="200" cy="146" r="2.8" fill="currentColor" opacity="0.5" />
+  <circle cx="235" cy="152" r="2.8" fill="currentColor" opacity="0.5" />
+  <circle cx="270" cy="140" r="2.8" fill="currentColor" opacity="0.5" />
+  <circle cx="305" cy="144" r="2.8" fill="currentColor" opacity="0.5" />
+  <circle cx="340" cy="130" r="2.8" fill="currentColor" opacity="0.5" />
+  <circle cx="375" cy="134" r="2.8" fill="currentColor" opacity="0.5" />
+  <circle cx="410" cy="118" r="2.8" fill="currentColor" opacity="0.5" />
+  <circle cx="445" cy="110" r="2.8" fill="currentColor" opacity="0.5" />
+  <circle cx="480" cy="92" r="2.8" fill="currentColor" opacity="0.5" />
+  <path d="M105 158 C 280 156, 400 140, 545 58" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+  <text x="545" y="48" text-anchor="end" font-family="Source Serif 4, Georgia, serif" font-size="15" fill="currentColor">instinct</text>
 </svg>
 <figcaption>No single call teaches you taste. The thousandth one does.</figcaption>
 </figure>
@@ -240,15 +246,15 @@
 
 <figure class="diagram">
 <svg viewBox="0 0 640 220" role="img" aria-label="Two bars showing what the same decision costs. The before bar is tall, the now bar is much shorter.">
-  <text x="320" y="26" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="14" fill="#888" font-style="italic">the same decision</text>
-  <text transform="translate(74,118) rotate(-90)" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="#888">what it costs me</text>
-  <line x1="100" y1="180" x2="560" y2="180" stroke="#888" stroke-width="1" />
-  <rect x="185" y="52" width="80" height="128" fill="none" stroke="#1a1918" stroke-width="1.5" />
-  <text x="225" y="200" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="15" fill="#1a1918">before</text>
-  <rect x="375" y="120" width="80" height="60" fill="#1a1918" />
-  <text x="415" y="200" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="15" fill="#1a1918">now</text>
-  <line x1="305" y1="80" x2="365" y2="130" stroke="#888" stroke-width="1.5" />
-  <polyline points="356,118 366,132 350,132" fill="none" stroke="#888" stroke-width="1.5" />
+  <text x="320" y="26" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="14" fill="currentColor" opacity="0.5" font-style="italic">the same decision</text>
+  <text transform="translate(74,118) rotate(-90)" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="currentColor" opacity="0.5">what it costs me</text>
+  <line x1="100" y1="180" x2="560" y2="180" stroke="currentColor" stroke-width="1" opacity="0.5" />
+  <rect x="185" y="52" width="80" height="128" fill="none" stroke="currentColor" stroke-width="2" />
+  <text x="225" y="200" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="15" fill="currentColor">before</text>
+  <rect x="375" y="120" width="80" height="60" fill="currentColor" />
+  <text x="415" y="200" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="15" fill="currentColor">now</text>
+  <line x1="305" y1="80" x2="365" y2="130" stroke="currentColor" stroke-width="1.5" opacity="0.5" />
+  <polyline points="356,118 366,132 350,132" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.5" stroke-linecap="round" stroke-linejoin="round" />
 </svg>
 <figcaption>You didn't shrink the decision. You stopped paying so much to make it.</figcaption>
 </figure>
@@ -267,25 +273,25 @@
 
 <figure class="diagram">
 <svg viewBox="0 0 640 210" role="img" aria-label="On the left, three open doorways labelled keep every door open. On the right, one open doorway with an arrow walking through it and two closed doors, labelled choose one and close the rest.">
-  <text x="148" y="34" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="14" fill="#1a1918">keep every door open</text>
-  <path d="M70 150 L70 64 L104 64 L104 150" fill="none" stroke="#1a1918" stroke-width="1.5" />
-  <path d="M130 150 L130 64 L164 64 L164 150" fill="none" stroke="#1a1918" stroke-width="1.5" />
-  <path d="M190 150 L190 64 L224 64 L224 150" fill="none" stroke="#1a1918" stroke-width="1.5" />
-  <line x1="56" y1="150" x2="238" y2="150" stroke="#e2dfd9" stroke-width="1.5" />
+  <text x="148" y="34" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="14" fill="currentColor">keep every door open</text>
+  <path d="M70 150 L70 64 L104 64 L104 150" fill="none" stroke="currentColor" stroke-width="2" />
+  <path d="M130 150 L130 64 L164 64 L164 150" fill="none" stroke="currentColor" stroke-width="2" />
+  <path d="M190 150 L190 64 L224 64 L224 150" fill="none" stroke="currentColor" stroke-width="2" />
+  <line x1="56" y1="150" x2="238" y2="150" stroke="currentColor" stroke-width="1.5" opacity="0.3" />
 
-  <text x="305" y="100" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="14" fill="#888" font-style="italic">the flip</text>
-  <line x1="262" y1="120" x2="348" y2="120" stroke="#888" stroke-width="1.5" />
-  <polyline points="338,113 350,120 338,127" fill="none" stroke="#888" stroke-width="1.5" />
+  <text x="305" y="100" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="14" fill="currentColor" opacity="0.5" font-style="italic">the flip</text>
+  <line x1="262" y1="120" x2="348" y2="120" stroke="currentColor" stroke-width="1.5" opacity="0.5" />
+  <polyline points="338,113 350,120 338,127" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.5" stroke-linecap="round" stroke-linejoin="round" />
 
-  <text x="492" y="34" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="14" fill="#1a1918">choose one, close the rest</text>
-  <rect x="400" y="64" width="34" height="86" fill="#f3f2ef" stroke="#1a1918" stroke-width="1.5" />
-  <circle cx="428" cy="108" r="2.4" fill="#1a1918" />
-  <path d="M475 150 L475 64 L509 64 L509 150" fill="none" stroke="#1a1918" stroke-width="2" />
-  <line x1="452" y1="120" x2="500" y2="120" stroke="#1a1918" stroke-width="1.5" />
-  <polyline points="491,113 502,120 491,127" fill="none" stroke="#1a1918" stroke-width="1.5" />
-  <rect x="550" y="64" width="34" height="86" fill="#f3f2ef" stroke="#1a1918" stroke-width="1.5" />
-  <circle cx="556" cy="108" r="2.4" fill="#1a1918" />
-  <line x1="386" y1="150" x2="598" y2="150" stroke="#e2dfd9" stroke-width="1.5" />
+  <text x="492" y="34" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="14" fill="currentColor">choose one, close the rest</text>
+  <rect x="400" y="64" width="34" height="86" fill="currentColor" fill-opacity="0.14" stroke="currentColor" stroke-width="2" />
+  <circle cx="428" cy="108" r="2.4" fill="currentColor" />
+  <path d="M475 150 L475 64 L509 64 L509 150" fill="none" stroke="currentColor" stroke-width="2.4" />
+  <line x1="452" y1="120" x2="500" y2="120" stroke="currentColor" stroke-width="1.8" />
+  <polyline points="491,113 502,120 491,127" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="550" y="64" width="34" height="86" fill="currentColor" fill-opacity="0.14" stroke="currentColor" stroke-width="2" />
+  <circle cx="556" cy="108" r="2.4" fill="currentColor" />
+  <line x1="386" y1="150" x2="598" y2="150" stroke="currentColor" stroke-width="1.5" opacity="0.3" />
 </svg>
 <figcaption>Optionality was the asset for a decade. The flip is when it turns into the cost.</figcaption>
 </figure>

@@ -13,25 +13,38 @@ tags:
 Most of what I do doesn't matter. That's not self-pity. That's math.
 
 <figure class="diagram">
-<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="Two proportion bars: a small slice of effort, about twenty percent, produces a large slice of results, about eighty percent." font-family="-apple-system, sans-serif" font-size="12">
-  <g fill="currentColor">
-    <text x="62" y="46" text-anchor="end">Effort</text>
-    <text x="62" y="102" text-anchor="end">Results</text>
+<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="Row of seven life-domain doodle icons: heart, coin, clock, person, book, fork, lightning bolt. Only the heart and coin are filled solid; the other five are hollow outlines, illustrating the 80-20 principle where only a few things truly matter." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" stroke-linecap="round" stroke-linejoin="round">
+  <g stroke="currentColor" fill="none" stroke-width="2.2" opacity="0.28">
+    <!-- Heart (hollow) -->
+    <path d="M28,68 C28,58 40,52 48,60 C56,52 68,58 68,68 C68,82 48,92 48,92 C48,92 28,82 28,68Z"/>
+    <!-- Coin circle (hollow) -->
+    <circle cx="110" cy="72" r="18"/>
+    <circle cx="110" cy="72" r="19.5" stroke-width="1"/>
+    <!-- Clock (hollow) -->
+    <circle cx="158" cy="72" r="16"/>
+    <line x1="158" y1="72" x2="158" y2="62"/>
+    <line x1="158" y1="72" x2="166" y2="76"/>
+    <!-- Person (hollow) -->
+    <circle cx="212" cy="60" r="7.5"/>
+    <line x1="212" y1="70" x2="212" y2="94"/>
+    <line x1="200" y1="80" x2="224" y2="80"/>
+    <!-- Book (hollow) -->
+    <path d="M262,56 L270,56 L270,88 L262,88 C258,84 256,80 256,72 C256,64 258,60 262,56Z"/>
+    <path d="M270,56 L278,56 L278,88 L270,88"/>
+    <!-- Fork / bolt (hollow) -->
+    <polyline points="315,56 306,68 318,68 310,88"/>
+    <!-- Spiral scribble (hollow) -->
+    <path d="M345,62 C350,56 362,58 360,68 C358,80 344,80 344,80" stroke-width="1.8"/>
   </g>
-  <g fill="none" stroke="currentColor" stroke-width="1.5">
-    <rect x="72" y="28" width="280" height="26" rx="2"/>
-    <rect x="72" y="84" width="280" height="26" rx="2"/>
-  </g>
-  <g fill="currentColor">
-    <rect x="72" y="28" width="56" height="26" rx="2"/>
-    <rect x="72" y="84" width="224" height="26" rx="2"/>
-  </g>
-  <g fill="currentColor" font-size="11">
-    <text x="136" y="46">20%</text>
-    <text x="304" y="102">80%</text>
+  <g stroke="currentColor" fill="currentColor" stroke-width="2.2">
+    <!-- Heart (FILLED — vital few) -->
+    <path d="M28,68 C28,58 40,52 48,60 C56,52 68,58 68,68 C68,82 48,92 48,92 C48,92 28,82 28,68Z"/>
+    <!-- Coin circle (FILLED — vital few) -->
+    <circle cx="110" cy="72" r="18"/>
+    <circle cx="110" cy="72" r="19.5" stroke-width="1"/>
   </g>
 </svg>
-<figcaption>A fifth of the effort carries almost all of the result.</figcaption>
+<figcaption>Of the seven life domains, only two — the vital few — carry the weight. The rest are noise.</figcaption>
 </figure>
 
 The 80/20 principle says that 20% of your efforts produce 80% of your results. Sometimes the split is even more absurd: 5% of what you do can generate 95% of your gains. The moment you internalize that, not as a fun fact but as an operating system, everything changes.

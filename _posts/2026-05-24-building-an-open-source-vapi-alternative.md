@@ -1,6 +1,8 @@
 ---
 layout: post
 kind: built
+recommended: true
+recommended_order: 1
 title: "What Actually Happens in the Second After You Say Hello to an AI"
 subtitle: "Telephony, WebRTC, voice detection, transcription. A month building it from scratch, and where that second actually goes."
 date: 2026-05-24
@@ -15,30 +17,73 @@ tags:
 You call a number, an AI picks up, you say "hello," and it says "hello" back. Feels instant. Feels simple. It is neither.
 
 <figure class="diagram">
-<svg viewBox="0 0 640 130" width="100%" height="auto" role="img" aria-label="A five-stage pipeline — telephony, WebRTC, voice detection, transcription and response — all firing in the second after you say hello." font-family="-apple-system, sans-serif" font-size="11">
-  <g fill="none" stroke="currentColor" stroke-width="1.5">
-    <rect x="20" y="40" width="104" height="36" rx="2"/>
-    <rect x="144" y="40" width="104" height="36" rx="2"/>
-    <rect x="268" y="40" width="104" height="36" rx="2"/>
-    <rect x="392" y="40" width="104" height="36" rx="2"/>
-    <rect x="516" y="40" width="104" height="36" rx="2"/>
-    <path d="M124 58 L 144 58"/>
-    <path d="M248 58 L 268 58"/>
-    <path d="M372 58 L 392 58"/>
-    <path d="M496 58 L 516 58"/>
+<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="A filmstrip unspooling one second into five frames: phone handset, globe network, microphone, sound waves becoming text, and a speech bubble." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+  <!-- Sprocket holes top -->
+  <g fill="none" stroke="currentColor" stroke-width="2" opacity="0.5">
+    <rect x="48" y="4" width="12" height="8" rx="2"/>
+    <rect x="106" y="4" width="12" height="8" rx="2"/>
+    <rect x="164" y="4" width="12" height="8" rx="2"/>
+    <rect x="222" y="4" width="12" height="8" rx="2"/>
+    <rect x="280" y="4" width="12" height="8" rx="2"/>
+    <rect x="338" y="4" width="12" height="8" rx="2"/>
   </g>
-  <g fill="currentColor" text-anchor="middle">
-    <text x="72" y="62">Telephony</text>
-    <text x="196" y="62">WebRTC</text>
-    <text x="320" y="62">Voice detect</text>
-    <text x="444" y="62">Transcribe</text>
-    <text x="568" y="62">Respond</text>
+  <!-- Sprocket holes bottom -->
+  <g fill="none" stroke="currentColor" stroke-width="2" opacity="0.5">
+    <rect x="48" y="138" width="12" height="8" rx="2"/>
+    <rect x="106" y="138" width="12" height="8" rx="2"/>
+    <rect x="164" y="138" width="12" height="8" rx="2"/>
+    <rect x="222" y="138" width="12" height="8" rx="2"/>
+    <rect x="280" y="138" width="12" height="8" rx="2"/>
+    <rect x="338" y="138" width="12" height="8" rx="2"/>
   </g>
-  <line x1="20" y1="100" x2="620" y2="100" stroke="#888" stroke-width="1"/>
-  <g fill="#888" font-size="10">
-    <text x="20" y="118">0s</text>
-    <text x="620" y="118" text-anchor="end">~1s</text>
+  <!-- Filmstrip edge lines -->
+  <line x1="20" y1="16" x2="360" y2="16" stroke="currentColor" stroke-width="2"/>
+  <line x1="20" y1="134" x2="360" y2="134" stroke="currentColor" stroke-width="2"/>
+  <!-- Vertical frame dividers -->
+  <g fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.3">
+    <line x1="80" y1="16" x2="80" y2="134"/>
+    <line x1="140" y1="16" x2="140" y2="134"/>
+    <line x1="200" y1="16" x2="200" y2="134"/>
+    <line x1="260" y1="16" x2="260" y2="134"/>
+    <line x1="320" y1="16" x2="320" y2="134"/>
   </g>
+  <!-- Frame 1: Phone handset -->
+  <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M44 50 c-2 8 -2 18 0 26 l3 0 c0 -8 0 -18 0 -26 z"/>
+    <path d="M56 50 c2 8 2 18 0 26 l-3 0 c0 -8 0 -18 0 -26 z"/>
+    <rect x="44" y="56" width="12" height="14" rx="2"/>
+  </g>
+  <!-- Frame 2: Globe/network -->
+  <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="110" cy="75" r="12"/>
+    <ellipse cx="110" cy="75" rx="6" ry="12"/>
+    <line x1="98" y1="69" x2="122" y2="69"/>
+    <line x1="98" y1="81" x2="122" y2="81"/>
+  </g>
+  <!-- Frame 3: Microphone -->
+  <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="165" y="62" width="10" height="16" rx="5"/>
+    <path d="M162 72 c0 8 8 12 16 12"/>
+    <line x1="170" y1="84" x2="170" y2="90"/>
+    <line x1="164" y1="90" x2="176" y2="90"/>
+  </g>
+  <!-- Frame 4: Sound-wave to text -->
+  <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M222 69 q2 -4 4 0 q2 4 4 0 q2 -4 4 0"/>
+    <path d="M223 77 q1 -3 2 0 q1 3 2 0 q1 -3 2 0"/>
+    <line x1="240" y1="64" x2="254" y2="64"/>
+    <line x1="240" y1="72" x2="252" y2="72"/>
+    <line x1="240" y1="80" x2="248" y2="80"/>
+    <line x1="240" y1="88" x2="254" y2="88"/>
+  </g>
+  <!-- Frame 5: Speech bubble -->
+  <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M282 62 h26 c4 0 6 3 6 6 v12 c0 4 -2 6 -6 6 h-14 l-6 5 v-5 h-6 c-4 0 -6 -2 -6 -6 v-12 c0 -3 2 -6 6 -6 z"/>
+    <line x1="288" y1="70" x2="306" y2="70" stroke-width="1.5"/>
+    <line x1="288" y1="76" x2="300" y2="76" stroke-width="1.5"/>
+  </g>
+  <!-- "1 sec" label spanning the strip -->
+  <text x="190" y="130" text-anchor="middle" fill="currentColor" font-size="13" font-weight="600" opacity="0.6">1 sec</text>
 </svg>
 <figcaption>Everything that has to fire in the second after you say hello.</figcaption>
 </figure>

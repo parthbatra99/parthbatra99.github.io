@@ -19,22 +19,22 @@ The maker schedule is different. You block your entire day for one deep task. Wr
 I've noticed this firsthand with my writing. If I have a meeting at 2, my brain starts preparing for it at noon. I can't focus after it ends until at least 3:30. By then, the day is gone. That single meeting didn't cost one hour. It cost five.
 
 <figure class="diagram">
-<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="Manager day split into many small meeting blocks; maker day is one long block broken by a single 2pm meeting." font-family="-apple-system, sans-serif" font-size="12.5">
-  <g fill="none" stroke="currentColor" stroke-width="1.5">
-    <rect x="90" y="22" width="38" height="26" rx="2"/>
-    <rect x="132" y="22" width="38" height="26" rx="2"/>
-    <rect x="174" y="22" width="38" height="26" rx="2"/>
-    <rect x="216" y="22" width="38" height="26" rx="2"/>
-    <rect x="258" y="22" width="38" height="26" rx="2"/>
-    <rect x="300" y="22" width="38" height="26" rx="2"/>
-    <rect x="90" y="92" width="116" height="26" rx="2"/>
-    <rect x="210" y="92" width="38" height="26" rx="2" fill="currentColor"/>
-    <rect x="252" y="92" width="86" height="26" rx="2" opacity="0.4"/>
+<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="Manager day split into many small meeting blocks; maker day is one long block broken by a single 2pm meeting." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+  <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="90" y="22" width="38" height="26" rx="3"/>
+    <rect x="132" y="22" width="38" height="26" rx="3"/>
+    <rect x="174" y="22" width="38" height="26" rx="3"/>
+    <rect x="216" y="22" width="38" height="26" rx="3"/>
+    <rect x="258" y="22" width="38" height="26" rx="3"/>
+    <rect x="300" y="22" width="38" height="26" rx="3"/>
+    <rect x="90" y="92" width="116" height="26" rx="3"/>
+    <rect x="210" y="92" width="38" height="26" rx="3" fill="currentColor"/>
+    <rect x="252" y="92" width="86" height="26" rx="3" opacity="0.35"/>
   </g>
-  <g stroke="none" fill="currentColor">
-    <text x="82" y="40" text-anchor="end">Manager</text>
-    <text x="82" y="110" text-anchor="end">Maker</text>
-    <text x="229" y="138" text-anchor="middle" font-size="11" opacity="0.6">2pm meeting</text>
+  <g stroke="none" fill="currentColor" font-size="13">
+    <text x="82" y="40" text-anchor="end">manager</text>
+    <text x="82" y="110" text-anchor="end">maker</text>
+    <text x="229" y="136" text-anchor="middle" opacity="0.6">2pm</text>
   </g>
 </svg>
 <figcaption>One meeting dropped into a maker's day doesn't cost an hour. It fragments the whole afternoon.</figcaption>

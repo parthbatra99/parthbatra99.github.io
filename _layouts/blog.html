@@ -8,42 +8,25 @@ title: Blog
     <h1 class="post-title">{{ page.title }}</h1>
   </header>
 
-  {% if site.data.channels %}
-  <section class="channels" aria-label="Browse by kind of post">
-    {% for channel in site.data.channels %}
-      {% assign matches = site.posts | where: "kind", channel.kind %}
-      {% if matches.size > 0 %}
-      <div class="channel">
-        <div class="channel-head">
-          <h2 class="channel-name"><span class="channel-icon" aria-hidden="true">{{ channel.icon }}</span> {{ channel.name }}</h2>
-          {% if channel.blurb %}<span class="channel-blurb">{{ channel.blurb }}</span>{% endif %}
-          <span class="channel-arrows">
-            <button type="button" class="channel-arrow" data-dir="-1" aria-label="Scroll {{ channel.name | escape }} left">‹</button>
-            <button type="button" class="channel-arrow" data-dir="1" aria-label="Scroll {{ channel.name | escape }} right">›</button>
-          </span>
-        </div>
-        <ul class="channel-scroll">
-          {% for post in matches %}
-          {% assign rt = post.content | strip_html | number_of_words | divided_by: 225 | at_least: 1 %}
-          {% assign svg_parts = post.content | split: '<svg' %}
-          {% if svg_parts.size > 1 %}{% assign has_svg = true %}{% assign svg_inner = svg_parts[1] | split: '</svg>' | first %}{% else %}{% assign has_svg = false %}{% endif %}
-          {% if has_svg %}{% assign card_mod = 'channel-card--svg' %}{% else %}{% assign card_mod = 'channel-card--text' %}{% endif %}
-          <li class="channel-card {{ card_mod }}">
-            <a class="channel-card-link" href="{{ post.url | relative_url }}">
-              {% if has_svg %}
-              <span class="channel-card-svg" aria-hidden="true"><svg{{ svg_inner }}</svg></span>
-              {% endif %}
-              <span class="channel-card-body">
-                <span class="channel-card-title">{{ post.title | escape }}</span>
-                <span class="channel-card-meta">{{ rt }} min read</span>
-              </span>
-            </a>
-          </li>
-          {% endfor %}
-        </ul>
+  {% assign recommended = site.posts | where: "recommended", true %}
+  {% assign recommended = recommended | sort: "recommended_order" %}
+  {% if recommended.size > 0 %}
+  <section class="channels" aria-label="Posts to start with">
+    <div class="channel channel--start-here">
+      <div class="channel-head">
+        <h2 class="channel-name"><span class="channel-icon" aria-hidden="true">★</span> Start here</h2>
+        <span class="channel-blurb">A few posts to begin with.</span>
+        <span class="channel-arrows">
+          <button type="button" class="channel-arrow" data-dir="-1" aria-label="Scroll Start here left">‹</button>
+          <button type="button" class="channel-arrow" data-dir="1" aria-label="Scroll Start here right">›</button>
+        </span>
       </div>
-      {% endif %}
-    {% endfor %}
+      <ul class="channel-scroll">
+        {% for post in recommended %}
+          {% include post-card.html post=post %}
+        {% endfor %}
+      </ul>
+    </div>
   </section>
   {% endif %}
 

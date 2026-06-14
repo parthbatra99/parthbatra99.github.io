@@ -13,16 +13,20 @@ tags:
 I used to eat lunch with YouTube shorts in one hand and a group chat in the other. Emails got answered during meetings. Podcasts ran in the background while I coded. And I genuinely believed I was getting more done than the people around me.
 
 <figure class="diagram">
-<svg viewBox="0 0 600 150" width="100%" height="auto" role="img" aria-label="A line zig-zagging between two task lanes, showing that multitasking is really just rapid, costly switching back and forth." font-family="-apple-system, sans-serif" font-size="11">
-  <line x1="120" y1="45" x2="560" y2="45" stroke="#888" stroke-width="1" stroke-dasharray="3 3"/>
-  <line x1="120" y1="110" x2="560" y2="110" stroke="#888" stroke-width="1" stroke-dasharray="3 3"/>
-  <polyline points="120,45 200,45 260,110 340,110 400,45 480,45 540,110 560,110" fill="none" stroke="currentColor" stroke-width="1.5"/>
-  <g fill="currentColor">
-    <circle cx="260" cy="110" r="3.5"/><circle cx="400" cy="45" r="3.5"/><circle cx="540" cy="110" r="3.5"/>
+<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="A line zig-zagging between two task lanes, showing that multitasking is really just rapid, costly switching back and forth." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+  <g stroke="currentColor" stroke-width="1.6" stroke-dasharray="4 4" opacity="0.4" stroke-linecap="round">
+    <line x1="70" y1="45" x2="340" y2="45"/>
+    <line x1="70" y1="110" x2="340" y2="110"/>
   </g>
-  <g fill="currentColor" text-anchor="end">
-    <text x="104" y="49">Task A</text>
-    <text x="104" y="114">Task B</text>
+  <polyline points="70,45 120,45 165,110 215,110 260,45 310,45 340,110" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="currentColor">
+    <circle cx="165" cy="110" r="4"/>
+    <circle cx="260" cy="45" r="4"/>
+    <circle cx="340" cy="110" r="4"/>
+  </g>
+  <g fill="currentColor" font-size="13" text-anchor="end">
+    <text x="60" y="49">Task A</text>
+    <text x="60" y="114">Task B</text>
   </g>
 </svg>
 <figcaption>Not two things at once. Just an expensive toggle between them.</figcaption>

@@ -19,6 +19,12 @@
 </head>
 
   <body>
+    <svg width="0" height="0" aria-hidden="true" style="position:absolute">
+      <filter id="sketch" x="-5%" y="-5%" width="110%" height="110%">
+        <feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="2" seed="7" result="n"/>
+        <feDisplacementMap in="SourceGraphic" in2="n" scale="2.2" xChannelSelector="R" yChannelSelector="G"/>
+      </filter>
+    </svg>
     <header class="site-header">
   <div class="shell header-shell">
     <a class="site-title" rel="author" href="/">Parth Batra</a>
@@ -92,15 +98,15 @@
 <p>Here’s what companies actually do. Say a manufacturing breakthrough gives a 35% improvement in processor performance. They don’t ship all 35% at once. They split it: 20% this year, 20% next year. The growth came in one big chunk, but they sell it in a line.</p>
 
 <figure class="diagram">
-<svg viewBox="0 0 380 170" width="100%" height="auto" role="img" aria-label="A smooth straight marketing line versus the real progress that stays flat then jumps in one step." font-family="-apple-system, sans-serif" font-size="12">
-  <g fill="none" stroke="currentColor" stroke-width="1.5">
-    <path d="M40 150 V20 M40 150 H350" />
+<svg viewBox="0 0 380 160" width="100%" height="auto" role="img" aria-label="A smooth straight marketing line versus the real progress that stays flat then jumps in one step." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+  <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 140 V24 M40 140 H350" stroke-width="1.8" />
   </g>
-  <path d="M40 140 L340 40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="5 5" opacity="0.55" />
-  <path d="M40 140 H210 V40 H340" fill="none" stroke="currentColor" stroke-width="2" />
-  <g stroke="none" fill="currentColor" font-size="11">
-    <text x="300" y="34" opacity="0.6">marketed</text>
-    <text x="150" y="132">actual</text>
+  <path d="M40 130 L340 34" fill="none" stroke="currentColor" stroke-width="1.8" stroke-dasharray="6 5" opacity="0.5" stroke-linecap="round" />
+  <path d="M40 130 H200 V34 H340" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+  <g stroke="none" fill="currentColor" font-size="13">
+    <text x="300" y="28" opacity="0.6">marketed</text>
+    <text x="150" y="128">actual</text>
   </g>
 </svg>
 <figcaption>The breakthrough lands in one jump. The keynote chart smooths it into a tidy yearly climb.</figcaption>

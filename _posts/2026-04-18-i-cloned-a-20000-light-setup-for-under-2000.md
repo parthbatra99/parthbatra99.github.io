@@ -14,18 +14,38 @@ tags:
 Philips wants **₹20,000** for the Hue Play Gradient Lightstrip. Twenty. Thousand. Rupees. For LEDs.
 
 <figure class="diagram">
-<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="Two cost bars: twenty thousand rupees for the Philips kit versus two thousand rupees for the DIY build." font-family="-apple-system, sans-serif" font-size="12.5">
-  <g fill="currentColor">
-    <text x="60" y="46" text-anchor="end">Philips</text>
-    <text x="60" y="102" text-anchor="end">My build</text>
-  </g>
-  <g fill="currentColor">
-    <rect x="70" y="28" width="250" height="26" rx="2"/>
-    <rect x="70" y="84" width="25" height="26" rx="2"/>
-  </g>
-  <g fill="currentColor" font-size="11">
-    <text x="326" y="46">₹20,000</text>
-    <text x="103" y="102">₹2,000</text>
+<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="TV outline with soft glow halo behind it. Two price tags hanging off: one crossed-out rupees twenty thousand, one small rupees two thousand." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+  <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Glow halo: 3 nested rounded-rect outlines behind the TV -->
+    <rect x="100" y="18" width="200" height="108" rx="40" stroke-width="1" opacity="0.2"/>
+    <rect x="105" y="22" width="190" height="100" rx="36" stroke-width="1.2" opacity="0.35"/>
+    <rect x="110" y="26" width="180" height="92" rx="32" stroke-width="1.5" opacity="0.55"/>
+
+    <!-- TV outline -->
+    <rect x="130" y="32" width="140" height="80" rx="6" stroke-width="2.2"/>
+    <!-- TV stand -->
+    <line x1="165" y1="112" x2="165" y2="124" stroke-width="2"/>
+    <line x1="215" y1="112" x2="215" y2="124" stroke-width="2"/>
+    <line x1="155" y1="124" x2="225" y2="124" stroke-width="2"/>
+
+    <!-- Price tag 1: crossed-out ₹20K -->
+    <g stroke-width="1.8">
+      <line x1="200" y1="24" x2="200" y2="6"/>
+      <line x1="200" y1="6" x2="290" y2="16"/>
+      <rect x="265" y="12" width="50" height="22" rx="4" stroke-width="1.8"/>
+      <line x1="268" y1="23" x2="312" y2="23" stroke-width="2.2" opacity="0.85"/>
+    </g>
+    <text x="290" y="28" text-anchor="middle" font-size="13" fill="currentColor">₹20K</text>
+
+    <!-- Price tag 2: clean ₹2K (lower-right) -->
+    <g stroke-width="1.8">
+      <line x1="200" y1="114" x2="200" y2="134"/>
+      <line x1="200" y1="134" x2="280" y2="140"/>
+      <rect x="258" y="136" width="44" height="14" rx="3" stroke-width="1.8"/>
+    </g>
+    <text x="280" y="145" text-anchor="middle" font-size="13" fill="currentColor">₹2K</text>
+
   </g>
 </svg>
 <figcaption>Same glow behind the TV. One-tenth the price.</figcaption>

@@ -13,14 +13,11 @@ tags:
 Waking up at 5 AM has become a luxury lifestyle product. Search "5:00 a.m." on YouTube and you'll drown in videos of people holding coffee mugs at dawn, preaching about how those extra hours changed their life. Nobody ever asks the obvious question: should you even be doing this?
 
 <figure class="diagram">
-<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="Two bars: the all-day edge the 5 AM trend promises versus the smaller, worse result it delivered." font-family="-apple-system, sans-serif" font-size="12.5">
-  <g fill="currentColor">
-    <text x="92" y="46" text-anchor="end">Promised</text>
-    <text x="92" y="102" text-anchor="end">Delivered</text>
-  </g>
-  <g fill="currentColor">
-    <rect x="102" y="28" width="230" height="26" rx="2"/>
-    <rect x="102" y="84" width="44" height="26" rx="2"/>
+<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="Horizon with two sunrise arcs. A tall dashed arc reaches a high peak — the promised 5 AM payoff. A shorter solid arc barely rises then sags below the horizon — the real delivered result." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13">
+  <line x1="20" y1="105" x2="360" y2="105" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.4"/>
+  <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 105 C60 5, 160 -15, 260 40 C300 60, 340 85, 360 105" stroke-width="2" stroke-dasharray="9 6" opacity="0.5"/>
+    <path d="M40 105 C60 75, 100 80, 140 90 C200 105, 240 130, 280 140 C320 148, 350 122, 360 105" stroke-width="2.2"/>
   </g>
 </svg>
 <figcaption>The 5 AM payoff: advertised versus what actually showed up.</figcaption>

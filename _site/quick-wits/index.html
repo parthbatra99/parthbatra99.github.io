@@ -19,6 +19,12 @@
 </head>
 
   <body>
+    <svg width="0" height="0" aria-hidden="true" style="position:absolute">
+      <filter id="sketch" x="-5%" y="-5%" width="110%" height="110%">
+        <feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="2" seed="7" result="n"/>
+        <feDisplacementMap in="SourceGraphic" in2="n" scale="2.2" xChannelSelector="R" yChannelSelector="G"/>
+      </filter>
+    </svg>
     <header class="site-header">
   <div class="shell header-shell">
     <a class="site-title" rel="author" href="/">Parth Batra</a>
@@ -55,7 +61,7 @@
     <h1 class="post-title">QuickWits</h1>
     <p class="quick-wits-description">Remember those 'unfiltered thoughts' and 'hot takes' I mentioned? This is where they often land first, mostly streamed from my twitter feed. Raw, rapid-fire, and probably less polished than my SQL queries.</p>
     <div class="quick-takes-meta">
-      <span>Last updated: June 14, 2026</span>
+      <span>Last updated: June 15, 2026</span>
       <span aria-hidden="true">·</span>
       <a href="https://twitter.com/batra99" target="_blank" rel="noopener">@batra99</a>
     </div>

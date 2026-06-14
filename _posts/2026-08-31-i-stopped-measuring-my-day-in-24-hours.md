@@ -13,18 +13,28 @@ tags:
 Here's a question that bothered me for months. Why is it that I can be productive for a full morning and then completely fall off after lunch? Not "kind of slow." Full stop. The afternoon vanishes into YouTube, half-read articles, and the kind of phone scrolling where you look up and 90 minutes are just gone.
 
 <figure class="diagram">
-<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="One long bar for a single 24-hour day above three shorter bars for morning, afternoon and evening slots." font-family="-apple-system, sans-serif" font-size="11">
-  <rect x="30" y="30" width="320" height="26" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/>
-  <text x="190" y="48" text-anchor="middle" fill="currentColor">one 24-hour day</text>
-  <g fill="currentColor">
-    <rect x="30" y="92" width="100" height="26" rx="2"/>
-    <rect x="140" y="92" width="100" height="26" rx="2"/>
-    <rect x="250" y="92" width="100" height="26" rx="2"/>
+<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="One long day-ruler above the same ruler snapped into three pieces, each re-zeroed with a fresh-start sunrise arc above it." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+  <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="40" y1="42" x2="340" y2="42" stroke-width="2"/>
+    <line x1="40" y1="36" x2="40" y2="48" stroke-width="2"/>
+    <line x1="340" y1="36" x2="340" y2="48" stroke-width="2"/>
+    <line x1="115" y1="38" x2="115" y2="46" stroke-width="1.5" opacity="0.45"/>
+    <line x1="190" y1="38" x2="190" y2="46" stroke-width="1.5" opacity="0.45"/>
+    <line x1="265" y1="38" x2="265" y2="46" stroke-width="1.5" opacity="0.45"/>
   </g>
-  <g fill="currentColor" text-anchor="middle">
-    <text x="80" y="134">morning</text>
-    <text x="190" y="134">afternoon</text>
-    <text x="300" y="134">evening</text>
+  <text x="190" y="30" text-anchor="middle" fill="currentColor" font-size="13">one day</text>
+  <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="40" y1="116" x2="132" y2="116" stroke-width="2"/>
+    <path d="M64 116 C64 98 76 96 86 96 C96 96 108 98 108 116" stroke-width="1.8" opacity="0.55"/>
+    <line x1="156" y1="116" x2="248" y2="116" stroke-width="2"/>
+    <path d="M180 116 C180 98 192 96 202 96 C212 96 224 98 224 116" stroke-width="1.8" opacity="0.55"/>
+    <line x1="272" y1="116" x2="340" y2="116" stroke-width="2"/>
+    <path d="M290 116 C290 98 302 96 312 96 C322 96 334 98 334 116" stroke-width="1.8" opacity="0.55"/>
+  </g>
+  <g fill="currentColor" stroke="none" text-anchor="middle" font-size="13">
+    <text x="86" y="134">0</text>
+    <text x="202" y="134">0</text>
+    <text x="306" y="134">0</text>
   </g>
 </svg>
 <figcaption>Three short days beat one long one. Shorter loops, faster correction.</figcaption>

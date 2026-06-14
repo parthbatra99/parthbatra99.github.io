@@ -13,17 +13,21 @@ tags:
 Here's a stat that will mess with you: 41.6 million Americans went to college but never finished. Dropouts, all of them. On the entire planet, there are 3,028 billionaires. Yet somehow we all "know" that dropping out is the billionaire move.
 
 <figure class="diagram">
-<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="Three mental traps sitting on one path of decisions: survivorship bias, sunk cost and confirmation bias." font-family="-apple-system, sans-serif" font-size="11">
-  <line x1="20" y1="75" x2="360" y2="75" stroke="#888" stroke-width="1"/>
-  <g fill="none" stroke="currentColor" stroke-width="1.5">
-    <rect x="16" y="57" width="106" height="36" rx="2"/>
-    <rect x="137" y="57" width="106" height="36" rx="2"/>
-    <rect x="258" y="57" width="106" height="36" rx="2"/>
-  </g>
-  <g fill="currentColor" text-anchor="middle">
-    <text x="69" y="79">Survivorship</text>
-    <text x="190" y="79">Sunk cost</text>
-    <text x="311" y="79">Confirmation</text>
+<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="A decision path winding forward with three traps on it: a misdirected spotlight, a dragging anchor, and tinted glasses." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+  <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M28 78 Q120 60 192 78 T352 72" stroke-width="2.2"/>
+    <path d="M346 66 L352 72 L346 78" stroke-width="2"/>
+    <path d="M84 74 L62 34 L106 34 Z" stroke-width="1.8" opacity="0.6"/>
+    <line x1="84" y1="34" x2="84" y2="22" stroke-width="1.8"/>
+    <circle cx="84" cy="18" r="4" stroke-width="1.8" opacity="0.6"/>
+    <path d="M188 78 L172 78" stroke-width="1.8"/>
+    <path d="M172 78 V100" stroke-width="1.8"/>
+    <path d="M162 100 C162 110 182 110 182 100" stroke-width="1.8"/>
+    <line x1="172" y1="100" x2="172" y2="108" stroke-width="1.8"/>
+    <circle cx="294" cy="74" r="11" stroke-width="1.8" opacity="0.65"/>
+    <circle cx="318" cy="74" r="11" stroke-width="1.8" opacity="0.65"/>
+    <line x1="305" y1="74" x2="307" y2="74" stroke-width="1.5"/>
+    <line x1="282" y1="74" x2="284" y2="74" stroke-width="1.5"/>
   </g>
 </svg>
 <figcaption>107 days of bad calls. Three traps did most of the damage.</figcaption>
