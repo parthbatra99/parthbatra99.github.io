@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-06-15T02:10:01+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Parth Batra | fromparth.blog</title><subtitle>Senior ML Engineer by day, music critic by night. Building ML systems, writing about tech, and collecting spotify minutes like they&apos;re infinity stones.</subtitle><author><name>Parth Batra</name></author><entry><title type="html">The People Who Make You Better Just by Existing</title><link href="http://localhost:4000/2026/06/15/the-people-who-make-you-better-just-by-existing.html" rel="alternate" type="text/html" title="The People Who Make You Better Just by Existing" /><published>2026-06-15T00:00:00+05:30</published><updated>2026-06-15T00:00:00+05:30</updated><id>http://localhost:4000/2026/06/15/the-people-who-make-you-better-just-by-existing</id><content type="html" xml:base="http://localhost:4000/2026/06/15/the-people-who-make-you-better-just-by-existing.html"><![CDATA[<p>This month, a single line from <a href="https://dailystoic.com/"><em>The Daily Stoic</em></a> stopped me cold:</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-06-15T23:16:42+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Parth Batra | fromparth.blog</title><subtitle>Senior ML Engineer by day, music critic by night. Building ML systems, writing about tech, and collecting spotify minutes like they&apos;re infinity stones.</subtitle><author><name>Parth Batra</name></author><entry><title type="html">The People Who Make You Better Just by Existing</title><link href="http://localhost:4000/2026/06/15/the-people-who-make-you-better-just-by-existing.html" rel="alternate" type="text/html" title="The People Who Make You Better Just by Existing" /><published>2026-06-15T00:00:00+05:30</published><updated>2026-06-15T00:00:00+05:30</updated><id>http://localhost:4000/2026/06/15/the-people-who-make-you-better-just-by-existing</id><content type="html" xml:base="http://localhost:4000/2026/06/15/the-people-who-make-you-better-just-by-existing.html"><![CDATA[<p>This month, a single line from <a href="https://dailystoic.com/"><em>The Daily Stoic</em></a> stopped me cold:</p>
 
 <blockquote>
   <p>“Happy is the person who can improve others not only when present but even in their thoughts.”</p>
@@ -238,7 +238,22 @@
 
 <p>So maybe that’s the dashboard I was looking for at the top. Not step counts or salary. Just one needle: the day choosing one good thing and killing the alternatives stops scaring me. When that reading flips, it won’t be settling.</p>
 
-<p>That’ll be the growth.</p>]]></content><author><name>Parth Batra</name></author><category term="self-improvement" /><category term="psychology" /><category term="mindset" /><summary type="html"><![CDATA[Nobody hands you a progress bar for your own life.]]></summary></entry><entry><title type="html">Spiti Took Five Days to Take Me Apart. A 9-Year-Old Did It in Four Seconds.</title><link href="http://localhost:4000/2026/06/08/spiti-took-five-days-to-take-me-apart.html" rel="alternate" type="text/html" title="Spiti Took Five Days to Take Me Apart. A 9-Year-Old Did It in Four Seconds." /><published>2026-06-08T00:00:00+05:30</published><updated>2026-06-08T00:00:00+05:30</updated><id>http://localhost:4000/2026/06/08/spiti-took-five-days-to-take-me-apart</id><content type="html" xml:base="http://localhost:4000/2026/06/08/spiti-took-five-days-to-take-me-apart.html"><![CDATA[<p>It rained the morning we left Spiti.</p>
+<p>That’ll be the growth.</p>]]></content><author><name>Parth Batra</name></author><category term="self-improvement" /><category term="psychology" /><category term="mindset" /><summary type="html"><![CDATA[Nobody hands you a progress bar for your own life.]]></summary></entry><entry><title type="html">Spiti Took Five Days to Take Me Apart. A 7-Year-Old Did It in Four Seconds.</title><link href="http://localhost:4000/2026/06/08/spiti-took-five-days-to-take-me-apart.html" rel="alternate" type="text/html" title="Spiti Took Five Days to Take Me Apart. A 7-Year-Old Did It in Four Seconds." /><published>2026-06-08T00:00:00+05:30</published><updated>2026-06-08T00:00:00+05:30</updated><id>http://localhost:4000/2026/06/08/spiti-took-five-days-to-take-me-apart</id><content type="html" xml:base="http://localhost:4000/2026/06/08/spiti-took-five-days-to-take-me-apart.html"><![CDATA[<style>
+.video-wrapper {
+  margin: 1.25rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--surface);
+}
+.video-wrapper video {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-height: 80vh;
+}
+</style>
+
+<p>It rained the morning we left Spiti.</p>
 
 <figure class="diagram">
 <svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="Small doodles of things from the Spiti trip: rain, prayer flags, the Milky Way, a mountain peak, an arm-wrestle, a birthday cake, a bonfire, a river, and the last sunset." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
@@ -291,6 +306,8 @@
 <figcaption>Five days up and down the valley. It took all five to take me apart.</figcaption>
 </figure>
 
+<p><img src="/assets/images/spiti-assets/spiti-post-banner.jpg" alt="Spiti valley road winding through the mountains" /></p>
+
 <p>Six days of hard blue skies, the kind that make you squint at your own photos later, and the valley picked our last day to rain. We stood next to our bus, bags fully loaded, nobody moving towards the door. Just standing there, feeling the drizzle, like the rain was saying something and it would be rude to leave mid-sentence.</p>
 
 <p>Mountains don’t wave goodbye. They just rain.</p>
@@ -303,15 +320,17 @@
 
 <p>The road from Shimla into Kinnaur is carved into the side of a cliff. Not metaphorically. Someone took a drill to a rock face several hundred meters above the Sutlej and decided that was a road now, and for sixty years everyone has agreed to believe him.</p>
 
-<p>Our driver, a man of monk-grade calm, took these roads the way I drink coffee. <em>automatic. present. unbothered</em>.</p>
+<p>Our driver, a man of monk-grade calm, took these roads the way I drink coffee. <em>Automatic. Present. Unbothered</em>.</p>
 
 <p>The rest of us had a more complicated relationship with the route. I won’t say we were scared. I’ll say we developed a sudden, collective interest in the view from the left side of the car specifically, and that someone turned on WhatsApp live location for a family group chat. I don’t know what we thought Gurgaon was going to do about a cliff in Kinnaur. It just felt important that they watch.</p>
 
-<blockquote>
-  <p><code class="language-plaintext highlighter-rouge">"driver bhai ko yakeen tha. humein thoda kam."</code></p>
-</blockquote>
+<div class="video-wrapper">
+<video autoplay="" muted="" loop="" playsinline="" preload="metadata">
+  <source src="/assets/images/spiti-assets/driver-ko-yakeen-tha.mp4" type="video/mp4" />
+</video>
+</div>
 
-<p>At one point the side mirror cleared the rock face by a margin engineers call “acceptable” and passengers call “I need a minute.”</p>
+<p>At one point the side mirror cleared the rock face by a margin we engineers call “acceptable”, but more commonly “bhaiya, itni side se mat lo!”</p>
 
 <p>By Kalpa I had made peace with the roads. Convenient, because Spiti had five more days of them.</p>
 
@@ -321,31 +340,59 @@
 
 <p>Kalpa is where the trip stopped being a road trip and started being whatever it ended up becoming.</p>
 
+<p><img src="/assets/images/spiti-assets/kalpa-drinking-tea-mountain-bg.jpg" alt="Drinking tea with the mountains as a backdrop" /></p>
+
+<div class="video-wrapper">
+<video autoplay="" muted="" loop="" playsinline="" preload="metadata">
+  <source src="/assets/images/spiti-assets/rekong-peo-prayer-flags-mountains.mp4" type="video/mp4" />
+</video>
+</div>
+
 <p>The prayer flags here don’t flutter, they spiral. Wind comes up the valley and the flags move like the landscape choreographed them. Each one is a prayer released into the air. I stood there trying to compute how many prayers had passed through that exact patch of sky over a few centuries, and concluded the math was not the point.</p>
 
-<blockquote>
-  <p><code class="language-plaintext highlighter-rouge">"har jhanda ek dua hai. ye wali mere liye nahi thi. phir bhi lag gayi."</code></p>
-</blockquote>
+<div class="video-wrapper">
+<video autoplay="" muted="" loop="" playsinline="" preload="metadata">
+  <source src="/assets/images/spiti-assets/har-jhanda-ek-dua-hai.MP4" type="video/mp4" />
+</video>
+</div>
 
 <p>Kinnaur Kailash sat across the valley the whole evening, lit up like it knew. My camera captured it. My brain accused the camera of editing. The camera was innocent. The place just looks like that.</p>
+
+<p><img src="/assets/images/spiti-assets/kee-monastry.JPG" alt="Kee Monastery nestled in the Spiti valley" /></p>
 
 <hr />
 
 <h2 id="tabo-nobody-tells-you-about-the-sky-thats-on-purpose">Tabo: Nobody Tells You About the Sky. That’s On Purpose.</h2>
 
-<p>The caves above Tabo are a twenty minute trek from the village, up a trail that is marked the way secrets are marked, which is to say not at all. Monks used them for meditation for a thousand years. I climbed up at night with my pixel and lot of optimism in my phone’s camera capabilities.</p>
+<p>The caves above Tabo are a twenty-minute trek from the village, up a trail that is marked the way secrets are marked, which is to say not at all. Monks used them for meditation for a thousand years. I climbed up at night with a lot of optimism in my phone’s camera capabilities.</p>
 
-<p>Here’s what happened: I set up a twenty minute timelapse of the sky, sat down on the cold ground, looked up, and didn’t say a word until the camera was done. Neither did anyone else. The Milky Way over Tabo isn’t a sight, it’s a ceiling. You think you’re prepared because you’ve seen photos and you consider yourself a person who appreciates a sky. You’re not prepared. It hangs there with absolutely no regard for what it’s doing to you.</p>
+<p>Here’s what happened: I set up a twenty-minute timelapse of the sky, sat down on the cold ground, looked up, and didn’t say a word until the camera was done. Neither did anyone else. The starry night over Tabo isn’t a sight, it’s a ceiling. You think you’re prepared because you’ve seen photos and you consider yourself a person who appreciates a sky. You’re not prepared. It hangs there with absolutely no regard for what it’s doing to you. No camera can ever do justice to that!</p>
 
-<blockquote>
-  <p><code class="language-plaintext highlighter-rouge">"tabo caves ke upar ka aasman. 20 min chale. milky way dekhi. kuch nahi bola."</code></p>
-</blockquote>
+<div class="video-wrapper">
+<video autoplay="" muted="" loop="" playsinline="" preload="metadata">
+  <source src="/assets/images/spiti-assets/tabo-caves-ke-upar-ka-aasmaan.mp4" type="video/mp4" />
+</video>
+</div>
 
-<p>The monastery below has murals over a thousand years old. The sky above has a few billion on that. Both were watching us. Only one of us blinked.</p>
+<p>The monastery below has murals over a thousand years old. The sky above has a few billion years on that. Both were watching us. Only one of us blinked.</p>
+
+<div class="video-wrapper">
+<video autoplay="" muted="" loop="" playsinline="" preload="metadata">
+  <source src="/assets/images/spiti-assets/tabo-monastry.MP4" type="video/mp4" />
+</video>
+</div>
 
 <hr />
 
 <h2 id="kaza-four-seconds">Kaza: Four Seconds</h2>
+
+<p><img src="/assets/images/spiti-assets/kaza-background-1.jpg" alt="Kaza valley landscape" /></p>
+
+<div class="video-wrapper">
+<video autoplay="" muted="" loop="" playsinline="" preload="metadata">
+  <source src="/assets/images/spiti-assets/kaza-city-timelapse.mp4" type="video/mp4" />
+</video>
+</div>
 
 <p>I should be honest about what I thought I was doing in Spiti.</p>
 
@@ -353,81 +400,107 @@
 
 <p>The pushups happened at the top of the pass, in air thin enough that my lungs filed a formal complaint by rep six. I finished the set anyway. There’s something about effort at that altitude that strips the pose out of it. You’re not performing, your body is too busy negotiating with the oxygen for you to perform. It’s just you, the ground, and mountains watching with complete indifference.</p>
 
-<blockquote>
-  <p><code class="language-plaintext highlighter-rouge">"sea level is for the weak."</code></p>
-</blockquote>
+<div class="video-wrapper">
+<video autoplay="" muted="" loop="" playsinline="" preload="metadata">
+  <source src="/assets/images/spiti-assets/sea-level-is-for-the-weak.mp4" type="video/mp4" />
+</video>
+</div>
 
-<p>The slo-mo jump at the highest café in the world was filmed, reviewed, and refilmed, and looked significantly more cinematic in my head than on camera. Gravity at 15,000 feet works exactly like gravity at sea level. I have no idea why I expected a discount.</p>
+<p>The slo-mo jump at the highest café in the world was filmed, reviewed, and refilmed, and looked significantly more cinematic in my head than on camera. Gravity at 15,000 feet works exactly like gravity at sea level. I have no idea why I expected a discount!</p>
 
-<blockquote>
-  <p><code class="language-plaintext highlighter-rouge">"gravity ne koshish ki."</code></p>
-</blockquote>
+<div class="video-wrapper">
+<video autoplay="" muted="" loop="" playsinline="" preload="metadata">
+  <source src="/assets/images/spiti-assets/gravity%20nei%20koshish%20ki.mp4" type="video/mp4" />
+</video>
+</div>
 
-<p>Then, at a dhaba in Kaza, a girl who could not have been more than nine challenged me to arm wrestling.</p>
+<p>Then, at our homestay in Kaza, the owner’s daughter who could not have been more than seven, challenged me to arm wrestling.</p>
 
-<p>She had the energy of someone who had done this before. I realized mid-lock that she absolutely had, that I was not her first tourist, and that the outcome had been decided before I sat down. Four seconds. No trash talk, no celebration. She went back to her food the way you move on from something that was never really a question, while I sat there recalibrating my entire understanding of the week.</p>
+<p>She had the energy of someone who had done this before. I realized mid-lock that she absolutely had, that I was not her first tourist challenger, and that the outcome had been decided before I sat down. Four seconds. No trash talk, no celebration. She went back to her food the way you move on from something that was never really a question, while I sat there recalibrating my entire understanding of the week.</p>
 
 <p>Five days of altitude couldn’t humble me, because I was too busy doing pushups at it.</p>
 
-<p>A nine year old needed four seconds.</p>
+<p>A seven year old needed four seconds.</p>
 
-<blockquote>
-  <p><code class="language-plaintext highlighter-rouge">"haar gaya. dil se. completely."</code></p>
-</blockquote>
+<div class="video-wrapper">
+<video autoplay="" muted="" loop="" playsinline="" preload="metadata">
+  <source src="/assets/images/spiti-assets/world-highest-postoffice.mp4" type="video/mp4" />
+</video>
+</div>
+
+<div class="video-wrapper">
+<video autoplay="" muted="" loop="" playsinline="" preload="metadata">
+  <source src="/assets/images/spiti-assets/haar-gya-dil-se.mp4" type="video/mp4" />
+</video>
+</div>
 
 <hr />
 
 <h2 id="komic-the-sacred-absurd">Komic: The Sacred Absurd</h2>
 
-<p>Komic claims the title of highest village in Asia connected by motorable road, sits at 4,587 meters, and contains one monastery, a handful of houses, and on the day we visited, six adults doing Chaiya Chaiya in front of the Buddha statue.</p>
+<p>Komic claims the title of highest village in Asia connected by motorable road, sits at more than 15,000 feet, and contains one monastery, a handful of houses, and on the day we visited, six adults doing Chaiya Chaiya in front of the Buddha statue a few hundred metres from the top.</p>
 
-<p>I can’t fully reconstruct how it started. Someone hummed. The hum found a second voice. And then it wasn’t humming anymore, it was the full routine, train-roof energy, shoulders and all, in front of a monastery that has stood there since the 14th century.</p>
+<p>I can’t fully reconstruct how it started. Someone hummed. The hum found a second voice. And then it wasn’t humming anymore, it was the full routine, train-roof energy, shoulders and all, in front of highest buddha statue in the world.</p>
 
-<p>No monk came out. I choose to believe he was deep in meditation. I also believe, with equal conviction, that he has seen worse.</p>
+<p>Buddha didn’t object. I choose to believe he was deep in meditation. I also believe, with equal conviction, that he has seen worse.</p>
 
 <p>There’s a version of this story where it reads as disrespect. I don’t think it was. I think when a place overwhelms you past a certain point, you respond with the most instinctive joy you own. Ours happened to be a 90s Shah Rukh number. The Buddha kept smiling. Statues do that, but still.</p>
 
-<blockquote>
-  <p><code class="language-plaintext highlighter-rouge">"komic mein chaiya chaiya. buddha ne dekha. kuch nahi kaha."</code></p>
-</blockquote>
+<p><img src="/assets/images/spiti-assets/komic-mei-chaiya-chaiya.jpg" alt="Chaiya Chaiya in front of the Komic monastery" /></p>
+
+<div class="video-wrapper">
+<video autoplay="" muted="" loop="" playsinline="" preload="metadata">
+  <source src="/assets/images/spiti-assets/worlds-highest-village.mp4" type="video/mp4" />
+</video>
+</div>
+
+<div class="video-wrapper">
+<video autoplay="" muted="" loop="" playsinline="" preload="metadata">
+  <source src="/assets/images/spiti-assets/komic-mei-chaiya-chaiya-video.mp4" type="video/mp4" />
+</video>
+</div>
 
 <hr />
 
-<h2 id="kalpa-again-28-at-9000-feet">Kalpa Again: 28 at 9,000 Feet</h2>
+<h2 id="kalpa-again-27-at-9000-feet">Kalpa Again: 27 at 9,000 Feet</h2>
 
 <p>Coming back through a place you’ve already seen has a different texture. Kalpa on the way in was a view. Kalpa on the way back was a verdict, the same valley asking what you did with the last five days.</p>
 
-<p>The cake came out after dinner.</p>
+<p>The cake came out as soon as the clock hit 12.</p>
 
-<p>Nobody had planned it, exactly. Someone slipped away in the morning, found the one bakery in Kalpa that half exists, and convinced it to fully exist for a day. The cake tasted like the effort of sourcing a cake at 9,000 feet, which is to say it tasted incredible and a little structurally unsound. Twenty-eight, in the mountains, with people who had survived the same roads, the same thin air, and the same choreography in front of the same Buddha.</p>
+<p>The cake came out because someone in the room had decided the clock wouldn’t hit twelve without it. She’d found the one bakery on the way to Kalpa that half exists, convinced it to fully exist for a day, and made sure I spent the first minute of twenty-seven laughing instead of just being tired. The cake tasted like that effort — incredible, and a little structurally unsound.</p>
 
-<blockquote>
-  <p><code class="language-plaintext highlighter-rouge">"28 saal. abhi bhi."</code></p>
-</blockquote>
+<p><img src="/assets/images/spiti-assets/27th-birthday-1.JPG" alt="Birthday cake at 9,000 feet in Kalpa" /></p>
+
+<div class="video-wrapper">
+<video autoplay="" muted="" loop="" playsinline="" preload="metadata">
+  <source src="/assets/images/spiti-assets/27th-birthday-2.MP4" type="video/mp4" />
+</video>
+</div>
 
 <p>The bonfire that night turned everything orange. Cold came down from the valley, the fire pushed back, and we sat inside that negotiation for hours. Around midnight I caught myself thinking: I don’t want more Spiti, exactly. I want more of this. The thing where you’re somewhere you chose, with people you chose, and there is nowhere else you’re supposed to be.</p>
-
-<blockquote>
-  <p><code class="language-plaintext highlighter-rouge">"ek raat aur maang lete."</code></p>
-</blockquote>
 
 <hr />
 
 <h2 id="chitkul-the-river-knows">Chitkul: The River Knows</h2>
 
-<p>Chitkul is the last village before the Indo-Tibetan border. Past it you need permits, and past those you need a different passport. The Baspa river runs through it carrying glacier melt, and it is the exact colour of somewhere you haven’t been.</p>
+<p>Chitkul is the last village before the Indo-Tibetan border. Past it you need permits, and past those you need a different passport. The Baspa river runs through it carrying glacier melt that is the exact colour of somewhere you haven’t been.</p>
 
 <p>I did pushups on the bank. Mid-rep, my face passed close enough to the water that an opportunity presented itself, and I have very little self-control near rivers. So I dipped my face in. Snowmelt cold is not regular cold. Regular cold is a tap on the shoulder. This was a slap with paperwork. I came up instantly, reconsidered my life, and went back down for another.</p>
 
-<blockquote>
-  <p><code class="language-plaintext highlighter-rouge">"river ne decide kiya. humne agreed kiya."</code></p>
-</blockquote>
+<div class="video-wrapper">
+<video autoplay="" muted="" loop="" playsinline="" preload="metadata">
+  <source src="/assets/images/spiti-assets/chitkul-river-1.mp4" type="video/mp4" />
+</video>
+</div>
 
 <p>Later I found a flat rock by the water and lay down on it, intending to rest for a moment. The river was exactly the right sound and the rock was exactly the right temperature, and then it was twenty minutes later and someone was taking photos of me for evidence.</p>
 
-<blockquote>
-  <p><code class="language-plaintext highlighter-rouge">"offline ho gaya."</code></p>
-</blockquote>
+<div class="video-wrapper">
+<video autoplay="" muted="" loop="" playsinline="" preload="metadata">
+  <source src="/assets/images/spiti-assets/chitkul-river-2.mp4" type="video/mp4" />
+</video>
+</div>
 
 <hr />
 
@@ -435,29 +508,53 @@
 
 <p>The sunset on the last evening was too good. I mean that as an accusation. It felt like the mountains had checked the calendar, seen we were leaving in the morning, and decided to run up the score. The sky went through its colours in the wrong order. The valley filled with light at angles that don’t survive geometry. We took photos knowing the photos would fail, because you have to try anyway.</p>
 
-<blockquote>
-  <p><code class="language-plaintext highlighter-rouge">"aakhri shaam. sabse achhi shaam."</code></p>
-</blockquote>
+<div class="video-wrapper">
+<video autoplay="" muted="" loop="" playsinline="" preload="metadata">
+  <source src="/assets/images/spiti-assets/last-day-sunset.mp4" type="video/mp4" />
+</video>
+</div>
 
 <p>And in the morning, it rained.</p>
 
-<p>Not a storm. Nothing dramatic. Just steady, considered rain, falling on roads we were about to drive out on, after five days of skies so clear they felt personal.</p>
+<p>Not a storm. Nothing dramatic. Just steady, considered drizzle, falling on roads we were about to drive out on, after five days of skies so clear they felt personal.</p>
 
-<p>So there we were. Bags half loaded. Nobody moving toward the car.</p>
+<p>So there we were. Bags half-loaded. Nobody moving towards the bus.</p>
 
-<p>I still don’t know if it was the valley saying goodbye or saying <em>you left something here</em>. I’ve turned it over a few times since. Both feel true, and neither explains why none of us could get in the car.</p>
+<p>I still don’t know if it was the valley saying goodbye or saying <em>you left something here</em>. I’ve turned it over a few times since. Both feel true, and neither explains why none of us could get in the bus.</p>
 
-<p>We drove out of Spiti in the rain. I kept looking back, at the flags, at the roads, at all the altitude I’d left my ego at, at a dhaba in Kaza where a nine year old owns four seconds of my life. We didn’t talk much on the drive down. Not because we were tired.</p>
+<p>We drove out of Spiti in the rain. I kept looking back, at the flags, at the roads, at all the ego I’d left at altitude, at a homestay in Kaza where a seven-year-old owns four seconds of my life. We didn’t talk much on the drive down. Not because we were tired.</p>
 
 <p>Some things you don’t want to name yet.</p>
 
-<blockquote>
-  <p><code class="language-plaintext highlighter-rouge">"it rained. we stood there. neither was a surprise."</code></p>
-</blockquote>
+<div class="video-wrapper">
+<video autoplay="" muted="" loop="" playsinline="" preload="metadata">
+  <source src="/assets/images/spiti-assets/last-day-rain.mp4" type="video/mp4" />
+</video>
+</div>
 
 <hr />
 
-<p><em>Spiti doesn’t let you leave with all your edges intact. That’s probably the point.</em></p>]]></content><author><name>Parth Batra</name></author><category term="travel" /><category term="spiti" /><category term="self-improvement" /><summary type="html"><![CDATA[It rained the morning we left Spiti.]]></summary></entry><entry><title type="html">What Actually Happens in the Second After You Say Hello to an AI</title><link href="http://localhost:4000/2026/05/24/building-an-open-source-vapi-alternative.html" rel="alternate" type="text/html" title="What Actually Happens in the Second After You Say Hello to an AI" /><published>2026-05-24T00:00:00+05:30</published><updated>2026-05-24T00:00:00+05:30</updated><id>http://localhost:4000/2026/05/24/building-an-open-source-vapi-alternative</id><content type="html" xml:base="http://localhost:4000/2026/05/24/building-an-open-source-vapi-alternative.html"><![CDATA[<p>You call a number, an AI picks up, you say “hello,” and it says “hello” back. Feels instant. Feels simple. It is neither.</p>
+<script>
+(function() {
+  const videos = document.querySelectorAll('.video-wrapper video');
+  if (!videos.length) return;
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      const video = entry.target;
+      if (entry.isIntersecting) {
+        video.play().catch(() => {});
+      } else {
+        video.pause();
+      }
+    });
+  }, { threshold: 0.3 });
+
+  videos.forEach(video => observer.observe(video));
+})();
+</script>
+
+<p><em>Spiti doesn’t let you leave with all your edges intact. That’s probably the point.</em></p>]]></content><author><name>Parth Batra</name></author><category term="travel" /><category term="spiti" /><category term="self-improvement" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">What Actually Happens in the Second After You Say Hello to an AI</title><link href="http://localhost:4000/2026/05/24/building-an-open-source-vapi-alternative.html" rel="alternate" type="text/html" title="What Actually Happens in the Second After You Say Hello to an AI" /><published>2026-05-24T00:00:00+05:30</published><updated>2026-05-24T00:00:00+05:30</updated><id>http://localhost:4000/2026/05/24/building-an-open-source-vapi-alternative</id><content type="html" xml:base="http://localhost:4000/2026/05/24/building-an-open-source-vapi-alternative.html"><![CDATA[<p>You call a number, an AI picks up, you say “hello,” and it says “hello” back. Feels instant. Feels simple. It is neither.</p>
 
 <figure class="diagram">
 <svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="A filmstrip unspooling one second into five frames: phone handset, globe network, microphone, sound waves becoming text, and a speech bubble." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
