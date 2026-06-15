@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-06-15T23:16:42+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Parth Batra | fromparth.blog</title><subtitle>Senior ML Engineer by day, music critic by night. Building ML systems, writing about tech, and collecting spotify minutes like they&apos;re infinity stones.</subtitle><author><name>Parth Batra</name></author><entry><title type="html">The People Who Make You Better Just by Existing</title><link href="http://localhost:4000/2026/06/15/the-people-who-make-you-better-just-by-existing.html" rel="alternate" type="text/html" title="The People Who Make You Better Just by Existing" /><published>2026-06-15T00:00:00+05:30</published><updated>2026-06-15T00:00:00+05:30</updated><id>http://localhost:4000/2026/06/15/the-people-who-make-you-better-just-by-existing</id><content type="html" xml:base="http://localhost:4000/2026/06/15/the-people-who-make-you-better-just-by-existing.html"><![CDATA[<p>This month, a single line from <a href="https://dailystoic.com/"><em>The Daily Stoic</em></a> stopped me cold:</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-06-15T23:43:09+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Parth Batra | fromparth.blog</title><subtitle>Senior ML Engineer by day, music critic by night. Building ML systems, writing about tech, and collecting spotify minutes like they&apos;re infinity stones.</subtitle><author><name>Parth Batra</name></author><entry><title type="html">The People Who Make You Better Just by Existing</title><link href="http://localhost:4000/2026/06/15/the-people-who-make-you-better-just-by-existing.html" rel="alternate" type="text/html" title="The People Who Make You Better Just by Existing" /><published>2026-06-15T00:00:00+05:30</published><updated>2026-06-15T00:00:00+05:30</updated><id>http://localhost:4000/2026/06/15/the-people-who-make-you-better-just-by-existing</id><content type="html" xml:base="http://localhost:4000/2026/06/15/the-people-who-make-you-better-just-by-existing.html"><![CDATA[<p>This month, a single line from <a href="https://dailystoic.com/"><em>The Daily Stoic</em></a> stopped me cold:</p>
 
 <blockquote>
   <p>“Happy is the person who can improve others not only when present but even in their thoughts.”</p>
@@ -306,13 +306,12 @@
 <figcaption>Five days up and down the valley. It took all five to take me apart.</figcaption>
 </figure>
 
-<p><img src="/assets/images/spiti-assets/spiti-post-banner.jpg" alt="Spiti valley road winding through the mountains" /></p>
-
 <p>Six days of hard blue skies, the kind that make you squint at your own photos later, and the valley picked our last day to rain. We stood next to our bus, bags fully loaded, nobody moving towards the door. Just standing there, feeling the drizzle, like the rain was saying something and it would be rude to leave mid-sentence.</p>
 
 <p>Mountains don’t wave goodbye. They just rain.</p>
 
-<p>But let me go back.</p>
+<p>But let me go back.
+<img src="/assets/images/spiti-assets/spiti-post-banner.jpg" alt="Spiti valley road winding through the mountains" /></p>
 
 <hr />
 
@@ -340,8 +339,6 @@
 
 <p>Kalpa is where the trip stopped being a road trip and started being whatever it ended up becoming.</p>
 
-<p><img src="/assets/images/spiti-assets/kalpa-drinking-tea-mountain-bg.jpg" alt="Drinking tea with the mountains as a backdrop" /></p>
-
 <div class="video-wrapper">
 <video autoplay="" muted="" loop="" playsinline="" preload="metadata">
   <source src="/assets/images/spiti-assets/rekong-peo-prayer-flags-mountains.mp4" type="video/mp4" />
@@ -350,19 +347,19 @@
 
 <p>The prayer flags here don’t flutter, they spiral. Wind comes up the valley and the flags move like the landscape choreographed them. Each one is a prayer released into the air. I stood there trying to compute how many prayers had passed through that exact patch of sky over a few centuries, and concluded the math was not the point.</p>
 
+<p>Kinnaur Kailash sat across the valley the whole evening, lit up like it knew. My camera captured it. My brain accused the camera of editing. The camera was innocent. The place just looks like that.</p>
+
+<p><img src="/assets/images/spiti-assets/kalpa-drinking-tea-mountain-bg.jpg" alt="Drinking tea with the mountains as a backdrop" /></p>
+
+<hr />
+
+<h2 id="tabo-nobody-tells-you-about-the-sky-thats-on-purpose">Tabo: Nobody Tells You About the Sky. That’s On Purpose.</h2>
+
 <div class="video-wrapper">
 <video autoplay="" muted="" loop="" playsinline="" preload="metadata">
   <source src="/assets/images/spiti-assets/har-jhanda-ek-dua-hai.MP4" type="video/mp4" />
 </video>
 </div>
-
-<p>Kinnaur Kailash sat across the valley the whole evening, lit up like it knew. My camera captured it. My brain accused the camera of editing. The camera was innocent. The place just looks like that.</p>
-
-<p><img src="/assets/images/spiti-assets/kee-monastry.JPG" alt="Kee Monastery nestled in the Spiti valley" /></p>
-
-<hr />
-
-<h2 id="tabo-nobody-tells-you-about-the-sky-thats-on-purpose">Tabo: Nobody Tells You About the Sky. That’s On Purpose.</h2>
 
 <p>The caves above Tabo are a twenty-minute trek from the village, up a trail that is marked the way secrets are marked, which is to say not at all. Monks used them for meditation for a thousand years. I climbed up at night with a lot of optimism in my phone’s camera capabilities.</p>
 
@@ -424,16 +421,15 @@
 
 <div class="video-wrapper">
 <video autoplay="" muted="" loop="" playsinline="" preload="metadata">
-  <source src="/assets/images/spiti-assets/world-highest-postoffice.mp4" type="video/mp4" />
+  <source src="/assets/images/spiti-assets/haar-gya-dil-se.mp4" type="video/mp4" />
 </video>
 </div>
 
 <div class="video-wrapper">
 <video autoplay="" muted="" loop="" playsinline="" preload="metadata">
-  <source src="/assets/images/spiti-assets/haar-gya-dil-se.mp4" type="video/mp4" />
+  <source src="/assets/images/spiti-assets/world-highest-postoffice.mp4" type="video/mp4" />
 </video>
 </div>
-
 <hr />
 
 <h2 id="komic-the-sacred-absurd">Komic: The Sacred Absurd</h2>
@@ -554,7 +550,8 @@
 })();
 </script>
 
-<p><em>Spiti doesn’t let you leave with all your edges intact. That’s probably the point.</em></p>]]></content><author><name>Parth Batra</name></author><category term="travel" /><category term="spiti" /><category term="self-improvement" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">What Actually Happens in the Second After You Say Hello to an AI</title><link href="http://localhost:4000/2026/05/24/building-an-open-source-vapi-alternative.html" rel="alternate" type="text/html" title="What Actually Happens in the Second After You Say Hello to an AI" /><published>2026-05-24T00:00:00+05:30</published><updated>2026-05-24T00:00:00+05:30</updated><id>http://localhost:4000/2026/05/24/building-an-open-source-vapi-alternative</id><content type="html" xml:base="http://localhost:4000/2026/05/24/building-an-open-source-vapi-alternative.html"><![CDATA[<p>You call a number, an AI picks up, you say “hello,” and it says “hello” back. Feels instant. Feels simple. It is neither.</p>
+<p><img src="/assets/images/spiti-assets/kee-monastry.JPG" alt="Kee Monastery nestled in the Spiti valley" />
+<em>Spiti doesn’t let you leave with all your edges intact. That’s probably the point.</em></p>]]></content><author><name>Parth Batra</name></author><category term="travel" /><category term="spiti" /><category term="self-improvement" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">What Actually Happens in the Second After You Say Hello to an AI</title><link href="http://localhost:4000/2026/05/24/building-an-open-source-vapi-alternative.html" rel="alternate" type="text/html" title="What Actually Happens in the Second After You Say Hello to an AI" /><published>2026-05-24T00:00:00+05:30</published><updated>2026-05-24T00:00:00+05:30</updated><id>http://localhost:4000/2026/05/24/building-an-open-source-vapi-alternative</id><content type="html" xml:base="http://localhost:4000/2026/05/24/building-an-open-source-vapi-alternative.html"><![CDATA[<p>You call a number, an AI picks up, you say “hello,” and it says “hello” back. Feels instant. Feels simple. It is neither.</p>
 
 <figure class="diagram">
 <svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="A filmstrip unspooling one second into five frames: phone handset, globe network, microphone, sound waves becoming text, and a speech bubble." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">

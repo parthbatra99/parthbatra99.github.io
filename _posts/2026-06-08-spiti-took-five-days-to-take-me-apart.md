@@ -80,13 +80,13 @@ It rained the morning we left Spiti.
 <figcaption>Five days up and down the valley. It took all five to take me apart.</figcaption>
 </figure>
 
-![Spiti valley road winding through the mountains](/assets/images/spiti-assets/spiti-post-banner.jpg)
 
 Six days of hard blue skies, the kind that make you squint at your own photos later, and the valley picked our last day to rain. We stood next to our bus, bags fully loaded, nobody moving towards the door. Just standing there, feeling the drizzle, like the rain was saying something and it would be rude to leave mid-sentence.
 
 Mountains don't wave goodbye. They just rain.
 
 But let me go back.
+![Spiti valley road winding through the mountains](/assets/images/spiti-assets/spiti-post-banner.jpg)
 
 ---
 
@@ -114,7 +114,7 @@ By Kalpa I had made peace with the roads. Convenient, because Spiti had five mor
 
 Kalpa is where the trip stopped being a road trip and started being whatever it ended up becoming.
 
-![Drinking tea with the mountains as a backdrop](/assets/images/spiti-assets/kalpa-drinking-tea-mountain-bg.jpg)
+
 
 <div class="video-wrapper">
 <video autoplay muted loop playsinline preload="metadata">
@@ -124,19 +124,22 @@ Kalpa is where the trip stopped being a road trip and started being whatever it 
 
 The prayer flags here don't flutter, they spiral. Wind comes up the valley and the flags move like the landscape choreographed them. Each one is a prayer released into the air. I stood there trying to compute how many prayers had passed through that exact patch of sky over a few centuries, and concluded the math was not the point.
 
+
+
+Kinnaur Kailash sat across the valley the whole evening, lit up like it knew. My camera captured it. My brain accused the camera of editing. The camera was innocent. The place just looks like that.
+
+![Drinking tea with the mountains as a backdrop](/assets/images/spiti-assets/kalpa-drinking-tea-mountain-bg.jpg)
+
+---
+
+## Tabo: Nobody Tells You About the Sky. That's On Purpose.
+
+
 <div class="video-wrapper">
 <video autoplay muted loop playsinline preload="metadata">
   <source src="/assets/images/spiti-assets/har-jhanda-ek-dua-hai.MP4" type="video/mp4">
 </video>
 </div>
-
-Kinnaur Kailash sat across the valley the whole evening, lit up like it knew. My camera captured it. My brain accused the camera of editing. The camera was innocent. The place just looks like that.
-
-![Kee Monastery nestled in the Spiti valley](/assets/images/spiti-assets/kee-monastry.JPG)
-
----
-
-## Tabo: Nobody Tells You About the Sky. That's On Purpose.
 
 The caves above Tabo are a twenty-minute trek from the village, up a trail that is marked the way secrets are marked, which is to say not at all. Monks used them for meditation for a thousand years. I climbed up at night with a lot of optimism in my phone's camera capabilities.
 
@@ -149,6 +152,7 @@ Here's what happened: I set up a twenty-minute timelapse of the sky, sat down on
 </div>
 
 The monastery below has murals over a thousand years old. The sky above has a few billion years on that. Both were watching us. Only one of us blinked.
+
 
 <div class="video-wrapper">
 <video autoplay muted loop playsinline preload="metadata">
@@ -198,16 +202,15 @@ A seven year old needed four seconds.
 
 <div class="video-wrapper">
 <video autoplay muted loop playsinline preload="metadata">
-  <source src="/assets/images/spiti-assets/world-highest-postoffice.mp4" type="video/mp4">
+  <source src="/assets/images/spiti-assets/haar-gya-dil-se.mp4" type="video/mp4">
 </video>
 </div>
 
 <div class="video-wrapper">
 <video autoplay muted loop playsinline preload="metadata">
-  <source src="/assets/images/spiti-assets/haar-gya-dil-se.mp4" type="video/mp4">
+  <source src="/assets/images/spiti-assets/world-highest-postoffice.mp4" type="video/mp4">
 </video>
 </div>
-
 ---
 
 ## Komic: The Sacred Absurd
@@ -328,4 +331,6 @@ Some things you don't want to name yet.
 })();
 </script>
 
+
+![Kee Monastery nestled in the Spiti valley](/assets/images/spiti-assets/kee-monastry.JPG)
 *Spiti doesn't let you leave with all your edges intact. That's probably the point.*
