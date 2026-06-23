@@ -10,11 +10,13 @@ tags:
   - habits
 ---
 
-I spent an entire day writing 15 postcards to my friends. Not a typo. Fifteen. By hand, with the kind of penmanship I normally reserve for signing official documents, each one different.
+I wrote 15 postcards from the highest post office in the world. It's in Hikkim, Spiti, somewhere around 14,400 feet. I was there last month, and I spent a full day writing to the people close to me at the time. By hand, each one different, the kind of penmanship I normally save for signing official documents.
 
-Most came back with a "thanks man." Two came back with "love you bro." If you know any emotionally available 26-year-old Indian men, you know that is the highest compliment physically possible. We are a nonchalant final boss. "Love you bro" from us is a Nobel acceptance speech.
+Most came back with a "thanks man." Two came back with "love you bro." If you know any emotionally available 26-year-old Indian men, you know that's the highest compliment physically possible. We are a nonchalant final boss. "Love you bro" from us is a Nobel acceptance speech.
 
-Nobody needed those postcards. A text would have done the job in 0.2% of the time. I wrote them anyway, and the reason is the whole point of this post.
+Here's what I keep turning over though. If I'd done the formality version, the postcard equivalent of a forwarded meme, I'd probably have gotten the same replies. "Thanks man" comes free. The "love you bro" might have come anyway.
+
+The extra effort wasn't what earned the reactions. It was what made *me* feel immensely good. And that's the part nobody talks about.
 
 <figure class="diagram">
 <svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="Four small doodles: a handwritten postcard, a chat bubble with three dots, a photo with a star review, and a magnifying glass over code brackets." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
@@ -49,27 +51,33 @@ Nobody needed those postcards. A text would have done the job in 0.2% of the tim
 <figcaption>A postcard nobody asked for. A message to a deal that fell through. A review with photos. Ten extra minutes on a PR. None of it moves the task. All of it moves the operator.</figcaption>
 </figure>
 
-There's a part of every task nobody asks for and almost nobody does. The email is 95% written, so I hit send without the proofread. The code works, so I skip the test. The conversation is 95% listening, and I spend the other 5% rehearsing what I'll say next. I call it the last 5%, and it's the part that doesn't move the outcome and moves everything else.
+## The last 5%
 
-Last month I went back and forth for days with a travel agent over a Spiti trip. The deal didn't work out. The default move is to ghost. He's a stranger on the internet, the transaction's dead, why bother. Instead I sent three sentences: thanks for the time, here's why it didn't fit, ping me if a cheaper window opens. Took forty seconds. Changed nothing about the trip.
+I've started noticing a part of every task that nobody asks for and almost nobody does. The email is 95% written, so I hit send without the proofread. The code works, so I skip the test. The conversation is 95% listening, and I spend the other 5% rehearsing what I'll say next. I've been calling it the last 5%. It doesn't move the outcome. It moves everything else.
 
-While I was in Spiti I stayed at small homestays run by people who'd clearly bet everything on the place. The default move after checkout is to vanish. I sat down and wrote detailed reviews, with photos, for every stay and every cafe owner who was kind to me. Nobody asked. The cafe owners will probably never connect the review to the quiet guy who ordered two chai and left.
+A few from this last month.
+
+I went back and forth for days with a travel agent over a Spiti trip. The deal didn't work out. The default move is to ghost. He's a stranger on the internet, the transaction's dead, why bother. Instead I sent three sentences: thanks for the time, here's why it didn't fit, ping me if a cheaper window opens. Took forty seconds. Changed nothing about the trip.
+
+While I was in Spiti I stayed at small homestays run by people who'd clearly bet everything on the place. The default move after checkout is to vanish. I sat down and wrote detailed reviews, with photos, for every stay and every cafe owner who was kind to me. Nobody asked. The owner of the place where I had a hot chocolate and a brownie will probably never connect the review to the quiet guy in the corner.
 
 At work, when a PR review comes in, the default move is skim, approve, move on. I run it. Zoom in on the edge case. Zoom out. Check what happens when the input is empty. It adds maybe ten minutes to a review and has caught exactly the kind of bug that saves a 2am call.
 
-Here's the thing I took too long to see. None of these improved the task. The postcards didn't make me a better friend in that moment. The travel agent message didn't get me a cheaper trip. The reviews didn't earn me a discount. The PR reviews didn't ship the feature faster.
+## What I think is actually happening
+
+Here's the thing I keep turning over. None of these improved the task. The postcards didn't make me a better friend in that moment. The travel agent message didn't get me a cheaper trip. The reviews didn't earn me a discount. The PR reviews didn't ship the feature faster.
 
 What they did was cast a vote. Each one says: I'm the kind of person who finishes things properly, even when nobody's watching, even when it doesn't matter. And votes accumulate. One is worth nothing. A hundred is a different person.
 
-Doing things well is not a quality strategy. It's an identity strategy. The point of the well-written message isn't a better message. The point is that you become someone who writes messages like that, and that person then writes better code, lifts better, listens better, ships better, because they're not a different person in each room. The standard travels with you.
+Doing things well, as far as I can tell, is not a quality strategy. It's an identity strategy. The point of the well-written message isn't a better message. The point is that you become someone who writes messages like that, and that person then writes better code, lifts better, listens better, ships better, because they're not a different person in each room. The standard travels with you.
 
-Most people keep separate dials. Work at 90, gym at 40, relationships at 60, dishes at 20. They assume these are independent. They are not. The person who leaves dishes in the sink "because it doesn't matter" is the same person who'll ship the half-tested model "because it works on my machine," is the same person who'll glance at their phone while you're mid-sentence. The dial is one dial. You can't quarantine the low settings. They bleed.
+I used to think I had separate dials. Work at 90, gym at 40, relationships at 60, dishes at 20. I assumed they were independent. Lately I'm not so sure. The version of me who leaves dishes in the sink "because it doesn't matter" feels an awful lot like the version who ships the half-tested model "because it works on my machine," feels an awful lot like the one who glances at his phone while you're mid-sentence. The dial might be one dial. I can't seem to quarantine the low settings. They bleed.
 
 ---
 
-This isn't "do everything perfectly." Perfectionism is a different disease, and it ships nothing because nothing is ever ready. The last 5% rule is the opposite. It's about finishing things, properly, and moving on. Perfectionism says "it's not ready." The last 5% says "it's ready, I did it right, next."
+This isn't "do everything perfectly." Perfectionism is a different disease, and it ships nothing because nothing is ever ready. The last 5% thing is the opposite. It's about finishing, properly, and moving on. Perfectionism says *it's not ready*. The last 5% says *it's ready, I did it right, next*.
 
-The test is simple. Could I find one more minute to make this better, and would future-me be glad I spent it? Usually yes. Sometimes no, and then you ship. The only way to learn which is which is to default to yes until you've earned the right to say no. People who default to no aren't being efficient. They're just practicing a different identity, and getting very good at it.
+The test I've been running on myself: could I find one more minute to make this better, and would future-me be glad I spent it? Usually yes. Sometimes no, and then I ship. I'm still figuring out which is which. I default to yes because I haven't earned the right to say no yet. The people who default to no aren't being efficient, I think. They're just practicing a different identity, and getting very good at it.
 
 I don't do any of this because you'll notice. You won't, most of the time. I do it because every time I finish the last 5%, the person who writes the next postcard, the next review, the next line of code is slightly more likely to do it too. And that person is the one I'm stuck with for the rest of my life.
 
