@@ -3,7 +3,7 @@ layout: post
 kind: rabbit-hole
 title: "The Dumbest Fitness Hack That Actually Worked on Me"
 subtitle: "The Monthly Rabbit Hole: make the healthy thing easier to reach than the junk, then eat it first."
-date: 2026-07-22
+date: 2026-08-06
 tags:
   - health
   - habits
