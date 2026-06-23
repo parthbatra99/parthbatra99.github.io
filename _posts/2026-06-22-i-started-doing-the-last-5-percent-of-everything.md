@@ -74,12 +74,12 @@ Doing things well, as far as I can tell, is not a quality strategy. It's an iden
 I used to think I had separate dials. Work at 90/100, gym at 40/100, relationships at 60/100, dishes at 20/100. I assumed they were independent. Lately I'm not so sure.
 The version of me who leaves dishes in the sink "because it doesn't matter" feels an awful lot like the one who glances at his phone while you're mid-sentence. *The dial might be one dial*. I can't seem to quarantine the low settings. They bleed.
 
----
+***
 
 This isn't "do everything perfectly." Perfectionism is a different disease, and it ships nothing because nothing is ever ready. The last 5% thing is the opposite. It's about finishing, properly, and moving on. Perfectionism says *it's not ready*. The last 5% says *it's ready, I did it right, next*.
 
 The test I've been running on myself: could I find one more minute to make this better, and would future-me be glad I spent it? Usually yes. Sometimes no, and then I ship. I'm still figuring out which is which. I default to yes because I haven't earned the right to say no yet. The people who default to no aren't being efficient, I think. They're just practicing a different identity, and getting very good at it.
 
-_I don't do any of this because you'll notice. You won't, most of the time. I do it because every time I finish the last 5%, the person who writes the next postcard, the next review, the next line of code is slightly more likely to do it too. And that person is the one I'm stuck with for the rest of my life._
+I don't do any of this because you'll notice. You won't, most of the time. I do it because every time I finish the last 5%, the person who writes the next postcard, the next review, the next line of code is slightly more likely to do it too. _And that person is the one I'm stuck with for the rest of my life._
 
-_You don't do things well to improve the work. You do it because the work is the only place you get to rehearse being the kind of person you want to be, and you are, whether you admit it or not, always rehearsing._
+You don't do things well to improve the work. You do it because the work is the only place you get to rehearse being the kind of person you want to be, _and you are, whether you admit it or not, always rehearsing._
