@@ -1,9 +1,9 @@
 ---
 layout: post
 kind: theory
-title: "I Started Doing the Last 5% of Everything. It Didn't Change the Work."
-subtitle: "The thank-you note with the extra line. The last rep at full depth. The variable name nobody reads. Each is a vote for who you're becoming, and that's the part that compounds."
-date: 2026-11-23
+title: "I Stopped Skipping the Last 5%. The Work Barely Changed. I Did."
+subtitle: "The thank-you note with the extra line. The last rep at full depth. The variable name nobody reads. Each is a small vote for who you're becoming, and the standard, not the task, is what compounds."
+date: 2026-06-22
 tags:
   - mindset
   - self-improvement
