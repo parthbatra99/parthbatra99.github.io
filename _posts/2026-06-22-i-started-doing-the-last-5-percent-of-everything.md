@@ -16,7 +16,9 @@ Most came back with a "thanks"/"so sweet" reply. few came back with "love you br
 
 Here's what I keep turning over though. If I'd done the formality version, the postcard equivalent of a forwarded meme, I'd probably have gotten the same replies. "Thanks man" comes free. The "love you bro" might have come anyway.
 
-The extra effort wasn't what earned the reactions - they would have come anyways. But the extra effort was what made me feel incredibly good. And that's the part nobody talks about.
+The extra effort wasn't what earned the reactions. They would have come anyway. But here's the part I didn't expect. Sitting down to write fifteen postcards by hand, one full day, each one actually different, I felt *proud*. Not of the postcards. Of the version of me who chose to do it that way. And when the "love you bro"s came back, I felt loved, and appreciated, in a way a forwarded meme has never made anyone feel.
+
+That good feeling is the part nobody talks about. And it's the whole point.
 
 <figure class="diagram">
 <svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="Four small doodles: a handwritten postcard, a chat bubble with three dots, a photo with a star review, and a magnifying glass over code brackets." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
@@ -53,7 +55,9 @@ The extra effort wasn't what earned the reactions - they would have come anyways
 
 ## The last 5%
 
-I've started noticing a part of every task that nobody asks for and almost nobody does. The email is 95% written, so I hit send without the proofread. The code works, so I skip the test. The conversation is 95% listening, and I spend the other 5% rehearsing what I'll say next. I've been calling it the last 5%. It doesn't move the outcome. It moves everything else.
+I've started noticing a part of every task that nobody asks for and almost nobody does. I've been calling it the last 5%. It doesn't move the outcome. It moves everything else.
+
+For me it showed up loudest in arguments. I'm competitive on the inside. Not the loud kind. The table-tennis-at-zonal-level kind, still wired somewhere to win the point. So in most arguments I've had at work, I wasn't really listening. I was loading my rebuttal while the other person was still talking, running my own serve in my head. Ninety-five percent attention sounded fine. It isn't. The shift only came when I let myself see that the people arguing with me were arguing *for* my betterment, and that cutting corners while listening wasn't doing them or me any favors.
 
 A few from last few months.
 
@@ -72,7 +76,8 @@ What they did was cast a vote. Each one says: I'm the kind of person who finishe
 Doing things well, as far as I can tell, is not a quality strategy. It's an identity strategy. The point of the well-written message isn't a better message. The point is that you become someone who writes messages like that, and that person then writes better code, lifts better, listens better, ships better, because they're not a different person in each room. The standard travels with you.
 
 I used to think I had separate dials. Work at 90/100, gym at 40/100, relationships at 60/100, dishes at 20/100. I assumed they were independent. Lately I'm not so sure.
-The version of me who leaves dishes in the sink "because it doesn't matter" feels an awful lot like the one who glances at his phone while you're mid-sentence. *The dial might be one dial*. I can't seem to quarantine the low settings. They bleed.
+
+Here's how I notice it now, in my body. If my morning gym session was phoned in, I don't feel right the rest of the day. Something's off and I can't quite name it. And no matter how good the food is, a meal eaten out of a badly-arranged, dirty kitchen doesn't taste good to me. The low standard in one small corner contaminates the felt quality of things that have nothing to do with it. *The dial might be one dial.* I can't seem to quarantine the low settings. They don't bleed into "shipping bad code" in some neat chain. They bleed into how the whole day sits in my body.
 
 ***
 
