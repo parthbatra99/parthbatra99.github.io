@@ -1,8 +1,8 @@
 ---
 layout: post
 kind: theory
-title: "I Stopped Skipping the Last 5%. The Work Barely Changed. I Did."
-subtitle: "The thank-you note with the extra line. The last rep at full depth. The variable name nobody reads. Each is a small vote for who you're becoming, and the standard, not the task, is what compounds."
+title: "I Wrote 15 Postcards Nobody Asked For. They Weren't for My Friends."
+subtitle: "They were for the version of me I'm trying to become. The last 5% is where he shows up."
 date: 2026-06-22
 tags:
   - mindset
@@ -12,7 +12,7 @@ tags:
 
 I wrote 15 postcards from the highest post office in the world. It's in Hikkim, Spiti, somewhere around 15000 feet. I was there some time back, and I spent a full day writing to the people close to me at that time. By hand, each one different, the kind of penmanship I normally save for signing official documents.
 
-Most came back with a "thanks"/"so sweet" reply. few came back with "love you bro."/"this is something special". If you know any emotionally uavailable mid 20s Indian men, you know that's the highest compliment physically possible. We are a nonchalant final boss. "Love you bro" from us is a Nobel acceptance speech.
+Most came back with a "thanks." A few came back with "love you bro." If you know any emotionally unavailable mid-20s Indian men, you know that's the highest compliment physically possible. We are a nonchalant final boss. "Love you bro" from us is a Nobel acceptance speech.
 
 Here's what I keep turning over though. If I'd done the formality version, the postcard equivalent of a forwarded meme, I'd probably have gotten the same replies. "Thanks man" comes free. The "love you bro" might have come anyway.
 
