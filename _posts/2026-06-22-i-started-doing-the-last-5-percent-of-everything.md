@@ -21,7 +21,7 @@ The extra effort wasn't what earned the reactions. They would have come anyway. 
 That good feeling is the part nobody talks about. And it's the whole point.
 
 <figure class="diagram">
-<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="Four small doodles: a handwritten postcard, a chat bubble with three dots, a photo with a star review, and a magnifying glass over code brackets." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="Four small doodles: a handwritten postcard, a chat bubble with three dots, a photo with a star review, and a dumbbell." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
   <g transform="translate(50,75)" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
     <rect x="-20" y="-13" width="40" height="26" rx="2"/>
     <line x1="-4" y1="-13" x2="-4" y2="13"/>
@@ -44,40 +44,35 @@ That good feeling is the part nobody talks about. And it's the whole point.
     <path d="M10 -10 l1.4 3 l3.2 .4 l-2.3 2.2 l.6 3.2 l-2.9 -1.6 l-2.9 1.6 l.6 -3.2 l-2.3 -2.2 l3.2 -.4 z" fill="currentColor" stroke="none"/>
   </g>
   <g transform="translate(335,75)" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M-14 -6 l-5 6 l5 6"/>
-    <path d="M0 -6 l5 6 l-5 6"/>
-    <circle cx="8" cy="-8" r="7"/>
-    <line x1="13" y1="-3" x2="18" y2="2"/>
+    <rect x="-23" y="-9" width="8" height="18" rx="1.5"/>
+    <rect x="-20" y="-12" width="5" height="24" rx="1.5"/>
+    <rect x="15" y="-9" width="8" height="18" rx="1.5"/>
+    <rect x="12" y="-12" width="5" height="24" rx="1.5"/>
+    <line x1="-15" y1="0" x2="12" y2="0"/>
   </g>
 </svg>
-<figcaption>A postcard nobody asked for. A message to a deal that fell through. A review with photos. Ten extra minutes on a code review. None of it moves the task. All of it moves the operator.</figcaption>
+<figcaption>A postcard nobody asked for. A message to a deal that fell through. A review with photos. A set finished at full depth. None of it moves the task. All of it moves the operator.</figcaption>
 </figure>
 
 ## The last 5%
 
 I've started noticing a part of every task that nobody asks for and almost nobody does. I've been calling it the last 5%. It doesn't move the outcome. It moves everything else.
 
-For me it showed up loudest in arguments. I'm competitive on the inside. Not the loud kind. The table-tennis-at-zonal-level kind, still wired somewhere to win the point. So in most arguments I've had at work, I wasn't really listening. I was loading my rebuttal while the other person was still talking, running my own serve in my head. Ninety-five percent attention sounded fine. It isn't. The shift only came when I let myself see that the people arguing with me were arguing *for* my betterment, and that cutting corners while listening wasn't doing them or me any favors.
+It showed up loudest in arguments. I'm competitive on the inside, not the loud kind, the table-tennis-at-zonal-level kind, still wired somewhere to win the point. So I wasn't really listening, I was loading my rebuttal while the other person was still talking. The shift only came when I let myself see that the people arguing with me were arguing *for* my betterment.
 
-A few from last few months.
+A few more, from the last few months. A travel agent I went back and forth with for days over a Spiti trip, until the deal fell through. The easy thing was to ghost. He's a stranger on the internet, the transaction's dead, why bother. I sent three sentences instead: thanks for the time, here's why it didn't fit, ping me if a better window opens. Forty seconds. Changed nothing about the trip.
 
-I went back and forth for days with a travel agent over a Spiti trip. The deal didn't work out. The default move is to ghost. He's a stranger on the internet, the transaction's dead, why bother. Instead I sent three sentences: thanks for the time, here's why it didn't fit, ping me if a better window opens. Took forty seconds. Changed nothing about the trip.
-
-While I was in Spiti I stayed at small homestays run by people who'd clearly bet everything on the place. The default move after checkout is to vanish. I sat down and wrote detailed reviews, with photos, for every stay and every cafe owner who was kind to me. Nobody asked. The owner of the place where I had a hot chocolate and a brownie will probably never connect the review to the quiet guy in the corner.
-
-At work, when a PR review comes in, the default move is skim, approve, move on. I run it. Zoom in on the edge cases. Zoom out. Check what happens when the input is empty. It adds maybe twenty minutes to a review and has caught exactly the kind of bug that saves a 2am call.
+In Spiti itself I stayed at small homestays where people had bet everything on the place. After checkout the easy thing is to vanish, so I sat down and wrote detailed reviews, with photos, for every stay and every cafe owner who was kind to me. The woman who served me hot chocolate and a brownie will probably never connect the review to the quiet guy in the corner.
 
 ## What I think is actually happening
 
-Here's the thing I keep turning over. None of these improved the task. The postcards didn't make me a better friend in that moment. The travel agent message didn't get me a cheaper trip. The reviews didn't earn me a discount. The PR reviews didn't ship the feature faster.
+Here's the thing I keep turning over. None of these improved the task. The postcards didn't make me a better friend in that moment. The travel agent message didn't get me a cheaper trip. The reviews didn't earn me a discount.
 
 What they did was cast a vote. Each one says: I'm the kind of person who finishes things properly, even when nobody's watching, even when it doesn't matter. And votes accumulate. One is worth nothing. A hundred is a different person.
 
-Doing things well, as far as I can tell, is not a quality strategy. It's an identity strategy. The point of the well-written message isn't a better message. The point is that you become someone who writes messages like that, and that person then writes better code, lifts better, listens better, ships better, because they're not a different person in each room. The standard travels with you.
+Doing things well, as far as I can tell, isn't a quality strategy. It's an identity strategy. The point of the well-written message isn't a better message. It's that you become someone who writes messages like that, and that person writes better, codes better, lifts better, listens better, shows up better, because they're not a different person in each room. The standard travels with you.
 
-I used to think I had separate dials. Work at 90/100, gym at 40/100, relationships at 60/100, dishes at 20/100. I assumed they were independent. Lately I'm not so sure.
-
-Here's how I notice it now, in my body. If my morning gym session was phoned in, I don't feel right the rest of the day. Something's off and I can't quite name it. And no matter how good the food is, a meal eaten out of a badly-arranged, dirty kitchen doesn't taste good to me. The low standard in one small corner contaminates the felt quality of things that have nothing to do with it. *The dial might be one dial.* I can't seem to quarantine the low settings. They don't bleed into "shipping bad code" in some neat chain. They bleed into how the whole day sits in my body.
+I used to think I had separate dials. Work at 90, gym at 40, relationships at 60, dishes at 20. I assumed they were independent. Lately I'm not so sure. If my morning gym session was phoned in, I don't feel right the rest of the day. Something's off and I can't quite name it. And no matter how good the food is, a meal eaten out of a badly-arranged, dirty kitchen doesn't taste good to me. The low standard in one corner contaminates the felt quality of everything else. The standard isn't parcelled out by room. It's one dial. And I can't quarantine the low settings. They bleed into how the whole day sits in my body.
 
 ***
 
@@ -85,6 +80,6 @@ This isn't "do everything perfectly." Perfectionism is a different disease, and 
 
 The test I've been running on myself: could I find one more minute to make this better, and would future-me be glad I spent it? Usually yes. Sometimes no, and then I ship. I'm still figuring out which is which. I default to yes because I haven't earned the right to say no yet. The people who default to no aren't being efficient, I think. They're just practicing a different identity, and getting very good at it.
 
-I don't do any of this because you'll notice. You won't, most of the time. I do it because every time I finish the last 5%, the person who writes the next postcard, the next review, the next line of code is slightly more likely to do it too. _And that person is the one I'm stuck with for the rest of my life._
+I don't do any of this because you'll notice. You won't, most of the time. I do it because of that feeling in Hikkim. The postcards weren't for the replies. They were for the version of me who sat down and wrote them, and that version is the one I'm stuck with for the rest of my life.
 
-You don't do things well to improve the work. You do it because the work is the only place you get to rehearse being the kind of person you want to be, _and you are, whether you admit it or not, always rehearsing._
+There's an old line, I think it comes from Zen, that keeps coming back to me. *How you do anything is how you do everything.* It used to sound like a threat. Now it sounds like the most generous thing I've ever read. It means the postcard matters. The set matters. The message to the travel agent matters. Not because the world is keeping score, but because you are always, in every one of them, becoming someone. You might as well become someone you're proud of.
