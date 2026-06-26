@@ -5,9 +5,8 @@ title: "Your iPhone Is Lying to You About Progress"
 subtitle: "The Monthly Rabbit Hole: real breakthroughs arrive in lumps, but companies sell them to you as a straight line."
 date: 2026-05-22
 tags:
-  - critical-thinking
-  - hardware
-  - books
+  - just-a-thought
+  - book-brain
 ---
 
 I've been reading [*Chip War*](https://www.simonandschuster.com/books/Chip-War/Chris-Miller/9781982172008) this month and one idea from it has been stuck in my head. We've been trained to expect linear technological progress. New iPhone every year, 20% faster, 20% more efficient. Science doesn't work that way.

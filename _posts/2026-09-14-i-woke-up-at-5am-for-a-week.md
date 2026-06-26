@@ -5,9 +5,9 @@ title: "I Woke Up at 5 AM for a Week. It Made Me Worse at Everything."
 subtitle: "The productivity math, the placebo effect, and the one reason early rising actually works."
 date: 2026-09-14
 tags:
-  - productivity
-  - habits
-  - health
+  - get-shit-done
+  - tiny-reps
+  - bio-hacking
 ---
 
 Waking up at 5 AM has become a luxury lifestyle product. Search "5:00 a.m." on YouTube and you'll drown in videos of people holding coffee mugs at dawn, preaching about how those extra hours changed their life. Nobody ever asks the obvious question: should you even be doing this?

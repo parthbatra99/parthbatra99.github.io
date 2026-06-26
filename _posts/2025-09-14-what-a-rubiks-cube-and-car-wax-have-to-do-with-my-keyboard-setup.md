@@ -6,9 +6,8 @@ subtitle: "A 12-year-old TVS Gold. One weekend. Two things that have no business
 date: 2025-09-14
 hero_art: /assets/images/mech-keyboard.png
 tags:
-  - diy
-  - hardware
-  - mechanical-keyboard
+  - "ai & tech"
+  - made-this-up
 ---
 
 I have a Rubik's cube in my desk drawer and a bottle of ceramic car wax under my sink. Neither of these things should have anything to do with keyboards.

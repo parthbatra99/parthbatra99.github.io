@@ -5,9 +5,8 @@ title: "A 67-Page Book Taught Me Why Smart People Talk Nonsense"
 subtitle: "A liar still knows where the truth is. A bullshitter moved out and built their own."
 date: 2025-10-05
 tags:
-  - critical-thinking
-  - books
-  - philosophy
+  - just-a-thought
+  - book-brain
 ---
 
 I could write a blog post tomorrow claiming your phone notifications are quietly rewiring your brain to keep you broke. A confident tone, a few cherry-picked studies, some scary jargon. It would go viral. Guaranteed. And if I kept writing posts like that for a year or two, I'd eventually believe it myself.

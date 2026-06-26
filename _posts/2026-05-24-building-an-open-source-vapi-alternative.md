@@ -8,10 +8,8 @@ subtitle: "openVAPI, an open-source alternative to Vapi: 4,600 lines, a 3:35 AM 
 date: 2026-05-24
 hero_art: /assets/images/voice-ai.png
 tags:
-  - ai
-  - software
-  - open-source
-  - vapi
+  - "ai & tech"
+  - get-shit-done
 ---
 
 You call a number, an AI picks up, you say "hello," and it says "hello" back. Feels instant. Feels simple. It is neither.

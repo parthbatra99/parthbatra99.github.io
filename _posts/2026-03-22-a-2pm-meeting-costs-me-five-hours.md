@@ -5,9 +5,9 @@ title: "A 2 P.M. Meeting Costs Me Five Hours, Not One"
 subtitle: "The Monthly Rabbit Hole: Paul Graham figured out why a single meeting wrecks a whole day of creative work."
 date: 2026-03-22
 tags:
-  - productivity
-  - habits
-  - self-improvement
+  - get-shit-done
+  - tiny-reps
+  - note-to-self
 ---
 
 This month I finally understood why some days feel productive and some days just evaporate. Paul Graham wrote a blog post years ago called ["Maker's Schedule, Manager's Schedule"](https://www.paulgraham.com/makersschedule.html) and it explained something I'd been feeling but couldn't articulate.

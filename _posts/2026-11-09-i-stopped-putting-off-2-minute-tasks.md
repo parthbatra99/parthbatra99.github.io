@@ -5,9 +5,9 @@ title: "I Stopped Putting Off 2-Minute Tasks. My Output Jumped."
 subtitle: "What Noah Kagan's Million Dollar Weekend taught me about action bias, asking for discounts at bookstores, and starting from exactly where you are."
 date: 2026-11-09
 tags:
-  - productivity
-  - habits
-  - books
+  - get-shit-done
+  - tiny-reps
+  - book-brain
 ---
 
 I read a book called *Million Dollar Weekend* by Noah Kagan. Has it made me a millionaire? No. But it did something more useful: it gave me a rule so stupidly simple that I'm annoyed I didn't figure it out myself. If a task takes less than two minutes, I don't write it down, I don't add it to my notes, I don't schedule it. I just do it.

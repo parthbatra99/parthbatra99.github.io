@@ -8,9 +8,8 @@ subtitle: "A proper cost model for Indian subscribers — marginal royalty, full
 date: 2025-11-02
 hero_art: /assets/images/spotify.png
 tags:
-  - data-analysis
-  - spotify
-  - habits
+  - i-did-the-math
+  - tiny-reps
 ---
 
 For three years running, my Spotify Wrapped has clocked in at over 100,000 minutes. That's more than two full months of non-stop audio — not a flex, more a confession, and also the thing that made me want to actually run the numbers.

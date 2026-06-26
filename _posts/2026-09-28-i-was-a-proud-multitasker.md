@@ -5,9 +5,9 @@ title: "I Was a Proud Multitasker. It Isn't Real."
 subtitle: "What your brain actually does when you think you're doing two things at once."
 date: 2026-09-28
 tags:
-  - productivity
-  - psychology
-  - mindset
+  - get-shit-done
+  - brain-glitch
+  - note-to-self
 ---
 
 I used to eat lunch with YouTube shorts in one hand and a group chat in the other. Emails got answered during meetings. Podcasts ran in the background while I coded. And I genuinely believed I was getting more done than the people around me.

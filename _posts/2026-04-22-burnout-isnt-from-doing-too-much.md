@@ -5,9 +5,8 @@ title: "Burnout Isn't From Doing Too Much. It's From Friction."
 subtitle: "The Monthly Rabbit Hole: a Stanford professor's case that human energy isn't actually exhaustible."
 date: 2026-04-22
 tags:
-  - mindset
-  - self-improvement
-  - productivity
+  - note-to-self
+  - get-shit-done
 ---
 
 [Graham Weaver](https://www.youtube.com/watch?v=P0Zgr9xwu4Y), a professor at Stanford, made a point this month that sounds corny until you sit with it. Energy, he argues, is not exhaustible. Not the physics kind. The human kind.

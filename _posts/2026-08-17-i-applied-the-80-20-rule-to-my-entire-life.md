@@ -5,9 +5,9 @@ title: "I Applied the 80/20 Rule to My Entire Life. Most of What I Do Doesn't Ma
 subtitle: "Happiness, money, friends, time: the 7 areas where 20% of the effort gives you 80% of the results."
 date: 2026-08-17
 tags:
-  - productivity
-  - mindset
-  - books
+  - get-shit-done
+  - note-to-self
+  - book-brain
 ---
 
 Most of what I do doesn't matter. That's not self-pity. That's math.

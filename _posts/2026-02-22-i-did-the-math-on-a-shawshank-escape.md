@@ -6,9 +6,9 @@ title: "I Did the Math on a Shawshank Escape. It Checks Out."
 subtitle: "The Monthly Rabbit Hole: a 2 a.m. calculation about a rock hammer, a prison wall, and why your big dreams are closer than they look."
 date: 2026-02-22
 tags:
-  - self-improvement
-  - productivity
-  - mindset
+  - note-to-self
+  - get-shit-done
+  - i-did-the-math
 ---
 
 It was 2 a.m. and I should've been asleep. Instead, I was lying in bed doing back-of-the-napkin calculations about whether Andy Dufresne could actually dig through that wall in 19 years with a tiny rock hammer. This is what happens when you spend years doing maths and still can't turn off your brain at night.

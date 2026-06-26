@@ -7,9 +7,8 @@ title: "How I Actually Measure Personal Growth"
 subtitle: "Four signals I trust now: how fast you change, the problems you've outgrown, what you can no longer unsee, and the day you stop keeping every door open."
 date: 2026-06-12
 tags:
-  - self-improvement
-  - psychology
-  - mindset
+  - note-to-self
+  - brain-glitch
 ---
 
 Nobody hands you a progress bar for your own life.

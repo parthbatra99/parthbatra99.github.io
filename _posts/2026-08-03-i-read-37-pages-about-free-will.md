@@ -5,9 +5,8 @@ title: "I Read 37 Pages About Free Will. I'm Not Sure I Chose to Write This."
 subtitle: "Brain scans that predict decisions, five murder scenarios, and why your best ideas were never really yours."
 date: 2026-08-03
 tags:
-  - philosophy
-  - psychology
-  - free-will
+  - just-a-thought
+  - brain-glitch
 ---
 
 Here's an experiment. You're sitting alone in someone's room at 11:05 PM. You pick up a book, read for a while, and put it back at 11:14. Feels like your choice, right? You decided to read. You decided to stop.

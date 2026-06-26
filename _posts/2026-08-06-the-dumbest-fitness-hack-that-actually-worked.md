@@ -5,9 +5,8 @@ title: "The Dumbest Fitness Hack That Actually Worked on Me"
 subtitle: "The Monthly Rabbit Hole: make the healthy thing easier to reach than the junk, then eat it first."
 date: 2026-08-06
 tags:
-  - health
-  - habits
-  - self-improvement
+  - bio-hacking
+  - tiny-reps
 ---
 
 This one's embarrassingly simple, and it's the idea I keep coming back to this month. The best fitness hack I used during my bachelor's: make healthy food easier to reach than junk food.

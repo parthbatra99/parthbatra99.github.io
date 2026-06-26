@@ -6,9 +6,8 @@ subtitle: "How I built a real-time TV backlight that syncs colors with what's on
 date: 2026-04-18
 hero_art: /assets/images/ambilight.png
 tags:
-  - diy
-  - hardware
-  - raspberry-pi
+  - "ai & tech"
+  - made-this-up
 ---
 
 Philips wants **₹20,000** for the Hue Play Gradient Lightstrip. Twenty. Thousand. Rupees. For LEDs.

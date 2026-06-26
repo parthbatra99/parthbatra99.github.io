@@ -5,9 +5,8 @@ title: "The People Who Make You Better Just by Existing"
 subtitle: "The Monthly Rabbit Hole: a line from the Stoics about the rare people who improve you even when they're only in your head."
 date: 2026-06-15
 tags:
-  - philosophy
-  - mindset
-  - self-improvement
+  - just-a-thought
+  - note-to-self
 ---
 
 This month, a single line from [*The Daily Stoic*](https://dailystoic.com/) stopped me cold:

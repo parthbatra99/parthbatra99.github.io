@@ -5,9 +5,8 @@ title: "I Read Books Wrong for 2 Years. The Fix Was One Question."
 subtitle: "Why speed-reading through books meant for slow digestion was my biggest reading mistake, and the two-category system that fixed everything."
 date: 2026-07-20
 tags:
-  - books
-  - self-improvement
-  - mindset
+  - book-brain
+  - note-to-self
 ---
 
 The year was 2021. I picked up my first book and it took me 3, maybe 4, maybe 5 months to finish it. I was bad at reading. So I went online for advice, like you do. Everyone on the internet was reading 20, 40, even 100 books a year. Naturally, I thought the answer was simple: read faster, read more. I was wrong. It took me 2 full years to figure out why.

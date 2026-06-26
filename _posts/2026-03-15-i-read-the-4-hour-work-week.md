@@ -5,9 +5,9 @@ title: "Your Dream Retirement Costs 3,000 Euros. You Can Take It Now."
 subtitle: "4 ideas from Tim Ferriss that killed my 'someday' list."
 date: 2026-03-15
 tags:
-  - productivity
-  - books
-  - mindset
+  - get-shit-done
+  - book-brain
+  - note-to-self
 ---
 
 A round-the-world plane ticket costs about €3,000. The retirement trip I'd been filing under "someday for the last decade" was sitting there the whole time, priced at less than a used motorcycle.

@@ -5,9 +5,9 @@ title: "I Stopped Measuring My Day in 24 Hours. My Output Doubled."
 subtitle: "The three-slot method: shorter feedback loops, built-in error correction, and why a wasted morning doesn't have to mean a wasted day."
 date: 2026-08-31
 tags:
-  - productivity
-  - habits
-  - mindset
+  - get-shit-done
+  - tiny-reps
+  - note-to-self
 ---
 
 Here's a question that bothered me for months. Why is it that I can be productive for a full morning and then completely fall off after lunch? Not "kind of slow." Full stop. The afternoon vanishes into YouTube, half-read articles, and the kind of phone scrolling where you look up and 90 minutes are just gone.

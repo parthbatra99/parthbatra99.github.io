@@ -5,9 +5,8 @@ title: "I Read a 125-Year-Old Poem and Realized Why Our Generation Is So Lonely"
 subtitle: "The lie we've been sold about doing it alone, and why the last person to cross the finish line gets all the credit."
 date: 2026-01-11
 tags:
-  - mindset
-  - philosophy
-  - loneliness
+  - note-to-self
+  - just-a-thought
 ---
 
 If you can keep your head when all about you are losing theirs, you'll be a man, my son.

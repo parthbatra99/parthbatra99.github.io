@@ -5,9 +5,9 @@ title: "I Mapped 9 Career Fundamentals. Most People Ignore 6 of Them."
 subtitle: "Health, geography, specific knowledge, and the uncomfortable truth about who you work with."
 date: 2026-10-12
 tags:
-  - career
-  - mindset
-  - productivity
+  - the-day-job
+  - note-to-self
+  - get-shit-done
 ---
 
 85% of billionaires are first generation. Not trust fund kids. Not nepotism cases. People who started with nothing and built something anyway.
