@@ -3,8 +3,8 @@ layout: post
 kind: built
 recommended: true
 recommended_order: 1
-title: "What Actually Happens in the Second After You Say Hello to an AI"
-subtitle: "Telephony, WebRTC, voice detection, transcription. A month building it from scratch, and where that second actually goes."
+title: "I Built a Voice AI in 30 Days. Its Hardest Bug Took Three."
+subtitle: "openVAPI, an open-source alternative to Vapi: 4,600 lines, a 3:35 AM commit, and a recording mixer that had no idea what time it was."
 date: 2026-05-24
 hero_art: /assets/images/voice-ai.png
 tags:
