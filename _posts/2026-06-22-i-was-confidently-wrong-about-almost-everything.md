@@ -39,7 +39,7 @@ Here are three of its favourite lies.
 
 ---
 
-## Bias #1: Survivorship bias — your brain only counts the winners
+## Bias #1: Survivorship bias, your brain only counts the winners
 
 Steve Jobs did it. Zuckerberg did it. Gates did it. Dropouts, all of them, and your brain connects the dots: dropping out is the move.
 
@@ -57,7 +57,7 @@ The media doesn't report reality. It reports interesting deviations from reality
 
 ---
 
-## Bias #2: Sunk cost fallacy — throwing good after bad
+## Bias #2: Sunk cost fallacy, throwing good after bad
 
 The clean version first. You buy a movie ticket for $20. Fifteen minutes in, you know it's garbage. Do you leave?
 
@@ -69,21 +69,21 @@ Books are easy, because the cost is small and the exit is clean.
 
 Then there's the version you can't price. Relationships. You can't put a number on emotions, which makes sunk cost fallacy almost impossible to see in real time. You've invested six months, a year, three years. You know it's not going anywhere. But leaving means all that time was "wasted," so you invest another year. And another.
 
-The thing I learned, the hard way, is that familiarity and love are two different things. They feel similar enough that you can spend years confusing one for the other. The math is identical to the movie ticket — the cost is already sunk, the only question is whether you keep paying — except you can't see it, because there's no receipt.
+The thing I learned, the hard way, is that familiarity and love are two different things. They feel similar enough that you can spend years confusing one for the other. The math is identical to the movie ticket: the cost is already sunk, the only question is whether you keep paying. Except you can't see it, because there's no receipt.
 
 ---
 
-## Bias #3: Confirmation bias — seeing what you already believe
+## Bias #3: Confirmation bias, seeing what you already believe
 
 I was watching vlogs by Paramvir Beniwal, a travel YouTuber who's been to over a hundred countries. One of them was from a village in Africa, and the thing that hit me was how much it looked like a village in a poor part of India. Same kind of houses, same kind of dust, same kind of people getting on with their day.
 
-So I looked it up. Per capita income in that part of the world is in the same band as Bihar, around $880 a year. Girls' education — for every ten years boys spend in school, girls spend about nine. The numbers weren't the catastrophe I'd been carrying around in my head.
+So I looked it up. Per capita income in that part of the world is in the same band as Bihar, around $880 a year. Girls' education, for every ten years boys spend in school, girls spend about nine. The numbers weren't the catastrophe I'd been carrying around in my head.
 
-Here's what I realised about my own head. I'd absorbed one Africa — the one on the news, which only shows up for famines, wars, and coups. My brain had filed the whole continent under "uniformly terrible," and every headline confirmed it. A travel vlog was the first time I'd looked at the same place from a different angle, and the picture wouldn't hold.
+Here's what I realised about my own head. I'd absorbed one Africa, the one on the news, which only shows up for famines, wars, and coups. My brain had filed the whole continent under "uniformly terrible," and every headline confirmed it. A travel vlog was the first time I'd looked at the same place from a different angle, and the picture wouldn't hold.
 
 That's confirmation bias. Not a bad dataset, but a dataset you only ever look at from one side. Every fact that fits, you nod at. Every fact that doesn't, you find a reason to dismiss.
 
-There's a line in *Factfulness* that lands differently now. The authors describe couples across the United States, Iran, Mexico, Malaysia, Brazil, Italy, China, Indonesia, India, Colombia, Bangladesh, South Africa — different languages, different scriptures on the nightstand — and they're all doing the same thing in their bedrooms. Whispering about their dreams for their kids' future.
+There's a line in *Factfulness* that lands differently now. The authors describe couples across the United States, Iran, Mexico, Malaysia, Brazil, Italy, China, Indonesia, India, Colombia, Bangladesh, South Africa (different languages, different scriptures on the nightstand) and they're all doing the same thing in their bedrooms. Whispering about their dreams for their kids' future.
 
 Every language has a word for "happy." Every language has a word for "grief." That's not a coincidence. It's evidence that humans run on nearly identical hardware, and most of what we think divides us is just what we haven't looked at closely enough.
 
@@ -95,10 +95,10 @@ I'm not saying the world is fine. It isn't fine in the village I saw in that vlo
 
 I don't have a cure. The brain still lies. But I've got three questions I run on myself now, one per lie.
 
-When a success story sounds too clean: how many people tried the same thing and failed — and how many succeeded without anyone noticing?
+**When a success story sounds too clean:** how many people tried the same thing and failed, and how many succeeded without anyone noticing?
 
-When I'm holding on because I've "already invested so much": if I were starting fresh today, would I make the same choice?
+**When I'm holding on because I've "already invested so much":** if I were starting fresh today, would I make the same choice?
 
-When a belief feels obviously true: what data would change my mind?
+**When a belief feels obviously true:** what data would change my mind?
 
 If I can't answer that last one, I'm not thinking. I'm just confirming.
