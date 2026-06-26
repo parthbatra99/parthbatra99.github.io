@@ -1,4 +1,167 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-06-15T23:43:09+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Parth Batra | fromparth.blog</title><subtitle>Senior ML Engineer by day, music critic by night. Building ML systems, writing about tech, and collecting spotify minutes like they&apos;re infinity stones.</subtitle><author><name>Parth Batra</name></author><entry><title type="html">The People Who Make You Better Just by Existing</title><link href="http://localhost:4000/2026/06/15/the-people-who-make-you-better-just-by-existing.html" rel="alternate" type="text/html" title="The People Who Make You Better Just by Existing" /><published>2026-06-15T00:00:00+05:30</published><updated>2026-06-15T00:00:00+05:30</updated><id>http://localhost:4000/2026/06/15/the-people-who-make-you-better-just-by-existing</id><content type="html" xml:base="http://localhost:4000/2026/06/15/the-people-who-make-you-better-just-by-existing.html"><![CDATA[<p>This month, a single line from <a href="https://dailystoic.com/"><em>The Daily Stoic</em></a> stopped me cold:</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-06-27T03:31:43+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Parth Batra | fromparth.blog</title><subtitle>Senior ML Engineer by day, music critic by night. Building ML systems, writing about tech, and collecting spotify minutes like they&apos;re infinity stones.</subtitle><author><name>Parth Batra</name></author><entry><title type="html">I Was Confidently Wrong About Almost Everything</title><link href="http://localhost:4000/2026/06/22/i-was-confidently-wrong-about-almost-everything.html" rel="alternate" type="text/html" title="I Was Confidently Wrong About Almost Everything" /><published>2026-06-22T00:00:00+05:30</published><updated>2026-06-22T00:00:00+05:30</updated><id>http://localhost:4000/2026/06/22/i-was-confidently-wrong-about-almost-everything</id><content type="html" xml:base="http://localhost:4000/2026/06/22/i-was-confidently-wrong-about-almost-everything.html"><![CDATA[<p>My brain has been lying to me with confidence my entire life. Not occasionally. Constantly. And for a long time I didn’t notice, because confidence is the one thing that feels exactly the same whether it’s earned or not.</p>
+
+<p>I spent a while going after this. Reading, catching myself mid-decision, writing down the places I’d been confidently wrong. The first thing I learned is that the lies aren’t random. They come in patterns. Once you see them, you can’t unsee them.</p>
+
+<figure class="diagram">
+<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="A decision path winding forward with three traps on it: a misdirected spotlight, a dragging anchor, and tinted glasses." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+  <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M28 78 Q120 60 192 78 T352 72" stroke-width="2.2" />
+    <path d="M346 66 L352 72 L346 78" stroke-width="2" />
+    <path d="M84 74 L62 34 L106 34 Z" stroke-width="1.8" opacity="0.6" />
+    <line x1="84" y1="34" x2="84" y2="22" stroke-width="1.8" />
+    <circle cx="84" cy="18" r="4" stroke-width="1.8" opacity="0.6" />
+    <path d="M188 78 L172 78" stroke-width="1.8" />
+    <path d="M172 78 V100" stroke-width="1.8" />
+    <path d="M162 100 C162 110 182 110 182 100" stroke-width="1.8" />
+    <line x1="172" y1="100" x2="172" y2="108" stroke-width="1.8" />
+    <circle cx="294" cy="74" r="11" stroke-width="1.8" opacity="0.65" />
+    <circle cx="318" cy="74" r="11" stroke-width="1.8" opacity="0.65" />
+    <line x1="305" y1="74" x2="307" y2="74" stroke-width="1.5" />
+    <line x1="282" y1="74" x2="284" y2="74" stroke-width="1.5" />
+  </g>
+</svg>
+<figcaption>Three traps. Each one a different way my brain lied to me.</figcaption>
+</figure>
+
+<p>Here are three of its favourite lies.</p>
+
+<hr />
+
+<h2 id="bias-1-survivorship-bias-your-brain-only-counts-the-winners">Bias #1: Survivorship bias, your brain only counts the winners</h2>
+
+<p>Steve Jobs did it. Zuckerberg did it. Gates did it. Dropouts, all of them, and your brain connects the dots: dropping out is the move.</p>
+
+<p>What it doesn’t connect is the millions who dropped out and now make less than their graduating classmates. Nobody writes a magazine profile about that guy.</p>
+
+<p>But here’s the half of survivorship bias nobody talks about. It’s not just the failures you don’t see. It’s most of the successes too.</p>
+
+<p>I work at a company called Procol. Real business, real revenue. You’ve never heard of it. You wouldn’t recognise the founders if they were standing next to you in a lift.</p>
+
+<p>The founders everyone can name are famous for being famous, not for building the most. The actual economy runs on companies you’ve never heard of, and my brain keeps pointing at the famous three and calling that the data.</p>
+
+<p>I catch myself doing the same thing with startup founders. I’ll read about someone who quit their FAANG job, built a SaaS, and hit $1M ARR in 18 months, and my brain says “that could be me.” What it doesn’t say: for every one of those stories, thousands quit, burned through savings, and quietly went back to job hunting. I just never meet them, because they don’t post about it on LinkedIn.</p>
+
+<p>The media doesn’t report reality. It reports interesting deviations from reality. And my brain treats those deviations as the norm.</p>
+
+<hr />
+
+<h2 id="bias-2-sunk-cost-fallacy-throwing-good-after-bad">Bias #2: Sunk cost fallacy, throwing good after bad</h2>
+
+<p>The clean version first. You buy a movie ticket for $20. Fifteen minutes in, you know it’s garbage. Do you leave?</p>
+
+<p>Of course not. You sit there for another two and a half hours because you already paid. Here’s the math your brain refuses to do: that $20 is gone whether you stay or go. By staying, you’re spending more time on top of it. If your time’s worth $20 an hour, you just spent $50 to “recover” $20. A $20 mistake now costs you $70, and $50 of that was voluntary.</p>
+
+<p>This is the one bias I’m actually good at, and it shows up in the smallest place. I start a book. A hundred pages in, it’s not getting better, or it’s just not my taste, for a thousand different reasons. I drop it. Why spend any more time on it. The $20 is gone. Walk out.</p>
+
+<p>Books are easy, because the cost is small and the exit is clean.</p>
+
+<p>Then there’s the version you can’t price. Relationships. You can’t put a number on emotions, which makes sunk cost fallacy almost impossible to see in real time. You’ve invested six months, a year, three years. You know it’s not going anywhere. But leaving means all that time was “wasted,” so you invest another year. And another.</p>
+
+<p>The thing I learned, the hard way, is that familiarity and love are two different things. They feel similar enough that you can spend years confusing one for the other. The math is identical to the movie ticket: the cost is already sunk, the only question is whether you keep paying. Except you can’t see it, because there’s no receipt.</p>
+
+<hr />
+
+<h2 id="bias-3-confirmation-bias-seeing-what-you-already-believe">Bias #3: Confirmation bias, seeing what you already believe</h2>
+
+<p>I was watching vlogs by Paramvir Beniwal, a travel YouTuber who’s been to over a hundred countries. One of them was from a village in Africa, and the thing that hit me was how much it looked like a village in a poor part of India. Same kind of houses, same kind of dust, same kind of people getting on with their day.</p>
+
+<p>So I looked it up. Per capita income in that part of the world is in the same band as Bihar, around $880 a year. Girls’ education, for every ten years boys spend in school, girls spend about nine. The numbers weren’t the catastrophe I’d been carrying around in my head.</p>
+
+<p>Here’s what I realised about my own head. I’d absorbed one Africa, the one on the news, which only shows up for famines, wars, and coups. My brain had filed the whole continent under “uniformly terrible,” and every headline confirmed it. A travel vlog was the first time I’d looked at the same place from a different angle, and the picture wouldn’t hold.</p>
+
+<p>That’s confirmation bias. Not a bad dataset, but a dataset you only ever look at from one side. Every fact that fits, you nod at. Every fact that doesn’t, you find a reason to dismiss.</p>
+
+<p>There’s a line in <em>Factfulness</em> that lands differently now. The authors describe couples across the United States, Iran, Mexico, Malaysia, Brazil, Italy, China, Indonesia, India, Colombia, Bangladesh, South Africa (different languages, different scriptures on the nightstand) and they’re all doing the same thing in their bedrooms. Whispering about their dreams for their kids’ future.</p>
+
+<p>Every language has a word for “happy.” Every language has a word for “grief.” That’s not a coincidence. It’s evidence that humans run on nearly identical hardware, and most of what we think divides us is just what we haven’t looked at closely enough.</p>
+
+<p>I’m not saying the world is fine. It isn’t fine in the village I saw in that vlog, and it isn’t fine in Bihar either. But the world isn’t as bad as the news needs it to be. It’s also not as good, everywhere, in uniform. It’s somewhere in between, and you only find where by actually looking.</p>
+
+<hr />
+
+<h2 id="so-what-do-i-do-with-this">So what do I do with this?</h2>
+
+<p>I don’t have a cure. The brain still lies. But I’ve got three questions I run on myself now, one per lie.</p>
+
+<p><strong>When a success story sounds too clean:</strong> how many people tried the same thing and failed, and how many succeeded without anyone noticing?</p>
+
+<p><strong>When I’m holding on because I’ve “already invested so much”:</strong> if I were starting fresh today, would I make the same choice?</p>
+
+<p><strong>When a belief feels obviously true:</strong> what data would change my mind?</p>
+
+<p>If I can’t answer that last one, I’m not thinking. I’m just confirming.</p>]]></content><author><name>Parth Batra</name></author><category term="brain-glitch" /><category term="note-to-self" /><category term="just-a-thought" /><summary type="html"><![CDATA[My brain has been lying to me with confidence my entire life. Not occasionally. Constantly. And for a long time I didn’t notice, because confidence is the one thing that feels exactly the same whether it’s earned or not.]]></summary></entry><entry><title type="html">I Wrote 15 Postcards Nobody Asked For. They Weren’t for My Friends.</title><link href="http://localhost:4000/2026/06/22/i-started-doing-the-last-5-percent-of-everything.html" rel="alternate" type="text/html" title="I Wrote 15 Postcards Nobody Asked For. They Weren’t for My Friends." /><published>2026-06-22T00:00:00+05:30</published><updated>2026-06-22T00:00:00+05:30</updated><id>http://localhost:4000/2026/06/22/i-started-doing-the-last-5-percent-of-everything</id><content type="html" xml:base="http://localhost:4000/2026/06/22/i-started-doing-the-last-5-percent-of-everything.html"><![CDATA[<p>I wrote 15 postcards from the highest post office in the world. It’s in Hikkim, Spiti, somewhere around 15000 feet. I was there some time back, and I spent a full day writing to the people close to me at that time. By hand, each one different, the kind of penmanship I normally save for signing official documents.</p>
+
+<p>Most came back with a “thanks.” A few came back with “love you bro.” If you know any emotionally unavailable mid-20s Indian men, you know that’s the highest compliment physically possible. We are a nonchalant final boss. “Love you bro” from us is a Nobel acceptance speech.</p>
+
+<p>Here’s what I keep turning over though. If I’d done the formality version, the postcard equivalent of a forwarded meme, I’d probably have gotten the same replies. “Thanks man” comes free. The “love you bro” might have come anyway.</p>
+
+<p>The extra effort wasn’t what earned the reactions. They would have come anyway. But here’s the part I didn’t expect. Sitting down to write fifteen postcards by hand, one full day, each one actually different, I felt <em>proud</em>. Not of the postcards. Of the version of me who chose to do it that way. And when the “love you bro”s came back, I felt loved, and appreciated, in a way a forwarded meme has never made anyone feel.</p>
+
+<p>That good feeling is the part nobody talks about. And it’s the whole point.</p>
+
+<figure class="diagram">
+<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="Four small doodles: a handwritten postcard, a chat bubble with three dots, a photo with a star review, and a dumbbell." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+  <g transform="translate(50,75)" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="-20" y="-13" width="40" height="26" rx="2" />
+    <line x1="-4" y1="-13" x2="-4" y2="13" />
+    <rect x="8" y="-10" width="9" height="7" />
+    <line x1="0" y1="2" x2="16" y2="2" />
+    <line x1="0" y1="7" x2="13" y2="7" />
+    <path d="M-15 -7 q3 -3 6 0 q3 3 6 0" />
+    <path d="M-15 0 q3 -3 6 0 q3 3 6 0" />
+  </g>
+  <g transform="translate(145,75)" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-16 -10 h32 a4 4 0 0 1 4 4 v12 a4 4 0 0 1 -4 4 h-20 l-6 5 v-5 h-6 a4 4 0 0 1 -4 -4 v-12 a4 4 0 0 1 4 -4 z" />
+    <circle cx="-6" cy="0" r="1.6" fill="currentColor" stroke="none" />
+    <circle cx="0" cy="0" r="1.6" fill="currentColor" stroke="none" />
+    <circle cx="6" cy="0" r="1.6" fill="currentColor" stroke="none" />
+  </g>
+  <g transform="translate(240,75)" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="-16" y="-6" width="22" height="16" rx="1.5" />
+    <circle cx="-11" cy="0" r="2.2" fill="currentColor" stroke="none" />
+    <path d="M-16 7 l7 -6 l5 4 l4 -3 l6 5" />
+    <path d="M10 -10 l1.4 3 l3.2 .4 l-2.3 2.2 l.6 3.2 l-2.9 -1.6 l-2.9 1.6 l.6 -3.2 l-2.3 -2.2 l3.2 -.4 z" fill="currentColor" stroke="none" />
+  </g>
+  <g transform="translate(335,75)" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="-23" y="-9" width="8" height="18" rx="1.5" />
+    <rect x="-20" y="-12" width="5" height="24" rx="1.5" />
+    <rect x="15" y="-9" width="8" height="18" rx="1.5" />
+    <rect x="12" y="-12" width="5" height="24" rx="1.5" />
+    <line x1="-15" y1="0" x2="12" y2="0" />
+  </g>
+</svg>
+<figcaption>A postcard nobody asked for. A message to a deal that fell through. A review with photos. A set finished at full depth. None of it moves the task. All of it moves the operator.</figcaption>
+</figure>
+
+<h2 id="the-last-5">The last 5%</h2>
+
+<p>I’ve started noticing a part of every task that nobody asks for and almost nobody does. I’ve been calling it the last 5%. It doesn’t move the outcome. It moves everything else.</p>
+
+<p>It showed up loudest in arguments. I’m competitive on the inside, not the loud kind, the table-tennis-at-zonal-level kind, still wired somewhere to win the point. So I wasn’t really listening, I was loading my rebuttal while the other person was still talking. The shift only came when I let myself see that the people arguing with me were arguing <em>for</em> my betterment.</p>
+
+<p>A few more, from the last few months. A travel agent I went back and forth with for days over a Spiti trip, until the deal fell through. The easy thing was to ghost. He’s a stranger on the internet, the transaction’s dead, why bother. I sent three sentences instead: thanks for the time, here’s why it didn’t fit, ping me if a better window opens. Forty seconds. Changed nothing about the trip.</p>
+
+<p>In Spiti itself I stayed at small homestays where people had bet everything on the place. After checkout the easy thing is to vanish, so I sat down and wrote detailed reviews, with photos, for every stay and every cafe owner who was kind to me. The woman who served me hot chocolate and a brownie will probably never connect the review to the quiet guy in the corner.</p>
+
+<h2 id="what-i-think-is-actually-happening">What I think is actually happening</h2>
+
+<p>Here’s the thing I keep turning over. None of these improved the task. The postcards didn’t make me a better friend in that moment. The travel agent message didn’t get me a cheaper trip. The reviews didn’t earn me a discount.</p>
+
+<p>What they did was cast a vote. Each one says: I’m the kind of person who finishes things properly, even when nobody’s watching, even when it doesn’t matter. And votes accumulate. One is worth nothing. A hundred is a different person.</p>
+
+<p>Doing things well, as far as I can tell, isn’t a quality strategy. It’s an identity strategy. The point of the well-written message isn’t a better message. It’s that you become someone who writes messages like that, and that person writes better, codes better, lifts better, listens better, shows up better, because they’re not a different person in each room. The standard travels with you.</p>
+
+<p>I used to think I had separate dials. Work at 90, gym at 40, relationships at 60, dishes at 20. I assumed they were independent. Lately I’m not so sure. If my morning gym session was phoned in, I don’t feel right the rest of the day. Something’s off and I can’t quite name it. And no matter how good the food is, a meal eaten out of a badly-arranged, dirty kitchen doesn’t taste good to me. The low standard in one corner contaminates the felt quality of everything else. The standard isn’t parcelled out by room. It’s one dial. And I can’t quarantine the low settings. They bleed into how the whole day sits in my body.</p>
+
+<hr />
+
+<p>This isn’t “do everything perfectly.” Perfectionism is a different disease, and it ships nothing because nothing is ever ready. The last 5% thing is the opposite. It’s about finishing, properly, and moving on. Perfectionism says <em>it’s not ready</em>. The last 5% says <em>it’s ready, I did it right, next</em>.</p>
+
+<p>The test I’ve been running on myself: could I find one more minute to make this better, and would future-me be glad I spent it? Usually yes. Sometimes no, and then I ship. I’m still figuring out which is which. I default to yes because I haven’t earned the right to say no yet. The people who default to no aren’t being efficient, I think. They’re just practicing a different identity, and getting very good at it.</p>
+
+<p>I don’t do any of this because you’ll notice. You won’t, most of the time. I do it because of that feeling in Hikkim. The postcards weren’t for the replies. They were for the version of me who sat down and wrote them, and that version is the one I’m stuck with for the rest of my life.</p>
+
+<p>There’s an old line, I think it comes from Zen, that keeps coming back to me. <em>How you do anything is how you do everything.</em> It used to sound like a threat. Now it sounds like the most generous thing I’ve ever read. It means the postcard matters. The set matters. The message to the travel agent matters. Not because the world is keeping score, but because you are always, in every one of them, becoming someone. You might as well become someone you’re proud of.</p>]]></content><author><name>Parth Batra</name></author><category term="note-to-self" /><category term="tiny-reps" /><summary type="html"><![CDATA[I wrote 15 postcards from the highest post office in the world. It’s in Hikkim, Spiti, somewhere around 15000 feet. I was there some time back, and I spent a full day writing to the people close to me at that time. By hand, each one different, the kind of penmanship I normally save for signing official documents.]]></summary></entry><entry><title type="html">The People Who Make You Better Just by Existing</title><link href="http://localhost:4000/2026/06/15/the-people-who-make-you-better-just-by-existing.html" rel="alternate" type="text/html" title="The People Who Make You Better Just by Existing" /><published>2026-06-15T00:00:00+05:30</published><updated>2026-06-15T00:00:00+05:30</updated><id>http://localhost:4000/2026/06/15/the-people-who-make-you-better-just-by-existing</id><content type="html" xml:base="http://localhost:4000/2026/06/15/the-people-who-make-you-better-just-by-existing.html"><![CDATA[<p>This month, a single line from <a href="https://dailystoic.com/"><em>The Daily Stoic</em></a> stopped me cold:</p>
 
 <blockquote>
   <p>“Happy is the person who can improve others not only when present but even in their thoughts.”</p>
@@ -27,9 +190,11 @@
 <figcaption>The thought of one person you respect can nudge a choice down the better fork.</figcaption>
 </figure>
 
-<p>It hit me hard because I’ve felt this. A friend, a parent, a partner. Their very thought makes you choose better. It’s not the same as religion’s universal watcher concept, where fear of being seen keeps you in line. This is different. This comes from love, not fear. Their love inspires you to be a better human, which feels fundamentally different from being scared into being a good one.</p>
+<p>It hit me hard because I’ve felt this. Last week I was fighting with my younger brother over text. He’s five years younger, and somewhere along the way he built a picture of me that’s better than I usually am. I had a reply ready that would’ve won the argument and cost me a piece of that. Right before I sent it, his face came to mind, and I deleted it. Not because he’d catch me or punish me. He can’t do either. I’m older (and much stronger!). Because I wanted to be who he already thinks I am.</p>
 
-<p>If you haven’t felt this yet, it’ll come when you find people who truly trust you. Hard to put into words. The philosopher did it better than I can.</p>]]></content><author><name>Parth Batra</name></author><category term="philosophy" /><category term="mindset" /><category term="self-improvement" /><summary type="html"><![CDATA[This month, a single line from The Daily Stoic stopped me cold:]]></summary></entry><entry><title type="html">How I Actually Measure Personal Growth</title><link href="http://localhost:4000/2026/06/12/how-i-measure-personal-growth.html" rel="alternate" type="text/html" title="How I Actually Measure Personal Growth" /><published>2026-06-12T00:00:00+05:30</published><updated>2026-06-12T00:00:00+05:30</updated><id>http://localhost:4000/2026/06/12/how-i-measure-personal-growth</id><content type="html" xml:base="http://localhost:4000/2026/06/12/how-i-measure-personal-growth.html"><![CDATA[<p>Nobody hands you a progress bar for your own life.</p>
+<p>It’s not the same as religion’s universal watcher concept, where fear of being seen keeps you in line. Fear makes you hide the worst of you. Love makes you reach for the best. Same watcher, different engine.</p>
+
+<p>The Stoic who wrote that line called it happiness. I’d call it borrowing a face you trust until your own grows into it.</p>]]></content><author><name>Parth Batra</name></author><category term="just-a-thought" /><category term="note-to-self" /><summary type="html"><![CDATA[This month, a single line from The Daily Stoic stopped me cold:]]></summary></entry><entry><title type="html">How I Actually Measure Personal Growth</title><link href="http://localhost:4000/2026/06/12/how-i-measure-personal-growth.html" rel="alternate" type="text/html" title="How I Actually Measure Personal Growth" /><published>2026-06-12T00:00:00+05:30</published><updated>2026-06-12T00:00:00+05:30</updated><id>http://localhost:4000/2026/06/12/how-i-measure-personal-growth</id><content type="html" xml:base="http://localhost:4000/2026/06/12/how-i-measure-personal-growth.html"><![CDATA[<p>Nobody hands you a progress bar for your own life.</p>
 
 <p>That’s the annoying part. You get one for everything else. Step counts, Spotify minutes, GitHub streaks, a credit score that updates whether you asked it to or not. But the one thing you’d actually want to track, am I getting better at being alive, ships with no dashboard. So you reach for lazy stand-ins. How busy your week looks. How you’re doing against the people you started out with. Whether, from the outside, you seem like someone going somewhere.</p>
 
@@ -238,7 +403,7 @@
 
 <p>So maybe that’s the dashboard I was looking for at the top. Not step counts or salary. Just one needle: the day choosing one good thing and killing the alternatives stops scaring me. When that reading flips, it won’t be settling.</p>
 
-<p>That’ll be the growth.</p>]]></content><author><name>Parth Batra</name></author><category term="self-improvement" /><category term="psychology" /><category term="mindset" /><summary type="html"><![CDATA[Nobody hands you a progress bar for your own life.]]></summary></entry><entry><title type="html">Spiti Took Five Days to Take Me Apart. A 7-Year-Old Did It in Four Seconds.</title><link href="http://localhost:4000/2026/06/08/spiti-took-five-days-to-take-me-apart.html" rel="alternate" type="text/html" title="Spiti Took Five Days to Take Me Apart. A 7-Year-Old Did It in Four Seconds." /><published>2026-06-08T00:00:00+05:30</published><updated>2026-06-08T00:00:00+05:30</updated><id>http://localhost:4000/2026/06/08/spiti-took-five-days-to-take-me-apart</id><content type="html" xml:base="http://localhost:4000/2026/06/08/spiti-took-five-days-to-take-me-apart.html"><![CDATA[<style>
+<p>That’ll be the growth.</p>]]></content><author><name>Parth Batra</name></author><category term="note-to-self" /><category term="brain-glitch" /><summary type="html"><![CDATA[Nobody hands you a progress bar for your own life.]]></summary></entry><entry><title type="html">Spiti Took Five Days to Take Me Apart. A 7-Year-Old Did It in Four Seconds.</title><link href="http://localhost:4000/2026/06/08/spiti-took-five-days-to-take-me-apart.html" rel="alternate" type="text/html" title="Spiti Took Five Days to Take Me Apart. A 7-Year-Old Did It in Four Seconds." /><published>2026-06-08T00:00:00+05:30</published><updated>2026-06-08T00:00:00+05:30</updated><id>http://localhost:4000/2026/06/08/spiti-took-five-days-to-take-me-apart</id><content type="html" xml:base="http://localhost:4000/2026/06/08/spiti-took-five-days-to-take-me-apart.html"><![CDATA[<style>
 .video-wrapper {
   margin: 1.25rem 0;
   border-radius: 8px;
@@ -551,7 +716,7 @@
 </script>
 
 <p><img src="/assets/images/spiti-assets/kee-monastry.JPG" alt="Kee Monastery nestled in the Spiti valley" />
-<em>Spiti doesn’t let you leave with all your edges intact. That’s probably the point.</em></p>]]></content><author><name>Parth Batra</name></author><category term="travel" /><category term="spiti" /><category term="self-improvement" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">What Actually Happens in the Second After You Say Hello to an AI</title><link href="http://localhost:4000/2026/05/24/building-an-open-source-vapi-alternative.html" rel="alternate" type="text/html" title="What Actually Happens in the Second After You Say Hello to an AI" /><published>2026-05-24T00:00:00+05:30</published><updated>2026-05-24T00:00:00+05:30</updated><id>http://localhost:4000/2026/05/24/building-an-open-source-vapi-alternative</id><content type="html" xml:base="http://localhost:4000/2026/05/24/building-an-open-source-vapi-alternative.html"><![CDATA[<p>You call a number, an AI picks up, you say “hello,” and it says “hello” back. Feels instant. Feels simple. It is neither.</p>
+<em>Spiti doesn’t let you leave with all your edges intact. That’s probably the point.</em></p>]]></content><author><name>Parth Batra</name></author><category term="nomading" /><category term="note-to-self" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">I Built a Voice AI in 30 Days. Its Hardest Bug Took Three.</title><link href="http://localhost:4000/2026/05/24/building-an-open-source-vapi-alternative.html" rel="alternate" type="text/html" title="I Built a Voice AI in 30 Days. Its Hardest Bug Took Three." /><published>2026-05-24T00:00:00+05:30</published><updated>2026-05-24T00:00:00+05:30</updated><id>http://localhost:4000/2026/05/24/building-an-open-source-vapi-alternative</id><content type="html" xml:base="http://localhost:4000/2026/05/24/building-an-open-source-vapi-alternative.html"><![CDATA[<p>You call a number, an AI picks up, you say “hello,” and it says “hello” back. Feels instant. Feels simple. It is neither.</p>
 
 <figure class="diagram">
 <svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="A filmstrip unspooling one second into five frames: phone handset, globe network, microphone, sound waves becoming text, and a speech bubble." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
@@ -968,7 +1133,7 @@
 
 <hr />
 
-<p><em>The commit messages are vague but the code tells the real story.</em></p>]]></content><author><name>Parth Batra</name></author><category term="ai" /><category term="software" /><category term="open-source" /><category term="vapi" /><summary type="html"><![CDATA[You call a number, an AI picks up, you say “hello,” and it says “hello” back. Feels instant. Feels simple. It is neither.]]></summary></entry><entry><title type="html">Your iPhone Is Lying to You About Progress</title><link href="http://localhost:4000/2026/05/22/your-iphone-is-lying-to-you-about-progress.html" rel="alternate" type="text/html" title="Your iPhone Is Lying to You About Progress" /><published>2026-05-22T00:00:00+05:30</published><updated>2026-05-22T00:00:00+05:30</updated><id>http://localhost:4000/2026/05/22/your-iphone-is-lying-to-you-about-progress</id><content type="html" xml:base="http://localhost:4000/2026/05/22/your-iphone-is-lying-to-you-about-progress.html"><![CDATA[<p>I’ve been reading <a href="https://www.simonandschuster.com/books/Chip-War/Chris-Miller/9781982172008"><em>Chip War</em></a> this month and one idea from it has been stuck in my head. We’ve been trained to expect linear technological progress. New iPhone every year, 20% faster, 20% more efficient. Science doesn’t work that way.</p>
+<p><em>The commit messages are vague but the code tells the real story.</em></p>]]></content><author><name>Parth Batra</name></author><category term="ai &amp; tech" /><category term="get-shit-done" /><summary type="html"><![CDATA[You call a number, an AI picks up, you say “hello,” and it says “hello” back. Feels instant. Feels simple. It is neither.]]></summary></entry><entry><title type="html">Your iPhone Is Lying to You About Progress</title><link href="http://localhost:4000/2026/05/22/your-iphone-is-lying-to-you-about-progress.html" rel="alternate" type="text/html" title="Your iPhone Is Lying to You About Progress" /><published>2026-05-22T00:00:00+05:30</published><updated>2026-05-22T00:00:00+05:30</updated><id>http://localhost:4000/2026/05/22/your-iphone-is-lying-to-you-about-progress</id><content type="html" xml:base="http://localhost:4000/2026/05/22/your-iphone-is-lying-to-you-about-progress.html"><![CDATA[<p>I’ve been reading <a href="https://www.simonandschuster.com/books/Chip-War/Chris-Miller/9781982172008"><em>Chip War</em></a> this month and one idea from it has been stuck in my head. We’ve been trained to expect linear technological progress. New iPhone every year, 20% faster, 20% more efficient. Science doesn’t work that way.</p>
 
 <p>A colleague recently shipped a project that took almost two years. For the first year and a half, nothing worked. Just optimization, failure, more optimization. Then devices started working and results came fast. If they were a smartphone company, they’d have to show progress every single year. How do you show progress when your devices aren’t working yet?</p>
 
@@ -993,7 +1158,7 @@
 
 <p>Hardware progress has been slowing for 15 to 20 years. We’re at the physical limits of how small a transistor can get. The improvements you see now are mostly software, not hardware. They’re not the same thing.</p>
 
-<p>Once you see the line for what it is, the yearly upgrade cycle stops feeling like progress and starts feeling like a release schedule.</p>]]></content><author><name>Parth Batra</name></author><category term="critical-thinking" /><category term="hardware" /><category term="books" /><summary type="html"><![CDATA[I’ve been reading Chip War this month and one idea from it has been stuck in my head. We’ve been trained to expect linear technological progress. New iPhone every year, 20% faster, 20% more efficient. Science doesn’t work that way.]]></summary></entry><entry><title type="html">Burnout Isn’t From Doing Too Much. It’s From Friction.</title><link href="http://localhost:4000/2026/04/22/burnout-isnt-from-doing-too-much.html" rel="alternate" type="text/html" title="Burnout Isn’t From Doing Too Much. It’s From Friction." /><published>2026-04-22T00:00:00+05:30</published><updated>2026-04-22T00:00:00+05:30</updated><id>http://localhost:4000/2026/04/22/burnout-isnt-from-doing-too-much</id><content type="html" xml:base="http://localhost:4000/2026/04/22/burnout-isnt-from-doing-too-much.html"><![CDATA[<p><a href="https://www.youtube.com/watch?v=P0Zgr9xwu4Y">Graham Weaver</a>, a professor at Stanford, made a point this month that sounds corny until you sit with it. Energy, he argues, is not exhaustible. Not the physics kind. The human kind.</p>
+<p>Once you see the line for what it is, the yearly upgrade cycle stops feeling like progress and starts feeling like a release schedule.</p>]]></content><author><name>Parth Batra</name></author><category term="just-a-thought" /><category term="book-brain" /><summary type="html"><![CDATA[I’ve been reading Chip War this month and one idea from it has been stuck in my head. We’ve been trained to expect linear technological progress. New iPhone every year, 20% faster, 20% more efficient. Science doesn’t work that way.]]></summary></entry><entry><title type="html">Burnout Isn’t From Doing Too Much. It’s From Friction.</title><link href="http://localhost:4000/2026/04/22/burnout-isnt-from-doing-too-much.html" rel="alternate" type="text/html" title="Burnout Isn’t From Doing Too Much. It’s From Friction." /><published>2026-04-22T00:00:00+05:30</published><updated>2026-04-22T00:00:00+05:30</updated><id>http://localhost:4000/2026/04/22/burnout-isnt-from-doing-too-much</id><content type="html" xml:base="http://localhost:4000/2026/04/22/burnout-isnt-from-doing-too-much.html"><![CDATA[<p><a href="https://www.youtube.com/watch?v=P0Zgr9xwu4Y">Graham Weaver</a>, a professor at Stanford, made a point this month that sounds corny until you sit with it. Energy, he argues, is not exhaustible. Not the physics kind. The human kind.</p>
 
 <p>Think about it. You kiss someone you love today. Does that make you less capable of kissing them tomorrow? You play with your dog today. Less capable of playing with your dog tomorrow? Of course not.</p>
 
@@ -1019,7 +1184,7 @@
 
 <p>I’m not naive. We all have responsibilities, families, bills. You can’t just quit everything and follow your passion. That’s terrible advice. But you can find the thing you love and do it at a smaller scale. I write these poems, blogs, and stories not at the scale I’d like, but at the scale I can manage alongside a full-time job. And it gives me something to look forward to every single week. As long as it’s exciting, I’ll keep doing it. When it stops being exciting, I’ll switch topics. Don’t worry, it’ll be hard to get rid of me.</p>
 
-<p>So if you’re tired all the time, don’t just cut your workload. Look at the friction first. Sometimes the fix isn’t doing less. It’s closing the gap between what you do and what you actually want to do.</p>]]></content><author><name>Parth Batra</name></author><category term="mindset" /><category term="self-improvement" /><category term="productivity" /><summary type="html"><![CDATA[Graham Weaver, a professor at Stanford, made a point this month that sounds corny until you sit with it. Energy, he argues, is not exhaustible. Not the physics kind. The human kind.]]></summary></entry><entry><title type="html">I Cloned a ₹20,000 Light Setup for Under ₹2,000</title><link href="http://localhost:4000/2026/04/18/i-cloned-a-20000-light-setup-for-under-2000.html" rel="alternate" type="text/html" title="I Cloned a ₹20,000 Light Setup for Under ₹2,000" /><published>2026-04-18T00:00:00+05:30</published><updated>2026-04-18T00:00:00+05:30</updated><id>http://localhost:4000/2026/04/18/i-cloned-a-20000-light-setup-for-under-2000</id><content type="html" xml:base="http://localhost:4000/2026/04/18/i-cloned-a-20000-light-setup-for-under-2000.html"><![CDATA[<p>Philips wants <strong>₹20,000</strong> for the Hue Play Gradient Lightstrip. Twenty. Thousand. Rupees. For LEDs.</p>
+<p>So if you’re tired all the time, don’t just cut your workload. Look at the friction first. Sometimes the fix isn’t doing less. It’s closing the gap between what you do and what you actually want to do.</p>]]></content><author><name>Parth Batra</name></author><category term="note-to-self" /><category term="get-shit-done" /><summary type="html"><![CDATA[Graham Weaver, a professor at Stanford, made a point this month that sounds corny until you sit with it. Energy, he argues, is not exhaustible. Not the physics kind. The human kind.]]></summary></entry><entry><title type="html">I Cloned a ₹20,000 Light Setup for Under ₹2,000</title><link href="http://localhost:4000/2026/04/18/i-cloned-a-20000-light-setup-for-under-2000.html" rel="alternate" type="text/html" title="I Cloned a ₹20,000 Light Setup for Under ₹2,000" /><published>2026-04-18T00:00:00+05:30</published><updated>2026-04-18T00:00:00+05:30</updated><id>http://localhost:4000/2026/04/18/i-cloned-a-20000-light-setup-for-under-2000</id><content type="html" xml:base="http://localhost:4000/2026/04/18/i-cloned-a-20000-light-setup-for-under-2000.html"><![CDATA[<p>Philips wants <strong>₹20,000</strong> for the Hue Play Gradient Lightstrip. Twenty. Thousand. Rupees. For LEDs.</p>
 
 <figure class="diagram">
 <svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="TV outline with soft glow halo behind it. Two price tags hanging off: one crossed-out rupees twenty thousand, one small rupees two thousand." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
@@ -1274,7 +1439,7 @@
 
 <hr />
 
-<p><em>Sometimes the best tech isn’t the most expensive. It’s the one you build yourself, learn from, and can actually fix when it breaks at 2am.</em></p>]]></content><author><name>Parth Batra</name></author><category term="diy" /><category term="hardware" /><category term="raspberry-pi" /><summary type="html"><![CDATA[Philips wants ₹20,000 for the Hue Play Gradient Lightstrip. Twenty. Thousand. Rupees. For LEDs.]]></summary></entry><entry><title type="html">A 2 P.M. Meeting Costs Me Five Hours, Not One</title><link href="http://localhost:4000/2026/03/22/a-2pm-meeting-costs-me-five-hours.html" rel="alternate" type="text/html" title="A 2 P.M. Meeting Costs Me Five Hours, Not One" /><published>2026-03-22T00:00:00+05:30</published><updated>2026-03-22T00:00:00+05:30</updated><id>http://localhost:4000/2026/03/22/a-2pm-meeting-costs-me-five-hours</id><content type="html" xml:base="http://localhost:4000/2026/03/22/a-2pm-meeting-costs-me-five-hours.html"><![CDATA[<p>This month I finally understood why some days feel productive and some days just evaporate. Paul Graham wrote a blog post years ago called <a href="https://www.paulgraham.com/makersschedule.html">“Maker’s Schedule, Manager’s Schedule”</a> and it explained something I’d been feeling but couldn’t articulate.</p>
+<p><em>Sometimes the best tech isn’t the most expensive. It’s the one you build yourself, learn from, and can actually fix when it breaks at 2am.</em></p>]]></content><author><name>Parth Batra</name></author><category term="ai &amp; tech" /><category term="made-this-up" /><summary type="html"><![CDATA[Philips wants ₹20,000 for the Hue Play Gradient Lightstrip. Twenty. Thousand. Rupees. For LEDs.]]></summary></entry><entry><title type="html">A 2 P.M. Meeting Costs Me Five Hours, Not One</title><link href="http://localhost:4000/2026/03/22/a-2pm-meeting-costs-me-five-hours.html" rel="alternate" type="text/html" title="A 2 P.M. Meeting Costs Me Five Hours, Not One" /><published>2026-03-22T00:00:00+05:30</published><updated>2026-03-22T00:00:00+05:30</updated><id>http://localhost:4000/2026/03/22/a-2pm-meeting-costs-me-five-hours</id><content type="html" xml:base="http://localhost:4000/2026/03/22/a-2pm-meeting-costs-me-five-hours.html"><![CDATA[<p>This month I finally understood why some days feel productive and some days just evaporate. Paul Graham wrote a blog post years ago called <a href="https://www.paulgraham.com/makersschedule.html">“Maker’s Schedule, Manager’s Schedule”</a> and it explained something I’d been feeling but couldn’t articulate.</p>
 
 <p>The manager schedule is what we all aspire toward. Back-to-back meetings from 9 to 6. You finish one, walk into the next. It looks productive because important people do it.</p>
 
@@ -1306,238 +1471,4 @@
 
 <p>Now I try to stack all my meetings on one day and protect the other days entirely. My own writing improved noticeably once I started doing this. Everything creative requires a maker schedule. And yes, solving equations counts as creative work.</p>
 
-<p>If your real work needs long, unbroken stretches, guard them like they’re load-bearing. Because they are.</p>]]></content><author><name>Parth Batra</name></author><category term="productivity" /><category term="habits" /><category term="self-improvement" /><summary type="html"><![CDATA[This month I finally understood why some days feel productive and some days just evaporate. Paul Graham wrote a blog post years ago called “Maker’s Schedule, Manager’s Schedule” and it explained something I’d been feeling but couldn’t articulate.]]></summary></entry><entry><title type="html">Your Dream Retirement Costs 3,000 Euros. You Can Take It Now.</title><link href="http://localhost:4000/2026/03/15/i-read-the-4-hour-work-week.html" rel="alternate" type="text/html" title="Your Dream Retirement Costs 3,000 Euros. You Can Take It Now." /><published>2026-03-15T00:00:00+05:30</published><updated>2026-03-15T00:00:00+05:30</updated><id>http://localhost:4000/2026/03/15/i-read-the-4-hour-work-week</id><content type="html" xml:base="http://localhost:4000/2026/03/15/i-read-the-4-hour-work-week.html"><![CDATA[<p>A round-the-world plane ticket costs about €3,000. The retirement trip I’d been filing under “someday for the last decade” was sitting there the whole time, priced at less than a used motorcycle.</p>
-
-<p>I figured that out at 2am, the moment I finished <a href="https://www.youtube.com/watch?v=Kz663aIOSLg"><em>The 4-Hour Work Week</em></a> by Tim Ferriss. First thought: I’m stupid. Why didn’t I read this 10 years ago? Not a casual reaction. More like genuinely annoyed at my past self for sitting on a life I could already afford.</p>
-
-<p>Here are the 4 ideas that actually changed how I think about my time, my goals, and the life I’m building.</p>
-
-<figure class="diagram">
-<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="Funnel with many dots pouring in at the wide top, passing through four filter stages, and a single dot emerging from the narrow bottom." fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <!-- Funnel outline -->
-  <polyline points="50,18 340,18 280,118 130,118" />
-  <line x1="50" y1="18" x2="130" y2="118" />
-  <line x1="340" y1="18" x2="280" y2="118" />
-  <!-- Funnel spout -->
-  <line x1="130" y1="118" x2="195" y2="140" />
-  <line x1="280" y1="118" x2="215" y2="140" />
-  <line x1="195" y1="140" x2="215" y2="140" />
-
-  <!-- Four inner rungs / filter gates -->
-  <line x1="82" y1="44" x2="318" y2="44" stroke-dasharray="3 5" opacity="0.35" />
-  <line x1="95" y1="68" x2="307" y2="68" stroke-dasharray="3 5" opacity="0.35" />
-  <line x1="108" y1="92" x2="296" y2="92" stroke-dasharray="3 5" opacity="0.35" />
-  <line x1="123" y1="118" x2="280" y2="118" stroke-dasharray="3 5" opacity="0.35" />
-
-  <!-- Labels on the rungs -->
-  <g stroke="none" fill="currentColor" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" text-anchor="middle">
-    <text x="60" y="25" font-size="11" opacity="0.6">D</text>
-    <text x="60" y="49" font-size="11" opacity="0.6">E</text>
-    <text x="60" y="73" font-size="11" opacity="0.6">A</text>
-    <text x="60" y="97" font-size="11" opacity="0.6">L</text>
-  </g>
-
-  <!-- Scattered cloud of dots pouring in at top -->
-  <g stroke="none" fill="currentColor" opacity="0.8">
-    <circle cx="170" cy="10" r="3" />
-    <circle cx="220" cy="8" r="2.2" />
-    <circle cx="140" cy="6" r="2.5" />
-    <circle cx="280" cy="12" r="2" />
-    <circle cx="100" cy="11" r="2.8" />
-    <circle cx="310" cy="8" r="1.8" />
-    <circle cx="250" cy="5" r="2" />
-    <circle cx="190" cy="14" r="2.2" />
-    <circle cx="120" cy="15" r="1.8" />
-    <circle cx="300" cy="14" r="2.5" />
-    <circle cx="155" cy="12" r="2" />
-    <circle cx="235" cy="10" r="1.8" />
-    <circle cx="80" cy="8" r="2" />
-    <circle cx="265" cy="14" r="2.2" />
-    <circle cx="200" cy="6" r="2.5" />
-  </g>
-
-  <!-- Single dot emerging from spout -->
-  <circle cx="205" cy="148" r="4" />
-</svg>
-<figcaption>Tim Ferriss's DEAL sequence: each stage filters your life down to what's left worth doing.</figcaption>
-</figure>
-
-<hr />
-
-<h2 id="define-youre-fulfilling-a-dead-persons-dreams">Define: You’re Fulfilling a Dead Person’s Dreams</h2>
-
-<p>Tim makes a point that sounds weird at first: we’re always trying to fulfill the dreams of our past self. You dream something today, you work toward it, and by the time you get there, the person who wanted it doesn’t really exist anymore.</p>
-
-<p>Sounds philosophical, but it’s brutally practical. Think about it. We all say things like “I’ll travel the world after I retire.” But will you have the same energy at 65? The same excitement? The same knees?</p>
-
-<p>Remember that €3,000 round-the-world ticket from the top? That’s the whole “someday” trip, right there. Roughly Rs. 2.7 lakh and a passport.</p>
-
-<p>I always assumed India was cheap and everywhere else was a different planet. Then I checked rentals in San Sebastian, a genuinely pricey Spanish coastal city, and found one-bedroom flats around €700 a month. That’s about Rs. 63,000, the same as a decent 1BHK in central Bangalore. The dreams you’re postponing are cheaper than you think.</p>
-
-<p>Tim’s challenge: split that “someday” vacation into pieces you take now, not later. Every few years, not after you’re too tired to enjoy it.</p>
-
-<hr />
-
-<h2 id="eliminate-efficiency-is-a-trap">Eliminate: Efficiency Is a Trap</h2>
-
-<p>Our entire world is obsessed with efficiency. Buy this app, subscribe to this tool, optimize this workflow. Everything screams “do it faster.”</p>
-
-<p>Nobody asks if the thing needed doing at all.</p>
-
-<p>That’s the distinction that matters. You can be incredibly efficient at something that should have been eliminated entirely. The first question should always be: can I just not do this? If yes, done. If it’s genuinely important, <em>then</em> think about doing it efficiently.</p>
-
-<p>This is the <a href="https://en.wikipedia.org/wiki/Pareto_principle">80/20 principle</a> in action. 20% of your efforts produce 80% of your results. But in my experience, it’s even more extreme with people. Less than 5% of the people in your life create 95% of your headaches.</p>
-
-<p>I’ve had friends who complained every single time we hung out. Good life, no real problems, just endless negativity. I told them straight up: this isn’t fun anymore.</p>
-
-<p>Some people just need a nudge. Give them a couple weeks. If they don’t shift, start creating distance.</p>
-
-<p>One filter that’s saved me more time than any productivity app: ask yourself, “Am I inventing stuff to avoid the important things?” The magic you’re looking for is in the work you’re actively dodging.</p>
-
-<hr />
-
-<h2 id="automate-if-it-costs-less-than-your-hourly-rate-outsource-it">Automate: If It Costs Less Than Your Hourly Rate, Outsource It</h2>
-
-<p>After elimination, whatever’s left needs to be handled. The rule is simple: if a task costs less than your hourly salary to outsource, outsource it.</p>
-
-<p>I used to take a 40-minute bus across town to a cheaper supermarket to shave maybe Rs. 150 off a Rs. 1,500 grocery run. I’d buy in bulk for two weeks. Inevitably a couple things would spoil before I got to them. There go the savings, plus two hours of my Sunday.</p>
-
-<p>Add the mental overhead of planning, carrying, and storing, and you’re paying to stress yourself out.</p>
-
-<p>Now I buy from the supermarket near my institute on my way home. Zero hassle. Mental peace intact.</p>
-
-<p>Here’s the decision protocol that works:</p>
-
-<ol>
-  <li>Would you enjoy doing this task? If yes, do it.</li>
-  <li>If no, is it financially worthwhile? If not, eliminate it.</li>
-  <li>If it’s worthwhile but you won’t enjoy it, can you outsource it? Do that.</li>
-  <li>Only if you can’t outsource it and it’s mandatory should you do it yourself.</li>
-</ol>
-
-<figure class="diagram">
-<svg viewBox="0 0 380 280" width="100%" height="auto" role="img" aria-label="Decision flowchart: Enjoy it, yes do it; Worthwhile, no eliminate; Outsource, yes outsource; otherwise do it yourself." fill="none" stroke="currentColor" stroke-width="1.5" font-family="-apple-system, sans-serif" font-size="12.5">
-  <g text-anchor="middle">
-    <rect x="50" y="14" width="130" height="36" rx="3" />
-    <text x="115" y="36" stroke="none" fill="currentColor">Enjoy it?</text>
-    <rect x="50" y="86" width="130" height="36" rx="3" />
-    <text x="115" y="108" stroke="none" fill="currentColor">Worthwhile?</text>
-    <rect x="50" y="158" width="130" height="36" rx="3" />
-    <text x="115" y="180" stroke="none" fill="currentColor">Outsource?</text>
-    <rect x="50" y="230" width="130" height="36" rx="3" />
-    <text x="115" y="252" stroke="none" fill="currentColor">Do it yourself</text>
-    <rect x="250" y="14" width="110" height="36" rx="3" />
-    <text x="305" y="36" stroke="none" fill="currentColor">Do it</text>
-    <rect x="250" y="86" width="110" height="36" rx="3" />
-    <text x="305" y="108" stroke="none" fill="currentColor">Eliminate</text>
-    <rect x="250" y="158" width="110" height="36" rx="3" />
-    <text x="305" y="180" stroke="none" fill="currentColor">Outsource</text>
-  </g>
-  <path d="M115 50 V86 M115 122 V158 M115 194 V230" />
-  <path d="M180 32 H250 M180 104 H250 M180 176 H250" />
-  <g stroke="none" fill="currentColor" font-size="11" opacity="0.6">
-    <text x="200" y="28">yes</text>
-    <text x="200" y="100">no</text>
-    <text x="200" y="172">yes</text>
-    <text x="123" y="74">no</text>
-    <text x="123" y="146">yes</text>
-    <text x="123" y="218">no</text>
-  </g>
-</svg>
-<figcaption>The protocol as a flowchart: most tasks get answered before they ever reach "do it yourself."</figcaption>
-</figure>
-
-<p>Why eliminate and automate so aggressively? To free up time for the stuff you actually want to do. Learn that instrument. Spend time with family. Pick up a sport you’ve been “meaning to try” for three years.</p>
-
-<p>Or build a skill in what Tim calls the “and economy,” where you don’t need one career, you need a stack of complementary ones.</p>
-
-<hr />
-
-<h2 id="liberation-your-past-decisions-dont-own-your-future">Liberation: Your Past Decisions Don’t Own Your Future</h2>
-
-<p>This one hit different. Liberation is about not letting your past hold your future hostage.</p>
-
-<p>You’re still dealing with the consequences of decisions you made 5, 10, 15 years ago. If you don’t make new ones now, you’ll keep suffering for the next 15. The compound interest of indecision is brutal.</p>
-
-<p>Liberation comes from accepting your fears, not conquering them. When I started sharing my ideas publicly, I was terrified. Am I making sense? Is the structure right? What if someone who knows more reads it?</p>
-
-<p>You don’t overcome that list. You just start, with a deadline.</p>
-
-<p>Here’s what my advisor told me during my master’s, after I made a mistake so bad I wanted to dissolve into the floor: “The only way to not make mistakes is by not doing anything.” He was being kind. He was also completely right.</p>
-
-<p>You can’t break the machine in the lab if you never walk into the lab.</p>
-
-<p>Every action, even a failed one, trains your action muscle. You generate momentum. The only way to succeed is by failing faster.</p>
-
-<hr />
-
-<p>So no, I’m not stupid for reading this at 30 instead of 20. The book didn’t hand me a new life. It handed me back the one I already had, the Rs. 2.7 lakh trip and all, buried under tasks that didn’t matter and fears I’d never actually tested. The someday list was never waiting on money. It was waiting on me to do the arithmetic.</p>]]></content><author><name>Parth Batra</name></author><category term="productivity" /><category term="books" /><category term="mindset" /><summary type="html"><![CDATA[A round-the-world plane ticket costs about €3,000. The retirement trip I’d been filing under “someday for the last decade” was sitting there the whole time, priced at less than a used motorcycle.]]></summary></entry><entry><title type="html">I Did the Math on a Shawshank Escape. It Checks Out.</title><link href="http://localhost:4000/2026/02/22/i-did-the-math-on-a-shawshank-escape.html" rel="alternate" type="text/html" title="I Did the Math on a Shawshank Escape. It Checks Out." /><published>2026-02-22T00:00:00+05:30</published><updated>2026-02-22T00:00:00+05:30</updated><id>http://localhost:4000/2026/02/22/i-did-the-math-on-a-shawshank-escape</id><content type="html" xml:base="http://localhost:4000/2026/02/22/i-did-the-math-on-a-shawshank-escape.html"><![CDATA[<p>It was 2 a.m. and I should’ve been asleep. Instead, I was lying in bed doing back-of-the-napkin calculations about whether Andy Dufresne could actually dig through that wall in 19 years with a tiny rock hammer. This is what happens when you spend years doing maths and still can’t turn off your brain at night.</p>
-
-<p>This kicks off something new I’m trying: The Monthly Rabbit Hole. Every month I fall into one idea, a calculation, a book, a stray sentence, and write it up small. One month, one rabbit hole. This month’s started with a prison movie.</p>
-
-<p>Turns out, the math checks out beautifully. And it taught me something I keep forgetting.</p>
-
-<p>Let me walk you through it. The tunnel looked roughly 10 meters long and half a meter wide based on Andy’s shoulder width. Assuming a circular cross-section, that’s a volume of about 1.96 cubic meters. With a density of roughly 1,600 kg per cubic meter for concrete and sand, we’re talking about 3,136 kg of material to remove.</p>
-
-<p>Nineteen years is 6,935 days. If Andy scraped out between half a liter and one liter per day, he’d remove about 5.2 cubic meters in that time. He only needed 1.96. The guy could’ve skipped every other day and still made it.</p>
-
-<figure class="diagram">
-<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="Cross-section of a thick prison wall with a comically thin horizontal tunnel carved through it." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
-  <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <!-- Wall outline -->
-    <rect x="20" y="12" width="340" height="126" rx="3" />
-
-    <!-- Brick lines (horizontal courses) -->
-    <line x1="20" y1="40" x2="360" y2="40" stroke-width="1.5" opacity="0.35" />
-    <line x1="20" y1="66" x2="360" y2="66" stroke-width="1.5" opacity="0.35" />
-    <line x1="20" y1="92" x2="360" y2="92" stroke-width="1.5" opacity="0.35" />
-    <line x1="20" y1="118" x2="360" y2="118" stroke-width="1.5" opacity="0.35" />
-
-    <!-- Vertical brick stagger lines -->
-    <line x1="75" y1="12" x2="75" y2="40" stroke-width="1.2" opacity="0.2" />
-    <line x1="140" y1="12" x2="140" y2="40" stroke-width="1.2" opacity="0.2" />
-    <line x1="220" y1="12" x2="220" y2="40" stroke-width="1.2" opacity="0.2" />
-    <line x1="300" y1="12" x2="300" y2="40" stroke-width="1.2" opacity="0.2" />
-    <line x1="50" y1="40" x2="50" y2="66" stroke-width="1.2" opacity="0.2" />
-    <line x1="110" y1="40" x2="110" y2="66" stroke-width="1.2" opacity="0.2" />
-    <line x1="180" y1="40" x2="180" y2="66" stroke-width="1.2" opacity="0.2" />
-    <line x1="260" y1="40" x2="260" y2="66" stroke-width="1.2" opacity="0.2" />
-    <line x1="330" y1="40" x2="330" y2="66" stroke-width="1.2" opacity="0.2" />
-    <line x1="75" y1="66" x2="75" y2="92" stroke-width="1.2" opacity="0.2" />
-    <line x1="145" y1="66" x2="145" y2="92" stroke-width="1.2" opacity="0.2" />
-    <line x1="225" y1="66" x2="225" y2="92" stroke-width="1.2" opacity="0.2" />
-    <line x1="305" y1="66" x2="305" y2="92" stroke-width="1.2" opacity="0.2" />
-    <line x1="50" y1="92" x2="50" y2="118" stroke-width="1.2" opacity="0.2" />
-    <line x1="115" y1="92" x2="115" y2="118" stroke-width="1.2" opacity="0.2" />
-    <line x1="190" y1="92" x2="190" y2="118" stroke-width="1.2" opacity="0.2" />
-    <line x1="275" y1="92" x2="275" y2="118" stroke-width="1.2" opacity="0.2" />
-    <line x1="335" y1="92" x2="335" y2="118" stroke-width="1.2" opacity="0.2" />
-
-    <!-- Thin horizontal tunnel cut through the wall -->
-    <rect x="20" y="63" width="340" height="8" rx="1" />
-
-    <!-- Tunnel entrance opening on left face -->
-    <rect x="14" y="59" width="10" height="16" rx="2" />
-
-    <!-- Tiny figure emerging from tunnel -->
-    <circle cx="44" cy="56" r="4" fill="currentColor" stroke="none" />
-    <line x1="44" y1="60" x2="44" y2="73" stroke-width="1.5" />
-    <line x1="44" y1="64" x2="37" y2="69" stroke-width="1.2" />
-    <line x1="44" y1="64" x2="51" y2="69" stroke-width="1.2" />
-    <line x1="44" y1="73" x2="38" y2="82" stroke-width="1.2" />
-    <line x1="44" y1="73" x2="50" y2="82" stroke-width="1.2" />
-
-    <!-- Arrow pointing at tunnel -->
-    <line x1="190" y1="145" x2="190" y2="75" stroke-width="1.5" />
-    <line x1="190" y1="75" x2="180" y2="85" stroke-width="1.5" />
-    <line x1="190" y1="75" x2="200" y2="85" stroke-width="1.5" />
-  </g>
-</svg>
-<figcaption>Over 19 years he could remove about 5.2 m³ but needed only 1.96. Barely 38% of his capacity.</figcaption>
-</figure>
-
-<p>Here’s what hit me: the dreams you think will take 600 years are hardly 20 years away. That’s a 30x gap. Even if real life isn’t a movie and the factor is only 5x or 3x, the thing you’re certain will take a decade? It might take three and a half years. My master’s advisor said something similar when I started: small extra effort every day compounds brutally over 150 to 200 weeks.</p>
-
-<p>I wrote something on a sticky note a while back that still holds up: tiny steps taken consistently over a long period of time result in magic. The Shawshank math proves it.</p>
-
-<p>So the next time you file a dream under “someday,” run the actual numbers first. The wall is usually thinner than the sentence makes it sound.</p>]]></content><author><name>Parth Batra</name></author><category term="self-improvement" /><category term="productivity" /><category term="mindset" /><summary type="html"><![CDATA[It was 2 a.m. and I should’ve been asleep. Instead, I was lying in bed doing back-of-the-napkin calculations about whether Andy Dufresne could actually dig through that wall in 19 years with a tiny rock hammer. This is what happens when you spend years doing maths and still can’t turn off your brain at night.]]></summary></entry></feed>
+<p>If your real work needs long, unbroken stretches, guard them like they’re load-bearing. Because they are.</p>]]></content><author><name>Parth Batra</name></author><category term="get-shit-done" /><category term="tiny-reps" /><category term="note-to-self" /><summary type="html"><![CDATA[This month I finally understood why some days feel productive and some days just evaporate. Paul Graham wrote a blog post years ago called “Maker’s Schedule, Manager’s Schedule” and it explained something I’d been feeling but couldn’t articulate.]]></summary></entry></feed>

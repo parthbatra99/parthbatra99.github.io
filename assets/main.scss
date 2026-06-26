@@ -9,6 +9,32 @@
   --line: #e2dfd9;
   --accent: #c1492b;
   --shell: min(720px, calc(100vw - 2rem));
+  color-scheme: light;
+}
+
+/* Dark theme — warm dark to keep the editorial paper feel.
+   Applied via [data-theme="dark"] (explicit user choice) and via
+   prefers-color-scheme when the user hasn't picked one yet. */
+[data-theme="dark"] {
+  --bg: #1a1918;
+  --surface: #24221f;
+  --text: #f0ede5;
+  --muted: #9b948a;
+  --line: #36322d;
+  --accent: #e06a4d;
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]):not([data-theme="dark"]) {
+    --bg: #1a1918;
+    --surface: #24221f;
+    --text: #f0ede5;
+    --muted: #9b948a;
+    --line: #36322d;
+    --accent: #e06a4d;
+    color-scheme: dark;
+  }
 }
 
 * { box-sizing: border-box; }
@@ -1059,6 +1085,25 @@ a:focus-visible {
   .post-content { order: 1; }
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  body,
+  .site-header,
+  .site-footer,
+  .nav-links,
+  .nav-toggle,
+  .profile-image img,
+  .post-toc,
+  .prose code,
+  .prose pre,
+  .channel-card-link,
+  .channel-arrow,
+  .qw-month-toggle,
+  .theme-toggle {
+    transition: background-color 180ms ease, border-color 180ms ease,
+      color 180ms ease;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -1068,4 +1113,59 @@ a:focus-visible {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+/* ─── Theme toggle ───────────────────────── */
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.theme-toggle {
+  flex: 0 0 auto;
+  width: 34px;
+  height: 34px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--text);
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.theme-toggle:focus-visible {
+  outline: 2px solid var(--text);
+  outline-offset: 2px;
+}
+
+.theme-toggle:hover {
+  border-color: var(--muted);
+}
+
+.theme-toggle__icon {
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
+/* Show the icon for the theme you'll switch TO: moon in light, sun in dark. */
+.theme-toggle__icon--moon { display: block; }
+.theme-toggle__icon--sun { display: none; }
+
+[data-theme="dark"] .theme-toggle__icon--moon { display: none; }
+[data-theme="dark"] .theme-toggle__icon--sun { display: block; }
+
+/* No explicit choice yet → follow OS. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]):not([data-theme="dark"]) .theme-toggle__icon--moon { display: none; }
+  :root:not([data-theme="light"]):not([data-theme="dark"]) .theme-toggle__icon--sun { display: block; }
+}
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="light"]):not([data-theme="dark"]) .theme-toggle__icon--moon { display: block; }
+  :root:not([data-theme="light"]):not([data-theme="dark"]) .theme-toggle__icon--sun { display: none; }
 }

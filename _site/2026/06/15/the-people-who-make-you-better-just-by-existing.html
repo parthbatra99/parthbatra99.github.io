@@ -12,6 +12,17 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem("theme");
+        if (saved === "light" || saved === "dark") {
+          document.documentElement.setAttribute("data-theme", saved);
+        }
+      } catch (e) {}
+    })();
+  </script>
+
   <link rel="stylesheet" href="/assets/main.css">
 
   <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Parth Batra | fromparth.blog" />
@@ -36,6 +47,23 @@
         <span></span>
         <span></span>
       </label>
+
+      <button type="button" class="theme-toggle" aria-label="Toggle dark theme" data-theme-toggle>
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+          <circle cx="12" cy="12" r="4"/>
+          <line x1="12" y1="2" x2="12" y2="4"/>
+          <line x1="12" y1="20" x2="12" y2="22"/>
+          <line x1="2" y1="12" x2="4" y2="12"/>
+          <line x1="20" y1="12" x2="22" y2="12"/>
+          <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"/>
+          <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"/>
+          <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"/>
+          <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"/>
+        </svg>
+      </button>
 
       <div class="nav-links">
         
@@ -77,11 +105,9 @@
     
       <p class="post-tags">
         
-          <span class="post-tag">#philosophy</span>
+          <span class="post-tag">#just-a-thought</span>
         
-          <span class="post-tag">#mindset</span>
-        
-          <span class="post-tag">#self-improvement</span>
+          <span class="post-tag">#note-to-self</span>
         
       </p>
     
@@ -120,9 +146,11 @@
 <figcaption>The thought of one person you respect can nudge a choice down the better fork.</figcaption>
 </figure>
 
-<p>It hit me hard because I’ve felt this. A friend, a parent, a partner. Their very thought makes you choose better. It’s not the same as religion’s universal watcher concept, where fear of being seen keeps you in line. This is different. This comes from love, not fear. Their love inspires you to be a better human, which feels fundamentally different from being scared into being a good one.</p>
+<p>It hit me hard because I’ve felt this. Last week I was fighting with my younger brother over text. He’s five years younger, and somewhere along the way he built a picture of me that’s better than I usually am. I had a reply ready that would’ve won the argument and cost me a piece of that. Right before I sent it, his face came to mind, and I deleted it. Not because he’d catch me or punish me. He can’t do either. I’m older (and much stronger!). Because I wanted to be who he already thinks I am.</p>
 
-<p>If you haven’t felt this yet, it’ll come when you find people who truly trust you. Hard to put into words. The philosopher did it better than I can.</p>
+<p>It’s not the same as religion’s universal watcher concept, where fear of being seen keeps you in line. Fear makes you hide the worst of you. Love makes you reach for the best. Same watcher, different engine.</p>
+
+<p>The Stoic who wrote that line called it happiness. I’d call it borrowing a face you trust until your own grows into it.</p>
 
     </div>
   </div>
@@ -137,5 +165,7 @@
   </div>
 </footer>
 
+
+    <script src="/assets/js/theme.js" defer></script>
   </body>
 </html>
