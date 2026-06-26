@@ -36,7 +36,7 @@ Read that again. There are people who make us better when they're around. Then t
 <figcaption>The thought of one person you respect can nudge a choice down the better fork.</figcaption>
 </figure>
 
-It hit me hard because I've felt this. Last week I was fighting with my younger brother over text. He's five years younger, and somewhere along the way he built a picture of me that's better than I usually am. I had a reply ready that would've won the argument and cost me a piece of that. Right before I sent it, his face came to mind, and I deleted it. Not because he'd catch me or punish me. I'm older, he can't do either. Because I wanted to be who he already thinks I am.
+It hit me hard because I've felt this. Last week I was fighting with my younger brother over text. He's five years younger, and somewhere along the way he built a picture of me that's better than I usually am. I had a reply ready that would've won the argument and cost me a piece of that. Right before I sent it, his face came to mind, and I deleted it. Not because he'd catch me or punish me. He can't do either. I'm older (and much stronger!). Because I wanted to be who he already thinks I am.
 
 It's not the same as religion's universal watcher concept, where fear of being seen keeps you in line. Fear makes you hide the worst of you. Love makes you reach for the best. Same watcher, different engine.
 
