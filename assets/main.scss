@@ -1112,17 +1112,18 @@ a:focus-visible {
 
 .theme-toggle {
   flex: 0 0 auto;
-  width: 34px;
-  height: 34px;
+  width: 28px;
+  height: 28px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid var(--line);
+  border: 1px solid transparent;
   background: transparent;
-  color: var(--text);
+  color: var(--muted);
   border-radius: 4px;
   cursor: pointer;
   padding: 0;
+  transition: color 180ms ease, border-color 180ms ease;
 }
 
 .theme-toggle:focus-visible {
@@ -1131,12 +1132,12 @@ a:focus-visible {
 }
 
 .theme-toggle:hover {
-  border-color: var(--muted);
+  color: var(--text);
 }
 
 .theme-toggle__icon {
-  width: 16px;
-  height: 16px;
+  width: 15px;
+  height: 15px;
   display: block;
 }
 
