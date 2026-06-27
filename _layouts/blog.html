@@ -42,6 +42,7 @@ title: Blog
         <span class="post-list-date">{{ post.date | date: "%b %d" }}</span>
         <div class="post-list-title-group">
           <a class="post-list-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          {% if post.recommended %}<span class="post-list-star" title="Start here" aria-label="Start here">★</span>{% endif %}
           {% if post.subtitle %}<span class="post-list-subtitle">{{ post.subtitle | escape }}</span>{% endif %}
           <p class="post-list-meta">{{ post.content | strip_html | number_of_words | divided_by: 225 | at_least: 1 }} min read</p>
           {% if post.tags and post.tags.size > 0 %}

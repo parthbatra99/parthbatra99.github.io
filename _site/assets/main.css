@@ -408,6 +408,13 @@ a:focus-visible {
   text-underline-offset: 3px;
 }
 
+.post-list-star {
+  margin-left: 0.4rem;
+  font-size: 0.85rem;
+  color: var(--accent);
+  vertical-align: 1px;
+}
+
 /* ─── Channels (browse-by-kind shelves) ───── */
 .channels {
   margin-bottom: 3rem;

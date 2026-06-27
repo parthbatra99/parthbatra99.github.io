@@ -12,3 +12,6 @@ theme: minima
 plugins:
   - jekyll-toc
 
+exclude:
+  - scripts/
+

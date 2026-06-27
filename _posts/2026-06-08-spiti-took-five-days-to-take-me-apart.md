@@ -9,6 +9,8 @@ date: 2026-06-08
 tags:
   - nomading
   - note-to-self
+narration: true
+narration_src: "/assets/audio/posts/2026-06-08-spiti-took-five-days-to-take-me-apart.mp3"
 ---
 
 <style>
