@@ -4,33 +4,15 @@
   var STORAGE_KEY = "theme";
   var root = document.documentElement;
 
-  function getStored() {
-    try {
-      var saved = localStorage.getItem(STORAGE_KEY);
-      if (saved === "light" || saved === "dark") return saved;
-    } catch (e) {}
-    return null;
-  }
-
-  function systemPrefersDark() {
-    return (
-      window.matchMedia &&
-      window.matchMedia("(prefers-color-scheme: dark)").matches
-    );
-  }
-
   function currentTheme() {
     var explicit = root.getAttribute("data-theme");
     if (explicit === "light" || explicit === "dark") return explicit;
-    return systemPrefersDark() ? "dark" : "light";
+    // Light is the default unless the user has explicitly chosen dark.
+    return "light";
   }
 
   function apply(theme) {
-    if (theme === "dark") {
-      root.setAttribute("data-theme", "dark");
-    } else {
-      root.setAttribute("data-theme", "light");
-    }
+    root.setAttribute("data-theme", theme);
     syncToggle(theme);
   }
 
@@ -59,18 +41,4 @@
       apply(next);
     });
   });
-
-  // Follow OS changes — but only while the user hasn't made an explicit choice.
-  if (window.matchMedia) {
-    var mql = window.matchMedia("(prefers-color-scheme: dark)");
-    var onChange = function () {
-      if (getStored()) return;
-      apply(systemPrefersDark() ? "dark" : "light");
-    };
-    if (mql.addEventListener) {
-      mql.addEventListener("change", onChange);
-    } else if (mql.addListener) {
-      mql.addListener(onChange);
-    }
-  }
 })();

@@ -11,29 +11,17 @@
 }
 
 /* Dark theme — warm dark to keep the editorial paper feel.
-   Applied via [data-theme="dark"] (explicit user choice) and via
-   prefers-color-scheme when the user hasn't picked one yet. */
+   Off by default; applied only when the user opts in via the toggle. */
 [data-theme=dark] {
   --bg: #1a1918;
   --surface: #24221f;
   --text: #f0ede5;
   --muted: #9b948a;
-  --line: #36322d;
+  --line: #36332d;
   --accent: #e06a4d;
   color-scheme: dark;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme=light]):not([data-theme=dark]) {
-    --bg: #1a1918;
-    --surface: #24221f;
-    --text: #f0ede5;
-    --muted: #9b948a;
-    --line: #36322d;
-    --accent: #e06a4d;
-    color-scheme: dark;
-  }
-}
 * {
   box-sizing: border-box;
 }
@@ -1194,7 +1182,8 @@ a:focus-visible {
   display: block;
 }
 
-/* Show the icon for the theme you'll switch TO: moon in light, sun in dark. */
+/* Show the icon for the theme you'll switch TO: moon in light, sun in dark.
+   Light is the default, so the moon shows until dark is explicitly chosen. */
 .theme-toggle__icon--moon {
   display: block;
 }
@@ -1211,22 +1200,131 @@ a:focus-visible {
   display: block;
 }
 
-/* No explicit choice yet → follow OS. */
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme=light]):not([data-theme=dark]) .theme-toggle__icon--moon {
-    display: none;
-  }
-  :root:not([data-theme=light]):not([data-theme=dark]) .theme-toggle__icon--sun {
-    display: block;
-  }
+/* ─── Post audio player ──────────────────── */
+.post-audio {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  margin-bottom: 2.5rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
-@media (prefers-color-scheme: light) {
-  :root:not([data-theme=light]):not([data-theme=dark]) .theme-toggle__icon--moon {
-    display: block;
-  }
-  :root:not([data-theme=light]):not([data-theme=dark]) .theme-toggle__icon--sun {
-    display: none;
-  }
+
+.post-audio-play {
+  flex: 0 0 auto;
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 0;
+}
+
+.post-audio-play:hover {
+  opacity: 0.82;
+}
+
+.post-audio-play:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.post-audio-icon--pause {
+  display: none;
+}
+
+.post-audio-body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.post-audio-label-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.post-audio-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.post-audio-times {
+  font-size: 0.72rem;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.post-audio-track {
+  position: relative;
+  height: 3px;
+  background: var(--line);
+  border-radius: 99px;
+  cursor: pointer;
+  margin: 5px 0 2px;
+}
+
+.post-audio-fill {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0%;
+  background: var(--accent);
+  border-radius: 99px;
+  pointer-events: none;
+}
+
+.post-audio-thumb {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  width: 11px;
+  height: 11px;
+  background: var(--accent);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 100ms ease;
+}
+
+.post-audio-track:hover .post-audio-thumb,
+.post-audio-track:focus-visible .post-audio-thumb {
+  opacity: 1;
+}
+
+.post-audio-speed {
+  flex: 0 0 auto;
+  padding: 0.2rem 0.45rem;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--muted);
+  border-radius: 4px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.72rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.post-audio-speed:hover {
+  color: var(--text);
+  border-color: var(--muted);
 }
 
 /*# sourceMappingURL=main.css.map */
