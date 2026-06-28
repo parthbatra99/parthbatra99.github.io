@@ -1,19 +1,23 @@
 ---
 layout: post
-kind: rabbit-hole
-title: "Burnout Isn't From Doing Too Much. It's From Friction."
-subtitle: "The Monthly Rabbit Hole: a Stanford professor's case that human energy isn't actually exhaustible."
+kind: theory
+title: "I Thought I Was Tired From Doing Too Much. I Was Wrong."
+subtitle: "A Stanford professor's case that burnout is a friction problem, not a volume problem."
 date: 2026-04-22
 tags:
   - note-to-self
   - get-shit-done
 ---
 
-[Graham Weaver](https://www.youtube.com/watch?v=P0Zgr9xwu4Y), a professor at Stanford, made a point this month that sounds corny until you sit with it. Energy, he argues, is not exhaustible. Not the physics kind. The human kind.
+A few weeks ago I had a Tuesday where I genuinely did nothing I wanted to do. Eight meetings, a product review that hadn't changed since I last reviewed it, a spreadsheet I had no business being in. By 9 PM I was flat on the couch watching something I can't remember. Exhausted. Not physically. The other kind.
+
+What bothered me: I'd barely worked. It wasn't a 12-hour day. It was a full day of other people's priorities wearing my face.
+
+[Graham Weaver](https://www.youtube.com/watch?v=P0Zgr9xwu4Y), a professor at Stanford, made a point this month that explains it exactly. Energy, he argues, is not exhaustible. Not the physics kind. The human kind.
 
 Think about it. You kiss someone you love today. Does that make you less capable of kissing them tomorrow? You play with your dog today. Less capable of playing with your dog tomorrow? Of course not.
 
-Burnout doesn't come from doing too much. It comes from friction. That gap between what you want to be doing and what you have to be doing. That gap is what exhausts you.
+Burnout doesn't come from doing too much. It comes from friction. The gap between what you want to be doing and what you have to be doing. That gap is what drains you.
 
 <figure class="diagram">
 <svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="Two parallel tracks, what you want to do and what you have to do, with the gap between them labeled friction." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
@@ -33,6 +37,20 @@ Burnout doesn't come from doing too much. It comes from friction. That gap betwe
 <figcaption>The wider the gap between what you want to do and what you have to do, the faster you drain.</figcaption>
 </figure>
 
-I'm not naive. We all have responsibilities, families, bills. You can't just quit everything and follow your passion. That's terrible advice. But you can find the thing you love and do it at a smaller scale. I write these poems, blogs, and stories not at the scale I'd like, but at the scale I can manage alongside a full-time job. And it gives me something to look forward to every single week. As long as it's exciting, I'll keep doing it. When it stops being exciting, I'll switch topics. Don't worry, it'll be hard to get rid of me.
+***
 
-So if you're tired all the time, don't just cut your workload. Look at the friction first. Sometimes the fix isn't doing less. It's closing the gap between what you do and what you actually want to do.
+This isn't "quit and follow your passion." That's terrible advice. We all have responsibilities, families, bills. But Weaver's not saying close the gap all the way. He's saying close it *enough*.
+
+I write these posts one every two weeks when I'd rather do five. It's not the scale I'd like. But it's enough. One evening where I'm doing the thing I actually want to do. Most of my week is other people's priorities. That one evening isn't. And it shifts something in the rest of the week more than the hours would suggest.
+
+The gap doesn't have to close all the way. It just has to be smaller than it is now.
+
+***
+
+That Tuesday, flat on the couch at 9 PM? I didn't need a shorter week. I needed one hour that was mine.
+
+The drain wasn't the volume. It was the distance between what I was doing and what I actually wanted to be doing.
+
+---
+
+*The exhaustion was never about the hours.*
