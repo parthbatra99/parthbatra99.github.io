@@ -96,6 +96,9 @@ My simple rule for the last 7-8 months has been just black coffee. No sugar, no 
 ### **CREATINE, creatine & CrEaTiNe**
 I started taking 3g of creatine about 6 weeks ago—after doing a ton of research, of course—and my only thought is, "Why didn't I start sooner?" My workout intensity is up by a good 15-20%, and I feel like I recover way faster. I've noticed more muscle definition too, which I think is mostly because I can push myself harder. Definitely talk to a nutritionist to see if it's right for you, but I can't recommend looking into it enough.
 
+### **Do circuits, not sets**
+try to gamify your exercise or gym routines. circuits give you that feeling of gamification of survival till the end which sets don't give you. sets have lower stakes. in a circuit, every exercise you finish is a checkpoint cleared. you're always 1 move away from the next one, that micro-progress keeps dopamine flowing.
+
 **currently curating more...**
 
 ---
