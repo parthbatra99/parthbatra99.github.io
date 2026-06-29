@@ -2,199 +2,71 @@
 layout: post
 kind: theory
 title: "How I Actually Measure Personal Growth"
-subtitle: "Four signals I trust now: how fast you change, the problems you've outgrown, what you can no longer unsee, and the day you stop keeping every door open."
+subtitle: "Three metrics I trust now: how fast you're changing, the problems you've outgrown, and whether your options are expanding or shrinking."
 date: 2026-06-12
 tags:
   - note-to-self
   - brain-glitch
 ---
 
-Nobody hands you a progress bar for your own life.
+During table tennis practice last year, I caught myself counting imaginary scores. Not the actual rally — the *implied* one. This person broke it five times, I broke it three, therefore I'm losing. At practice. Against friends. No stakes whatsoever. I'd done it my whole life: hackathons, group projects, anything with a scoreboard real or invented. If I was in, I was in to win.
 
-That's the annoying part. You get one for everything else. Step counts, Spotify minutes, GitHub streaks, a credit score that updates whether you asked it to or not. But the one thing you'd actually want to track, am I getting better at being alive, ships with no dashboard. So you reach for lazy stand-ins. How busy your week looks. How you're doing against the people you started out with. Whether, from the outside, you seem like someone going somewhere.
+I don't count imaginary scores anymore. Sometimes I lose a rally on purpose now, just to keep the game going, because the game is the point. Noticing that shift is what got me thinking about how you'd even measure something like personal growth in the first place.
 
-I leaned on those for years. They're noise. Looking busy isn't the same as moving, and a market can carry you or strand you without you having changed at all. So I went looking for signals that track the actual thing. Here are the four I trust now.
+My founder friends constantly think about growth. They think about how to measure their business growth and how to get to the next order of magnitude scale. If they're making $1M ARR today, they think about how to get to $10M ARR. If they have 1,000 users today, they think about how to get to 10,000 users.
 
----
+This made me wonder if/how people are measuring personal growth. I don't want to use metrics like net worth or the number of followers, because that's not what I live for. After talking with a lot of friends, I found three interesting metrics: rate of change, time to solve problems, and number of future options.
 
-## Signal One: How Fast You Change
+Some friends told me they find this blog post mildly sociopathic. Why do I have to measure everything? Life is to be lived, not to be measured. As someone _"lowkey"_ fascinated by numbers, I don't see why measuring and living have to be mutually exclusive – measuring often helps me live better – but I see where they come from. This post is more of a thought exercise than a rigorous experiment.
 
-The first one is just speed. How different are you from the version of you that existed two years ago?
+## Rate of change
 
-Most people can picture that version and quietly cringe. The opinions you'd defend to the death, the things that wrecked your week, the texts you agonised over for an hour before sending. If today's you finds some of that a little embarrassing, good. That embarrassment is the receipt for change.
+I have this theory that life has a circadian rhythm. Every 3-6 years, you become a different person. You work on different problems. Your lifestyle changes. The people you hang out with are different. If you haven't caught up with a friend in 5 years, you might no longer have anything in common. It's not a coincidence that schools are structured into chunks of 3-6 years.
 
-Here's the trap, though. Psychologists have a name for it: the [End of History Illusion](https://www.science.org/doi/10.1126/science.1229294). When researchers asked nineteen thousand people how much they'd changed in the last decade versus how much they'd change in the next, everyone said the same thing. Changed a lot before, won't change much from here. At every age. We all walk around convinced we've just now finished becoming ourselves, and we are all, reliably, wrong.
+Looking back, I realized that every 3-6 years, my life completely changed. From grade 3 to grade 9, I used to compete in table tennis. For the next 3 years, I did competitive maths and JEE preparations. Then I went to college and studied engineering and mathematics for 5 years. After that, I fumbled around for almost 2 years. It was only recently that I felt like I had a handle on life.
 
-So the real question isn't "have I changed." It's "am I changing right now." Not "have I changed jobs," anyone can change jobs. Has the operating system underneath updated. For me it shows up in the calendar, a week stacked with training, a sport, friends through the door, and a real trip most months, none of which the version of me from a few years ago could have run without falling apart.
+it all comes back to the rule of 72 in finance. It's a simple formula that estimates the number of years it will take for an investment to double in value. If the annual interest rate is 8%, it'll take 72/8 = 9 years for the value of your investment to double.
 
-The point isn't my specific calendar. It's whether you can name a reinvention in progress, not one you finished and now narrate at parties. If your best evidence of change is a story from four years ago, you're not growing. You're reminiscing.
+I wonder if I could treat myself as an investment, and measure my growth by how long it'd take me to become a new person. Becoming a new person isn't always a good thing, and probably not the goal for everyone. But for me, it is. I want to be able to see things from a new perspective. I want to be exposed to new challenges. I treasure old friends (I still talk to my best friends from school), but I like learning from new friends.
 
-<figure class="diagram">
-<svg viewBox="0 0 640 240" role="img" aria-label="A rising curve shows how much you actually change over the decades. At two points a flat dashed line branches off, each marking a moment you were certain you had finished changing. The curve climbs past both of them.">
-  <line x1="85" y1="45" x2="85" y2="195" stroke="currentColor" stroke-width="1" opacity="0.5"/>
-  <line x1="85" y1="195" x2="585" y2="195" stroke="currentColor" stroke-width="1" opacity="0.5"/>
-  <text transform="translate(58,120) rotate(-90)" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="currentColor" opacity="0.5">how much you've actually changed</text>
-  <text x="186" y="214" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="currentColor" opacity="0.5">25</text>
-  <text x="318" y="214" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="currentColor" opacity="0.5">35</text>
-  <text x="450" y="214" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="currentColor" opacity="0.5">45</text>
+## Time to solve problems
 
-  <line x1="186" y1="175" x2="312" y2="175" stroke="currentColor" stroke-width="1.2" stroke-dasharray="4 4" opacity="0.5"/>
-  <text x="316" y="179" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="currentColor" opacity="0.5" font-style="italic">&#8220;done now&#8221;</text>
-  <line x1="386" y1="120" x2="500" y2="120" stroke="currentColor" stroke-width="1.2" stroke-dasharray="4 4" opacity="0.5"/>
-  <text x="504" y="124" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="currentColor" opacity="0.5" font-style="italic">&#8220;done now&#8221;</text>
+Mayank, an old friend doing his post-doc from Cambridge in London, believes that there are three big problems in life: career, family, and finance. It usually takes people a decade to figure each out (he calls them life projects).
 
-  <path d="M95 185 C 250 178, 380 120, 560 58" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-  <circle cx="186" cy="175" r="4.5" fill="currentColor"/>
-  <circle cx="386" cy="120" r="4.5" fill="currentColor"/>
-  <text x="560" y="50" text-anchor="end" font-family="Source Serif 4, Georgia, serif" font-size="15" fill="currentColor">what actually happens</text>
-</svg>
-<figcaption>The End of History Illusion: every version of you is sure it's the finished one. The curve disagrees.</figcaption>
-</figure>
+1. For the first decade after graduation, you figure out what you want to do with your life.
+2. For the next decade, you get married, buy a house, and have kids.
+3. For the next decade, you build out your savings to retire.
 
-A real rate of change feels slightly uncomfortable while it's happening. If it feels comfortable, it already finished.
+His goal is to solve these problems as fast as possible, so he can focus on more interesting problem.
 
-## Signal Two: The Problems You've Outgrown
+This made me think that perhaps I can measure my growth by looking at what big problems I've solved. What big problems was I worried about 5 years ago that I no longer worry about now? What big problems am I worried about now that I don't want to worry about in 5 years?
 
-[Chip Huyen](https://huyenchip.com/2024/04/17/personal-growth.html) has the sharpest version of this. She measures growth by the problems you solve. Name the big things that kept you up five years ago that you don't even think about now. Then name the ones eating you today that you'd want gone five years from now. Growth is the gap between those two lists, plus the speed at which you move down them.
+What is considered a big problem depends on each person. For me, it's career, finance, family, and health. A few concrete examples that tell me I've made progress. Five years ago the college kid in me panicked about money constantly; that went quiet once I had a real safety net behind me. I used to worry about not having a place of my own in a big city — somewhere that was actually mine, and actually safe — and that's sorted now. My parents' health used to send me into a spin with every little niggle; the niggles still come, but I've gotten much better at carrying them.
 
-It's a brutal little exercise because it ignores everything cosmetic. Not the title, not the money, just this: which problems have you outgrown, and which have you traded up to. The 2 AM money panic, gone, replaced by a quieter and harder question about what you actually want the money for. That's progress. Worrying about the same-sized thing five years apart is not, no matter what your CV did in between.
+There's also the stuff that has quietly stopped registering as a threat. Performance reviews used to cost me days of low-grade dread. Now they don't move my needle at all.
 
-When I run it on myself, the solved pile is reassuring and a little boring. The open pile is where it gets interesting, because the problems I've traded up to are bigger, vaguer, and don't bend to effort the way the old ones did. They also happen to start with the same letter, which I noticed too late to pretend I planned it.
+The big one still open: figuring out what I want to do long-term, and where. My own company? A move to the US or Europe? That's the problem I'd like to not be carrying five years from now.
 
-| Problem | Status | Honest take |
-|---|---|---|
-| Partner | Open | The big one. Can't optimise my way through it. |
-| Place | Open | Where do I actually want to wake up for the next ten years? |
-| Parents | Open | Their health. Not a problem you solve. One you show up for. |
+## Number of future options
 
-The first two are problems in the normal sense, you work them, you close them. The third isn't. You don't solve your parents getting older. You only get to prepare and be present. And if you're anywhere near my stage, your parents are on the same clock as everyone else's, quietly, in the background, while nobody at the dinner table brings it up. I think this is the paragraph someone reads twice.
+Sometime back on the twitter i read about this theory that every few years, half of your dreams die. People give up on their dreams because they realize that they can no longer achieve them.
 
-<figure class="diagram">
-<svg viewBox="0 0 640 320" role="img" aria-label="A ladder of problems. The lower rungs, money, work and friends, are marked solved. The upper rungs, partner, place and parents, are marked open. An arrow shows the problems get bigger as you climb.">
-  <line x1="150" y1="300" x2="150" y2="52" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
-  <polyline points="142,66 150,50 158,66" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
-  <text transform="translate(120,180) rotate(-90)" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="currentColor" opacity="0.5">bigger, harder problems</text>
+I disagree. As I grow older, I have more dreams. I now know many things that I didn't know before, and I have access to more resources than I ever did. This allows me to do things that I used to think of as impossible. And the dreams keep multiplying instead of dying off. Some of the side projects I've built could be whole companies if I actually committed to them — right now I'm building an open-source alternative to [Qoves](https://www.qoves.com/). I even keep a running [list of a hundred things I want to do](/list-100/), and the giveaway is that I've crossed things off it and then deleted them anyway, swapping a goal I'd already hit for a bigger one. I can't sit still, even with a win in hand.
 
-  <circle cx="240" cy="60" r="6" fill="none" stroke="currentColor" stroke-width="1.8"/>
-  <text x="262" y="65" font-family="Source Serif 4, Georgia, serif" font-size="16" fill="currentColor">Parents</text>
-  <circle cx="240" cy="105" r="6" fill="none" stroke="currentColor" stroke-width="1.8"/>
-  <text x="262" y="110" font-family="Source Serif 4, Georgia, serif" font-size="16" fill="currentColor">Place</text>
-  <circle cx="240" cy="150" r="6" fill="none" stroke="currentColor" stroke-width="1.8"/>
-  <text x="262" y="155" font-family="Source Serif 4, Georgia, serif" font-size="16" fill="currentColor">Partner</text>
-  <text x="600" y="110" text-anchor="end" font-family="Source Serif 4, Georgia, serif" font-size="14" fill="currentColor" opacity="0.5" font-style="italic">open</text>
+During a reinforcement learning course in college, I learned about _empowerment maximization_. It's a simple principle that enables robots/agents to exhibit relatively intelligent behavior. In the face of uncertainty, an agent following empowerment maximization would choose the action that maximizes future options. For example, facing multiple switches, it'd choose the switch that opens the most doors.
 
-  <line x1="210" y1="178" x2="600" y2="178" stroke="currentColor" stroke-width="1" opacity="0.3"/>
+I realized that this is the same principle that I've followed. In the face of uncertainty, I lean towards the decision that would give me the most future options. For example, I'd choose a job that pays less but gives me more job options in the future (e.g. if the job gives me exposure like allowing me to work on open source or publish papers). I'd prioritize tasks that teach me transferable skills instead of tasks that teach me niche, narrow skills.
 
-  <rect x="234" y="199" width="13" height="13" fill="currentColor"/>
-  <polyline points="237,206 240,209 245,202" fill="none" stroke="var(--bg)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="262" y="211" font-family="Source Serif 4, Georgia, serif" font-size="16" fill="currentColor">Friends</text>
-  <rect x="234" y="244" width="13" height="13" fill="currentColor"/>
-  <polyline points="237,251 240,254 245,247" fill="none" stroke="var(--bg)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="262" y="256" font-family="Source Serif 4, Georgia, serif" font-size="16" fill="currentColor">Work</text>
-  <rect x="234" y="289" width="13" height="13" fill="currentColor"/>
-  <polyline points="237,296 240,299 245,292" fill="none" stroke="var(--bg)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="262" y="301" font-family="Source Serif 4, Georgia, serif" font-size="16" fill="currentColor">Money</text>
-  <text x="600" y="256" text-anchor="end" font-family="Source Serif 4, Georgia, serif" font-size="14" fill="currentColor" opacity="0.5" font-style="italic">solved</text>
-</svg>
-<figcaption>Growth is climbing the ladder, not clearing it. The good problems are always still open.</figcaption>
-</figure>
+Perhaps I can measure my growth by how many new options I have gained/lost. What options are available to me today that were not available to me 5 years ago? What options were available to me 5 years ago that aren't available to me now? More importantly, what options that are not available to me today do I want 5 years from now?
 
-## Signal Three: What You Can No Longer Unsee
+Upon some research i came across this image from Wait But Why. As time goes by, many doors are closed to us, but many new doors open up. That tweet was referring to the black lines on the left, and I focus on the green lines on the right.
 
-Here's a quiet one that snuck up on me, and probably on you. You bail on a show by episode two. You put down a book you'd once have finished out of pure guilt. You sit in a meeting, or across from a date, and know in the first few minutes whether it's a yes or a polite no. And you clock people faster now, who's worth the time, who you could actually be friends with, who's just well-rehearsed. You're calling it quicker, and you're right more often.
+## Conclusion
 
-[Ira Glass](https://www.themarginalian.org/2014/01/29/ira-glass-success-daniel-sax/) has the cleanest description of how this gets built. When you start anything creative, your taste is already good, but your skill isn't, and the gap between the two is brutal. Most people quit inside that gap. You close it only by doing a huge volume of work, until one day the skill catches up to the taste you always had. That's the same gap from the first diagram, pointed inward.
+There are three heuristics that I follow for personal growth:
 
-People love to call the result instinct, and that word hides what's actually going on. Watch any argument about the best captains in sport. Someone always insists MS Dhoni led on pure gut, a bowling change from nowhere, a stumping he started moving for before the batsman's foot had even lifted. But the gut is data. Thousands of overs, hundreds of matchups, every one filed away and compressed until the read arrives faster than he could ever explain it. It looks like instinct from the stands. Inside, it's the most experienced part of him doing the math too fast to narrate.
+1. I try to become a new person every 3-6 years.
+2. I try to solve big problems as fast as possible.
+3. I think of this as creating safety nets that allow me to take bigger risks and explore more things in the future. I take actions that help me maximize future options.
 
-Mine shows up everywhere now, including a new one: I can smell AI writing from across the room, that flat, agreeable, slightly damp prose that says everything and risks nothing. A few years back I'd have called some of it "polished."
-
-Taste is compounding judgement. It's every good and bad call you've ever made, finally paying out as instinct. You can't fake it and you can't buy it, which is exactly why it's a better growth signal than anything you can put on a CV.
-
-<figure class="diagram">
-<svg viewBox="0 0 640 200" role="img" aria-label="Many scattered small decisions over time gradually resolve into a single curve that rises steeply, labelled judgement compounded.">
-  <line x1="95" y1="40" x2="95" y2="165" stroke="currentColor" stroke-width="1" opacity="0.5"/>
-  <line x1="95" y1="165" x2="560" y2="165" stroke="currentColor" stroke-width="1" opacity="0.5"/>
-  <text x="560" y="186" text-anchor="end" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="currentColor" opacity="0.5">time, and a thousand calls</text>
-  <circle cx="135" cy="150" r="2.8" fill="currentColor" opacity="0.5"/>
-  <circle cx="165" cy="156" r="2.8" fill="currentColor" opacity="0.5"/>
-  <circle cx="200" cy="146" r="2.8" fill="currentColor" opacity="0.5"/>
-  <circle cx="235" cy="152" r="2.8" fill="currentColor" opacity="0.5"/>
-  <circle cx="270" cy="140" r="2.8" fill="currentColor" opacity="0.5"/>
-  <circle cx="305" cy="144" r="2.8" fill="currentColor" opacity="0.5"/>
-  <circle cx="340" cy="130" r="2.8" fill="currentColor" opacity="0.5"/>
-  <circle cx="375" cy="134" r="2.8" fill="currentColor" opacity="0.5"/>
-  <circle cx="410" cy="118" r="2.8" fill="currentColor" opacity="0.5"/>
-  <circle cx="445" cy="110" r="2.8" fill="currentColor" opacity="0.5"/>
-  <circle cx="480" cy="92" r="2.8" fill="currentColor" opacity="0.5"/>
-  <path d="M105 158 C 280 156, 400 140, 545 58" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-  <text x="545" y="48" text-anchor="end" font-family="Source Serif 4, Georgia, serif" font-size="15" fill="currentColor">instinct</text>
-</svg>
-<figcaption>No single call teaches you taste. The thousandth one does.</figcaption>
-</figure>
-
-## Signal Four: How Little It Costs You
-
-The last one is the most satisfying, and the easiest to feel in your own week. The same decisions take less out of you.
-
-The email that used to eat an hour goes out in five minutes. You say no without writing three paragraphs to justify it. The conversation you'd once have rehearsed for three days, you can just have, in one sitting, and survive. [Kahneman](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow) split thinking into two systems: the slow, effortful, deliberate one, and the fast, automatic one. Growth is watching whole categories of life migrate from the first to the second. What used to cost you everything becomes something you barely notice doing.
-
-Whole categories of anxiety have been quietly deleted too, not solved, just deleted, because I stopped granting them the rent. Even my packing got lighter. Turns out most of what I used to carry was fear with a zip on it.
-
-<figure class="diagram">
-<svg viewBox="0 0 640 220" role="img" aria-label="Two bars showing what the same decision costs. The before bar is tall, the now bar is much shorter.">
-  <text x="320" y="26" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="14" fill="currentColor" opacity="0.5" font-style="italic">the same decision</text>
-  <text transform="translate(74,118) rotate(-90)" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="currentColor" opacity="0.5">what it costs me</text>
-  <line x1="100" y1="180" x2="560" y2="180" stroke="currentColor" stroke-width="1" opacity="0.5"/>
-  <rect x="185" y="52" width="80" height="128" fill="none" stroke="currentColor" stroke-width="2"/>
-  <text x="225" y="200" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="15" fill="currentColor">before</text>
-  <rect x="375" y="120" width="80" height="60" fill="currentColor"/>
-  <text x="415" y="200" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="15" fill="currentColor">now</text>
-  <line x1="305" y1="80" x2="365" y2="130" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
-  <polyline points="356,118 366,132 350,132" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.5" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
-<figcaption>You didn't shrink the decision. You stopped paying so much to make it.</figcaption>
-</figure>
-
-Growth doesn't always look like adding. Often it looks like the same load getting lighter because you got stronger underneath it.
-
----
-
-## The Part That Actually Changed
-
-For a long time the smart move was keeping every door open. The job you didn't take but didn't fully rule out. The situationship. The three cities you might one day move to. Optionality. Don't commit, stay liquid, you can always decide later. For a decade that's genuinely the right play.
-
-[Dan Ariely](https://danariely.com/the-advantages-of-closing-a-few-doors/) once ran an experiment on exactly this. People played a game with doors that paid out money, and doors they ignored would slowly shrink and vanish. The smart move was to pick the best room and stay. Instead, players burned click after click frantically keeping the other doors alive, even when it cost them real money, even when reopening was free. Closing a door, it turns out, feels like a loss, so we pay through the nose to avoid it.
-
-That's the trap I'm in now, and maybe you are too. You can't build a home in a hallway. Partner, place, the shape of the next ten years, none of it gets better by staying maximally optional. At some point growth flips. It stops being about how many doors you can keep open and starts being about having the nerve to walk through one and let the rest swing shut.
-
-<figure class="diagram">
-<svg viewBox="0 0 640 210" role="img" aria-label="On the left, three open doorways labelled keep every door open. On the right, one open doorway with an arrow walking through it and two closed doors, labelled choose one and close the rest.">
-  <text x="148" y="34" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="14" fill="currentColor">keep every door open</text>
-  <path d="M70 150 L70 64 L104 64 L104 150" fill="none" stroke="currentColor" stroke-width="2"/>
-  <path d="M130 150 L130 64 L164 64 L164 150" fill="none" stroke="currentColor" stroke-width="2"/>
-  <path d="M190 150 L190 64 L224 64 L224 150" fill="none" stroke="currentColor" stroke-width="2"/>
-  <line x1="56" y1="150" x2="238" y2="150" stroke="currentColor" stroke-width="1.5" opacity="0.3"/>
-
-  <text x="305" y="100" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="14" fill="currentColor" opacity="0.5" font-style="italic">the flip</text>
-  <line x1="262" y1="120" x2="348" y2="120" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
-  <polyline points="338,113 350,120 338,127" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.5" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <text x="492" y="34" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="14" fill="currentColor">choose one, close the rest</text>
-  <rect x="400" y="64" width="34" height="86" fill="currentColor" fill-opacity="0.14" stroke="currentColor" stroke-width="2"/>
-  <circle cx="428" cy="108" r="2.4" fill="currentColor"/>
-  <path d="M475 150 L475 64 L509 64 L509 150" fill="none" stroke="currentColor" stroke-width="2.4"/>
-  <line x1="452" y1="120" x2="500" y2="120" stroke="currentColor" stroke-width="1.8"/>
-  <polyline points="491,113 502,120 491,127" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="550" y="64" width="34" height="86" fill="currentColor" fill-opacity="0.14" stroke="currentColor" stroke-width="2"/>
-  <circle cx="556" cy="108" r="2.4" fill="currentColor"/>
-  <line x1="386" y1="150" x2="598" y2="150" stroke="currentColor" stroke-width="1.5" opacity="0.3"/>
-</svg>
-<figcaption>Optionality was the asset for a decade. The flip is when it turns into the cost.</figcaption>
-</figure>
-
-That switch is terrifying, because closing a door means admitting the others are gone. Which is the whole point.
-
-So maybe that's the dashboard I was looking for at the top. Not step counts or salary. Just one needle: the day choosing one good thing and killing the alternatives stops scaring me. When that reading flips, it won't be settling.
-
-That'll be the growth.
+These heuristics work for me (so far) because I have a strong bias towards novelty and exploration. Maybe one day, I'll get tired of exploration, and these heuristics will change. When that happens, that'll be growth.
