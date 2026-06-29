@@ -2,7 +2,7 @@
 layout: post
 kind: theory
 recommended: true
-recommended_order: 4
+recommended_order: 2
 title: "I Wrote 15 Postcards Nobody Asked For. They Weren't for My Friends."
 subtitle: "They were for the version of me I'm trying to become. The last 5% is where he shows up."
 date: 2026-06-22
