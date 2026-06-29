@@ -11,22 +11,20 @@ title: Blog
   {% assign recommended = site.posts | where: "recommended", true %}
   {% assign recommended = recommended | sort: "recommended_order" %}
   {% if recommended.size > 0 %}
-  <section class="channels" aria-label="Posts to start with">
-    <div class="channel channel--start-here">
-      <div class="channel-head">
-        <h2 class="channel-name"><span class="channel-icon" aria-hidden="true">★</span> Start here</h2>
-        <span class="channel-blurb">A few posts to begin with.</span>
-        <span class="channel-arrows">
-          <button type="button" class="channel-arrow" data-dir="-1" aria-label="Scroll Start here left">‹</button>
-          <button type="button" class="channel-arrow" data-dir="1" aria-label="Scroll Start here right">›</button>
-        </span>
-      </div>
-      <ul class="channel-scroll">
-        {% for post in recommended %}
-          {% include post-card.html post=post %}
-        {% endfor %}
-      </ul>
-    </div>
+  <section class="favorites" aria-label="Start here">
+    <h2 class="favorites-head"><span aria-hidden="true">★</span> Start here</h2>
+    <ul class="post-list">
+      {% for post in recommended %}
+        <li class="post-list-item">
+          <span class="post-list-date">{{ post.date | date: "%b %d" }}</span>
+          <div class="post-list-title-group">
+            <a class="post-list-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            {% if post.subtitle %}<span class="post-list-subtitle">{{ post.subtitle | escape }}</span>{% endif %}
+            <p class="post-list-meta">{{ post.content | strip_html | number_of_words | divided_by: 225 | at_least: 1 }} min read</p>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
   </section>
   {% endif %}
 
@@ -57,19 +55,3 @@ title: Blog
     {% endfor %}
   </ul>
 </section>
-
-<script>
-  (function () {
-    document.querySelectorAll('.channel').forEach(function (channel) {
-      var scroll = channel.querySelector('.channel-scroll');
-      if (!scroll) return;
-      channel.querySelectorAll('.channel-arrow').forEach(function (btn) {
-        btn.addEventListener('click', function () {
-          var card = scroll.querySelector('.channel-card');
-          var step = card ? card.getBoundingClientRect().width + 16 : scroll.clientWidth * 0.8;
-          scroll.scrollBy({ left: step * Number(btn.dataset.dir), behavior: 'smooth' });
-        });
-      });
-    });
-  })();
-</script>

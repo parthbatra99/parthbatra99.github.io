@@ -48,8 +48,7 @@ figure.diagram svg {
   max-width: 100%;
   height: auto;
 }
-figure.diagram svg,
-.channel-card-svg svg {
+figure.diagram svg {
   color: var(--accent);
   filter: url(#sketch);
   stroke-linecap: round;
@@ -397,188 +396,31 @@ a:focus-visible {
   vertical-align: 1px;
 }
 
-/* ─── Channels (browse-by-kind shelves) ───── */
+/* ─── My favorites (curated, top of blog page) ───── */
 
-.channels {
+.favorites {
   margin-bottom: 3rem;
 }
 
-.channel {
-  margin-bottom: 2rem;
-}
-
-.channel-head {
-  display: flex;
-  align-items: baseline;
-  gap: 0.6rem;
-  margin-bottom: 0.7rem;
+.favorites-head {
+  margin: 0 0 0.7rem;
   padding-bottom: 0.4rem;
   border-bottom: 1px solid var(--line);
-}
-
-.channel-name {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 0.78rem;
   font-weight: 600;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--text);
-  white-space: nowrap;
 }
 
-.channel-icon {
-  font-size: 0.9rem;
-}
-
-.channel-blurb {
-  flex: 1;
-  font-size: 0.78rem;
-  color: var(--muted);
-  font-style: italic;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.channel-arrows {
-  display: flex;
-  gap: 0.3rem;
-  margin-left: auto;
-}
-
-.channel-arrow {
-  font-family: "Source Serif 4", Georgia, serif;
-  font-size: 1rem;
-  line-height: 1;
-  width: 1.7rem;
-  height: 1.7rem;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid var(--line);
-  background: var(--bg);
-  color: var(--muted);
-  border-radius: 4px;
-  cursor: pointer;
-  transition: color 0.15s, border-color 0.15s;
-}
-
-.channel-arrow:hover {
-  color: var(--text);
-  border-color: var(--muted);
-}
-
-.channel-scroll {
-  list-style: none;
-  margin: 0;
-  padding: 0.2rem 0 0.4rem;
-  display: flex;
-  gap: 1rem;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  scroll-padding-left: 0;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
-  overscroll-behavior-x: contain;
-}
-
-.channel-scroll::-webkit-scrollbar { display: none; }
-
-.channel-card {
-  flex: 0 0 auto;
-  width: 200px;
-  scroll-snap-align: start;
-}
-
-.channel-card-link {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  text-decoration: none;
-  color: var(--text);
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  overflow: hidden;
-  background: var(--bg);
-  transition: transform 0.15s, border-color 0.15s;
-}
-
-.channel-card-link:hover {
-  transform: translateY(-2px);
-  border-color: var(--muted);
-}
-
-.channel-card-svg {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 110px;
-  padding: 0.85rem 0.9rem;
-  background: var(--surface);
-  color: var(--text);
-  border-bottom: 1px solid var(--line);
-  overflow: hidden;
-}
-
-.channel-card-svg svg {
-  width: 100%;
-  height: auto;
-  max-height: 100%;
-}
-
-.channel-card-body {
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
-  padding: 0.7rem 0.8rem;
-}
-
-.channel-card--text .channel-card-body {
-  background: var(--surface);
-  flex: 1;
-  justify-content: space-between;
-  min-height: 130px;
-}
-
-.channel-card-title {
-  font-size: 0.92rem;
-  line-height: 1.32;
-  font-weight: 600;
-}
-
-.channel-card--text .channel-card-title {
-  font-size: 1rem;
-}
-
-.channel-card-meta {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: 0.72rem;
-  color: var(--muted);
+.favorites-head span {
+  color: var(--accent);
+  margin-right: 0.25rem;
 }
 
 @media (max-width: 600px) {
-  .channels { margin-bottom: 2.2rem; }
-  .channel { margin-bottom: 1.6rem; }
-
-  .channel-blurb { display: none; }
-
-  /* Let shelves bleed to the screen edges so a card peeks in from the right,
-     signalling "swipe me" — but keep snap aligned to the shell's left edge. */
-  .channel-scroll {
-    margin-left: calc(-1 * (100vw - var(--shell)) / 2);
-    margin-right: calc(-1 * (100vw - var(--shell)) / 2);
-    padding-left: calc((100vw - var(--shell)) / 2);
-    padding-right: calc((100vw - var(--shell)) / 2);
-    scroll-padding-left: calc((100vw - var(--shell)) / 2);
-    gap: 0.8rem;
-  }
-
-  .channel-card { width: 72vw; max-width: 260px; }
-  .channel-card-svg { height: 130px; }
-
-  /* Swipe is the primary gesture on touch; arrows add clutter. */
-  .channel-arrows { display: none; }
+  .favorites { margin-bottom: 2.2rem; }
 }
 
 /* ─── Post page ──────────────────────────── */

@@ -2,7 +2,7 @@
 layout: post
 kind: theory
 recommended: true
-recommended_order: 3
+recommended_order: 4
 title: "I Wrote 15 Postcards Nobody Asked For. They Weren't for My Friends."
 subtitle: "They were for the version of me I'm trying to become. The last 5% is where he shows up."
 date: 2026-06-22
@@ -83,6 +83,6 @@ This isn't "do everything perfectly." Perfectionism is a different disease, and 
 
 The test I've been running on myself: could I find one more minute to make this better, and would future-me be glad I spent it? Usually yes. Sometimes no, and then I ship. I'm still figuring out which is which. I default to yes because I haven't earned the right to say no yet. The people who default to no aren't being efficient, I think. They're just practicing a different identity, and getting very good at it.
 
-I don't do any of this because you'll notice. You won't, most of the time. I do it because of that feeling in Hikkim. The postcards weren't for the replies. They were for the version of me who sat down and wrote them, and that version is the one I'm stuck with for the rest of my life.
+I don't do any of this because you'll notice. You won't, most of the time. I do it because of that feeling in Hikkim. The postcards weren't for the replies. They were for the version of me who sat down and wrote them, and _that version is the one I'm stuck with for the rest of my life._
 
-There's an old line, I think it comes from Zen, that keeps coming back to me. *How you do anything is how you do everything.* It used to sound like a threat. Now it sounds like the most generous thing I've ever read. It means the postcard matters. The set matters. The message to the travel agent matters. Not because the world is keeping score, but because you are always, in every one of them, becoming someone. You might as well become someone you're proud of.
+There's an old line, i think it comes from Zen, *How you do anything is how you do everything.* It used to sound like a threat. Now it sounds like the most generous thing I've ever read. It means the postcard matters. The gym set matters. The message to the travel agent matters. Google review matters. Not because the world is keeping score, but because you are always, in every one of them, rehearsing and becoming someone. You might as well become someone who does things right!
