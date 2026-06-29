@@ -8,9 +8,9 @@ permalink: /the-good-stuff/
 ### 🚀 Jump to a Section
 - [Books](#books)
 - [Bio Hacking](#bio-hacking)
+- [Podcasts](#podcasts)
 - [Movies & TV](#movies--tv)
 - [Music & Artists](#music--artists)
-- [Podcasts](#podcasts)
 
 ---
 
@@ -99,13 +99,95 @@ I started taking 3g of creatine about 6 weeks ago—after doing a ton of researc
 **currently curating more...**
 
 ---
+## Podcasts {#podcasts}
+
+### **Huberman Lab**
+Andrew Huberman
+
+if you've watched even one "dopamine detox" reels on IG in the last two years, you've felt huberman's shadow. a stanford neuroscientist who somehow made a 3-hour episode on sleep feel like a thriller. the best part isn't the science, it's the protocols: morning light, cold plunges, the exact timing of your first coffee, things you can actually do tomorrow. fair warning, it veers into bro-science sometimes and the episodes are way too long, but filter for what applies to you and it's basically a free operating manual for your body.
+
+---
+
+### **Waveform**
+mkbhd
+
+the only tech podcast i keep up with these days, perfect for staying current without feeling like you're doing homework. i think mkbhd should just stop reviewing cars but still the best reviewer for smartphones tbh.
+
+---
+
+### **Flagrant 2**
+Andrew Schulz & Akaash Singh
+
+two comedians, schulz and akaash bounce off each other in a way you can't fake, and the quality of writing behind the jokes is genuinely solid. fair warning, nothing (or nobody) is sacred, and that's exactly the point. i don't watch every episode, but when a topic hits, nobody covers it better.
+
+---
+
+### **Philosophize This!**
+Stephen West
+
+started by a guy who used to be a janitor. very bite sized content. started this thinking it'd satisfy my pretentious bone but ended up as the most down-to-earth thing on my feed. stephen walks you through philosophy chronologically, episode by episode, and actually makes it approachable. very short bite-sized episodes, no heavy jargons. if kafka on the shore left you curious about the bigger questions, this is the rabbit hole.
+
+---
+
+### **Founders**
+David Senra
+
+recommended to me by a founder friend of mine. the host reads biographies of founders and basically preaches them back to you with infectious obsession. give it a go and tell me if you also think the host has a thing for henry ford.
+
+---
+
+### **Lateral with Tom Scott**
+Tom Scott
+
+if you don't know who tom scott is, we can't be friends (i am serious!). a weird little gem for anyone who likes puzzles that make you go "oh, that's brilliant" out loud. this is like a quiz show hosted by tom where answers are so absurd, you will forget about the question in first place.
+
+---
+
+### **Dwarkesh Podcast**
+Dwarkesh Patel
+
+probably the most researched podcaster around. If you thought lex friedman does research, wait till you see one of his episodes. started out as a college student and is now interviewing the people actually building the future. he goes deep on AI, science, geopolitics and tech with guests most interviewers can't even land. (we are talking Nvidia CEO, Anthropic CEO, etc.) very sharp questions!
+
+---
+
+### **The Portal**
+Eric Weinstein
+
+genuinely one of the smartest people around, triple PhDs in economics, mathematics and physics (i didn't even know you could do it!). very heavy, very dense. you will find yourself rewinding a lot and being like 'oh shit! that's deep'. he goes into the uncomfortable topics to the depth a normal mind can't comprehend. made just 40 odd episodes but i keep going back to them quite often. it's not for everyone, but that density is exactly what makes it stick with you.
+
+---
+
+### **Standup with Primeagen**
+ThePrimeagen
+
+if you know theprimeagen from twitch, you already know what you're getting: chaotic, loud, and somehow exactly what a coding brain needs to unwind. it's standup comedy meets developer brain rot, and it really shouldn't work, but it absolutely does. not the place to learn anything serious tho but fun nonetheless.
+
+---
+
+### **Joe Rogan Experience** (selected episodes)
+Joe Rogan
+
+i'm not a jre completist by any stretch, only the episodes where the guest genuinely interests me. but when the combo works, a 3-hour unhurried conversation is still unmatched for just letting someone talk.
+
+---
+
+### **Lex Fridman Podcast**
+Lex Fridman
+
+lex is a vibe of his own. long, quiet, almost meditative conversations that go everywhere from AI to jiu-jitsu to love. his style isn't for everyone, the slow pace, the earnest questions, laid back etc.
+
+---
+
+### **YC Startup Podcast**
+Y Combinator
+
+if you've ever even half-dreamed about building something of your own, this is required listening. y combinator basically opens up its playbook: founders, partners, the actual unfiltered stories of how companies started (and how many didn't). short, practical, and refreshingly free of hype.
+
+---
 ## Movies & TV {#movies--tv}
 *coming soon!*
 
 ## Music & Artists {#music--artists}
-*coming soon!*
-
-## Podcasts {#podcasts}
 *coming soon!*
 
 ---
