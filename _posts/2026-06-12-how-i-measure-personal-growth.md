@@ -3,8 +3,8 @@ layout: post
 kind: theory
 recommended: true
 recommended_order: 3
-title: "How I Actually Measure Personal Growth"
-subtitle: "Three metrics I trust now: how fast you're changing, the problems you've outgrown, and whether your options are expanding or shrinking."
+title: "How Long Until You're Unrecognizable to Yourself?"
+subtitle: "Three metrics for tracking who you're becoming — speed, outgrown problems, expanding options."
 date: 2026-06-12
 tags:
   - note-to-self

@@ -3,8 +3,8 @@ layout: post
 kind: field-notes
 recommended: true
 recommended_order: 4
-title: "Spiti Took Five Days to Take Me Apart. A 7-Year-Old Did It in Four Seconds."
-subtitle: "A loop story: one rain, one birthday cake at 9,000 feet, and an arm wrestling defeat I'm still processing."
+title: "Spiti: Five Days, One Mountain, One Arm-Wrestle I'm Still Losing."
+subtitle: "Mountains, monasteries, pushups at 15,000ft and the one fight I never had a chance at winning."
 date: 2026-06-08
 tags:
   - nomading
