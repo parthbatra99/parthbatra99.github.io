@@ -1,4 +1,129 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://fromparth.blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fromparth.blog/" rel="alternate" type="text/html" /><updated>2026-06-29T18:26:52+05:30</updated><id>https://fromparth.blog/feed.xml</id><title type="html">Parth Batra | fromparth.blog</title><subtitle>Senior ML Engineer by day, music critic by night. Building ML systems, writing about tech, and collecting spotify minutes like they&apos;re infinity stones.</subtitle><author><name>Parth Batra</name></author><entry><title type="html">I Was Confidently Wrong About Almost Everything</title><link href="https://fromparth.blog/2026/06/22/i-was-confidently-wrong-about-almost-everything.html" rel="alternate" type="text/html" title="I Was Confidently Wrong About Almost Everything" /><published>2026-06-22T00:00:00+05:30</published><updated>2026-06-22T00:00:00+05:30</updated><id>https://fromparth.blog/2026/06/22/i-was-confidently-wrong-about-almost-everything</id><content type="html" xml:base="https://fromparth.blog/2026/06/22/i-was-confidently-wrong-about-almost-everything.html"><![CDATA[<p>My brain has been lying to me with confidence my entire life. Not occasionally. Constantly. And for a long time I didn’t notice, because confidence is the one thing that feels exactly the same whether it’s earned or not.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-07-01T00:43:56+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Parth Batra | fromparth.blog</title><subtitle>Senior ML Engineer by day, music critic by night. Building ML systems, writing about tech, and collecting spotify minutes like they&apos;re infinity stones.</subtitle><author><name>Parth Batra</name></author><entry><title type="html">You Can’t Call It Bad Luck Yet</title><link href="http://localhost:4000/2026/06/29/you-cant-call-it-bad-luck-yet.html" rel="alternate" type="text/html" title="You Can’t Call It Bad Luck Yet" /><published>2026-06-29T00:00:00+05:30</published><updated>2026-06-29T00:00:00+05:30</updated><id>http://localhost:4000/2026/06/29/you-cant-call-it-bad-luck-yet</id><content type="html" xml:base="http://localhost:4000/2026/06/29/you-cant-call-it-bad-luck-yet.html"><![CDATA[<p>This one’s been sitting in my Reddit saved posts for months. I found it on r/philosophy, <a href="https://x.com/batra99/status/2067979140675088702">tweeted it</a> when I first read it, and kept coming back. It’s a parable about a horse.</p>
+
+<p>A man living on the frontier loses his horse. His neighbors gather to sympathize. Bad luck. He shrugs. “Maybe.”</p>
+
+<p>The horse comes back, leading a second, finer horse. The neighbors come back to congratulate him. Good luck. He shrugs. “Maybe.”</p>
+
+<p>His son starts riding the new horse, gets thrown, and breaks his leg. The neighbors come back to mourn his bad fortune. He shrugs. “Maybe.”</p>
+
+<p>Then war breaks out, and every able young man is conscripted and sent to the front. The son, with his broken leg, is left behind.</p>
+
+<p>The parable has a name in Japanese: <em>Saiō ga uma</em>, “the frontier old man’s horse.” It’s older than that, Chinese, around two thousand years old, and it passed into Japanese as a four-character idiom for exactly one thing. You can’t tell yet whether something is good luck or bad. The verdict hasn’t arrived. That’s the whole point of saving it.</p>
+
+<figure class="diagram">
+<svg viewBox="0 0 380 200" width="100%" height="auto" role="img" aria-label="The parable as a zigzag: each event flips bad to good to bad to good, while the old man's judgment stays flat at maybe." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+  <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="55" y1="100" x2="325" y2="100" stroke-width="1.6" stroke-dasharray="5 5" opacity="0.4" />
+    <path d="M55 100 L110 150 L165 60 L220 150 L275 60 L325 110" stroke-width="2.4" />
+  </g>
+  <circle cx="55" cy="100" r="3.5" fill="currentColor" />
+  <g stroke="none" fill="currentColor" font-size="10">
+    <text x="110" y="172" text-anchor="middle" opacity="0.7">horse runs</text>
+    <text x="110" y="184" text-anchor="middle" opacity="0.55">off</text>
+    <text x="165" y="44" text-anchor="middle" opacity="0.7">returns with</text>
+    <text x="165" y="56" text-anchor="middle" opacity="0.55">a second horse</text>
+    <text x="220" y="172" text-anchor="middle" opacity="0.7">son falls,</text>
+    <text x="220" y="184" text-anchor="middle" opacity="0.55">breaks leg</text>
+    <text x="275" y="44" text-anchor="middle" opacity="0.7">war comes,</text>
+    <text x="275" y="56" text-anchor="middle" opacity="0.55">son stays home</text>
+    <text x="342" y="113" opacity="0.7">maybe</text>
+    <text x="38" y="97" text-anchor="end" opacity="0.7">maybe</text>
+  </g>
+</svg>
+<figcaption>Every event flips the last verdict. The old man's line never moves.</figcaption>
+</figure>
+
+<p>I treated my JEE rank as bad luck for years. Not enough to land a circuit branch at a top IIT, which is the whole point of the exam if you grow up where I did. I went to BITS Pilani instead. A very good college. I knew that then. It didn’t feel like enough.</p>
+
+<p>Here’s the part I missed for a long time. I’d been so fixed on the tag, the letters IIT, that I never asked the only question that mattered: I was going to study that stream for four years. Did I actually want to?</p>
+
+<p>The rank that closed the circuit-branch door is the same rank that left me free to pick the subject I’d quietly been drawn to. Mathematics. The thing I’d have talked myself out of for a better-known name on a sweatshirt. What felt like the worst luck at eighteen turned out to be the moment the choice got handed back to me.</p>
+
+<p>I’m not pretending it was painless at the time. It wasn’t. I sat with it for a while before it turned into anything.</p>
+
+<hr />
+
+<p>The frontier old man’s trick isn’t optimism. He never says it’ll be fine. What he does is refuse to stamp the verdict too early, because the verdict keeps moving. The neighbors keep showing up with their condolences and their congratulations, and every single time, they’re wrong about something.</p>
+
+<p>I still catch myself calling things bad luck the week they happen. A rejected application, a plan that collapses. I’m the neighbor. I want to know <em>now</em>. The parable says I can’t, and I’m starting to believe it.</p>
+
+<p>The horse ran away. Maybe.</p>
+
+<hr />
+
+<p><em>The bad luck was just the luck, a few years early.</em></p>]]></content><author><name>Parth Batra</name></author><category term="just-a-thought" /><category term="note-to-self" /><summary type="html"><![CDATA[This one’s been sitting in my Reddit saved posts for months. I found it on r/philosophy, tweeted it when I first read it, and kept coming back. It’s a parable about a horse.]]></summary></entry><entry><title type="html">I Wrote 15 Postcards Nobody Asked For. They Weren’t for My Friends.</title><link href="http://localhost:4000/2026/06/22/i-started-doing-the-last-5-percent-of-everything.html" rel="alternate" type="text/html" title="I Wrote 15 Postcards Nobody Asked For. They Weren’t for My Friends." /><published>2026-06-22T00:00:00+05:30</published><updated>2026-06-22T00:00:00+05:30</updated><id>http://localhost:4000/2026/06/22/i-started-doing-the-last-5-percent-of-everything</id><content type="html" xml:base="http://localhost:4000/2026/06/22/i-started-doing-the-last-5-percent-of-everything.html"><![CDATA[<p>I wrote 15 postcards from the highest post office in the world. It’s in Hikkim, Spiti, somewhere around 15000 feet. I was there some time back, and I spent a full day writing to the people close to me at that time. By hand, each one different, the kind of penmanship I normally save for signing official documents.</p>
+
+<p>Most came back with a “thanks.” A few came back with “love you bro.” If you know any emotionally unavailable mid-20s Indian men, you know that’s the highest compliment physically possible. We are a nonchalant final boss. “Love you bro” from us is a Nobel acceptance speech.</p>
+
+<p>Here’s what I keep turning over though. If I’d done the formality version, the postcard equivalent of a forwarded meme, I’d probably have gotten the same replies. “Thanks man” comes free. The “love you bro” might have come anyway.</p>
+
+<p>The extra effort wasn’t what earned the reactions. They would have come anyway. But here’s the part I didn’t expect. Sitting down to write fifteen postcards by hand, one full day, each one actually different, I felt <em>proud</em>. Not of the postcards. Of the version of me who chose to do it that way. And when the “love you bro”s came back, I felt loved, and appreciated, in a way a forwarded meme has never made anyone feel.</p>
+
+<p>That good feeling is the part nobody talks about. And it’s the whole point.</p>
+
+<figure class="diagram">
+<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="Four small doodles: a handwritten postcard, a chat bubble with three dots, a photo with a star review, and a dumbbell." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+  <g transform="translate(50,75)" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="-20" y="-13" width="40" height="26" rx="2" />
+    <line x1="-4" y1="-13" x2="-4" y2="13" />
+    <rect x="8" y="-10" width="9" height="7" />
+    <line x1="0" y1="2" x2="16" y2="2" />
+    <line x1="0" y1="7" x2="13" y2="7" />
+    <path d="M-15 -7 q3 -3 6 0 q3 3 6 0" />
+    <path d="M-15 0 q3 -3 6 0 q3 3 6 0" />
+  </g>
+  <g transform="translate(145,75)" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-16 -10 h32 a4 4 0 0 1 4 4 v12 a4 4 0 0 1 -4 4 h-20 l-6 5 v-5 h-6 a4 4 0 0 1 -4 -4 v-12 a4 4 0 0 1 4 -4 z" />
+    <circle cx="-6" cy="0" r="1.6" fill="currentColor" stroke="none" />
+    <circle cx="0" cy="0" r="1.6" fill="currentColor" stroke="none" />
+    <circle cx="6" cy="0" r="1.6" fill="currentColor" stroke="none" />
+  </g>
+  <g transform="translate(240,75)" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="-16" y="-6" width="22" height="16" rx="1.5" />
+    <circle cx="-11" cy="0" r="2.2" fill="currentColor" stroke="none" />
+    <path d="M-16 7 l7 -6 l5 4 l4 -3 l6 5" />
+    <path d="M10 -10 l1.4 3 l3.2 .4 l-2.3 2.2 l.6 3.2 l-2.9 -1.6 l-2.9 1.6 l.6 -3.2 l-2.3 -2.2 l3.2 -.4 z" fill="currentColor" stroke="none" />
+  </g>
+  <g transform="translate(335,75)" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="-23" y="-9" width="8" height="18" rx="1.5" />
+    <rect x="-20" y="-12" width="5" height="24" rx="1.5" />
+    <rect x="15" y="-9" width="8" height="18" rx="1.5" />
+    <rect x="12" y="-12" width="5" height="24" rx="1.5" />
+    <line x1="-15" y1="0" x2="12" y2="0" />
+  </g>
+</svg>
+<figcaption>A postcard nobody asked for. A message to a deal that fell through. A review with photos. A set finished at full depth. None of it moves the task. All of it moves the operator.</figcaption>
+</figure>
+
+<h2 id="the-last-5">The last 5%</h2>
+
+<p>I’ve started noticing a part of every task that nobody asks for and almost nobody does. I’ve been calling it the last 5%. It doesn’t move the outcome. It moves everything else.</p>
+
+<p>It showed up loudest in arguments. I’m competitive on the inside, not the loud kind, the table-tennis-at-zonal-level kind, still wired somewhere to win the point. So I wasn’t really listening, I was loading my rebuttal while the other person was still talking. The shift only came when I let myself see that the people arguing with me were arguing <em>for</em> my betterment.</p>
+
+<p>A few more, from the last few months. A travel agent I went back and forth with for days over a Spiti trip, until the deal fell through. The easy thing was to ghost. He’s a stranger on the internet, the transaction’s dead, why bother. I sent three sentences instead: thanks for the time, here’s why it didn’t fit, ping me if a better window opens. Forty seconds. Changed nothing about the trip.</p>
+
+<p>In Spiti itself I stayed at small homestays where people had bet everything on the place. After checkout the easy thing is to vanish, so I sat down and wrote detailed reviews, with photos, for every stay and every cafe owner who was kind to me. The woman who served me hot chocolate and a brownie will probably never connect the review to the quiet guy in the corner.</p>
+
+<h2 id="what-i-think-is-actually-happening">What I think is actually happening</h2>
+
+<p>Here’s the thing I keep turning over. None of these improved the task. The postcards didn’t make me a better friend in that moment. The travel agent message didn’t get me a cheaper trip. The reviews didn’t earn me a discount.</p>
+
+<p>What they did was cast a vote. Each one says: I’m the kind of person who finishes things properly, even when nobody’s watching, even when it doesn’t matter. And votes accumulate. One is worth nothing. A hundred is a different person.</p>
+
+<p>Doing things well, as far as I can tell, isn’t a quality strategy. It’s an identity strategy. The point of the well-written message isn’t a better message. It’s that you become someone who writes messages like that, and that person writes better, codes better, lifts better, listens better, shows up better, because they’re not a different person in each room. The standard travels with you.</p>
+
+<p>I used to think I had separate dials. Work at 90, gym at 40, relationships at 60, dishes at 20. I assumed they were independent. Lately I’m not so sure. If my morning gym session was phoned in, I don’t feel right the rest of the day. Something’s off and I can’t quite name it. And no matter how good the food is, a meal eaten out of a badly-arranged, dirty kitchen doesn’t taste good to me. The low standard in one corner contaminates the felt quality of everything else. The standard isn’t parcelled out by room. It’s one dial. And I can’t quarantine the low settings. They bleed into how the whole day sits in my body.</p>
+
+<hr />
+
+<p>This isn’t “do everything perfectly.” Perfectionism is a different disease, and it ships nothing because nothing is ever ready. The last 5% thing is the opposite. It’s about finishing, properly, and moving on. Perfectionism says <em>it’s not ready</em>. The last 5% says <em>it’s ready, I did it right, next</em>.</p>
+
+<p>The test I’ve been running on myself: could I find one more minute to make this better, and would future-me be glad I spent it? Usually yes. Sometimes no, and then I ship. I’m still figuring out which is which. I default to yes because I haven’t earned the right to say no yet. The people who default to no aren’t being efficient, I think. They’re just practicing a different identity, and getting very good at it.</p>
+
+<p>I don’t do any of this because you’ll notice. You won’t, most of the time. I do it because of that feeling in Hikkim. The postcards weren’t for the replies. They were for the version of me who sat down and wrote them, and <em>that version is the one I’m stuck with for the rest of my life.</em></p>
+
+<p>There’s an old line, i think it comes from Zen, <em>How you do anything is how you do everything.</em> It used to sound like a threat. Now it sounds like the most generous thing I’ve ever read. It means the postcard matters. The gym set matters. The message to the travel agent matters. Google review matters. Not because the world is keeping score, but because you are always, in every one of them, rehearsing and becoming someone. You might as well become someone who does things right!</p>]]></content><author><name>Parth Batra</name></author><category term="note-to-self" /><category term="tiny-reps" /><summary type="html"><![CDATA[I wrote 15 postcards from the highest post office in the world. It’s in Hikkim, Spiti, somewhere around 15000 feet. I was there some time back, and I spent a full day writing to the people close to me at that time. By hand, each one different, the kind of penmanship I normally save for signing official documents.]]></summary></entry><entry><title type="html">I Was Confidently Wrong About Almost Everything</title><link href="http://localhost:4000/2026/06/22/i-was-confidently-wrong-about-almost-everything.html" rel="alternate" type="text/html" title="I Was Confidently Wrong About Almost Everything" /><published>2026-06-22T00:00:00+05:30</published><updated>2026-06-22T00:00:00+05:30</updated><id>http://localhost:4000/2026/06/22/i-was-confidently-wrong-about-almost-everything</id><content type="html" xml:base="http://localhost:4000/2026/06/22/i-was-confidently-wrong-about-almost-everything.html"><![CDATA[<p>My brain has been lying to me with confidence my entire life. Not occasionally. Constantly. And for a long time I didn’t notice, because confidence is the one thing that feels exactly the same whether it’s earned or not.</p>
 
 <p>I spent a while going after this. Reading, catching myself mid-decision, writing down the places I’d been confidently wrong. The first thing I learned is that the lies aren’t random. They come in patterns. Once you see them, you can’t unsee them.</p>
 
@@ -89,79 +214,7 @@
 
 <p><strong>When a belief feels obviously true:</strong> what data would change my mind?</p>
 
-<p>If I can’t answer that last one, I’m not thinking. I’m just confirming.</p>]]></content><author><name>Parth Batra</name></author><category term="brain-glitch" /><category term="note-to-self" /><category term="just-a-thought" /><summary type="html"><![CDATA[My brain has been lying to me with confidence my entire life. Not occasionally. Constantly. And for a long time I didn’t notice, because confidence is the one thing that feels exactly the same whether it’s earned or not.]]></summary></entry><entry><title type="html">I Wrote 15 Postcards Nobody Asked For. They Weren’t for My Friends.</title><link href="https://fromparth.blog/2026/06/22/i-started-doing-the-last-5-percent-of-everything.html" rel="alternate" type="text/html" title="I Wrote 15 Postcards Nobody Asked For. They Weren’t for My Friends." /><published>2026-06-22T00:00:00+05:30</published><updated>2026-06-22T00:00:00+05:30</updated><id>https://fromparth.blog/2026/06/22/i-started-doing-the-last-5-percent-of-everything</id><content type="html" xml:base="https://fromparth.blog/2026/06/22/i-started-doing-the-last-5-percent-of-everything.html"><![CDATA[<p>I wrote 15 postcards from the highest post office in the world. It’s in Hikkim, Spiti, somewhere around 15000 feet. I was there some time back, and I spent a full day writing to the people close to me at that time. By hand, each one different, the kind of penmanship I normally save for signing official documents.</p>
-
-<p>Most came back with a “thanks.” A few came back with “love you bro.” If you know any emotionally unavailable mid-20s Indian men, you know that’s the highest compliment physically possible. We are a nonchalant final boss. “Love you bro” from us is a Nobel acceptance speech.</p>
-
-<p>Here’s what I keep turning over though. If I’d done the formality version, the postcard equivalent of a forwarded meme, I’d probably have gotten the same replies. “Thanks man” comes free. The “love you bro” might have come anyway.</p>
-
-<p>The extra effort wasn’t what earned the reactions. They would have come anyway. But here’s the part I didn’t expect. Sitting down to write fifteen postcards by hand, one full day, each one actually different, I felt <em>proud</em>. Not of the postcards. Of the version of me who chose to do it that way. And when the “love you bro”s came back, I felt loved, and appreciated, in a way a forwarded meme has never made anyone feel.</p>
-
-<p>That good feeling is the part nobody talks about. And it’s the whole point.</p>
-
-<figure class="diagram">
-<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="Four small doodles: a handwritten postcard, a chat bubble with three dots, a photo with a star review, and a dumbbell." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
-  <g transform="translate(50,75)" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="-20" y="-13" width="40" height="26" rx="2" />
-    <line x1="-4" y1="-13" x2="-4" y2="13" />
-    <rect x="8" y="-10" width="9" height="7" />
-    <line x1="0" y1="2" x2="16" y2="2" />
-    <line x1="0" y1="7" x2="13" y2="7" />
-    <path d="M-15 -7 q3 -3 6 0 q3 3 6 0" />
-    <path d="M-15 0 q3 -3 6 0 q3 3 6 0" />
-  </g>
-  <g transform="translate(145,75)" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M-16 -10 h32 a4 4 0 0 1 4 4 v12 a4 4 0 0 1 -4 4 h-20 l-6 5 v-5 h-6 a4 4 0 0 1 -4 -4 v-12 a4 4 0 0 1 4 -4 z" />
-    <circle cx="-6" cy="0" r="1.6" fill="currentColor" stroke="none" />
-    <circle cx="0" cy="0" r="1.6" fill="currentColor" stroke="none" />
-    <circle cx="6" cy="0" r="1.6" fill="currentColor" stroke="none" />
-  </g>
-  <g transform="translate(240,75)" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="-16" y="-6" width="22" height="16" rx="1.5" />
-    <circle cx="-11" cy="0" r="2.2" fill="currentColor" stroke="none" />
-    <path d="M-16 7 l7 -6 l5 4 l4 -3 l6 5" />
-    <path d="M10 -10 l1.4 3 l3.2 .4 l-2.3 2.2 l.6 3.2 l-2.9 -1.6 l-2.9 1.6 l.6 -3.2 l-2.3 -2.2 l3.2 -.4 z" fill="currentColor" stroke="none" />
-  </g>
-  <g transform="translate(335,75)" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="-23" y="-9" width="8" height="18" rx="1.5" />
-    <rect x="-20" y="-12" width="5" height="24" rx="1.5" />
-    <rect x="15" y="-9" width="8" height="18" rx="1.5" />
-    <rect x="12" y="-12" width="5" height="24" rx="1.5" />
-    <line x1="-15" y1="0" x2="12" y2="0" />
-  </g>
-</svg>
-<figcaption>A postcard nobody asked for. A message to a deal that fell through. A review with photos. A set finished at full depth. None of it moves the task. All of it moves the operator.</figcaption>
-</figure>
-
-<h2 id="the-last-5">The last 5%</h2>
-
-<p>I’ve started noticing a part of every task that nobody asks for and almost nobody does. I’ve been calling it the last 5%. It doesn’t move the outcome. It moves everything else.</p>
-
-<p>It showed up loudest in arguments. I’m competitive on the inside, not the loud kind, the table-tennis-at-zonal-level kind, still wired somewhere to win the point. So I wasn’t really listening, I was loading my rebuttal while the other person was still talking. The shift only came when I let myself see that the people arguing with me were arguing <em>for</em> my betterment.</p>
-
-<p>A few more, from the last few months. A travel agent I went back and forth with for days over a Spiti trip, until the deal fell through. The easy thing was to ghost. He’s a stranger on the internet, the transaction’s dead, why bother. I sent three sentences instead: thanks for the time, here’s why it didn’t fit, ping me if a better window opens. Forty seconds. Changed nothing about the trip.</p>
-
-<p>In Spiti itself I stayed at small homestays where people had bet everything on the place. After checkout the easy thing is to vanish, so I sat down and wrote detailed reviews, with photos, for every stay and every cafe owner who was kind to me. The woman who served me hot chocolate and a brownie will probably never connect the review to the quiet guy in the corner.</p>
-
-<h2 id="what-i-think-is-actually-happening">What I think is actually happening</h2>
-
-<p>Here’s the thing I keep turning over. None of these improved the task. The postcards didn’t make me a better friend in that moment. The travel agent message didn’t get me a cheaper trip. The reviews didn’t earn me a discount.</p>
-
-<p>What they did was cast a vote. Each one says: I’m the kind of person who finishes things properly, even when nobody’s watching, even when it doesn’t matter. And votes accumulate. One is worth nothing. A hundred is a different person.</p>
-
-<p>Doing things well, as far as I can tell, isn’t a quality strategy. It’s an identity strategy. The point of the well-written message isn’t a better message. It’s that you become someone who writes messages like that, and that person writes better, codes better, lifts better, listens better, shows up better, because they’re not a different person in each room. The standard travels with you.</p>
-
-<p>I used to think I had separate dials. Work at 90, gym at 40, relationships at 60, dishes at 20. I assumed they were independent. Lately I’m not so sure. If my morning gym session was phoned in, I don’t feel right the rest of the day. Something’s off and I can’t quite name it. And no matter how good the food is, a meal eaten out of a badly-arranged, dirty kitchen doesn’t taste good to me. The low standard in one corner contaminates the felt quality of everything else. The standard isn’t parcelled out by room. It’s one dial. And I can’t quarantine the low settings. They bleed into how the whole day sits in my body.</p>
-
-<hr />
-
-<p>This isn’t “do everything perfectly.” Perfectionism is a different disease, and it ships nothing because nothing is ever ready. The last 5% thing is the opposite. It’s about finishing, properly, and moving on. Perfectionism says <em>it’s not ready</em>. The last 5% says <em>it’s ready, I did it right, next</em>.</p>
-
-<p>The test I’ve been running on myself: could I find one more minute to make this better, and would future-me be glad I spent it? Usually yes. Sometimes no, and then I ship. I’m still figuring out which is which. I default to yes because I haven’t earned the right to say no yet. The people who default to no aren’t being efficient, I think. They’re just practicing a different identity, and getting very good at it.</p>
-
-<p>I don’t do any of this because you’ll notice. You won’t, most of the time. I do it because of that feeling in Hikkim. The postcards weren’t for the replies. They were for the version of me who sat down and wrote them, and <em>that version is the one I’m stuck with for the rest of my life.</em></p>
-
-<p>There’s an old line, i think it comes from Zen, <em>How you do anything is how you do everything.</em> It used to sound like a threat. Now it sounds like the most generous thing I’ve ever read. It means the postcard matters. The gym set matters. The message to the travel agent matters. Google review matters. Not because the world is keeping score, but because you are always, in every one of them, rehearsing and becoming someone. You might as well become someone who does things right!</p>]]></content><author><name>Parth Batra</name></author><category term="note-to-self" /><category term="tiny-reps" /><summary type="html"><![CDATA[I wrote 15 postcards from the highest post office in the world. It’s in Hikkim, Spiti, somewhere around 15000 feet. I was there some time back, and I spent a full day writing to the people close to me at that time. By hand, each one different, the kind of penmanship I normally save for signing official documents.]]></summary></entry><entry><title type="html">The People Who Make You Better Just by Existing</title><link href="https://fromparth.blog/2026/06/15/the-people-who-make-you-better-just-by-existing.html" rel="alternate" type="text/html" title="The People Who Make You Better Just by Existing" /><published>2026-06-15T00:00:00+05:30</published><updated>2026-06-15T00:00:00+05:30</updated><id>https://fromparth.blog/2026/06/15/the-people-who-make-you-better-just-by-existing</id><content type="html" xml:base="https://fromparth.blog/2026/06/15/the-people-who-make-you-better-just-by-existing.html"><![CDATA[<p>This month, a single line from <a href="https://dailystoic.com/"><em>The Daily Stoic</em></a> stopped me cold:</p>
+<p>If I can’t answer that last one, I’m not thinking. I’m just confirming.</p>]]></content><author><name>Parth Batra</name></author><category term="brain-glitch" /><category term="note-to-self" /><category term="just-a-thought" /><summary type="html"><![CDATA[My brain has been lying to me with confidence my entire life. Not occasionally. Constantly. And for a long time I didn’t notice, because confidence is the one thing that feels exactly the same whether it’s earned or not.]]></summary></entry><entry><title type="html">The People Who Make You Better Just by Existing</title><link href="http://localhost:4000/2026/06/15/the-people-who-make-you-better-just-by-existing.html" rel="alternate" type="text/html" title="The People Who Make You Better Just by Existing" /><published>2026-06-15T00:00:00+05:30</published><updated>2026-06-15T00:00:00+05:30</updated><id>http://localhost:4000/2026/06/15/the-people-who-make-you-better-just-by-existing</id><content type="html" xml:base="http://localhost:4000/2026/06/15/the-people-who-make-you-better-just-by-existing.html"><![CDATA[<p>This month, a single line from <a href="https://dailystoic.com/"><em>The Daily Stoic</em></a> stopped me cold:</p>
 
 <blockquote>
   <p>“Happy is the person who can improve others not only when present but even in their thoughts.”</p>
@@ -194,132 +247,134 @@
 
 <p>It’s not the same as religion’s universal watcher concept, where fear of being seen keeps you in line. Fear makes you hide the worst of you. Love makes you reach for the best. Same watcher, different engine.</p>
 
-<p>The Stoic who wrote that line called it happiness. I’d call it borrowing a face you trust until your own grows into it.</p>]]></content><author><name>Parth Batra</name></author><category term="just-a-thought" /><category term="note-to-self" /><summary type="html"><![CDATA[This month, a single line from The Daily Stoic stopped me cold:]]></summary></entry><entry><title type="html">How I Actually Measure Personal Growth</title><link href="https://fromparth.blog/2026/06/12/how-i-measure-personal-growth.html" rel="alternate" type="text/html" title="How I Actually Measure Personal Growth" /><published>2026-06-12T00:00:00+05:30</published><updated>2026-06-12T00:00:00+05:30</updated><id>https://fromparth.blog/2026/06/12/how-i-measure-personal-growth</id><content type="html" xml:base="https://fromparth.blog/2026/06/12/how-i-measure-personal-growth.html"><![CDATA[<p>During table tennis practice last year, I caught myself counting imaginary scores. Not the actual rally — the <em>implied</em> one. This person broke it five times, I broke it three, therefore I’m losing. At practice. Against friends. No stakes whatsoever. I’d done it my whole life: hackathons, group projects, anything with a scoreboard real or invented. If I was in, I was in to win.</p>
+<p>The Stoic who wrote that line called it happiness. I’d call it borrowing a face you trust until your own grows into it.</p>]]></content><author><name>Parth Batra</name></author><category term="just-a-thought" /><category term="note-to-self" /><summary type="html"><![CDATA[This month, a single line from The Daily Stoic stopped me cold:]]></summary></entry><entry><title type="html">How I Actually Measure Personal Growth</title><link href="http://localhost:4000/2026/06/12/how-i-measure-personal-growth.html" rel="alternate" type="text/html" title="How I Actually Measure Personal Growth" /><published>2026-06-12T00:00:00+05:30</published><updated>2026-06-12T00:00:00+05:30</updated><id>http://localhost:4000/2026/06/12/how-i-measure-personal-growth</id><content type="html" xml:base="http://localhost:4000/2026/06/12/how-i-measure-personal-growth.html"><![CDATA[<p>During table tennis practice last year, I caught myself counting imaginary scores. Not the actual rally. The <em>implied</em> one. This person broke it five times, I broke it three, therefore I’m losing. At practice. Against friends. No stakes whatsoever. I’d done it my whole life: hackathons, group projects, anything with a scoreboard real or invented. If I was in, I was in to win.</p>
 
-<p>I don’t count imaginary scores anymore. Sometimes I lose a rally on purpose now, just to keep the game going, because the game is the point. Noticing that shift is what got me thinking about how you’d even measure something like personal growth in the first place.</p>
+<p>I don’t count imaginary scores anymore. Sometimes I lose a rally on purpose now, just to keep the game going, because the game is the point. Noticing that shift is what got me thinking about how you’d even measure something like personal growth in the first place. If I’d quietly gotten better at the one thing I’d been bad at my whole life, what else could you actually track? And who else thinks about this?</p>
 
-<p>My founder friends constantly think about growth. They think about how to measure their business growth and how to get to the next order of magnitude scale. If they’re making $1M ARR today, they think about how to get to $10M ARR. If they have 1,000 users today, they think about how to get to 10,000 users.</p>
-
-<p>This made me wonder if/how people are measuring personal growth. I don’t want to use metrics like net worth or the number of followers, because that’s not what I live for. After talking with a lot of friends, I found three interesting metrics: rate of change, time to solve problems, and number of future options.</p>
-
-<p>Some friends told me they find this blog post mildly sociopathic. Why do I have to measure everything? Life is to be lived, not to be measured. As someone <em>“lowkey”</em> fascinated by numbers, I don’t see why measuring and living have to be mutually exclusive – measuring often helps me live better – but I see where they come from. This post is more of a thought exercise than a rigorous experiment.</p>
+<p>Some friends told me this whole exercise is mildly sociopathic. Why measure everything? Life is to be lived, not scored. They’re not wrong, they’re just asking the wrong person to stop. I’m a mathematician and an athlete at the core. I will always keep score. I will always want the win. I’m going to measure, whether I decide to or not. So the question was never whether to measure. It was <em>what</em> to measure. Net worth and follower counts aren’t what I live for. This post is me trying to point that instinct at the right numbers. It’s me trying to mend me.</p>
 
 <h2 id="rate-of-change">Rate of change</h2>
 
 <p>I have this theory that life has a circadian rhythm. Every 3-6 years, you become a different person. You work on different problems. Your lifestyle changes. The people you hang out with are different. If you haven’t caught up with a friend in 5 years, you might no longer have anything in common. It’s not a coincidence that schools are structured into chunks of 3-6 years.</p>
 
-<p>Looking back, I realized that every 3-6 years, my life completely changed. From grade 3 to grade 9, I used to compete in table tennis. For the next 3 years, I did competitive maths and JEE preparations. Then I went to college and studied engineering and mathematics for 5 years. After that, I fumbled around for almost 2 years. It was only recently that I felt like I had a handle on life.</p>
+<p>I can see it in my own life, chapter by chapter. Table tennis. Competitive maths. Engineering school. Each one a different person, each one barely recognizing the last. And then, for almost two years, I was nobody in particular. Between versions, with no next one in sight. I’d come out of a structure that told me who I was every morning, and for the first time nobody was handing me one. I didn’t handle it well. It was only recently that I felt like I had a handle on life again.</p>
 
-<p>it all comes back to the rule of 72 in finance. It’s a simple formula that estimates the number of years it will take for an investment to double in value. If the annual interest rate is 8%, it’ll take 72/8 = 9 years for the value of your investment to double.</p>
+<p>I wonder if I could treat myself like an investment, and measure my growth by how long it’d take me to become a new person.</p>
 
-<p>I wonder if I could treat myself as an investment, and measure my growth by how long it’d take me to become a new person. Becoming a new person isn’t always a good thing, and probably not the goal for everyone. But for me, it is. I want to be able to see things from a new perspective. I want to be exposed to new challenges. I treasure old friends (I still talk to my best friends from school), but I like learning from new friends.</p>
+<p>Finance has a name for this. The rule of 72. Divide 72 by your annual return and you get the years it takes to double. 8% a year, and your money doubles every nine. What I want to know is the return on me. How long until the version I’m living as now is unrecognizable to the one who started?</p>
+
+<p>Becoming a new person isn’t always a good thing, and probably not the goal for everyone. But for me, it is. I want to see things from a new perspective. I want to be exposed to new challenges.</p>
+
+<p>Becoming a new person sounds clean. It isn’t. It feels like outgrowing a room you used to love, walking back in years later, and finding the ceiling too low to stand up straight in. You can’t un-grow. Some of my oldest friends are rooms I can’t stand in anymore. We still talk, I still love them, but I catch myself performing the old version of me so the conversation has somewhere to land, and we both feel the draft coming through the gap. The growth and the loss are the same event. I haven’t figured out how to want one without getting the other.</p>
 
 <figure class="diagram">
-<svg viewBox="0 0 720 300" role="img" aria-label="A staircase rising left to right. Each step is a new version of you, shipped every three to six years, each one taller than the last, with the most recent step drawn in green.">
-  <!-- axes -->
-  <line x1="70" y1="250" x2="680" y2="250" stroke="currentColor" stroke-width="1" opacity="0.4" />
-  <line x1="70" y1="40" x2="70" y2="250" stroke="currentColor" stroke-width="1" opacity="0.4" />
-  <text transform="translate(44,150) rotate(-90)" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="currentColor" opacity="0.5">how much of you has been rewritten</text>
+<svg viewBox="0 0 720 230" role="img" aria-label="A horizontal strip of five life chapters shown as distinct blocks across time. From left to right: table tennis, competitive maths, engineering school, a hatched gap of roughly two years labelled with a question mark, and now, drawn in green. Each chapter is a different person. The gap is the time between versions, where none of them fit.">
+  <!-- chapter 1: table tennis -->
+  <rect x="40" y="70" width="120" height="56" rx="4" fill="currentColor" opacity="0.13" />
+  <text x="100" y="102" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="currentColor" opacity="0.7">table tennis</text>
+  <text x="100" y="146" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="11" fill="currentColor" opacity="0.4">grade 3 to 9</text>
 
-  <!-- compounding staircase: each tread a new era, each riser taller than the last -->
-  <path d="M70 250 H190 V210 H320 V158 H450 V96 H560 V44 H650" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" opacity="0.85" />
-  <!-- latest segment in green -->
-  <path d="M450 96 H560 V44 H650" fill="none" stroke="#56b947" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" />
+  <!-- chapter 2: competitive maths -->
+  <rect x="168" y="70" width="96" height="56" rx="4" fill="currentColor" opacity="0.18" />
+  <text x="216" y="98" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="currentColor" opacity="0.7">competitive</text>
+  <text x="216" y="114" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="currentColor" opacity="0.7">maths</text>
+  <text x="216" y="146" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="11" fill="currentColor" opacity="0.4">~3 yrs</text>
 
-  <!-- version dots + labels at each step -->
-  <circle cx="190" cy="210" r="4.5" fill="currentColor" />
-  <text x="130" y="200" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="currentColor" opacity="0.65">you 1.0</text>
-  <circle cx="320" cy="158" r="4.5" fill="currentColor" />
-  <text x="255" y="148" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="currentColor" opacity="0.65">you 2.0</text>
-  <circle cx="450" cy="96" r="4.5" fill="currentColor" />
-  <text x="385" y="86" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="currentColor" opacity="0.65">you 3.0</text>
-  <circle cx="560" cy="44" r="5" fill="#56b947" />
-  <text x="600" y="40" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="#56b947" font-style="italic">you, today</text>
+  <!-- chapter 3: engineering school -->
+  <rect x="272" y="70" width="150" height="56" rx="4" fill="currentColor" opacity="0.13" />
+  <text x="347" y="98" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="currentColor" opacity="0.7">engineering</text>
+  <text x="347" y="114" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="currentColor" opacity="0.7">school</text>
+  <text x="347" y="146" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="11" fill="currentColor" opacity="0.4">~5 yrs</text>
 
-  <!-- gap labels under the treads -->
-  <text x="130" y="270" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="12" fill="currentColor" opacity="0.45">~4 yrs</text>
-  <text x="255" y="270" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="12" fill="currentColor" opacity="0.45">~5 yrs</text>
-  <text x="385" y="270" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="12" fill="currentColor" opacity="0.45">~3 yrs</text>
-  <text x="505" y="270" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="12" fill="currentColor" opacity="0.45">~4 yrs</text>
+  <!-- the gap: hatched, no label -->
+  <defs>
+    <pattern id="gap-hatch" patternUnits="userSpaceOnUse" width="8" height="8" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="8" stroke="currentColor" stroke-width="1.4" opacity="0.35" />
+    </pattern>
+  </defs>
+  <rect x="430" y="70" width="80" height="56" rx="4" fill="url(#gap-hatch)" stroke="currentColor" stroke-width="1" stroke-dasharray="3 3" opacity="0.55" />
+  <text x="470" y="104" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="20" fill="currentColor" opacity="0.4">?</text>
+  <text x="470" y="146" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="11" fill="currentColor" opacity="0.4">~2 yrs</text>
+
+  <!-- chapter 5: now, green -->
+  <rect x="518" y="70" width="160" height="56" rx="4" fill="#56b947" opacity="0.18" />
+  <rect x="518" y="70" width="160" height="56" rx="4" fill="none" stroke="#56b947" stroke-width="1.5" opacity="0.7" />
+  <text x="598" y="98" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="#56b947">a handle</text>
+  <text x="598" y="114" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="#56b947">on life</text>
+  <text x="598" y="146" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="11" fill="#56b947" opacity="0.75">now</text>
+
+  <!-- caption inside svg: the discontinuity -->
+  <text x="360" y="195" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="12.5" fill="currentColor" opacity="0.5" font-style="italic">each block is a different person. the hatched one is where none of them fit.</text>
 </svg>
-<figcaption>Treat yourself like an investment: every few years a new version ships, each one compounding on the last.</figcaption>
+<figcaption>My own chapters. Five people so far, and a gap where there wasn’t one.</figcaption>
 </figure>
 
 <h2 id="time-to-solve-problems">Time to solve problems</h2>
 
-<p>Mayank, an old friend doing his post-doc from Cambridge in London, believes that there are three big problems in life: career, family, and finance. It usually takes people a decade to figure each out (he calls them life projects).</p>
-
-<ol>
-  <li>For the first decade after graduation, you figure out what you want to do with your life.</li>
-  <li>For the next decade, you get married, buy a house, and have kids.</li>
-  <li>For the next decade, you build out your savings to retire.</li>
-</ol>
-
-<p>His goal is to solve these problems as fast as possible, so he can focus on more interesting problem.</p>
-
-<figure class="diagram">
-<svg viewBox="0 0 720 330" role="img" aria-label="Three life problems — career, family, finance — each shown as two bars. A long faint bar is the usual decade-each pace; a shorter green bar is solving it faster. The time saved on the right is labelled time for more interesting problems.">
-  <!-- decade gridlines -->
-  <line x1="170" y1="50" x2="170" y2="250" stroke="currentColor" stroke-width="1" opacity="0.3" />
-  <line x1="340" y1="50" x2="340" y2="250" stroke="currentColor" stroke-width="1" opacity="0.3" />
-  <line x1="510" y1="50" x2="510" y2="250" stroke="currentColor" stroke-width="1" opacity="0.3" />
-  <line x1="680" y1="50" x2="680" y2="250" stroke="currentColor" stroke-width="1" opacity="0.3" />
-  <text x="170" y="272" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="12" fill="currentColor" opacity="0.45">10 yrs</text>
-  <text x="340" y="272" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="12" fill="currentColor" opacity="0.45">20</text>
-  <text x="510" y="272" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="12" fill="currentColor" opacity="0.45">30</text>
-  <text x="680" y="272" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="12" fill="currentColor" opacity="0.45">40</text>
-
-  <!-- Career -->
-  <text x="160" y="78" text-anchor="end" font-family="Source Serif 4, Georgia, serif" font-size="14" fill="currentColor" opacity="0.7">Career</text>
-  <rect x="170" y="62" width="240" height="14" rx="3" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.5" />
-  <rect x="170" y="62" width="135" height="14" rx="3" fill="#56b947" opacity="0.9" />
-
-  <!-- Family -->
-  <text x="160" y="138" text-anchor="end" font-family="Source Serif 4, Georgia, serif" font-size="14" fill="currentColor" opacity="0.7">Family</text>
-  <rect x="170" y="122" width="350" height="14" rx="3" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.5" />
-  <rect x="170" y="122" width="205" height="14" rx="3" fill="#56b947" opacity="0.9" />
-
-  <!-- Finance -->
-  <text x="160" y="198" text-anchor="end" font-family="Source Serif 4, Georgia, serif" font-size="14" fill="currentColor" opacity="0.7">Finance</text>
-  <rect x="170" y="182" width="500" height="14" rx="3" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.5" />
-  <rect x="170" y="182" width="300" height="14" rx="3" fill="#56b947" opacity="0.9" />
-
-  <!-- saved-time bracket -->
-  <line x1="470" y1="225" x2="670" y2="225" stroke="#56b947" stroke-width="1.5" opacity="0.8" />
-  <line x1="470" y1="220" x2="470" y2="230" stroke="#56b947" stroke-width="1.5" opacity="0.8" />
-  <line x1="670" y1="220" x2="670" y2="230" stroke="#56b947" stroke-width="1.5" opacity="0.8" />
-  <text x="570" y="246" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="12.5" fill="#56b947" font-style="italic">time for more interesting problems</text>
-
-  <!-- legend -->
-  <rect x="190" y="296" width="22" height="12" rx="3" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.5" />
-  <text x="220" y="306" font-family="Source Serif 4, Georgia, serif" font-size="12.5" fill="currentColor" opacity="0.6">the usual pace</text>
-  <rect x="370" y="296" width="22" height="12" rx="3" fill="#56b947" opacity="0.9" />
-  <text x="400" y="306" font-family="Source Serif 4, Georgia, serif" font-size="12.5" fill="currentColor" opacity="0.6">solving it faster</text>
-</svg>
-<figcaption>Career, family, finance — a decade each at the usual pace. Growth is closing them faster, and spending what you save on better problems.</figcaption>
-</figure>
+<p>Mayank, an old friend doing his post-doc at Cambridge, frames it like this. Most people walk into three big problems after college, and spend roughly a decade on each. First, figuring out what you want to do with your life. Then marriage, a house, kids. Then savings, and the slow climb toward retirement. He calls them life projects. His goal is to close his faster, so he can get to more interesting ones. I realized I’d been quietly running the same race without ever naming it.</p>
 
 <p>This made me think that perhaps I can measure my growth by looking at what big problems I’ve solved. What big problems was I worried about 5 years ago that I no longer worry about now? What big problems am I worried about now that I don’t want to worry about in 5 years?</p>
 
-<p>What is considered a big problem depends on each person. For me, it’s career, finance, family, and health. A few concrete examples that tell me I’ve made progress. Five years ago the college kid in me panicked about money constantly; that went quiet once I had a real safety net behind me. I used to worry about not having a place of my own in a big city — somewhere that was actually mine, and actually safe — and that’s sorted now. My parents’ health used to send me into a spin with every little niggle; the niggles still come, but I’ve gotten much better at carrying them.</p>
+<p>What counts as a big problem depends on the person. For me, it’s career, finance, family, and health.</p>
 
-<p>There’s also the stuff that has quietly stopped registering as a threat. Performance reviews used to cost me days of low-grade dread. Now they don’t move my needle at all.</p>
+<p>Five years ago the college kid in me panicked about money constantly. Every UPI notification was a small heart attack. That went quiet the day there was finally a real safety net behind me, and I didn’t notice the silence until months later. I used to want a place that was actually mine, in a big city, actually safe. That’s sorted now. My parents’ health used to send me into a spin with every little niggle. The niggles still come. I’ve just gotten better at carrying them without letting them flatten the whole week.</p>
 
-<p>The big one still open: figuring out what I want to do long-term, and where. My own company? A move to the US or Europe? That’s the problem I’d like to not be carrying five years from now.</p>
+<p>Some things quietly stopped registering as threats at all. Performance reviews used to cost me three days of low-grade dread each. Now they don’t cost me much. I didn’t fix that on purpose. I looked up one day and the fear had moved out without telling me.</p>
+
+<figure class="diagram">
+<svg viewBox="0 0 920 300" role="img" aria-label="A vertical stack of five worries. From top to bottom: money is ghosted and faint, with an arrow labelled went quiet. A place of my own is ghosted and faint. Parents' health is half-faded. Performance reviews are ghosted and faint. What do I actually want to do is drawn in solid green with an open ring, still unresolved.">
+  <!-- column header -->
+  <text x="450" y="28" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="13" fill="currentColor" opacity="0.5" font-style="italic">five years of worries, and what happened to them</text>
+
+  <!-- row 1: money (ghosted) -->
+  <text x="220" y="72" text-anchor="end" font-family="Source Serif 4, Georgia, serif" font-size="14" fill="currentColor" opacity="0.3">money</text>
+  <line x1="235" y1="68" x2="600" y2="68" stroke="currentColor" stroke-width="1.4" opacity="0.18" stroke-dasharray="2 5" />
+  <text x="615" y="72" font-family="Source Serif 4, Georgia, serif" font-size="12" fill="currentColor" opacity="0.4" font-style="italic">went quiet</text>
+
+  <!-- row 2: a place of my own (ghosted) -->
+  <text x="220" y="112" text-anchor="end" font-family="Source Serif 4, Georgia, serif" font-size="14" fill="currentColor" opacity="0.3">a place that's mine</text>
+  <line x1="235" y1="108" x2="600" y2="108" stroke="currentColor" stroke-width="1.4" opacity="0.18" stroke-dasharray="2 5" />
+  <text x="615" y="112" font-family="Source Serif 4, Georgia, serif" font-size="12" fill="currentColor" opacity="0.4" font-style="italic">sorted</text>
+
+  <!-- row 3: parents' health (half-faded) -->
+  <text x="220" y="152" text-anchor="end" font-family="Source Serif 4, Georgia, serif" font-size="14" fill="currentColor" opacity="0.55">parents' health</text>
+  <line x1="235" y1="148" x2="600" y2="148" stroke="currentColor" stroke-width="1.6" opacity="0.4" />
+  <text x="615" y="152" font-family="Source Serif 4, Georgia, serif" font-size="12" fill="currentColor" opacity="0.45" font-style="italic">still here, easier to carry</text>
+
+  <!-- row 4: performance reviews (ghosted) -->
+  <text x="220" y="192" text-anchor="end" font-family="Source Serif 4, Georgia, serif" font-size="14" fill="currentColor" opacity="0.3">performance reviews</text>
+  <line x1="235" y1="188" x2="600" y2="188" stroke="currentColor" stroke-width="1.4" opacity="0.18" stroke-dasharray="2 5" />
+  <text x="615" y="192" font-family="Source Serif 4, Georgia, serif" font-size="12" fill="currentColor" opacity="0.4" font-style="italic">moved out</text>
+
+  <!-- row 5: what do I actually want to do (solid green, open) -->
+  <text x="220" y="238" text-anchor="end" font-family="Source Serif 4, Georgia, serif" font-size="14" fill="#56b947" font-weight="500">what do I actually want to do</text>
+  <circle cx="245" cy="234" r="6" fill="none" stroke="#56b947" stroke-width="1.8" />
+  <line x1="260" y1="234" x2="600" y2="234" stroke="#56b947" stroke-width="2" opacity="0.85" />
+  <text x="615" y="238" font-family="Source Serif 4, Georgia, serif" font-size="12" fill="#56b947" font-style="italic">still open</text>
+
+  <!-- footer note -->
+  <text x="450" y="280" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="12.5" fill="currentColor" opacity="0.5" font-style="italic">growth isn't the new problems you take on. it's the old ones that stop costing you.</text>
+</svg>
+<figcaption>The ones that went quiet. The one that didn’t.</figcaption>
+</figure>
+
+<hr />
+
+<p>The big one is still open: what I actually want to do long-term, and where. My own company? A move to the US or Europe? That’s the weight I’d like to not be carrying five years from now. Writing that sentence down, in public, is the most honest thing in this post, because now I can’t pretend I haven’t noticed it.</p>
 
 <h2 id="number-of-future-options">Number of future options</h2>
 
-<p>Sometime back on the twitter i read about this theory that every few years, half of your dreams die. People give up on their dreams because they realize that they can no longer achieve them.</p>
+<p>A while back I read a theory on Twitter that every few years, half of your dreams die. People give up on their dreams because they realize they can no longer achieve them.</p>
 
-<p>I disagree. As I grow older, I have more dreams. I now know many things that I didn’t know before, and I have access to more resources than I ever did. This allows me to do things that I used to think of as impossible. And the dreams keep multiplying instead of dying off. Some of the side projects I’ve built could be whole companies if I actually committed to them — right now I’m building an open-source alternative to <a href="https://www.qoves.com/">Qoves</a>. I even keep a running <a href="/list-100/">list of a hundred things I want to do</a>, and the giveaway is that I’ve crossed things off it and then deleted them anyway, swapping a goal I’d already hit for a bigger one. I can’t sit still, even with a win in hand.</p>
+<p>I disagree. As I grow older, I have more dreams. I now know many things that I didn’t know before, and I have access to more resources than I ever did. This allows me to do things that I used to think of as impossible. And the dreams keep multiplying instead of dying off. I keep a running <a href="/list-100/">list of a hundred things I want to do</a>, and the giveaway is that I’ve crossed things off it and then deleted them anyway, swapping a goal I’d already hit for a bigger one. I can’t sit still, even with a win in hand.</p>
 
-<p>During a reinforcement learning course in college, I learned about <em>empowerment maximization</em>. It’s a simple principle that enables robots/agents to exhibit relatively intelligent behavior. In the face of uncertainty, an agent following empowerment maximization would choose the action that maximizes future options. For example, facing multiple switches, it’d choose the switch that opens the most doors.</p>
+<p>During a reinforcement learning course in college, I learned there’s a name for how I’d already been living. <em>Empowerment maximization.</em> When an agent faces uncertainty, it picks the move that keeps the most doors open. Faced with a wall of switches, it pulls the one that unlocks the most others.</p>
 
-<p>I realized that this is the same principle that I’ve followed. In the face of uncertainty, I lean towards the decision that would give me the most future options. For example, I’d choose a job that pays less but gives me more job options in the future (e.g. if the job gives me exposure like allowing me to work on open source or publish papers). I’d prioritize tasks that teach me transferable skills instead of tasks that teach me niche, narrow skills.</p>
+<p>I didn’t need the jargon. I’d been doing it for years without a word for it. In the face of uncertainty, I lean towards the decision that gives me the most future options. I’d choose a job that pays less if it buys me more optionality: open source, papers, transferable skills over niche ones. I’d rather earn less now and keep the doors open behind me.</p>
 
 <p>Perhaps I can measure my growth by how many new options I have gained/lost. What options are available to me today that were not available to me 5 years ago? What options were available to me 5 years ago that aren’t available to me now? More importantly, what options that are not available to me today do I want 5 years from now?</p>
 
-<p>Upon some research i came across this image from Wait But Why. As time goes by, many doors are closed to us, but many new doors open up. That tweet was referring to the red lines on the left, and I focus on the green lines on the right.</p>
+<p>I came across this image from Wait But Why. As time goes by, many doors close to us, but many new ones open up. That tweet was talking about the red lines on the left. I keep my eyes on the green lines on the right.</p>
 
 <figure class="diagram">
 <svg viewBox="0 0 960 560" role="img" aria-label="A diagram in the style of Wait But Why. On the left, many red life paths fan out from a single birth point through the past and converge at today. On the right, green life paths open out from today and branch widely into the future. Red paths are closed to you; green paths are open.">
@@ -371,15 +426,11 @@
 
 <h2 id="conclusion">Conclusion</h2>
 
-<p>There are three heuristics that I follow for personal growth:</p>
+<p>I don’t know if these three metrics are right. I don’t think right is the point. They’re the ones I can’t stop watching.</p>
 
-<ol>
-  <li>I try to become a new person every 3-6 years.</li>
-  <li>I try to solve big problems as fast as possible.</li>
-  <li>I think of this as creating safety nets that allow me to take bigger risks and explore more things in the future. I take actions that help me maximize future options.</li>
-</ol>
+<p>I still play table tennis on office breaks and weekends. I still feel the old reflex twitch when someone pulls ahead, the imaginary scoreboard lighting up. But more often now I let the rally run long. I feed an easy one back, try a stupid loop just to see if it lands, lose the point on purpose, because a rally that ends early isn’t worth winning. That’s the one metric I trust most. Not the rate, not the problems, not the options. Just this: I can finally lose on purpose. A younger me would have called that losing. He’d have been wrong.</p>
 
-<p>These heuristics work for me (so far) because I have a strong bias towards novelty and exploration. Maybe one day, I’ll get tired of exploration, and these heuristics will change. When that happens, that’ll be growth.</p>]]></content><author><name>Parth Batra</name></author><category term="note-to-self" /><category term="brain-glitch" /><summary type="html"><![CDATA[During table tennis practice last year, I caught myself counting imaginary scores. Not the actual rally — the implied one. This person broke it five times, I broke it three, therefore I’m losing. At practice. Against friends. No stakes whatsoever. I’d done it my whole life: hackathons, group projects, anything with a scoreboard real or invented. If I was in, I was in to win.]]></summary></entry><entry><title type="html">Spiti Took Five Days to Take Me Apart. A 7-Year-Old Did It in Four Seconds.</title><link href="https://fromparth.blog/2026/06/08/spiti-took-five-days-to-take-me-apart.html" rel="alternate" type="text/html" title="Spiti Took Five Days to Take Me Apart. A 7-Year-Old Did It in Four Seconds." /><published>2026-06-08T00:00:00+05:30</published><updated>2026-06-08T00:00:00+05:30</updated><id>https://fromparth.blog/2026/06/08/spiti-took-five-days-to-take-me-apart</id><content type="html" xml:base="https://fromparth.blog/2026/06/08/spiti-took-five-days-to-take-me-apart.html"><![CDATA[<style>
+<p>Maybe one day I’ll get tired of exploring and want to stay still. I used to think staying still was the failure. Now I think wanting to stay still might be the biggest change of all. When that day comes, that’ll be growth too.</p>]]></content><author><name>Parth Batra</name></author><category term="note-to-self" /><category term="brain-glitch" /><summary type="html"><![CDATA[During table tennis practice last year, I caught myself counting imaginary scores. Not the actual rally. The implied one. This person broke it five times, I broke it three, therefore I’m losing. At practice. Against friends. No stakes whatsoever. I’d done it my whole life: hackathons, group projects, anything with a scoreboard real or invented. If I was in, I was in to win.]]></summary></entry><entry><title type="html">Spiti Took Five Days to Take Me Apart. A 7-Year-Old Did It in Four Seconds.</title><link href="http://localhost:4000/2026/06/08/spiti-took-five-days-to-take-me-apart.html" rel="alternate" type="text/html" title="Spiti Took Five Days to Take Me Apart. A 7-Year-Old Did It in Four Seconds." /><published>2026-06-08T00:00:00+05:30</published><updated>2026-06-08T00:00:00+05:30</updated><id>http://localhost:4000/2026/06/08/spiti-took-five-days-to-take-me-apart</id><content type="html" xml:base="http://localhost:4000/2026/06/08/spiti-took-five-days-to-take-me-apart.html"><![CDATA[<style>
 .video-wrapper {
   margin: 1.25rem 0;
   border-radius: 8px;
@@ -692,7 +743,7 @@
 </script>
 
 <p><img src="/assets/images/spiti-assets/kee-monastry.JPG" alt="Kee Monastery nestled in the Spiti valley" />
-<em>Spiti doesn’t let you leave with all your edges intact. That’s probably the point.</em></p>]]></content><author><name>Parth Batra</name></author><category term="nomading" /><category term="note-to-self" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">I Built a Voice AI in 30 Days. Its Hardest Bug Took Three.</title><link href="https://fromparth.blog/2026/05/24/building-an-open-source-vapi-alternative.html" rel="alternate" type="text/html" title="I Built a Voice AI in 30 Days. Its Hardest Bug Took Three." /><published>2026-05-24T00:00:00+05:30</published><updated>2026-05-24T00:00:00+05:30</updated><id>https://fromparth.blog/2026/05/24/building-an-open-source-vapi-alternative</id><content type="html" xml:base="https://fromparth.blog/2026/05/24/building-an-open-source-vapi-alternative.html"><![CDATA[<p>You call a number, an AI picks up, you say “hello,” and it says “hello” back. Feels instant. Feels simple. It is neither.</p>
+<em>Spiti doesn’t let you leave with all your edges intact. That’s probably the point.</em></p>]]></content><author><name>Parth Batra</name></author><category term="nomading" /><category term="note-to-self" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">I Built a Voice AI in 30 Days. Its Hardest Bug Took Three.</title><link href="http://localhost:4000/2026/05/24/building-an-open-source-vapi-alternative.html" rel="alternate" type="text/html" title="I Built a Voice AI in 30 Days. Its Hardest Bug Took Three." /><published>2026-05-24T00:00:00+05:30</published><updated>2026-05-24T00:00:00+05:30</updated><id>http://localhost:4000/2026/05/24/building-an-open-source-vapi-alternative</id><content type="html" xml:base="http://localhost:4000/2026/05/24/building-an-open-source-vapi-alternative.html"><![CDATA[<p>You call a number, an AI picks up, you say “hello,” and it says “hello” back. Feels instant. Feels simple. It is neither.</p>
 
 <figure class="diagram">
 <svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="A filmstrip unspooling one second into five frames: phone handset, globe network, microphone, sound waves becoming text, and a speech bubble." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
@@ -1109,7 +1160,7 @@
 
 <hr />
 
-<p><em>The commit messages are vague but the code tells the real story.</em></p>]]></content><author><name>Parth Batra</name></author><category term="ai &amp; tech" /><category term="get-shit-done" /><summary type="html"><![CDATA[You call a number, an AI picks up, you say “hello,” and it says “hello” back. Feels instant. Feels simple. It is neither.]]></summary></entry><entry><title type="html">Your iPhone Doesn’t Improve 20% a Year. Apple Just Tells You It Does.</title><link href="https://fromparth.blog/2026/05/22/your-iphone-is-lying-to-you-about-progress.html" rel="alternate" type="text/html" title="Your iPhone Doesn’t Improve 20% a Year. Apple Just Tells You It Does." /><published>2026-05-22T00:00:00+05:30</published><updated>2026-05-22T00:00:00+05:30</updated><id>https://fromparth.blog/2026/05/22/your-iphone-is-lying-to-you-about-progress</id><content type="html" xml:base="https://fromparth.blog/2026/05/22/your-iphone-is-lying-to-you-about-progress.html"><![CDATA[<p>A friend of mine is doing his PhD in nanotech and semiconductors. His project took almost two years. For the first eighteen months: nothing. Optimization, failure, more optimization. Then one week, devices started working, results came fast, and he had everything he’d been chasing in about three weeks.</p>
+<p><em>The commit messages are vague but the code tells the real story.</em></p>]]></content><author><name>Parth Batra</name></author><category term="ai &amp; tech" /><category term="get-shit-done" /><summary type="html"><![CDATA[You call a number, an AI picks up, you say “hello,” and it says “hello” back. Feels instant. Feels simple. It is neither.]]></summary></entry><entry><title type="html">Your iPhone Doesn’t Improve 20% a Year. Apple Just Tells You It Does.</title><link href="http://localhost:4000/2026/05/22/your-iphone-is-lying-to-you-about-progress.html" rel="alternate" type="text/html" title="Your iPhone Doesn’t Improve 20% a Year. Apple Just Tells You It Does." /><published>2026-05-22T00:00:00+05:30</published><updated>2026-05-22T00:00:00+05:30</updated><id>http://localhost:4000/2026/05/22/your-iphone-is-lying-to-you-about-progress</id><content type="html" xml:base="http://localhost:4000/2026/05/22/your-iphone-is-lying-to-you-about-progress.html"><![CDATA[<p>A friend of mine is doing his PhD in nanotech and semiconductors. His project took almost two years. For the first eighteen months: nothing. Optimization, failure, more optimization. Then one week, devices started working, results came fast, and he had everything he’d been chasing in about three weeks.</p>
 
 <p><a href="https://www.simonandschuster.com/books/Chip-War/Chris-Miller/9781982172008"><em>Chip War</em></a> has a name for this. Chip War’s whole thesis is that real technological progress doesn’t move in straight lines. It staggers. Long flat stretches, then a vertical jump. The history of semiconductors is mostly people failing in rooms for years, then a breakthrough that changes everything at once.</p>
 
@@ -1146,7 +1197,7 @@
 
 <hr />
 
-<p><em>The breakthrough happened in the bad-lighting room. The keynote is just the ceremony.</em></p>]]></content><author><name>Parth Batra</name></author><category term="just-a-thought" /><category term="book-brain" /><summary type="html"><![CDATA[A friend of mine is doing his PhD in nanotech and semiconductors. His project took almost two years. For the first eighteen months: nothing. Optimization, failure, more optimization. Then one week, devices started working, results came fast, and he had everything he’d been chasing in about three weeks.]]></summary></entry><entry><title type="html">I Thought I Was Tired From Doing Too Much. I Was Wrong.</title><link href="https://fromparth.blog/2026/04/22/burnout-isnt-from-doing-too-much.html" rel="alternate" type="text/html" title="I Thought I Was Tired From Doing Too Much. I Was Wrong." /><published>2026-04-22T00:00:00+05:30</published><updated>2026-04-22T00:00:00+05:30</updated><id>https://fromparth.blog/2026/04/22/burnout-isnt-from-doing-too-much</id><content type="html" xml:base="https://fromparth.blog/2026/04/22/burnout-isnt-from-doing-too-much.html"><![CDATA[<p>A few weeks ago I had a Tuesday where I genuinely did nothing I wanted to do. Eight meetings, a product review that hadn’t changed since I last reviewed it, a spreadsheet I had no business being in. By 9 PM I was flat on the couch watching something I can’t remember. Exhausted. Not physically. The other kind.</p>
+<p><em>The breakthrough happened in the bad-lighting room. The keynote is just the ceremony.</em></p>]]></content><author><name>Parth Batra</name></author><category term="just-a-thought" /><category term="book-brain" /><summary type="html"><![CDATA[A friend of mine is doing his PhD in nanotech and semiconductors. His project took almost two years. For the first eighteen months: nothing. Optimization, failure, more optimization. Then one week, devices started working, results came fast, and he had everything he’d been chasing in about three weeks.]]></summary></entry><entry><title type="html">I Thought I Was Tired From Doing Too Much. I Was Wrong.</title><link href="http://localhost:4000/2026/04/22/burnout-isnt-from-doing-too-much.html" rel="alternate" type="text/html" title="I Thought I Was Tired From Doing Too Much. I Was Wrong." /><published>2026-04-22T00:00:00+05:30</published><updated>2026-04-22T00:00:00+05:30</updated><id>http://localhost:4000/2026/04/22/burnout-isnt-from-doing-too-much</id><content type="html" xml:base="http://localhost:4000/2026/04/22/burnout-isnt-from-doing-too-much.html"><![CDATA[<p>A few weeks ago I had a Tuesday where I genuinely did nothing I wanted to do. Eight meetings, a product review that hadn’t changed since I last reviewed it, a spreadsheet I had no business being in. By 9 PM I was flat on the couch watching something I can’t remember. Exhausted. Not physically. The other kind.</p>
 
 <p>What bothered me: I’d barely worked. It wasn’t a 12-hour day. It was a full day of other people’s priorities wearing my face.</p>
 
@@ -1190,7 +1241,7 @@
 
 <hr />
 
-<p><em>The exhaustion was never about the hours.</em></p>]]></content><author><name>Parth Batra</name></author><category term="note-to-self" /><category term="get-shit-done" /><summary type="html"><![CDATA[A few weeks ago I had a Tuesday where I genuinely did nothing I wanted to do. Eight meetings, a product review that hadn’t changed since I last reviewed it, a spreadsheet I had no business being in. By 9 PM I was flat on the couch watching something I can’t remember. Exhausted. Not physically. The other kind.]]></summary></entry><entry><title type="html">I Cloned a ₹20,000 Light Setup for Under ₹2,000</title><link href="https://fromparth.blog/2026/04/18/i-cloned-a-20000-light-setup-for-under-2000.html" rel="alternate" type="text/html" title="I Cloned a ₹20,000 Light Setup for Under ₹2,000" /><published>2026-04-18T00:00:00+05:30</published><updated>2026-04-18T00:00:00+05:30</updated><id>https://fromparth.blog/2026/04/18/i-cloned-a-20000-light-setup-for-under-2000</id><content type="html" xml:base="https://fromparth.blog/2026/04/18/i-cloned-a-20000-light-setup-for-under-2000.html"><![CDATA[<p>Philips wants <strong>₹20,000</strong> for the Hue Play Gradient Lightstrip. Twenty. Thousand. Rupees. For LEDs.</p>
+<p><em>The exhaustion was never about the hours.</em></p>]]></content><author><name>Parth Batra</name></author><category term="note-to-self" /><category term="get-shit-done" /><summary type="html"><![CDATA[A few weeks ago I had a Tuesday where I genuinely did nothing I wanted to do. Eight meetings, a product review that hadn’t changed since I last reviewed it, a spreadsheet I had no business being in. By 9 PM I was flat on the couch watching something I can’t remember. Exhausted. Not physically. The other kind.]]></summary></entry><entry><title type="html">I Cloned a ₹20,000 Light Setup for Under ₹2,000</title><link href="http://localhost:4000/2026/04/18/i-cloned-a-20000-light-setup-for-under-2000.html" rel="alternate" type="text/html" title="I Cloned a ₹20,000 Light Setup for Under ₹2,000" /><published>2026-04-18T00:00:00+05:30</published><updated>2026-04-18T00:00:00+05:30</updated><id>http://localhost:4000/2026/04/18/i-cloned-a-20000-light-setup-for-under-2000</id><content type="html" xml:base="http://localhost:4000/2026/04/18/i-cloned-a-20000-light-setup-for-under-2000.html"><![CDATA[<p>Philips wants <strong>₹20,000</strong> for the Hue Play Gradient Lightstrip. Twenty. Thousand. Rupees. For LEDs.</p>
 
 <figure class="diagram">
 <svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="TV outline with soft glow halo behind it. Two price tags hanging off: one crossed-out rupees twenty thousand, one small rupees two thousand." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
@@ -1445,36 +1496,4 @@
 
 <hr />
 
-<p><em>Sometimes the best tech isn’t the most expensive. It’s the one you build yourself, learn from, and can actually fix when it breaks at 2am.</em></p>]]></content><author><name>Parth Batra</name></author><category term="ai &amp; tech" /><category term="made-this-up" /><summary type="html"><![CDATA[Philips wants ₹20,000 for the Hue Play Gradient Lightstrip. Twenty. Thousand. Rupees. For LEDs.]]></summary></entry><entry><title type="html">A 2 P.M. Meeting Costs Me Five Hours, Not One</title><link href="https://fromparth.blog/2026/03/22/a-2pm-meeting-costs-me-five-hours.html" rel="alternate" type="text/html" title="A 2 P.M. Meeting Costs Me Five Hours, Not One" /><published>2026-03-22T00:00:00+05:30</published><updated>2026-03-22T00:00:00+05:30</updated><id>https://fromparth.blog/2026/03/22/a-2pm-meeting-costs-me-five-hours</id><content type="html" xml:base="https://fromparth.blog/2026/03/22/a-2pm-meeting-costs-me-five-hours.html"><![CDATA[<p>This month I finally understood why some days feel productive and some days just evaporate. Paul Graham wrote a blog post years ago called <a href="https://www.paulgraham.com/makersschedule.html">“Maker’s Schedule, Manager’s Schedule”</a> and it explained something I’d been feeling but couldn’t articulate.</p>
-
-<p>The manager schedule is what we all aspire toward. Back-to-back meetings from 9 to 6. You finish one, walk into the next. It looks productive because important people do it.</p>
-
-<p>The maker schedule is different. You block your entire day for one deep task. Writing code, drafting a research paper, working through a hard proof. No meetings sprinkled in. No “quick catch-up” at 2 p.m. that destroys your entire afternoon.</p>
-
-<p>I’ve noticed this firsthand with my writing. If I have a meeting at 2, my brain starts preparing for it at noon. I can’t focus after it ends until at least 3:30. By then, the day is gone. That single meeting didn’t cost one hour. It cost five.</p>
-
-<figure class="diagram">
-<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="Manager day split into many small meeting blocks; maker day is one long block broken by a single 2pm meeting." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
-  <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="90" y="22" width="38" height="26" rx="3" />
-    <rect x="132" y="22" width="38" height="26" rx="3" />
-    <rect x="174" y="22" width="38" height="26" rx="3" />
-    <rect x="216" y="22" width="38" height="26" rx="3" />
-    <rect x="258" y="22" width="38" height="26" rx="3" />
-    <rect x="300" y="22" width="38" height="26" rx="3" />
-    <rect x="90" y="92" width="116" height="26" rx="3" />
-    <rect x="210" y="92" width="38" height="26" rx="3" fill="currentColor" />
-    <rect x="252" y="92" width="86" height="26" rx="3" opacity="0.35" />
-  </g>
-  <g stroke="none" fill="currentColor" font-size="13">
-    <text x="82" y="40" text-anchor="end">manager</text>
-    <text x="82" y="110" text-anchor="end">maker</text>
-    <text x="229" y="136" text-anchor="middle" opacity="0.6">2pm</text>
-  </g>
-</svg>
-<figcaption>One meeting dropped into a maker's day doesn't cost an hour. It fragments the whole afternoon.</figcaption>
-</figure>
-
-<p>Now I try to stack all my meetings on one day and protect the other days entirely. My own writing improved noticeably once I started doing this. Everything creative requires a maker schedule. And yes, solving equations counts as creative work.</p>
-
-<p>If your real work needs long, unbroken stretches, guard them like they’re load-bearing. Because they are.</p>]]></content><author><name>Parth Batra</name></author><category term="get-shit-done" /><category term="tiny-reps" /><category term="note-to-self" /><summary type="html"><![CDATA[This month I finally understood why some days feel productive and some days just evaporate. Paul Graham wrote a blog post years ago called “Maker’s Schedule, Manager’s Schedule” and it explained something I’d been feeling but couldn’t articulate.]]></summary></entry></feed>
+<p><em>Sometimes the best tech isn’t the most expensive. It’s the one you build yourself, learn from, and can actually fix when it breaks at 2am.</em></p>]]></content><author><name>Parth Batra</name></author><category term="ai &amp; tech" /><category term="made-this-up" /><summary type="html"><![CDATA[Philips wants ₹20,000 for the Hue Play Gradient Lightstrip. Twenty. Thousand. Rupees. For LEDs.]]></summary></entry></feed>

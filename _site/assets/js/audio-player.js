@@ -13,7 +13,7 @@
   var pauseIcon = playBtn.querySelector('.post-audio-icon--pause');
 
   var SPEEDS = [0.75, 1, 1.2, 1.5, 2];
-  var speedIdx = 2;
+  var speedIdx = 1;
   var loaded = false;
   var dragging = false;
 
