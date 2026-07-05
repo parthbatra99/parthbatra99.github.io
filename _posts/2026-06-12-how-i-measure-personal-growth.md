@@ -3,7 +3,7 @@ layout: post
 kind: theory
 recommended: true
 recommended_order: 3
-title: "How Long Until You're Unrecognizable to Yourself?"
+title: "Measuring Personal Growth"
 subtitle: "Three metrics for tracking who you're becoming — speed, outgrown problems, expanding options."
 date: 2026-06-12
 tags:

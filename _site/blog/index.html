@@ -25,7 +25,7 @@
 
   <link rel="stylesheet" href="/assets/main.css">
 
-  <link type="application/atom+xml" rel="alternate" href="https://fromparth.blog/feed.xml" title="Parth Batra | fromparth.blog" />
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Parth Batra | fromparth.blog" />
   
 </head>
 
@@ -117,7 +117,7 @@
         <li class="post-list-item">
           <span class="post-list-date">Jun 12</span>
           <div class="post-list-title-group">
-            <a class="post-list-link" href="/2026/06/12/how-i-measure-personal-growth.html">How Long Until You&#39;re Unrecognizable to Yourself?</a>
+            <a class="post-list-link" href="/2026/06/12/how-i-measure-personal-growth.html">Measuring Personal Growth</a>
             <span class="post-list-subtitle">Three metrics for tracking who you&#39;re becoming — speed, outgrown problems, expanding options.</span>
             <p class="post-list-meta">7 min read</p>
           </div>
@@ -242,7 +242,7 @@
       <li class="post-list-item">
         <span class="post-list-date">Jun 12</span>
         <div class="post-list-title-group">
-          <a class="post-list-link" href="/2026/06/12/how-i-measure-personal-growth.html">How Long Until You&#39;re Unrecognizable to Yourself?</a>
+          <a class="post-list-link" href="/2026/06/12/how-i-measure-personal-growth.html">Measuring Personal Growth</a>
           <span class="post-list-star" title="Start here" aria-label="Start here">★</span>
           <span class="post-list-subtitle">Three metrics for tracking who you&#39;re becoming — speed, outgrown problems, expanding options.</span>
           <p class="post-list-meta">7 min read</p>
@@ -368,16 +368,14 @@
       <li class="post-list-item">
         <span class="post-list-date">Mar 22</span>
         <div class="post-list-title-group">
-          <a class="post-list-link" href="/2026/03/22/a-2pm-meeting-costs-me-five-hours.html">A 2 P.M. Meeting Costs Me Five Hours, Not One</a>
+          <a class="post-list-link" href="/2026/03/22/a-2pm-meeting-costs-me-five-hours.html">A 2 p.m. Meeting Costs Me Five Hours</a>
           
-          <span class="post-list-subtitle">The Monthly Rabbit Hole: Paul Graham figured out why a single meeting wrecks a whole day of creative work.</span>
-          <p class="post-list-meta">1 min read</p>
+          <span class="post-list-subtitle">I run on a maker&#39;s schedule and I keep forgetting it. What one badly-placed meeting actually takes from the day.</span>
+          <p class="post-list-meta">4 min read</p>
           
             <p class="post-tags">
               
                 <span class="post-tag">#get-shit-done</span>
-              
-                <span class="post-tag">#tiny-reps</span>
               
                 <span class="post-tag">#note-to-self</span>
               
@@ -551,6 +549,14 @@
     <p class="footer-note">Writing on ML, culture, and the internet.</p>
   </div>
 </footer>
+
+<script>
+  document.querySelectorAll(".post-content a[href]").forEach(function (link) {
+    if (link.getAttribute("href").charAt(0) === "#") return;
+    link.setAttribute("target", "_blank");
+    link.setAttribute("rel", "noopener");
+  });
+</script>
 
 
     <script src="/assets/js/theme.js" defer></script>

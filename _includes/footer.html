@@ -4,3 +4,11 @@
     <p class="footer-note">Writing on ML, culture, and the internet.</p>
   </div>
 </footer>
+
+<script>
+  document.querySelectorAll(".post-content a[href]").forEach(function (link) {
+    if (link.getAttribute("href").charAt(0) === "#") return;
+    link.setAttribute("target", "_blank");
+    link.setAttribute("rel", "noopener");
+  });
+</script>

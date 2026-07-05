@@ -25,7 +25,7 @@
 
   <link rel="stylesheet" href="/assets/main.css">
 
-  <link type="application/atom+xml" rel="alternate" href="https://fromparth.blog/feed.xml" title="Parth Batra | fromparth.blog" />
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Parth Batra | fromparth.blog" />
   
 </head>
 
@@ -232,6 +232,14 @@
     <p class="footer-note">Writing on ML, culture, and the internet.</p>
   </div>
 </footer>
+
+<script>
+  document.querySelectorAll(".post-content a[href]").forEach(function (link) {
+    if (link.getAttribute("href").charAt(0) === "#") return;
+    link.setAttribute("target", "_blank");
+    link.setAttribute("rel", "noopener");
+  });
+</script>
 
 
     <script src="/assets/js/theme.js" defer></script>
