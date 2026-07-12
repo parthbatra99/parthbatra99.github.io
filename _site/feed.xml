@@ -1,4 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-07-05T17:09:54+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Parth Batra | fromparth.blog</title><subtitle>Senior ML Engineer by day, music critic by night. Building ML systems, writing about tech, and collecting spotify minutes like they&apos;re infinity stones.</subtitle><author><name>Parth Batra</name></author><entry><title type="html">You Can’t Call It Bad Luck Yet</title><link href="http://localhost:4000/2026/06/29/you-cant-call-it-bad-luck-yet.html" rel="alternate" type="text/html" title="You Can’t Call It Bad Luck Yet" /><published>2026-06-29T00:00:00+05:30</published><updated>2026-06-29T00:00:00+05:30</updated><id>http://localhost:4000/2026/06/29/you-cant-call-it-bad-luck-yet</id><content type="html" xml:base="http://localhost:4000/2026/06/29/you-cant-call-it-bad-luck-yet.html"><![CDATA[<p>This one’s been sitting in my Reddit saved posts for months. I found it on r/philosophy, <a href="https://x.com/batra99/status/2067979140675088702">tweeted it</a> when I first read it, and kept coming back. It’s a parable about a horse.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-07-13T00:06:19+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Parth Batra | fromparth.blog</title><subtitle>Senior ML Engineer by day, music critic by night. Building ML systems, writing about tech, and collecting spotify minutes like they&apos;re infinity stones.</subtitle><author><name>Parth Batra</name></author><entry><title type="html">I Read Stoic Philosophy Every Day for 30 Days. Stoicism Wasn’t the Best Part.</title><link href="http://localhost:4000/2026/07/06/i-read-stoic-philosophy-every-day-for-30-days.html" rel="alternate" type="text/html" title="I Read Stoic Philosophy Every Day for 30 Days. Stoicism Wasn’t the Best Part." /><published>2026-07-06T00:00:00+05:30</published><updated>2026-07-06T00:00:00+05:30</updated><id>http://localhost:4000/2026/07/06/i-read-stoic-philosophy-every-day-for-30-days</id><content type="html" xml:base="http://localhost:4000/2026/07/06/i-read-stoic-philosophy-every-day-for-30-days.html"><![CDATA[<p>I signed up for a 30-day challenge hoping to learn Stoicism. Turns out, the philosophy was the least interesting thing I got out of it.</p>
+
+<figure class="diagram">
+<svg viewBox="0 0 380 160" width="100%" height="auto" role="img" aria-label="A grid of thirty dots, one for each day of the reading challenge; the thirtieth is ringed to mark the completed streak." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+  <g fill="currentColor">
+    <circle cx="65" cy="32" r="7.5" /><circle cx="115" cy="32" r="7.5" /><circle cx="165" cy="32" r="7.5" /><circle cx="215" cy="32" r="7.5" /><circle cx="265" cy="32" r="7.5" /><circle cx="315" cy="32" r="7.5" />
+    <circle cx="65" cy="62" r="7.5" /><circle cx="115" cy="62" r="7.5" /><circle cx="165" cy="62" r="7.5" /><circle cx="215" cy="62" r="7.5" /><circle cx="265" cy="62" r="7.5" /><circle cx="315" cy="62" r="7.5" />
+    <circle cx="65" cy="92" r="7.5" /><circle cx="115" cy="92" r="7.5" /><circle cx="165" cy="92" r="7.5" /><circle cx="215" cy="92" r="7.5" /><circle cx="265" cy="92" r="7.5" /><circle cx="315" cy="92" r="7.5" />
+    <circle cx="65" cy="122" r="7.5" /><circle cx="115" cy="122" r="7.5" /><circle cx="165" cy="122" r="7.5" /><circle cx="215" cy="122" r="7.5" /><circle cx="265" cy="122" r="7.5" /><circle cx="315" cy="122" r="7.5" />
+    <circle cx="65" cy="152" r="7.5" /><circle cx="115" cy="152" r="7.5" /><circle cx="165" cy="152" r="7.5" /><circle cx="215" cy="152" r="7.5" /><circle cx="265" cy="152" r="7.5" />
+  </g>
+  <circle cx="315" cy="152" r="7.5" fill="currentColor" />
+  <circle cx="315" cy="152" r="13" fill="none" stroke="currentColor" stroke-width="2.2" />
+</svg>
+<figcaption>Thirty days in a row. The streak taught me more than the Stoics did.</figcaption>
+</figure>
+
+<p>Every day for 30 days straight, I read and wrote about Stoic philosophy. One page of <em>The Daily Stoic</em> in the morning, a journal entry synthesizing what I read at night. I’m a PhD student who already spends 10 hours a day on research, so I didn’t exactly have time lying around. That was sort of the point.</p>
+
+<p>Before starting, I had a tidy list of “expected learnings.” Better consistency. Clearer thinking. More creativity. Reasonable goals, the kind you put in a Notion doc and feel productive about. And sure, I got some of that.</p>
+
+<p>But the real lessons? The ones that actually changed how I think? Those blindsided me after the challenge was over.</p>
+
+<hr />
+
+<h2 id="the-expected-stuff-briefly">The Expected Stuff (Briefly)</h2>
+
+<p>I thought 30 days would build an unbreakable habit. Science says 21 days, right? Not exactly how it works. Consistency didn’t magically appear on day 22. What <em>did</em> appear was a quieter kind of momentum. Some days I didn’t want to do it, and I did it anyway. That’s not a habit. That’s just stubbornness with a deadline.</p>
+
+<p>Structuring my thoughts improved, honestly. Taking a dense Stoic idea and boiling it down to a journal paragraph forces you to actually understand it. You can’t hide behind jargon when you have 150 words. After the challenge, I noticed my emails got tighter. Not drastically different, just… sharper. Easier for people to read and reply to.</p>
+
+<p>Creativity pushed back too. The first week, I’d sit there annoyed, staring at a blank page, wondering how to make “the obstacle is the way” feel relevant to a Tuesday. By week two, I started noticing Stoic parallels everywhere. A rainy walk to the lab. The gym at 6am. My kitchen while cooking. Constraints breed creativity is one of those clichés that happens to be true.</p>
+
+<hr />
+
+<h2 id="surprise-1-a-busy-man-has-time-for-everything">Surprise #1: A Busy Man Has Time for Everything</h2>
+
+<p>This one rewired how I think about time.</p>
+
+<p>I cook for myself. I’m in a lab all day. I have deadlines, meetings, the whole research circus. When I imagined adding “read and write about philosophy every single day” on top of that, it felt genuinely impossible. Like trying to fit a fourth meal into a day that already has no room.</p>
+
+<p>But I did it. Not gracefully, not every day, but I did it. On September 8th, a Sunday, I woke up completely exhausted. I lay in bed thinking, <em>I think I can’t do this.</em> So I made myself a deal: read today’s passage and write about it, and then you have 24 hours to decide if you want to quit.</p>
+
+<p>I never quit. Not because I’m disciplined, but because the time was always there. It just wasn’t visible until I gave myself permission to use it.</p>
+
+<p>Here’s what I mean. Before the challenge, my evenings looked like: cook, eat, scroll, sleep. Nothing wrong with that, but that scroll time was invisible. It didn’t feel like “free time” because I wasn’t choosing to use it. Once I had something I cared about shoving into those gaps, suddenly I had 45 minutes here, 30 minutes there. Time didn’t expand. My awareness of it did.</p>
+
+<p>My self-deprecating brain wants to point out that Marcus Aurelius said this 2,000 years ago and I needed a reading challenge to figure it out. Fair enough.</p>
+
+<hr />
+
+<h2 id="surprise-2-nobody-cares-and-thats-liberating">Surprise #2: Nobody Cares (And That’s Liberating)</h2>
+
+<p>I was terrified to share my writing.</p>
+
+<p>Not a mild discomfort. Full-on insecurity. Sharing my journal entries with friends, asking if the thinking was clear, if the ideas landed. What would they think? Would I look stupid? What if someone I know reads this and thinks I’m pretentious?</p>
+
+<p>Turns out, nobody cares. Not even a little.</p>
+
+<p>People are so absorbed in their own lives, their own thoughts, their own screens that someone sharing a philosophy reflection barely registers. I was spending real emotional energy worrying about a judgment that didn’t exist.</p>
+
+<p>This sounds like every generic “be yourself” talk ever given. But living it is different. After day 10 or so, the fear just… thinned out. Not gone, but quiet enough to ignore. Now I’ll share a rough draft with a friend without thinking twice. Not because I became fearless, but because I collected enough evidence that the fear was lying to me.</p>
+
+<p>Every insecure person reading this knows exactly what I’m talking about. You’re not afraid of being judged. You’re afraid of a <em>hypothetical</em> judgment that has a 2% chance of materializing. The math is absurd once you look at it.</p>
+
+<hr />
+
+<h2 id="surprise-3-if-you-want-something-ask-for-it">Surprise #3: If You Want Something, Ask for It</h2>
+
+<p>This was the biggest one.</p>
+
+<p>I knew my early writing wasn’t great. Rough, unfocused. And I knew the only way to improve was feedback, which meant asking people to read my reflections and tell me what was wrong with them. Which is basically asking someone to criticize you. Voluntarily.</p>
+
+<p>So I messaged friends. People I’d met once. People in Australia, the US, Switzerland. Anyone I thought might give me honest feedback.</p>
+
+<p>Here’s what I didn’t expect: people wrote back <em>long</em> messages. The kind where you have to tap “read more.” Detailed, specific, generous. “This idea is interesting but you lost me here.” “The connection between the Stoic quote and your personal example is weak.” “You repeated yourself in the second paragraph.”</p>
+
+<p>People <em>want</em> to help you. They just don’t know you need it until you tell them.</p>
+
+<p>This is how science works too. You run an experiment, collect data, then ask professors and postdocs (people smarter than you) to tear it apart. You iterate. You get closer. You repeat until you reach something real. I was already doing this in the lab every day. It just never occurred to me to apply it to the rest of my life.</p>
+
+<p>Want that raise? Ask. Want to be on that project? Ask. Want feedback? Ask. The worst case is a no, and if you never ask, you’re already at no. Nothing changes. You stay exactly where you are, wondering what would’ve happened.</p>
+
+<p>I find it funny that I needed to message people across four continents to learn something a kindergartner could’ve told me. But I think that’s how the important lessons work. They’re not complicated. They’re just uncomfortable to act on.</p>
+
+<hr />
+
+<h2 id="what-30-days-actually-gave-me">What 30 Days Actually Gave Me</h2>
+
+<p>I started this challenge to learn Stoicism. I ended it learning that I had more time than I thought, that my insecurities were renting space in my head for free, and that most of what I want is one uncomfortable question away.</p>
+
+<p>Stoicism says focus on what you can control. Fair. But the 30 days of reading and writing taught me something sharper: most of what you <em>think</em> you can’t control, you simply haven’t tried to yet.</p>
+
+<p><em>Originally from a <a href="https://www.youtube.com/watch?v=bzZ7plDqxm0">video</a>.</em></p>]]></content><author><name>Parth Batra</name></author><category term="just-a-thought" /><category term="note-to-self" /><category term="tiny-reps" /><summary type="html"><![CDATA[I signed up for a 30-day challenge hoping to learn Stoicism. Turns out, the philosophy was the least interesting thing I got out of it.]]></summary></entry><entry><title type="html">You Can’t Call It Bad Luck Yet</title><link href="http://localhost:4000/2026/06/29/you-cant-call-it-bad-luck-yet.html" rel="alternate" type="text/html" title="You Can’t Call It Bad Luck Yet" /><published>2026-06-29T00:00:00+05:30</published><updated>2026-06-29T00:00:00+05:30</updated><id>http://localhost:4000/2026/06/29/you-cant-call-it-bad-luck-yet</id><content type="html" xml:base="http://localhost:4000/2026/06/29/you-cant-call-it-bad-luck-yet.html"><![CDATA[<p>This one’s been sitting in my Reddit saved posts for months. I found it on r/philosophy, <a href="https://x.com/batra99/status/2067979140675088702">tweeted it</a> when I first read it, and kept coming back. It’s a parable about a horse.</p>
 
 <p>A man living on the frontier loses his horse. His neighbors gather to sympathize. Bad luck. He shrugs. “Maybe.”</p>
 
@@ -1241,259 +1334,4 @@
 
 <hr />
 
-<p><em>The exhaustion was never about the hours.</em></p>]]></content><author><name>Parth Batra</name></author><category term="note-to-self" /><category term="get-shit-done" /><summary type="html"><![CDATA[A few weeks ago I had a Tuesday where I genuinely did nothing I wanted to do. Eight meetings, a product review that hadn’t changed since I last reviewed it, a spreadsheet I had no business being in. By 9 PM I was flat on the couch watching something I can’t remember. Exhausted. Not physically. The other kind.]]></summary></entry><entry><title type="html">I Cloned a ₹20,000 Light Setup for Under ₹2,000</title><link href="http://localhost:4000/2026/04/18/i-cloned-a-20000-light-setup-for-under-2000.html" rel="alternate" type="text/html" title="I Cloned a ₹20,000 Light Setup for Under ₹2,000" /><published>2026-04-18T00:00:00+05:30</published><updated>2026-04-18T00:00:00+05:30</updated><id>http://localhost:4000/2026/04/18/i-cloned-a-20000-light-setup-for-under-2000</id><content type="html" xml:base="http://localhost:4000/2026/04/18/i-cloned-a-20000-light-setup-for-under-2000.html"><![CDATA[<p>Philips wants <strong>₹20,000</strong> for the Hue Play Gradient Lightstrip. Twenty. Thousand. Rupees. For LEDs.</p>
-
-<figure class="diagram">
-<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="TV outline with soft glow halo behind it. Two price tags hanging off: one crossed-out rupees twenty thousand, one small rupees two thousand." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
-  <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-
-    <!-- Glow halo: 3 nested rounded-rect outlines behind the TV -->
-    <rect x="100" y="18" width="200" height="108" rx="40" stroke-width="1" opacity="0.2" />
-    <rect x="105" y="22" width="190" height="100" rx="36" stroke-width="1.2" opacity="0.35" />
-    <rect x="110" y="26" width="180" height="92" rx="32" stroke-width="1.5" opacity="0.55" />
-
-    <!-- TV outline -->
-    <rect x="130" y="32" width="140" height="80" rx="6" stroke-width="2.2" />
-    <!-- TV stand -->
-    <line x1="165" y1="112" x2="165" y2="124" stroke-width="2" />
-    <line x1="215" y1="112" x2="215" y2="124" stroke-width="2" />
-    <line x1="155" y1="124" x2="225" y2="124" stroke-width="2" />
-
-    <!-- Price tag 1: crossed-out ₹20K -->
-    <g stroke-width="1.8">
-      <line x1="200" y1="24" x2="200" y2="6" />
-      <line x1="200" y1="6" x2="290" y2="16" />
-      <rect x="265" y="12" width="50" height="22" rx="4" stroke-width="1.8" />
-      <line x1="268" y1="23" x2="312" y2="23" stroke-width="2.2" opacity="0.85" />
-    </g>
-    <text x="290" y="28" text-anchor="middle" font-size="13" fill="currentColor">₹20K</text>
-
-    <!-- Price tag 2: clean ₹2K (lower-right) -->
-    <g stroke-width="1.8">
-      <line x1="200" y1="114" x2="200" y2="134" />
-      <line x1="200" y1="134" x2="280" y2="140" />
-      <rect x="258" y="136" width="44" height="14" rx="3" stroke-width="1.8" />
-    </g>
-    <text x="280" y="145" text-anchor="middle" font-size="13" fill="currentColor">₹2K</text>
-
-  </g>
-</svg>
-<figcaption>Same glow behind the TV. One-tenth the price.</figcaption>
-</figure>
-
-<p>Let that sink in.</p>
-
-<p>The Hue Play does something genuinely cool — it reads what’s on your TV and projects matching colors onto the wall behind it, creating an ambient glow that makes everything feel more <em>immersive</em>. It’s the kind of thing you see in a tech reviewer’s setup video and immediately want.</p>
-
-<p>But ₹20k? For <em>colored lights</em>? That’s more than some phones. I refused on principle.</p>
-
-<p>So I built my own. For under ₹2,000.</p>
-
-<h3 id="the-plan-or-what-philips-is-actually-charging-you-for">The Plan (Or: What Philips Is Actually Charging You For)</h3>
-
-<p>The core idea is almost insultingly simple:</p>
-
-<ol>
-  <li><strong>Read</strong> what’s on the TV screen</li>
-  <li><strong>Sample</strong> the dominant colors from different regions — top, bottom, left, right, center</li>
-  <li><strong>Send</strong> those colors to an LED strip mounted on the back of the TV</li>
-  <li><strong>Repeat</strong> fast enough that it feels real-time</li>
-</ol>
-
-<p>That’s it. That’s the <em>entire product</em>. Philips wraps it in a polished app and a fancy brand name, but the engineering underneath is straightforward. Here’s what I needed:</p>
-
-<h3 id="the-bill-of-materials">The Bill of Materials</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">Component</th>
-      <th style="text-align: left">What It Does</th>
-      <th style="text-align: left">Cost (₹)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left"><strong>Raspberry Pi Zero 2W</strong></td>
-      <td style="text-align: left">The brain. Runs the sampling software.</td>
-      <td style="text-align: left">750</td>
-    </tr>
-    <tr>
-      <td style="text-align: left"><strong>WS2812B LED Strip</strong> (3m, 60 LEDs/m)</td>
-      <td style="text-align: left">Individually addressable RGB LEDs. The actual lights.</td>
-      <td style="text-align: left">450</td>
-    </tr>
-    <tr>
-      <td style="text-align: left"><strong>HDMI Splitter</strong> (1-in, 2-out)</td>
-      <td style="text-align: left">Taps the TV signal without interrupting it.</td>
-      <td style="text-align: left">300</td>
-    </tr>
-    <tr>
-      <td style="text-align: left"><strong>USB HDMI Capture Card</strong></td>
-      <td style="text-align: left">Converts the tapped HDMI into frames the Pi can read.</td>
-      <td style="text-align: left">250</td>
-    </tr>
-    <tr>
-      <td style="text-align: left"><strong>5V 10A Power Supply</strong></td>
-      <td style="text-align: left">Powers the LED strip (these things are <em>hungry</em>).</td>
-      <td style="text-align: left">250</td>
-    </tr>
-    <tr>
-      <td style="text-align: left"><strong>Jumper Wires + Connectors</strong></td>
-      <td style="text-align: left">Wiring everything together.</td>
-      <td style="text-align: left">100</td>
-    </tr>
-    <tr>
-      <td style="text-align: left"> </td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: left"><strong>Total: ₹2,100</strong></td>
-    </tr>
-  </tbody>
-</table>
-
-<p>Less than a tenth of the commercial price. And I’m being <em>generous</em> with the rounding.</p>
-
-<p>For reference:</p>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left"> </th>
-      <th style="text-align: left"><strong>My Build</strong></th>
-      <th style="text-align: left"><strong>Philips Hue Play Gradient</strong></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left"><strong>Cost</strong></td>
-      <td style="text-align: left">~₹2,100</td>
-      <td style="text-align: left">~₹20,000</td>
-    </tr>
-    <tr>
-      <td style="text-align: left"><strong>Customizable</strong></td>
-      <td style="text-align: left">✅ Completely — it’s your code</td>
-      <td style="text-align: left">❌ Limited to app settings</td>
-    </tr>
-    <tr>
-      <td style="text-align: left"><strong>Open Source</strong></td>
-      <td style="text-align: left">✅ Yes</td>
-      <td style="text-align: left">❌ No</td>
-    </tr>
-    <tr>
-      <td style="text-align: left"><strong>Works with Any TV</strong></td>
-      <td style="text-align: left">✅ Yes (anything with HDMI)</td>
-      <td style="text-align: left">❌ Specific TV sizes</td>
-    </tr>
-    <tr>
-      <td style="text-align: left"><strong>Extendable</strong></td>
-      <td style="text-align: left">✅ Add more strips, go wild</td>
-      <td style="text-align: left">❌ Proprietary connectors</td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="the-architecture">The Architecture</h3>
-
-<p>Here’s how the data flows, because understanding the pipeline is understanding where things go wrong:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>TV HDMI Out → HDMI Splitter ──┬── [Split 1] → TV (untouched, as if nothing happened)
-                               │
-                               └── [Split 2] → USB Capture Card → Raspberry Pi
-                                                                    │
-                                                              OpenCV reads frames
-                                                              Samples colors per region
-                                                              Averages &amp; smooths
-                                                                    │
-                                                              GPIO → WS2812B Strip → Glowing Wall
-</code></pre></div></div>
-
-<p>The HDMI splitter is the unsung hero. It lets me tap the video signal without the TV even knowing. The capture card turns that tapped signal into a video stream the Pi can process. Then a Python script — about 200 lines — does the actual work:</p>
-
-<ol>
-  <li><strong>Grab a frame</strong> from the capture card via OpenCV</li>
-  <li><strong>Divide the frame into regions</strong> that map to where the LEDs physically sit on the back of the TV</li>
-  <li><strong>Average the colors</strong> in each region (with perceptual weighting — naïve averaging looks <em>muddy</em>)</li>
-  <li><strong>Smooth the transitions</strong> using a rolling average so the colors don’t seizure-inducingly flicker</li>
-  <li><strong>Push the colors</strong> to the WS2812B strip via the Pi’s GPIO using the <code class="language-plaintext highlighter-rouge">rpi_ws281x</code> library</li>
-</ol>
-
-<p>Clean. Elegant. In theory.</p>
-
-<h3 id="the-build-where-things-went-sideways">The Build: Where Things Went Sideways</h3>
-
-<p>The theory is clean. The practice? <em>Less so.</em></p>
-
-<h4 id="the-latency-problem">The Latency Problem</h4>
-
-<p>The first prototype worked. The colors were… <em>mostly</em> right. But the latency was <strong>brutal</strong> — nearly <strong>500ms</strong>. The TV would show an explosion, and half a second later the wall behind it would finally, sheepishly, turn orange. It was like watching a badly dubbed movie, but for <em>lights</em>.</p>
-
-<p>The bottleneck was the capture card. USB 2.0 capture cards are cheap (₹250 cheap), but they add significant latency. And processing every single frame at 30fps on a Pi Zero 2W was… <em>optimistic</em>.</p>
-
-<p><strong>The fix:</strong> I stopped trying to process every frame. Instead, I sample at <strong>10fps</strong> — fast enough to feel responsive, slow enough to let the Pi actually keep up. Combined with a ring buffer for color smoothing (weighted average of the last 5 samples), the perceived latency dropped to under <strong>50ms</strong>.</p>
-
-<p>Still not instant. But your brain genuinely cannot tell the difference.</p>
-
-<h4 id="power-injection-or-why-my-leds-were-dying-at-the-edges">Power Injection (Or: Why My LEDs Were Dying at the Edges)</h4>
-
-<p>WS2812B LEDs are power-hungry little monsters. At full white, each LED draws about <strong>60mA</strong>. With 180 LEDs (3m × 60/m), that’s <strong>10.8A</strong> at full brightness. The Pi <em>cannot</em> supply that. I cannot stress this enough.</p>
-
-<p>The first time I turned everything on full white, the LEDs near the power supply were <em>blindingly</em> bright, and the ones at the far end of the strip were a sad, dim orange. Voltage drop along the strip was murdering my color accuracy.</p>
-
-<p><strong>The fix:</strong> Power injection. I ran additional power lines from the supply to the strip at <strong>every 1-meter interval</strong> (three injection points for a 3m strip). The difference was night and day — uniform brightness across the entire strip and no more color shift at the edges.</p>
-
-<p>This is one of those things that seems obvious in retrospect but absolutely <em>wasn’t</em> when I was staring at dim LEDs wondering what went wrong.</p>
-
-<h4 id="signal-integrity">Signal Integrity</h4>
-
-<p>The WS2812B data signal is timing-sensitive. It uses a single data line with very specific pulse widths — we’re talking <em>nanosecond-level</em> precision. On a Raspberry Pi, the GPIO timing can be jittery because Linux isn’t a real-time OS. Other processes can interrupt and mess with your signal timing.</p>
-
-<p>I was seeing random color flickers. A single LED occasionally flashing white or green in the middle of an otherwise smooth transition. It was subtle, but once you notice it, you can’t <em>un-notice</em> it.</p>
-
-<p><strong>The fix:</strong> The <code class="language-plaintext highlighter-rouge">rpi_ws281x</code> library uses the Pi’s <strong>PWM hardware</strong> (via DMA) to drive the data line, which sidesteps the OS jitter problem entirely. The key was making sure no other process was competing for the PWM hardware. I disabled the Pi’s audio output (which also uses PWM) in <code class="language-plaintext highlighter-rouge">/boot/config.txt</code>:</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">dtparam</span><span class="o">=</span><span class="nv">audio</span><span class="o">=</span>off
-</code></pre></div></div>
-
-<p>Clean signal. No more flickers. A one-line fix for a problem I spent an entire evening diagnosing.</p>
-
-<h4 id="color-calibration">Color Calibration</h4>
-
-<p>This one snuck up on me. The colors on the wall didn’t match the colors on the TV. A bright red on screen would look more like an orange-ish <em>pink</em> on the LEDs. The WS2812B color reproduction isn’t perfect, and the white wall behind the TV shifts the color temperature.</p>
-
-<p><strong>The fix:</strong> A gamma correction table. I apply a per-channel gamma curve to the output values before sending them to the strip:</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">GAMMA</span> <span class="o">=</span> <span class="mf">2.2</span>
-
-<span class="k">def</span> <span class="nf">gamma_correct</span><span class="p">(</span><span class="n">color</span><span class="p">):</span>
-    <span class="sh">"""</span><span class="s">Apply perceptual gamma correction to RGB tuple.</span><span class="sh">"""</span>
-    <span class="k">return</span> <span class="nf">tuple</span><span class="p">(</span><span class="nf">int</span><span class="p">((</span><span class="n">c</span> <span class="o">/</span> <span class="mi">255</span><span class="p">)</span> <span class="o">**</span> <span class="n">GAMMA</span> <span class="o">*</span> <span class="mi">255</span><span class="p">)</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">color</span><span class="p">)</span>
-</code></pre></div></div>
-
-<p>This alone made the colors feel <em>significantly</em> more accurate. I also clamped the maximum brightness to <strong>80%</strong> — not because of power concerns (the injection points handled that), but because at 100% the color reproduction degrades and the strip runs hot enough to <em>damage the adhesive backing</em>. Ask me how I know.</p>
-
-<h3 id="the-result">The Result</h3>
-
-<p>After a month of weekends and more than a few late nights, it works. <em>Really</em> well.</p>
-
-<p>The wall behind my TV now glows with the same colors on screen. Action scenes feel more immersive. The ambient mode during movies is genuinely cinematic — warm oranges during candle-lit scenes, cool blues during underwater shots, pitch black during… well, pitch black scenes.</p>
-
-<p>And the whole thing cost less than what Philips charges for a <em>single replacement power supply</em>.</p>
-
-<h3 id="what-id-do-differently">What I’d Do Differently</h3>
-
-<p>A few things I learned the hard way:</p>
-
-<ul>
-  <li><strong>Start with power injection.</strong> Don’t wait for the dim edges to appear. Just do it from day one. Run thick wires. You’ll thank yourself.</li>
-  <li><strong>The capture card matters more than you think.</strong> Spend the extra ₹100 on a USB 3.0 card if your Pi supports it. The latency improvement is worth every rupee.</li>
-  <li><strong>Heat management.</strong> The Pi Zero 2W gets warm during continuous frame processing. A ₹30 heatsink is a <em>very</em> good investment.</li>
-  <li><strong>Diffusion.</strong> Raw LED light is harsh and creates visible hotspots on the wall. A strip of frosted tape or a cheap diffuser channel softens the light beautifully. ₹50 well spent.</li>
-</ul>
-
-<h3 id="the-code">The Code</h3>
-
-<p>The entire sampling pipeline runs on about <strong>200 lines of Python</strong>. It’s clean, well-commented, and handles all the edge cases I discovered during the build. I’ll be open-sourcing it soon — keep an eye on <a href="https://github.com/parthbatra99">my GitHub</a>.</p>
-
-<hr />
-
-<p><em>Sometimes the best tech isn’t the most expensive. It’s the one you build yourself, learn from, and can actually fix when it breaks at 2am.</em></p>]]></content><author><name>Parth Batra</name></author><category term="ai &amp; tech" /><category term="made-this-up" /><summary type="html"><![CDATA[Philips wants ₹20,000 for the Hue Play Gradient Lightstrip. Twenty. Thousand. Rupees. For LEDs.]]></summary></entry></feed>
+<p><em>The exhaustion was never about the hours.</em></p>]]></content><author><name>Parth Batra</name></author><category term="note-to-self" /><category term="get-shit-done" /><summary type="html"><![CDATA[A few weeks ago I had a Tuesday where I genuinely did nothing I wanted to do. Eight meetings, a product review that hadn’t changed since I last reviewed it, a spreadsheet I had no business being in. By 9 PM I was flat on the couch watching something I can’t remember. Exhausted. Not physically. The other kind.]]></summary></entry></feed>

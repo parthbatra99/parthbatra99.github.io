@@ -62,7 +62,4 @@ bundle exec jekyll build
 
 ## Content Style Guides
 
-Before writing or reviewing a `_posts/` entry: read `.skills/blog-writing.md`.
-Before writing or reviewing an entry in `the-good-stuff.md`: read `.skills/the-good-stuff-writing.md`.
-
-Run the self-evaluation checklist in each file against any new entry and flag specific gaps before suggesting edits.
+Before writing or reviewing a `_posts/` entry: load the `parth-blog-voice` skill (in `.claude/skills/parth-blog-voice/`). It defines Parth's voice, structure defaults, title formula, and anti-patterns, and auto-triggers when drafting, editing, or titling a post. Run its self-check against any new entry and flag specific gaps before suggesting edits.
