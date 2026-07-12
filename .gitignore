@@ -12,6 +12,8 @@ __pycache__/
 .Python
 build/
 develop-eggs/
+.commandcode/
+.jekyll-cache/
 dist/
 .zcode/
 downloads/

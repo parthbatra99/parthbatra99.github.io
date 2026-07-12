@@ -3,6 +3,7 @@ import re
 import sys
 import subprocess
 import tempfile
+import shutil
 from pathlib import Path
 
 def get_rsvg_command():
@@ -173,11 +174,17 @@ def process_posts():
     output_dir = Path('assets/images/generated')
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    # Generate default OG image first
-    default_svg = generate_default_og()
+    # Default OG image: prefer a tracked custom source (e.g. hand-made in
+    # Photoshop) so it survives clean builds instead of being regenerated.
     default_output = output_dir / 'default-og.png'
-    if convert_svg_to_png(default_svg, default_output, rsvg_cmd):
-        print(f"Generated default OG image: {default_output}")
+    custom_default = Path('assets/images/default-og.png')
+    if custom_default.exists():
+        shutil.copyfile(custom_default, default_output)
+        print(f"Copied custom default OG image: {custom_default} -> {default_output}")
+    else:
+        default_svg = generate_default_og()
+        if convert_svg_to_png(default_svg, default_output, rsvg_cmd):
+            print(f"Generated default OG image: {default_output}")
 
     # Find all posts
     posts_dir = Path('_posts')

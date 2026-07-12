@@ -717,6 +717,47 @@ a:focus-visible {
   line-height: 1.55;
 }
 
+/* quoted tweet card → context for quote-tweets */
+.tweet-quote {
+  margin: 0.5rem 0 0.1rem;
+  padding: 0.5rem 0.7rem;
+  border: 1px solid color-mix(in srgb, var(--line) 70%, transparent);
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--muted) 6%, transparent);
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.tweet-quote-author {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-bottom: 0.15rem;
+}
+
+.tweet-quote-author a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.tweet-quote-author a:hover {
+  color: var(--text);
+  text-decoration: underline;
+}
+
+.tweet-quote-text { color: color-mix(in srgb, var(--text) 82%, var(--muted)); }
+
+/* repost byline → attribution for reposted tweets */
+.tweet-repost {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.72rem;
+  color: var(--muted);
+  margin-bottom: 0.3rem;
+}
+
+.tweet-repost a { color: var(--muted); text-decoration: none; }
+.tweet-repost a:hover { color: var(--text); text-decoration: underline; }
+
 .tweet-footer {
   grid-column: 2;
   grid-row: 2;
