@@ -21,6 +21,12 @@ i always say it: if you're ever going to stalk me, make sure to also stalk my sp
 
 <div class="playlist-grid" markdown="0">
 
+<a class="playlist-card" href="https://open.spotify.com/playlist/1kTrlB4CWEzviNGEp0PQIa" target="_blank" rel="noopener">
+  <img src="/assets/images/playlists/3amride.jpg" alt="3AMride playlist cover" loading="lazy">
+  <span class="playlist-title">3AMride</span>
+  <span class="playlist-blurb">i like drives, i like music, i like stars, i like gedi. put all four together at 3am on an empty road and you get this, the best playlist i've ever built. kendrick, sir, prabh deep, mac demarco and the weeknd have no business being in one queue, and somehow it flows anyway. the rule is you don't touch it: no skip, no search, no queue. summerhouse is my fav floor in ncr, and i'm still telling you their dj could never.</span>
+</a>
+
 <a class="playlist-card" href="https://open.spotify.com/playlist/5VpAMI3OVe6COu71bPcf6U?si=AMorZs3TTL-MnGJlLM2yjg" target="_blank" rel="noopener">
   <img src="/assets/images/playlists/jamming-night.jpg" alt="jamming night playlist cover" loading="lazy">
   <span class="playlist-title">jamming night</span>
@@ -55,12 +61,6 @@ i always say it: if you're ever going to stalk me, make sure to also stalk my sp
   <img src="/assets/images/playlists/kidda-veere.jpg" alt="Kidda Veere playlist cover" loading="lazy">
   <span class="playlist-title">ਕਿੱਡਾ ਵੀਰੇ?</span>
   <span class="playlist-blurb">the soundtrack to my late teens and early twenties. everyone files punjabi under loud, fun, one more peg, and sure, it's all of that. but it's also one of the most poetic languages we've got, and nobody says so enough. satinder sartaaj, surinder kaur, chamkila, amrinder gill, the lyric-first ones buried in among the bangers, waiting to surprise you with their beauty.</span>
-</a>
-
-<a class="playlist-card" href="https://open.spotify.com/playlist/1kTrlB4CWEzviNGEp0PQIa" target="_blank" rel="noopener">
-  <img src="/assets/images/playlists/3amride.jpg" alt="3AMride playlist cover" loading="lazy">
-  <span class="playlist-title">3AMride</span>
-  <span class="playlist-blurb">i like drives, i like music, i like stars, i like gedi. put all four together at 3am on an empty road and you get this, the best playlist i've ever built. kendrick, sir, prabh deep, mac demarco and the weeknd have no business being in one queue, and somehow it flows anyway. the rule is you don't touch it: no skip, no search, no queue. summerhouse is my fav floor in ncr, and i'm still telling you their dj could never.</span>
 </a>
 
 <a class="playlist-card" href="https://open.spotify.com/playlist/03pkdH9yWSzUibrT3nhCgE" target="_blank" rel="noopener">
