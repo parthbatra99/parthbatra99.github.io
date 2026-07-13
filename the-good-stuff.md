@@ -87,12 +87,6 @@ i always say it: if you're ever going to stalk me, make sure to also stalk my sp
   <span class="playlist-blurb">built for heartbreak, the breakup-and-stare-at-the-ceiling genre. haven't needed it for its intended purpose in a while, touch wood, but arijit-core does something to you whether or not anything's actually wrong. every gen-z has screamed tum hi ho at the top of their lungs at the happiest point of their life, not relating to a single word of it, and that's exactly the appeal. bekhayali, tum ho, hawayein. keep it for the slow days, or the day you actually need it for its intended purpose.</span>
 </a>
 
-<a class="playlist-card" href="https://open.spotify.com/playlist/1SkPG8fFynaiNJymdvrd4Q" target="_blank" rel="noopener">
-  <img src="/assets/images/playlists/freefall.jpg" alt="freefall playlist cover" loading="lazy">
-  <span class="playlist-title">freefall</span>
-  <span class="playlist-blurb">for the days that sit heavy on your chest. no moody indie-pop, no slow piano. just straight-up bhakti bhajans. achyutam keshavam, shree krishna govinda, kabir dohas. when the code is failing and the server is burning, sometimes the only logical move left is surrendering to the universe. your grandmother would approve.</span>
-</a>
-
 </div>
 
 ---
