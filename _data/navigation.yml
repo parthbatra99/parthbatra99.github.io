@@ -1,9 +1,9 @@
 - title: blog
   url: /blog/
-- title: quickwits
-  url: /quick-wits/
 - title: thegoodstuff
   url: /the-good-stuff/
+- title: quickwits
+  url: /quick-wits/
 - title: workbench
   url: /workbench/
 - title: list 100
