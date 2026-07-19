@@ -5,99 +5,7 @@ description: Remember those 'unfiltered thoughts' and 'hot takes' I mentioned? T
 permalink: /quick-wits/
 ---
 
-### July 2026
-<div class="tweet-entry">
-  <div class="tweet-header">
-    <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
-    <div class="tweet-user-info">
-      <span class="tweet-name">Parth Batra</span>
-      <span class="tweet-handle">@batra99</span>
-    </div>
-    <span class="tweet-date">Jul 11</span>
-  </div>
-  <div class="tweet-content">
-    ASML not being able to scale up with these unprecedented demands of lithography, has to be a generational fumble!<br><br>
-    now china has perfected some of these supply chains issues and eventually they will figure it out, like always.
-  </div>
-  <div class="tweet-footer">
-    <a href="https://x.com/batra99/status/2075870393932587216?s=20" target="_blank" class="tweet-action">🔗 View Tweet</a>
-  </div>
-</div>
-
-<div class="tweet-entry">
-  <div class="tweet-header">
-    <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
-    <div class="tweet-user-info">
-      <span class="tweet-name">Parth Batra</span>
-      <span class="tweet-handle">@batra99</span>
-    </div>
-    <span class="tweet-date">Jul 01</span>
-  </div>
-  <div class="tweet-content">
-    maybe one of these deployments can fix lag in what song is currently playing when i connect it to different device over wifi like my home theatre.<br><br>
-    youtube music works great tho. even though they might be using inferior gemini for coding.
-    <div class="tweet-quote">
-      <div class="tweet-quote-author">Quoting <a href="https://x.com/ClaudeDevs" target="_blank" rel="noopener">@ClaudeDevs</a></div>
-      <div class="tweet-quote-text">Boris sat down with Spotify VP of Engineering Niklas Gustavsson. Spotify ships 4,500 production deploys a day…</div>
-    </div>
-  </div>
-  <div class="tweet-footer">
-    <a href="https://x.com/batra99/status/2072309839825703051?s=20" target="_blank" class="tweet-action">🔗 View Tweet</a>
-  </div>
-</div>
-
-
----
-
-### June 2026
-<div class="tweet-entry">
-  <div class="tweet-header">
-    <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
-    <div class="tweet-user-info">
-      <span class="tweet-name">Parth Batra</span>
-      <span class="tweet-handle">@batra99</span>
-    </div>
-    <span class="tweet-date">Jun 30</span>
-  </div>
-  <div class="tweet-content">
-    a trillion param model by a food delivery company in china.<br><br>
-    these everyday companies in china have more compute resources and AI talent than most big nations in europe.
-    <div class="tweet-quote">
-      <div class="tweet-quote-author">Quoting <a href="https://x.com/Meituan_LongCat" target="_blank" rel="noopener">@Meituan_LongCat</a></div>
-      <div class="tweet-quote-text">Introducing LongCat-2.0 — 1.6T parameters · MoE with ~48B active · 1M context. The full model behind Owl Alpha on @OpenRouter, now available. Built for agentic coding from the ground up…</div>
-    </div>
-  </div>
-  <div class="tweet-footer">
-    <a href="https://x.com/batra99/status/2071924336102146095?s=20" target="_blank" class="tweet-action">🔗 View Tweet</a>
-  </div>
-</div>
-
-<div class="tweet-entry">
-  <div class="tweet-header">
-    <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
-    <div class="tweet-user-info">
-      <span class="tweet-name">Parth Batra</span>
-      <span class="tweet-handle">@batra99</span>
-    </div>
-    <span class="tweet-date">Jun 26</span>
-  </div>
-  <div class="tweet-content">
-    thanks in advance alibaba.<br><br>
-    Next Qwen should be banger!
-    <div class="tweet-quote">
-      <div class="tweet-quote-author">Quoting <a href="https://x.com/MTSlive" target="_blank" rel="noopener">@MTSlive</a></div>
-      <div class="tweet-quote-text">SITUATION DETECTED: Anthropic has disclosed to the U.S. Government that Alibaba executed the largest…</div>
-    </div>
-  </div>
-  <div class="tweet-footer">
-    <a href="https://x.com/batra99/status/2070402891933007949?s=20" target="_blank" class="tweet-action">🔗 View Tweet</a>
-  </div>
-</div>
-
-
----
-
-### April 2026
+### ⭐ Pinned
 <div class="tweet-entry">
   <div class="tweet-header">
     <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
@@ -153,10 +61,6 @@ permalink: /quick-wits/
   </div>
 </div>
 
-
----
-
-### March 2026
 <div class="tweet-entry">
   <div class="tweet-header">
     <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
@@ -182,14 +86,210 @@ permalink: /quick-wits/
       <span class="tweet-name">Parth Batra</span>
       <span class="tweet-handle">@batra99</span>
     </div>
-    <span class="tweet-date">Mar 23</span>
+    <span class="tweet-date">Mar 07</span>
   </div>
   <div class="tweet-content">
-    When i run out of my claude code usage limit, i switch to GLM-4.7/5 on claude code.<br><br>
-    Its so undistinguishable that i sometimes forget to switch back after claude limit reset.
+    went to attari border. Only campa was available as soft drink.<br><br>
+    how fitting.
   </div>
   <div class="tweet-footer">
-    <a href="https://x.com/batra99/status/2036166392228225024?s=20" target="_blank" class="tweet-action">🔗 View Tweet</a>
+    <a href="https://x.com/batra99/status/2030280069919457324?s=20" target="_blank" class="tweet-action">🔗 View Tweet</a>
+  </div>
+</div>
+
+<div class="tweet-entry">
+  <div class="tweet-header">
+    <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
+    <div class="tweet-user-info">
+      <span class="tweet-name">Parth Batra</span>
+      <span class="tweet-handle">@batra99</span>
+    </div>
+    <span class="tweet-date">Dec 12</span>
+  </div>
+  <div class="tweet-content">
+    if you ever find me posting someone with "You're you tho" by karan aujla, CONSIDER YOUR BOY TAKEN.
+  </div>
+  <div class="tweet-footer">
+    <a href="https://x.com/batra99/status/1998401762630488414?s=20" target="_blank" class="tweet-action">🔗 View Tweet</a>
+  </div>
+</div>
+
+<div class="tweet-entry">
+  <div class="tweet-header">
+    <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
+    <div class="tweet-user-info">
+      <span class="tweet-name">Parth Batra</span>
+      <span class="tweet-handle">@batra99</span>
+    </div>
+    <span class="tweet-date">Oct 28</span>
+  </div>
+  <div class="tweet-content">
+    Is it even leg day if your quads aren't visibly bumping through your trousers?
+  </div>
+  <div class="tweet-footer">
+    <a href="https://x.com/batra99/status/1986849916438864151?s=20" target="_blank" class="tweet-action">🔗 View Tweet</a>
+  </div>
+</div>
+
+<div class="tweet-entry">
+  <div class="tweet-header">
+    <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
+    <div class="tweet-user-info">
+      <span class="tweet-name">Parth Batra</span>
+      <span class="tweet-handle">@batra99</span>
+    </div>
+    <span class="tweet-date">Oct 20</span>
+  </div>
+  <div class="tweet-content">
+    Diwali homecomings = “ghar ki raunak” = moms. Take them out and it’s just dusty homes, same old t-shirts, dal chawal and people pretending fairy lights count as efforts. In India, Moms are the festival
+  </div>
+  <div class="tweet-footer">
+    <a href="https://x.com/batra99/status/1980248553147732401?s=20" target="_blank" class="tweet-action">🔗 View Tweet</a>
+  </div>
+</div>
+
+<div class="tweet-entry">
+  <div class="tweet-header">
+    <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
+    <div class="tweet-user-info">
+      <span class="tweet-name">Parth Batra</span>
+      <span class="tweet-handle">@batra99</span>
+    </div>
+    <span class="tweet-date">Oct 12</span>
+  </div>
+  <div class="tweet-content">
+    Top 3 types of "songs": 1. The ones you never ever want to finish. 2. The one you're still humming all day. 3. The ones where you just remember the tune and it makes you smile. (No, I am not talking about songs here)
+  </div>
+  <div class="tweet-footer">
+    <a href="https://x.com/batra99/status/1979783460459037047?s=20" target="_blank" class="tweet-action">🔗 View Tweet</a>
+  </div>
+</div>
+
+<div class="tweet-entry">
+  <div class="tweet-header">
+    <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
+    <div class="tweet-user-info">
+      <span class="tweet-name">Parth Batra</span>
+      <span class="tweet-handle">@batra99</span>
+    </div>
+    <span class="tweet-date">Sep 29</span>
+  </div>
+  <div class="tweet-content">
+    Therapy? I don’t need therapy. I just need cars with more cylinders than seats.
+  </div>
+  <div class="tweet-footer">
+    <a href="https://x.com/batra99/status/1976000018583580908?s=20" target="_blank" class="tweet-action">🔗 View Tweet</a>
+  </div>
+</div>
+
+<div class="tweet-entry">
+  <div class="tweet-header">
+    <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
+    <div class="tweet-user-info">
+      <span class="tweet-name">Parth Batra</span>
+      <span class="tweet-handle">@batra99</span>
+    </div>
+    <span class="tweet-date">Sep 15</span>
+  </div>
+  <div class="tweet-content">
+    Hot take: Ferrari is basically a merch company that also makes super cool cars & hires F1 legends just for the aesthetic/promo. Their car sales scale can't possibly be as profitable as those sweet merch collabs. Brand Empire, Not a car Empire.
+  </div>
+  <div class="tweet-footer">
+    <a href="https://x.com/batra99/status/1972012392596099288?s=20" target="_blank" class="tweet-action">🔗 View Tweet</a>
+  </div>
+</div>
+
+<div class="tweet-entry">
+  <div class="tweet-header">
+    <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
+    <div class="tweet-user-info">
+      <span class="tweet-name">Parth Batra</span>
+      <span class="tweet-handle">@batra99</span>
+    </div>
+    <span class="tweet-date">Jul 28</span>
+  </div>
+  <div class="tweet-content">
+    Technically, sweat is the best skin care.
+  </div>
+  <div class="tweet-footer">
+    <a href="https://x.com/batra99/status/1939013863783178756?s=20" target="_blank" class="tweet-action">🔗 View Tweet</a>
+  </div>
+</div>
+
+
+---
+
+### The rest
+<div class="tweet-entry">
+  <div class="tweet-header">
+    <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
+    <div class="tweet-user-info">
+      <span class="tweet-name">Parth Batra</span>
+      <span class="tweet-handle">@batra99</span>
+    </div>
+    <span class="tweet-date">Apr 18</span>
+  </div>
+  <div class="tweet-content">
+    <div class="tweet-repost">↻ Reposted from <a href="https://x.com/Rohit556669273" target="_blank" rel="noopener">@Rohit556669273</a></div>
+    Shakespeare himself plagiarized a lot of his plays from Indian movies like Haidar and Omkara.<br><br>
+    That guy is a fraud.
+  </div>
+  <div class="tweet-footer">
+    <a href="https://x.com/Rohit556669273/status/2045420950141927599?s=20" target="_blank" class="tweet-action">🔗 View Tweet</a>
+  </div>
+</div>
+
+<div class="tweet-entry">
+  <div class="tweet-header">
+    <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
+    <div class="tweet-user-info">
+      <span class="tweet-name">Parth Batra</span>
+      <span class="tweet-handle">@batra99</span>
+    </div>
+    <span class="tweet-date">Apr 08</span>
+  </div>
+  <div class="tweet-content">
+    <div class="tweet-repost">↻ Reposted from <a href="https://x.com/RadishHarmers" target="_blank" rel="noopener">@RadishHarmers</a></div>
+    As an Indian, I would ace Hot Ones. I just need to work on becoming a celebrity first.
+  </div>
+  <div class="tweet-footer">
+    <a href="https://x.com/RadishHarmers/status/2041771378370650621?s=20" target="_blank" class="tweet-action">🔗 View Tweet</a>
+  </div>
+</div>
+
+<div class="tweet-entry">
+  <div class="tweet-header">
+    <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
+    <div class="tweet-user-info">
+      <span class="tweet-name">Parth Batra</span>
+      <span class="tweet-handle">@batra99</span>
+    </div>
+    <span class="tweet-date">Apr 06</span>
+  </div>
+  <div class="tweet-content">
+    <div class="tweet-repost">↻ Reposted from <a href="https://x.com/creatine_cycle" target="_blank" rel="noopener">@creatine_cycle</a></div>
+    having a gf is insane because it's literally unlimited chat with no token spend
+  </div>
+  <div class="tweet-footer">
+    <a href="https://x.com/creatine_cycle/status/2041281739969196190?s=20" target="_blank" class="tweet-action">🔗 View Tweet</a>
+  </div>
+</div>
+
+<div class="tweet-entry">
+  <div class="tweet-header">
+    <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
+    <div class="tweet-user-info">
+      <span class="tweet-name">Parth Batra</span>
+      <span class="tweet-handle">@batra99</span>
+    </div>
+    <span class="tweet-date">Mar 24</span>
+  </div>
+  <div class="tweet-content">
+    thanks matrix multiplication!<br><br>
+    #hazel
+  </div>
+  <div class="tweet-footer">
+    <a href="https://x.com/batra99/status/2036335957012783348?s=20" target="_blank" class="tweet-action">🔗 View Tweet</a>
   </div>
 </div>
 
@@ -247,10 +347,6 @@ permalink: /quick-wits/
   </div>
 </div>
 
-
----
-
-### February 2026
 <div class="tweet-entry">
   <div class="tweet-header">
     <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
@@ -336,10 +432,6 @@ permalink: /quick-wits/
   </div>
 </div>
 
-
----
-
-### January 2026
 <div class="tweet-entry">
   <div class="tweet-header">
     <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
@@ -408,10 +500,6 @@ permalink: /quick-wits/
   </div>
 </div>
 
-
----
-
-### December 2025
 <div class="tweet-entry">
   <div class="tweet-header">
     <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
@@ -463,10 +551,6 @@ permalink: /quick-wits/
   </div>
 </div>
 
-
----
-
-### November 2025
 <div class="tweet-entry">
   <div class="tweet-header">
     <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
@@ -501,10 +585,6 @@ permalink: /quick-wits/
   </div>
 </div>
 
-
----
-
-### October 2025
 <div class="tweet-entry">
   <div class="tweet-header">
     <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
@@ -590,10 +670,6 @@ permalink: /quick-wits/
   </div>
 </div>
 
-
----
-
-### September 2025
 <div class="tweet-entry">
   <div class="tweet-header">
     <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
@@ -669,27 +745,6 @@ permalink: /quick-wits/
       <span class="tweet-name">Parth Batra</span>
       <span class="tweet-handle">@batra99</span>
     </div>
-    <span class="tweet-date">Sep 05</span>
-  </div>
-  <div class="tweet-content">
-    files over app. Always. Your notes app should let you bulk export, and bulk import from standard formats like markdown, txt etc. Used logseq for good 3 years but app had became buggy. Till i found a better alternative, Obsidian all the way.
-  </div>
-  <div class="tweet-footer">
-    <a href="https://x.com/batra99/status/1958342408149540979?s=20" target="_blank" class="tweet-action">🔗 View Tweet</a>
-  </div>
-</div>
-
-
----
-
-### August 2025
-<div class="tweet-entry">
-  <div class="tweet-header">
-    <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
-    <div class="tweet-user-info">
-      <span class="tweet-name">Parth Batra</span>
-      <span class="tweet-handle">@batra99</span>
-    </div>
     <span class="tweet-date">Aug 29</span>
   </div>
   <div class="tweet-content">
@@ -751,10 +806,6 @@ permalink: /quick-wits/
   </div>
 </div>
 
-
----
-
-### July 2025
 <div class="tweet-entry">
   <div class="tweet-header">
     <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
@@ -789,9 +840,6 @@ permalink: /quick-wits/
   </div>
 </div>
 
----
-
-### June 2025
 <div class="tweet-entry">
   <div class="tweet-header">
     <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
@@ -809,9 +857,6 @@ permalink: /quick-wits/
   </div>
 </div>
 
----
-
-### May 2025
 <div class="tweet-entry">
   <div class="tweet-header">
     <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
@@ -837,9 +882,6 @@ permalink: /quick-wits/
   </div>
 </div>
 
----
-
-### April 2025
 <div class="tweet-entry">
   <div class="tweet-header">
     <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
@@ -892,9 +934,6 @@ permalink: /quick-wits/
   </div>
 </div>
 
----
-
-### March 2025
 <div class="tweet-entry">
   <div class="tweet-header">
     <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
@@ -953,9 +992,6 @@ permalink: /quick-wits/
   </div>
 </div>
 
----
-
-### February 2025
 <div class="tweet-entry">
   <div class="tweet-header">
     <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
@@ -992,9 +1028,6 @@ permalink: /quick-wits/
   </div>
 </div>
 
----
-
-### January 2025
 <div class="tweet-entry">
   <div class="tweet-header">
     <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
@@ -1031,9 +1064,6 @@ permalink: /quick-wits/
   </div>
 </div>
 
----
-
-### December 2024
 <div class="tweet-entry">
   <div class="tweet-header">
     <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
@@ -1055,5 +1085,3 @@ permalink: /quick-wits/
     <a href="https://twitter.com/batra99/status/1866722864784986356" target="_blank" class="tweet-action">🔗 View Tweet</a>
   </div>
 </div>
-
----
