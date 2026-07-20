@@ -76,7 +76,7 @@
     const toggle = monthEl.querySelector(".qw-month-toggle");
     if (!toggle) return;
 
-    setMonthExpanded(monthEl, index === 0);
+    setMonthExpanded(monthEl, true);
     toggle.addEventListener("click", () => {
       const expanded = toggle.getAttribute("aria-expanded") === "true";
       setMonthExpanded(monthEl, !expanded);

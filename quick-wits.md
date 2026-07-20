@@ -13,6 +13,24 @@ permalink: /quick-wits/
       <span class="tweet-name">Parth Batra</span>
       <span class="tweet-handle">@batra99</span>
     </div>
+    <span class="tweet-date">Aug 22</span>
+  </div>
+  <div class="tweet-content">
+    OK hear me out… IQ test before a driver's license… and you can ONLY buy a car/bike that goes slower than your IQ<br><br>
+    Welcome! just solved road accidents!
+  </div>
+  <div class="tweet-footer">
+    <a href="https://x.com/batra99/status/1942269729231577295?s=20" target="_blank" class="tweet-action">🔗 View Tweet</a>
+  </div>
+</div>
+
+<div class="tweet-entry">
+  <div class="tweet-header">
+    <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
+    <div class="tweet-user-info">
+      <span class="tweet-name">Parth Batra</span>
+      <span class="tweet-handle">@batra99</span>
+    </div>
     <span class="tweet-date">Apr 18</span>
   </div>
   <div class="tweet-content">
@@ -32,14 +50,13 @@ permalink: /quick-wits/
       <span class="tweet-name">Parth Batra</span>
       <span class="tweet-handle">@batra99</span>
     </div>
-    <span class="tweet-date">Apr 08</span>
+    <span class="tweet-date">Aug 28</span>
   </div>
   <div class="tweet-content">
-    <div class="tweet-repost">↻ Reposted from <a href="https://x.com/RadishHarmers" target="_blank" rel="noopener">@RadishHarmers</a></div>
-    As an Indian, I would ace Hot Ones. I just need to work on becoming a celebrity first.
+    Net productivity, p=p0 - delta(p) - p0 is the ultimate productivity - delta(p) is the cumulation of various human factors which hampers the net result all these AI-tools, productivity tools focus on that p0 part, but that delta(p) is where magic happens!<br><br>...and that 'delta(p)' is what we should focus on. In my humble opinion, there is just one way: Minimize Unforced Error. This is also the trait in most pioneers in their craft around us - world champions, 10x engineers, best leaders. #fuckdeltap
   </div>
   <div class="tweet-footer">
-    <a href="https://x.com/RadishHarmers/status/2041771378370650621?s=20" target="_blank" class="tweet-action">🔗 View Tweet</a>
+    <a href="https://x.com/batra99/status/1957107362516402301?s=20" target="_blank" class="tweet-action">🔗 View Tweet</a>
   </div>
 </div>
 
@@ -50,32 +67,13 @@ permalink: /quick-wits/
       <span class="tweet-name">Parth Batra</span>
       <span class="tweet-handle">@batra99</span>
     </div>
-    <span class="tweet-date">Apr 06</span>
+    <span class="tweet-date">Sep 25</span>
   </div>
   <div class="tweet-content">
-    <div class="tweet-repost">↻ Reposted from <a href="https://x.com/creatine_cycle" target="_blank" rel="noopener">@creatine_cycle</a></div>
-    having a gf is insane because it's literally unlimited chat with no token spend
+    “You only lose what you cling to.” – Buddha → Extending on this based on my recent readings ... imo life is just a brutal 'pick 2 out of 3' situation, and the options are always 1. Freedom 2. Attachment 3. Acceptance. ...and the correct answer changes multiple times a day based on who/what you're dealing with.
   </div>
   <div class="tweet-footer">
-    <a href="https://x.com/creatine_cycle/status/2041281739969196190?s=20" target="_blank" class="tweet-action">🔗 View Tweet</a>
-  </div>
-</div>
-
-<div class="tweet-entry">
-  <div class="tweet-header">
-    <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
-    <div class="tweet-user-info">
-      <span class="tweet-name">Parth Batra</span>
-      <span class="tweet-handle">@batra99</span>
-    </div>
-    <span class="tweet-date">Mar 24</span>
-  </div>
-  <div class="tweet-content">
-    thanks matrix multiplication!<br><br>
-    #hazel
-  </div>
-  <div class="tweet-footer">
-    <a href="https://x.com/batra99/status/2036335957012783348?s=20" target="_blank" class="tweet-action">🔗 View Tweet</a>
+    <a href="https://x.com/batra99/status/1975227856201625817?s=20" target="_blank" class="tweet-action">🔗 View Tweet</a>
   </div>
 </div>
 
@@ -121,13 +119,13 @@ permalink: /quick-wits/
       <span class="tweet-name">Parth Batra</span>
       <span class="tweet-handle">@batra99</span>
     </div>
-    <span class="tweet-date">Oct 28</span>
+    <span class="tweet-date">Dec 18</span>
   </div>
   <div class="tweet-content">
-    Is it even leg day if your quads aren't visibly bumping through your trousers?
+    Embarrassment is cheap. Regret is expensive.
   </div>
   <div class="tweet-footer">
-    <a href="https://x.com/batra99/status/1986849916438864151?s=20" target="_blank" class="tweet-action">🔗 View Tweet</a>
+    <a href="https://x.com/batra99/status/2001344522773758174?s=20" target="_blank" class="tweet-action">🔗 View Tweet</a>
   </div>
 </div>
 
@@ -206,13 +204,13 @@ permalink: /quick-wits/
       <span class="tweet-name">Parth Batra</span>
       <span class="tweet-handle">@batra99</span>
     </div>
-    <span class="tweet-date">Jul 28</span>
+    <span class="tweet-date">Feb 11</span>
   </div>
   <div class="tweet-content">
-    Technically, sweat is the best skin care.
+    Humour is how you bleed without anyone seeing the wound.
   </div>
   <div class="tweet-footer">
-    <a href="https://x.com/batra99/status/1939013863783178756?s=20" target="_blank" class="tweet-action">🔗 View Tweet</a>
+    <a href="https://x.com/batra99/status/2022303997613457742?s=20" target="_blank" class="tweet-action">🔗 View Tweet</a>
   </div>
 </div>
 
@@ -745,27 +743,10 @@ permalink: /quick-wits/
       <span class="tweet-name">Parth Batra</span>
       <span class="tweet-handle">@batra99</span>
     </div>
-    <span class="tweet-date">Aug 29</span>
-  </div>
-  <div class="tweet-content">
-    that 'delta(p)' is what we should focus on. In my humble opinion, there is just one way: Minimize Unforced Error. This is also the trait in most pioneers in their craft around us - world champions, 10x engineers, best leaders. #fuckdeltap
-  </div>
-  <div class="tweet-footer">
-    <a href="https://x.com/batra99/status/1957108652252311823?s=20" target="_blank" class="tweet-action">🔗 View Tweet</a>
-  </div>
-</div>
-
-<div class="tweet-entry">
-  <div class="tweet-header">
-    <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
-    <div class="tweet-user-info">
-      <span class="tweet-name">Parth Batra</span>
-      <span class="tweet-handle">@batra99</span>
-    </div>
     <span class="tweet-date">Aug 28</span>
   </div>
   <div class="tweet-content">
-    Net productivity, p=p0 - delta(p) - p0 is the ultimate productivity - delta(p) is the cumulation of various human factors which hampers the net result all these AI-tools, productivity tools focus on that p0 part, but that delta(p) is where magic happens!
+    Net productivity, p=p0 - delta(p) - p0 is the ultimate productivity - delta(p) is the cumulation of various human factors which hampers the net result all these AI-tools, productivity tools focus on that p0 part, but that delta(p) is where magic happens!<br><br>...and that 'delta(p)' is what we should focus on. In my humble opinion, there is just one way: Minimize Unforced Error. This is also the trait in most pioneers in their craft around us - world champions, 10x engineers, best leaders. #fuckdeltap
   </div>
   <div class="tweet-footer">
     <a href="https://x.com/batra99/status/1957107362516402301?s=20" target="_blank" class="tweet-action">🔗 View Tweet</a>
@@ -786,6 +767,24 @@ permalink: /quick-wits/
   </div>
   <div class="tweet-footer">
     <a href="https://x.com/batra99/status/1942273982939500674?s=20" target="_blank" class="tweet-action">🔗 View Tweet</a>
+  </div>
+</div>
+
+<div class="tweet-entry">
+  <div class="tweet-header">
+    <img src="/assets/images/profile.jpg" alt="Parth Batra" class="tweet-avatar">
+    <div class="tweet-user-info">
+      <span class="tweet-name">Parth Batra</span>
+      <span class="tweet-handle">@batra99</span>
+    </div>
+    <span class="tweet-date">Aug 22</span>
+  </div>
+  <div class="tweet-content">
+    OK hear me out… IQ test before a driver's license… and you can ONLY buy a car/bike that goes slower than your IQ<br><br>
+    Welcome! just solved road accidents!
+  </div>
+  <div class="tweet-footer">
+    <a href="https://x.com/batra99/status/1942269729231577295?s=20" target="_blank" class="tweet-action">🔗 View Tweet</a>
   </div>
 </div>
 

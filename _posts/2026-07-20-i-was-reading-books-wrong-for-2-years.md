@@ -3,7 +3,7 @@ layout: post
 kind: from-a-book
 title: "I Read Books Wrong for 2 Years. The Fix Was One Question."
 subtitle: "Why speed-reading through books meant for slow digestion was my biggest reading mistake, and the two-category system that fixed everything."
-date: 2026-07-20
+date: 2026-07-29
 tags:
   - book-brain
   - note-to-self
