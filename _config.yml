@@ -11,6 +11,11 @@ description: Senior ML Engineer by day, music critic by night. Building ML syste
 theme: minima
 plugins:
   - jekyll-toc
+  - jekyll-redirect-from
+
+# Per-post redirects: add `redirect_from: [/old/url/]` to a post's
+# front matter to silently forward an old URL to the current one.
+# Requires the jekyll-redirect-from plugin (GitHub Pages supported).
 
 exclude:
   - scripts/
