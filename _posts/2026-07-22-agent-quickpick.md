@@ -1,7 +1,7 @@
 ---
 layout: post
 kind: theory
-title: "The Hard Part Was Seven Markdown Files in a Folder."
+title: "For 30 Years, Bending Your Editor to Fit You Was a Vim Thing. Now It's the Whole Job."
 subtitle: "Dev tools used to be things you adopted. They're becoming things you write, and the gap between wanting one and having it just collapsed to an evening."
 date: 2026-07-22
 tags:
