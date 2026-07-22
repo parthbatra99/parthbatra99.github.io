@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-07-21T00:56:41+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Parth Batra | fromparth.blog</title><subtitle>Senior ML Engineer by day, music critic by night. Building ML systems, writing about tech, and collecting spotify minutes like they&apos;re infinity stones.</subtitle><author><name>Parth Batra</name></author><entry><title type="html">Why 72 km/h Is the Perfect Speed for an Indian Highway. Not 70, Not 75, Not 80.</title><link href="http://localhost:4000/2026/07/19/i-drive-at-exactly-72-kmh.html" rel="alternate" type="text/html" title="Why 72 km/h Is the Perfect Speed for an Indian Highway. Not 70, Not 75, Not 80." /><published>2026-07-19T00:00:00+05:30</published><updated>2026-07-19T00:00:00+05:30</updated><id>http://localhost:4000/2026/07/19/i-drive-at-exactly-72-kmh</id><content type="html" xml:base="http://localhost:4000/2026/07/19/i-drive-at-exactly-72-kmh.html"><![CDATA[<p>For the last couple of years, I did most of my long drives along NH48, the Delhi-Jaipur Highway, in a Suzuki Swift. Cruise control on, Rafi and Kishore Kumar on the speakers, because that’s the only music that survives four hours of highway without becoming annoying. Over months of nudging the cruise control dial a notch at a time, I kept landing on the same number. Not 70. Not 75. Just 72.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-07-22T20:06:24+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Parth Batra | fromparth.blog</title><subtitle>Senior ML Engineer by day, music critic by night. Building ML systems, writing about tech, and collecting spotify minutes like they&apos;re infinity stones.</subtitle><author><name>Parth Batra</name></author><entry><title type="html">My Editor Runs Conway’s Game of Life. Last Week I Taught It to Run Eight Agents.</title><link href="http://localhost:4000/2026/07/22/agent-quickpick.html" rel="alternate" type="text/html" title="My Editor Runs Conway’s Game of Life. Last Week I Taught It to Run Eight Agents." /><published>2026-07-22T00:00:00+05:30</published><updated>2026-07-22T00:00:00+05:30</updated><id>http://localhost:4000/2026/07/22/agent-quickpick</id><content type="html" xml:base="http://localhost:4000/2026/07/22/agent-quickpick.html"><![CDATA[<p>My Neovim config is 753 lines of Lua across 20 files and thirty-eight plugins. A function picks one of five colorschemes at random when I open the editor, because I couldn’t decide. There’s a keybinding that runs Conway’s Game of Life on my buffer, and a plugin I wrote and published, hexwitch, that does exactly one thing: flip a value between hex and text. None of it shipped with Vim. All of it is load-bearing. Nobody else could sit down at my machine and find anything.</p>
+
+<p>There’s a name for this, and it isn’t mine. TJ DeVries, who works on Neovim itself, calls it a PDE. Personalized Development Environment. He coined it to make a point: Vim was never an IDE, it’s a thing you bend until it fits one person, you, and only you. The term was invented to describe the opposite of VS Code.</p>
+
+<p>Which is why what’s happening now is funny. The IDE is becoming a PDE.</p>
+
+<p>Three out of four developers use VS Code. 75.9% in last year’s Stack Overflow survey, ninth year running at number one. And that number undercounts it, because Cursor, Windsurf, the whole wave of AI editors people are switching to, are VS Code underneath, forks of the same open-source core. The extension I wrote runs on all of them without a change, because it’s one chassis wearing different logos. The marketplace crossed a hundred thousand extensions in May: a hundred thousand ways to bend the default until it stops being anyone’s default. The impulse TJ was describing in a niche editor is now the daily behavior of most of the profession. They just don’t call it anything.</p>
+
+<p>I caught myself doing it at work, and the thing I bent it around was agents.</p>
+
+<p>The project I spend my days on has eight code-review agents that run on the same diff at the same time. Seven I wrote, an eighth hands off to CodeRabbit. Architecture, security, concurrency, database performance, each one a specialist reading the change in parallel, and an orchestrator that merges what they find and drops the low-confidence noise so I’m not drowning. I didn’t install this. The seven agents are seven markdown files in a folder. The intelligence isn’t software, it’s text shaped like colleagues, and the CLI reads it.</p>
+
+<p>Running many agents at once is the actual new thing here. And the way everyone is building for it is the part I find strange.</p>
+
+<p>Open a new tab and look around. cmux. herdr. Conductor. Superset. Warp. Five tools, one impulse: run a fleet of coding agents and watch them work. They’re good tools. They also all live outside the editor. Terminals, desktop apps, dashboards. You check on them the way you check on a build server, which is another way of saying you left the window where your code is to go somewhere else and mind your machines.</p>
+
+<p>I didn’t want to leave. So one afternoon I added it to the editor instead. A keybinding, a picker, and each agent opens in its own tab with its own icon and its own color, Claude and Aider and Codex side by side, the ones I run most floating to the top. It took under ninety minutes, and the reason it took under ninety minutes is the whole point. VS Code hands you an API for tabs, an API for commands, an API for theming, and you bolt your own taste onto it. It’s the same loop TJ was describing, except the chassis now has three-quarters of the world’s developers sitting on it.</p>
+
+<p><img src="/assets/images/agent-quickpick-terminals.png" alt="Two agents open as side-by-side editor tabs, Claude on the left and OpenCode on the right, each with its own icon and label." /></p>
+
+<p><img src="/assets/images/agent-quickpick-demo.gif" alt="Hitting the keybinding, picking an agent, and watching it open in its own tab." /></p>
+
+<p>I should be honest about how far it goes, which is not very. Right now it launches agents and then forgets about them. The part that would make it genuinely useful, a tab that shows every agent and what it’s doing so you can watch the fleet without leaving the window where you’d fix what it broke, I haven’t built yet. That’s next. So take the confidence with the appropriate discount.</p>
+
+<hr />
+
+<p>Maybe the dashboards win. Maybe we all migrate to some new app the way we all migrated to VS Code, and this whole idea ages badly. But I don’t think people move to new surfaces. They make the surface they’re already on more like the one they wish they had. That’s the entire history of Vim, it’s why a hundred thousand extensions exist, and it’s what three-quarters of us are quietly doing without a word for it.</p>
+
+<p>The word came from the editor that refused to be an IDE. The joke is that the IDE is turning into one anyway.</p>
+
+<p><em>TJ DeVries coined “PDE” for Neovim, the editor that isn’t an IDE. Nobody warned VS Code.</em></p>]]></content><author><name>Parth Batra</name></author><category term="ai &amp; tech" /><summary type="html"><![CDATA[My Neovim config is 753 lines of Lua across 20 files and thirty-eight plugins. A function picks one of five colorschemes at random when I open the editor, because I couldn’t decide. There’s a keybinding that runs Conway’s Game of Life on my buffer, and a plugin I wrote and published, hexwitch, that does exactly one thing: flip a value between hex and text. None of it shipped with Vim. All of it is load-bearing. Nobody else could sit down at my machine and find anything.]]></summary></entry><entry><title type="html">Why 72 km/h Is the Perfect Speed for an Indian Highway. Not 70, Not 75, Not 80.</title><link href="http://localhost:4000/2026/07/19/i-drive-at-exactly-72-kmh.html" rel="alternate" type="text/html" title="Why 72 km/h Is the Perfect Speed for an Indian Highway. Not 70, Not 75, Not 80." /><published>2026-07-19T00:00:00+05:30</published><updated>2026-07-19T00:00:00+05:30</updated><id>http://localhost:4000/2026/07/19/i-drive-at-exactly-72-kmh</id><content type="html" xml:base="http://localhost:4000/2026/07/19/i-drive-at-exactly-72-kmh.html"><![CDATA[<p>For the last couple of years, I did most of my long drives along NH48, the Delhi-Jaipur Highway, in a Suzuki Swift. Cruise control on, Rafi and Kishore Kumar on the speakers, because that’s the only music that survives four hours of highway without becoming annoying. Over months of nudging the cruise control dial a notch at a time, I kept landing on the same number. Not 70. Not 75. Just 72.</p>
 
 <p>Until today, if you’d asked me why 72, my answer would have been that it feels right. That it sounds cool. Nothing I could defend with a straight face.</p>
 
@@ -1444,48 +1474,4 @@
 
 <hr />
 
-<p><em>The breakthrough happened in the bad-lighting room. The keynote is just the ceremony.</em></p>]]></content><author><name>Parth Batra</name></author><category term="just-a-thought" /><category term="book-brain" /><summary type="html"><![CDATA[A friend of mine is doing his PhD in nanotech and semiconductors. His project took almost two years. For the first eighteen months: nothing. Optimization, failure, more optimization. Then one week, devices started working, results came fast, and he had everything he’d been chasing in about three weeks.]]></summary></entry><entry><title type="html">I Thought I Was Tired From Doing Too Much. I Was Wrong.</title><link href="http://localhost:4000/2026/04/22/burnout-isnt-from-doing-too-much.html" rel="alternate" type="text/html" title="I Thought I Was Tired From Doing Too Much. I Was Wrong." /><published>2026-04-22T00:00:00+05:30</published><updated>2026-04-22T00:00:00+05:30</updated><id>http://localhost:4000/2026/04/22/burnout-isnt-from-doing-too-much</id><content type="html" xml:base="http://localhost:4000/2026/04/22/burnout-isnt-from-doing-too-much.html"><![CDATA[<p>A few weeks ago I had a Tuesday where I genuinely did nothing I wanted to do. Eight meetings, a product review that hadn’t changed since I last reviewed it, a spreadsheet I had no business being in. By 9 PM I was flat on the couch watching something I can’t remember. Exhausted. Not physically. The other kind.</p>
-
-<p>What bothered me: I’d barely worked. It wasn’t a 12-hour day. It was a full day of other people’s priorities wearing my face.</p>
-
-<p><a href="https://www.youtube.com/watch?v=P0Zgr9xwu4Y">Graham Weaver</a>, a professor at Stanford, made a point this month that explains it exactly. Energy, he argues, is not exhaustible. Not the physics kind. The human kind.</p>
-
-<p>Think about it. You kiss someone you love today. Does that make you less capable of kissing them tomorrow? You play with your dog today. Less capable of playing with your dog tomorrow? Of course not.</p>
-
-<p>Burnout doesn’t come from doing too much. It comes from friction. The gap between what you want to be doing and what you have to be doing. That gap is what drains you.</p>
-
-<figure class="diagram">
-<svg viewBox="0 0 380 150" width="100%" height="auto" role="img" aria-label="Two parallel tracks, what you want to do and what you have to do, with the gap between them labeled friction." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
-  <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-    <line x1="40" y1="40" x2="290" y2="40" stroke-width="2.4" />
-    <line x1="40" y1="110" x2="290" y2="110" stroke-width="2.4" />
-    <path d="M170 46 V104" stroke-width="1.8" opacity="0.7" />
-    <path d="M164 52 L170 46 L176 52" stroke-width="1.8" opacity="0.7" />
-    <path d="M164 98 L170 104 L176 98" stroke-width="1.8" opacity="0.7" />
-  </g>
-  <g stroke="none" fill="currentColor" font-size="13">
-    <text x="296" y="44">want</text>
-    <text x="296" y="114">must</text>
-    <text x="180" y="78" opacity="0.7">friction</text>
-  </g>
-</svg>
-<figcaption>The wider the gap between what you want to do and what you have to do, the faster you drain.</figcaption>
-</figure>
-
-<hr />
-
-<p>This isn’t “quit and follow your passion.” That’s terrible advice. We all have responsibilities, families, bills. But Weaver’s not saying close the gap all the way. He’s saying close it <em>enough</em>.</p>
-
-<p>I write these posts one every two weeks when I’d rather do five. It’s not the scale I’d like. But it’s enough. One evening where I’m doing the thing I actually want to do. Most of my week is other people’s priorities. That one evening isn’t. And it shifts something in the rest of the week more than the hours would suggest.</p>
-
-<p>The gap doesn’t have to close all the way. It just has to be smaller than it is now.</p>
-
-<hr />
-
-<p>That Tuesday, flat on the couch at 9 PM? I didn’t need a shorter week. I needed one hour that was mine.</p>
-
-<p>The drain wasn’t the volume. It was the distance between what I was doing and what I actually wanted to be doing.</p>
-
-<hr />
-
-<p><em>The exhaustion was never about the hours.</em></p>]]></content><author><name>Parth Batra</name></author><category term="note-to-self" /><category term="get-shit-done" /><summary type="html"><![CDATA[A few weeks ago I had a Tuesday where I genuinely did nothing I wanted to do. Eight meetings, a product review that hadn’t changed since I last reviewed it, a spreadsheet I had no business being in. By 9 PM I was flat on the couch watching something I can’t remember. Exhausted. Not physically. The other kind.]]></summary></entry></feed>
+<p><em>The breakthrough happened in the bad-lighting room. The keynote is just the ceremony.</em></p>]]></content><author><name>Parth Batra</name></author><category term="just-a-thought" /><category term="book-brain" /><summary type="html"><![CDATA[A friend of mine is doing his PhD in nanotech and semiconductors. His project took almost two years. For the first eighteen months: nothing. Optimization, failure, more optimization. Then one week, devices started working, results came fast, and he had everything he’d been chasing in about three weeks.]]></summary></entry></feed>
