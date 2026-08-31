@@ -3,7 +3,7 @@ layout: post
 kind: theory
 title: "I Applied the 80/20 Rule to My Entire Life. Most of What I Do Doesn't Matter."
 subtitle: "Happiness, money, friends, time: the 7 areas where 20% of the effort gives you 80% of the results."
-date: 2026-08-17
+date: 2026-11-08
 tags:
   - get-shit-done
   - note-to-self

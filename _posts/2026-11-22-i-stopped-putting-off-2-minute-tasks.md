@@ -3,7 +3,7 @@ layout: post
 kind: from-a-book
 title: "I Stopped Putting Off 2-Minute Tasks. My Output Jumped."
 subtitle: "What Noah Kagan's Million Dollar Weekend taught me about action bias, asking for discounts at bookstores, and starting from exactly where you are."
-date: 2026-11-09
+date: 2026-11-22
 tags:
   - get-shit-done
   - tiny-reps

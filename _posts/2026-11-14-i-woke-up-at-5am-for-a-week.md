@@ -3,7 +3,7 @@ layout: post
 kind: experiment
 title: "I Woke Up at 5 AM for a Week. It Made Me Worse at Everything."
 subtitle: "The productivity math, the placebo effect, and the one reason early rising actually works."
-date: 2026-09-14
+date: 2026-11-14
 tags:
   - get-shit-done
   - tiny-reps

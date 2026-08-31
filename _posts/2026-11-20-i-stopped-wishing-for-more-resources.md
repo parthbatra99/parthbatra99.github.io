@@ -3,7 +3,7 @@ layout: post
 kind: theory
 title: "I Stopped Wishing for More Resources. The Creativity Showed Up on Its Own."
 subtitle: "Why constraints aren't obstacles. They're the entire engine, plus what Hindi taught me about society and why I was doing productivity backwards."
-date: 2026-10-26
+date: 2026-11-20
 tags:
   - made-this-up
   - get-shit-done

@@ -3,7 +3,7 @@ layout: post
 kind: theory
 title: "I Stopped Measuring My Day in 24 Hours. My Output Doubled."
 subtitle: "The three-slot method: shorter feedback loops, built-in error correction, and why a wasted morning doesn't have to mean a wasted day."
-date: 2026-08-31
+date: 2026-11-10
 tags:
   - get-shit-done
   - tiny-reps

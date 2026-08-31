@@ -3,7 +3,7 @@ layout: post
 kind: theory
 title: "I Read 37 Pages About Free Will. I'm Not Sure I Chose to Write This."
 subtitle: "Brain scans that predict decisions, five murder scenarios, and why your best ideas were never really yours."
-date: 2026-08-03
+date: 2026-11-04
 tags:
   - just-a-thought
   - brain-glitch

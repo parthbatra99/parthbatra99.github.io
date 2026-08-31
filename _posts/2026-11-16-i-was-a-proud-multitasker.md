@@ -3,7 +3,7 @@ layout: post
 kind: theory
 title: "I Was a Proud Multitasker. It Isn't Real."
 subtitle: "What your brain actually does when you think you're doing two things at once."
-date: 2026-09-28
+date: 2026-11-16
 tags:
   - get-shit-done
   - brain-glitch
