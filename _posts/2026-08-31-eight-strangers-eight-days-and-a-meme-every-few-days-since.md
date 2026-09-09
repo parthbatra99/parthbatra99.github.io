@@ -98,13 +98,13 @@ Mafia does something polite conversation cannot. It is lying to strangers for sp
 
 The kitchen was the other place it happened. Breakfast and evening snacks were the shared hours, all of us in there at once, sandwiches and poha and parathe and omelettes and pakore and chai at a volume nobody was tracking. In between, we worked. And I mean WORKED. Same meetings, same tasks, nothing moved to another day, laptop open in front of a view I had done nothing to deserve. Somewhere in there we played cricket with the villa owner's son, who was better than all of us and knew it.
 
-## the theory: what I think was actually happening
+## the theory: what I think explains it
 
 I have a theory and it is only a theory. Everybody I know at home carries a file on me. Years of context, the old jokes, the reliable "you always do this," the job title I show up wearing whether or not I mention it. That file is mostly a GOOD thing. It is also the reason a bad mood at home has so many places to attach itself.
 
 For eight days I was unfiled. Nobody there had a prior version of me to compare this one against, so there was nothing to defend and no reputation being tracked. I suspect that did more than the mountains did. The treks were good. The cafes were extremely good. But I do not think a waterfall has ever once fixed my mood for a whole week.
 
-I want to be careful about how much I claim here. I still get frustrated with work, with circumstances, with the people I live with. What changed is the recovery time. It used to sit on me for days. Now it burns off in an hour or two.
+I still get frustrated with work, with circumstances, with the people I live with. What changed is the recovery time. It used to sit on me for days. Now it burns off in an hour or two.
 
 ***
 
@@ -114,7 +114,7 @@ I am not the only one doing this. Half the people I know met their newest friend
 
 Friends of ten years. In each other's houses three days a week. Messages about nothing, almost every day. For most of my life I would have said that is the form, and the villa thing was a nice week with nice people, filed under holiday.
 
-I *do not* think that is right anymore. Those eight days had as much fun, as many stories, and as much actual repair in them as most months of my life do, and the people were the whole reason. Judging that by whether the group chat is still alive in September is a strange way to score it. Some of it is built to last and some of it is built to be dense, and only the first kind ever gets counted. We just never developed the vocabulary, so we keep grading one-week closeness on the ten-year scale and declaring it _inadequate_. We were not building toward something. There was no next phase where it becomes real. It already was.
+I *do not* think that is right anymore. Those eight days had as much fun, as many stories, and as much repair in them as most months of my life do, and the people were the whole reason. Judging that by whether the group chat is still alive in September is a strange way to score it. Some of it is built to last and some of it is built to be dense, and only the first kind ever gets counted. We just never developed the vocabulary, so we keep grading one-week closeness on the ten-year scale and declaring it _inadequate_. We were not building toward something. There was no next phase where it becomes real. It already was.
 
 There were goodbyes, and to be fair they were the good kind. Hugs that were not performative. Addresses exchanged that people actually saved. Promises about meeting again soon, made in good faith, some of which might even survive. And then everybody went home, and a few of the relationships settled into their meme-a-week shape. The rest went quiet. Smaller than the week. *Not small.*
 
