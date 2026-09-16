@@ -9,11 +9,9 @@ tags:
   - list-100
 ---
 
-I turned 10,000 days old today. Twenty-seven sounds like a software update. Ten thousand sounds like a body count. I checked it on three different "days old" calculators because the first two felt fake. Born 1st May 1999. Today, 16th September 2026. The first ten-thousand is now a closed interval.
+I turned 10,000 days old today. Twenty-seven is an age you put in a bio. 10,000 you reflect. So, I did what anyone with a public bucket list would do: I opened it and started deleting dreams.
 
-I did what I always do with a round number: I opened [the list](/list-100/).
-
-My public list of a hundred things to do before I die. It lives on my blog like a contract nobody signed. I sat down to edit it with the same focus I bring to paying an electricity bill, and started deleting dreams.
+My public list of a hundred things to do before I die. It lives on my blog like a contract nobody signed. I sat down to edit it with the same focus I bring to paying an electricity bill.
 
 A whole cricket section died in one sitting. Watch a Boxing Day test at the MCG. Meet one of Sachin, Virat, Dhoni, or Yuvraj. Work as a cricket analyst for one season. Gone. Not retired, just deleted. No ceremony. Somewhere in the 9,000s cricket stopped being a personality trait and became just a sport, and the celebrity glaze wore off entirely. I now follow exactly two famous people on Instagram. Virat, for the fitness. Karan Aujla, for the music. Technically one cricketer survived the purge.
 
