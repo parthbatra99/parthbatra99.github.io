@@ -11,9 +11,11 @@ tags:
 
 I turned 10,000 days old today. Twenty-seven is an age you put in a bio. 10,000 you reflect. So, I did what anyone with a public bucket list would do: I opened it and started deleting dreams.
 
-My public list of a hundred things to do before I die. It lives on my blog like a contract nobody signed.
+My [public list of a hundred things to do before I die](/list-100/). It lives on my blog like a contract nobody signed.
 
-A whole cricket fanatic section died in one sitting. Watch a Boxing Day test at the MCG. Meet one of Sachin, Virat, Dhoni, or Yuvraj. Work as a cricket analyst for one season. Gone, just deleted. No obitiuary. Somewhere in the Day 9000s cricket stopped being a personality trait and became just a sport. The celebrity glaze wore off. I now follow exactly two famous people on Instagram. Virat, for the fitness inspiration. Karan Aujla, for the music. Technically one cricketer survived the purge.
+A whole cricket fanatic section died in one sitting. "Watch a Boxing Day test at the MCG", "Meet one of Sachin, Virat, Dhoni", "Work as a cricket analyst" - just deleted. No obituary. Somewhere in the range of 9000 days, cricket stopped being a personality trait and became just a sport.
+
+The celebrity glaze wore off. I now follow exactly two famous people on Instagram. Virat, for the fitness inspiration. Karan Aujla, for the music. Technically one cricketer survived the purge.
 
 "Travel to 25 countries" became "travel to 100 countries." "Five languages, intermediate" became "five languages, expert" and got a tick the same day. I just looked at the word intermediate, felt personally attacked by it, and promoted myself. Publishing it was supposed to hold me accountable. If a third person read this list's edit history, they would call it cheating. I think it's the opposite.
 
