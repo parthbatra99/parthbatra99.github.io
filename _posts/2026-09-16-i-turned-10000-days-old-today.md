@@ -9,7 +9,7 @@ tags:
   - list-100
 ---
 
-*01-May-1999 to 16-Sept-2026 -> 10000 days.*
+_*01-May-1999 to 16-Sept-2026 -> 10000 days.*_
 
 I turned 10,000 days old today. Twenty-seven is an age you put in a bio. 10,000 you reflect. So, I did what anyone with a public bucket list would do: I opened it and started deleting dreams.
 
@@ -31,4 +31,4 @@ Day 20,000 lands on 1st February 2054. I'll be 54. If the pattern holds, the lis
 
 In March 2025, item "100. Die with no regrets. ✓." was added. Looking back I have no idea what past me was thinking. It's the only item that matters, and apparently I'd already given myself full marks (548 days ago ;p). I put it back on my blog, because the sequence isn't done - and it never will.
 
-*A closed list is the only version of this list I'd regret.*
+_*A closed list is the only version of this list I'd regret.*_
