@@ -27,4 +27,8 @@ A mathematician would call this unbounded: every goal is finite, but there is no
 
 ***
 
-Day 20,000 lands on 1st February 2054. I'll be 54. If the pattern holds, the list will have been emptied and refilled four or five times by then. Fewer stadiums, more health. Fewer solo trips, more trips with people who share my surname. A wealth section I don't yet know how to write without sounding like a LinkedIn post. In March 2025, item 100 read "Die with no regrets, ✓." I have no idea what past me was thinking. It's the only item graded on the last day, and he'd already given himself full marks. I put it back on my blog, because the sequence isn't done. A closed list is the one version I'd regret.
+Day 20,000 lands on 1st February 2054. I'll be 54. If the pattern holds, the list will have been emptied and refilled four or five times by then. Fewer stadiums, more health. Fewer solo trips, more trips with people who share my surname. A wealth section I don't yet know how to write without sounding like a pompous asshole.
+
+In March 2025, item "100. Die with no regrets. ✓." was added. Looking back I have no idea what past me was thinking. It's the only item that matters, and apparently I'd already given myself full marks (548 days ago ;p). I put it back on my blog, because the sequence isn't done - and it never will.
+
+*A closed list is the only version of this list I'd regret.*
