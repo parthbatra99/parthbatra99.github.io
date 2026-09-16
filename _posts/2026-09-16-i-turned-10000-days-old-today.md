@@ -9,6 +9,8 @@ tags:
   - list-100
 ---
 
+*01-May-1999 to 16-9-2026 -> 10000 days.*
+
 I turned 10,000 days old today. Twenty-seven is an age you put in a bio. 10,000 you reflect. So, I did what anyone with a public bucket list would do: I opened it and started deleting dreams.
 
 My [public list of a hundred things to do before I die](/list-100/). It lives on my blog like a contract nobody signed.
