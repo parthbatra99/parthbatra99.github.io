@@ -2,13 +2,15 @@
 layout: default
 ---
 
-<article class="good-stuff shell section-shell">
-  <header class="post-header">
-    <h1 class="post-title good-stuff-title">{{ page.title }}</h1>
-    <p class="section-description">{{ page.description }}</p>
+<article class="good-stuff shell">
+  <header class="page-head">
+    <h1 class="page-title">{{ page.title }}</h1>
+    <p class="page-dek">{{ page.description }}</p>
   </header>
 
-  <div class="good-stuff-content prose">
+  <div class="good-stuff-content prose" data-good-stuff>
     {{ content }}
   </div>
 </article>
+
+<script src="{{ '/assets/js/good-stuff.js' | relative_url }}" defer></script>

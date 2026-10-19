@@ -2,15 +2,15 @@
 layout: default
 ---
 
-<article class="shell section-shell generic-page">
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
+<article class="shell generic-page">
+  <header class="page-head">
+    <h1 class="page-title">{{ page.title }}</h1>
     {% if page.description %}
-      <p class="section-description">{{ page.description }}</p>
+      <p class="page-dek">{{ page.description }}</p>
     {% endif %}
   </header>
 
-  <div class="prose">
+  <div class="prose section-body">
     {{ content }}
   </div>
 </article>

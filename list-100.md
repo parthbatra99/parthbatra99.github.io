@@ -1,27 +1,26 @@
 ---
 layout: page
 title: A Century of Dreams
+description: (Because every dream counts)
 permalink: /list-100/
 ---
 
-<p class="muted-note">(Because every dream counts)</p>
-
 <p class="muted-note">Last Updated: March 15, 2025</p>
 
-## Progress Tracker
-<div class="goal-progress" role="img" aria-label="38 percent complete, 17 out of 45 goals tracked">
-  <div class="goal-progress-bar">
-    <span class="goal-progress-completed" style="width: 27%"></span>
-    <span class="goal-progress-active" style="width: 11%"></span>
+<section class="goal-tracker" aria-label="Progress" markdown="0">
+  <div class="goal-stats">
+    <div class="goal-stat goal-stat--done"><b data-goal-count="done">12</b>completed</div>
+    <div class="goal-stat"><b data-goal-count="active">5</b>in progress</div>
+    <div class="goal-stat"><b data-goal-count="todo">28</b>remaining</div>
   </div>
-  <p class="goal-progress-text">38% (17/45)</p>
-</div>
+  <div class="goal-progress-bar" role="img" aria-label="12 of 45 completed, 5 in progress" data-goal-bar>
+    <span class="goal-progress-completed" style="width: 26.7%"></span>
+    <span class="goal-progress-active" style="width: 11.1%"></span>
+  </div>
+  <p class="goal-progress-text" data-goal-summary>38% touched · 17 of 45 tracked</p>
+</section>
 
-<div class="goal-legend">
-  <span class="goal-complete">Completed: 12</span>
-  <span class="goal-active">In Progress: 5</span>
-  <span class="goal-remaining">Remaining: 28</span>
-</div>
+## The list
 
 1. ✗ Become the first author of a paper at a top-tier conference
 2. ✗ Start my own company
@@ -84,8 +83,10 @@ permalink: /list-100/
 ## Future Dreams
 _[46-99] are intentionally incomplete. the journey of collecting this list is as important as achieving them..._
 
-## The Final Goal
-**100.** ✗ DIE WITH NO REGRETS
+<div class="goal-final" markdown="0">
+  <p class="label">The final goal</p>
+  <p class="goal-final-text"><span class="goal-final-num">100.</span>Die with no regrets</p>
+</div>
 
 ## Reflections so far
 What began as a simple bucket list has evolved into something far more meaningful - a living document of aspirations and growth.
@@ -97,3 +98,5 @@ _"The beauty of any pursuit isn't in the destination, but in showing up every da
 ---
 
 > Here's to the fools who dream!
+
+<script src="/assets/js/list-100.js" defer></script>

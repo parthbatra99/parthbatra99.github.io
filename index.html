@@ -2,75 +2,74 @@
 layout: default
 ---
 
-<section class="home-content shell section-shell">
-  <div class="bio-text prose">
-    <a class="profile-image" href="https://x.com/batra99" target="_blank" rel="noopener" aria-label="Visit Parth Batra on Twitter">
-      <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Profile photo">
+<section class="home-content shell">
+  <header class="hero">
+    <div>
+      <p class="label">Gurgaon · ML engineer · writes here</p>
+      <h1 class="page-title">Hey, I'm Parth Batra.</h1>
+      <p class="page-dek">I teach machines to think for a living, and argue about music for free.</p>
+    </div>
+    <a class="hero-photo" href="https://x.com/batra99" target="_blank" rel="noopener" aria-label="Parth Batra on X">
+      <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Portrait of Parth Batra">
     </a>
-      <h1 class="bio-greeting">Hey, I'm Parth Batra.</h1>
-      <p class="bio-tagline"><em>I teach machines to think for a living, and argue about music for free.</em></p>
+  </header>
 
+  <div class="home-block">
+    <p>I grew up in Gurgaon - close enough to Delhi to inherit its opinions, far enough to pretend I don't live there — and I've
+      spent about four years now somewhere in the messy middle of data, ai, and the question of what any of it
+      actually <em>means</em>.</p>
 
-      <p>I grew up in Gurgaon - close enough to Delhi to inherit its opinions, far enough to pretend I don't live there — and I've
-        spent about four years now somewhere in the messy middle of data, ai, and the question of what any of it
-        actually <em>means</em>.</p>
+    <p>These days I'm a <strong>Senior ML Engineer at Procol</strong>, turning supplychain chaos into systems that
+      quietly make decisions. Before that I picked up scars - the kind you only earn by shipping something that breaks
+      at 2am - at <span class="chip">Maruti-Suzuki</span> <span class="chip">Genpact</span> <span class="chip">MunchStudio</span></p>
 
-      <p>These days I'm a <strong>Senior ML Engineer at Procol</strong>, turning supplychain chaos into systems that
-        quietly make decisions. Before that I picked up scars - the kind you only earn by shipping something that breaks
-        at 2am - at <span class="bio-tag">Maruti-Suzuki</span> <span class="bio-tag">Genpact</span> <span class="bio-tag">MunchStudio</span></p>
+    <p>But I'm rarely still for long! Sometimes work keeps me in the air - but the trips I
+      actually count are the ones I choose: one big escape a month, the higher the altitude or the colder the better.</p>
 
-      <br>
-      <p>But I'm rarely still for long! Sometimes work keeps me in the air - but the trips I
-        actually count are the ones I choose: one big escape a month, the higher the altitude or the colder the better.
-      </p>
-
-      <p>I write here to mostly think out loud and part hot takes I'd defend over a
-        drink (like <em>"humour is just how you bleed without anyone seeing the wound"</em>). It's unedited on purpose: a
-        journal that accidently became public.</p>
-
-      <br>
-      <p>This place has a few rooms...</p>
-      <p><a href="{{ '/blog/' | relative_url }}">blog</a> is the long-form stuff, the things I actually sit down to write;
-      <a href="{{ '/the-good-stuff/' | relative_url }}">thegoodstuff</a> is everything I'd vouch for - handpicked;
-      <a href="{{ '/quick-wits/' | relative_url }}">quickwits</a> catches the bite-sized raw, rapid-fire, straight off my X feed;
-      <a href="{{ '/workbench/' | relative_url }}">workbench</a> is where half-built side projects and learning logs live;
-      <a href="{{ '/list-100/' | relative_url }}">list100</a> is my century of dreams I'm foolish enough to track in public;</p>
-
-      <p>Off the clock, you will find me acquiring some new hobby or reading about some niche rabbithole and hunt for
-      <a href="{{ '/the-good-stuff/#music--artists' | relative_url }}">artists before spotify's algorithm catches on</a>.</p>
-
-      <br>
-      <p>The credentials, for the curious: a dual degree from <em>BITS Pilani</em>—B.E. (Hons.) in Mech and M.S. (Hons.) in Mathematics,
-      which is a fancy way of saying I like building things and proving
-        they work. Less officially, I've logged <strong>100k+ minutes</strong> on Spotify 3 years in a row, a statistic I'm
-        arguably prouder of.</p>
-
-      <p>For the record, on the day job: I call myself a <strong>full-stack ML engineer</strong> because I genuinely think i am Mr. Do It All</p>
-      <ul class="bio-points">
-        <li>AI agents that might just flirt with turing test</li>
-        <li>SQL elaborate enough to deserve their own repos</li>
-        <li>models that earn their keep instead of decorating a slide</li>
-        <li>microservices that i deploy on a friday evening without flinching</li>
-        <li>data pipelines that survive contact with real data</li>
-      </ul>
-      <blockquote class="bio-epigraph">
-          Here's to the ones who dream<br>
-          Foolish as they may seem<br>
-          Here's to the hearts that break<br>
-          Here's to the mess we make<br>
-      </blockquote>
-
-      <p>If any of that sounds like your kind of noise, you know where the
-        <a href="{{ '/blog/' | relative_url }}">writing</a> is.</p>
+    <p>I write here to mostly think out loud and part hot takes I'd defend over a
+      drink (like <em>"humour is just how you bleed without anyone seeing the wound"</em>). It's unedited on purpose: a
+      journal that accidently became public.</p>
   </div>
 
-  <nav class="social-links" aria-label="Social links">
-    <a href="mailto:hi@fromparth.blog" class="social-link">hi@fromparth.blog</a>
-    <span class="separator">·</span>
-    <a href="https://github.com/parthbatra99" target="_blank" rel="noopener" class="social-link">GitHub</a>
-    <span class="separator">·</span>
-    <a href="https://x.com/batra99" target="_blank" rel="noopener" class="social-link">Twitter</a>
-    <span class="separator">·</span>
-    <a href="https://www.linkedin.com/in/parth-batra99/" target="_blank" rel="noopener" class="social-link">LinkedIn</a>
-  </nav>
+  <section class="section" aria-labelledby="rooms-title">
+    <h2 class="label" id="rooms-title">This place has a few rooms</h2>
+    <ul class="rooms">
+      <li><a class="room-link" href="{{ '/blog/' | relative_url }}">blog</a><span>the long-form stuff, the things I actually sit down to write</span></li>
+      <li><a class="room-link" href="{{ '/the-good-stuff/' | relative_url }}">thegoodstuff</a><span>everything I'd vouch for - handpicked</span></li>
+      <li><a class="room-link" href="{{ '/quick-wits/' | relative_url }}">quickwits</a><span>the bite-sized raw, rapid-fire, straight off my X feed</span></li>
+      <li><a class="room-link" href="{{ '/workbench/' | relative_url }}">workbench</a><span>where half-built side projects and learning logs live</span></li>
+      <li><a class="room-link" href="{{ '/list-100/' | relative_url }}">list100</a><span>my century of dreams I'm foolish enough to track in public</span></li>
+    </ul>
+    <p style="margin: 24px 0 0">Off the clock, you will find me acquiring some new hobby or reading about some niche rabbithole and hunt for
+      <a href="{{ '/the-good-stuff/#music--artists' | relative_url }}">artists before spotify's algorithm catches on</a>.</p>
+  </section>
+
+  <section class="section home-block" aria-labelledby="record-title">
+    <h2 class="label" id="record-title">For the record</h2>
+    <p>The credentials, for the curious: a dual degree from <em>BITS Pilani</em> — B.E. (Hons.) in Mech and M.S. (Hons.) in Mathematics,
+      which is a fancy way of saying I like building things and proving
+      they work. Less officially, I've logged <strong>100k+ minutes</strong> on Spotify 3 years in a row, a statistic I'm
+      arguably prouder of.</p>
+
+    <p>For the record, on the day job: I call myself a <strong>full-stack ML engineer</strong> because I genuinely think i am Mr. Do It All</p>
+    <ul class="ticks">
+      <li>AI agents that might just flirt with turing test</li>
+      <li>SQL elaborate enough to deserve their own repos</li>
+      <li>models that earn their keep instead of decorating a slide</li>
+      <li>microservices that i deploy on a friday evening without flinching</li>
+      <li>data pipelines that survive contact with real data</li>
+    </ul>
+  </section>
+
+  <figure class="epigraph">
+    <blockquote>
+      Here's to the ones who dream<br>
+      Foolish as they may seem<br>
+      Here's to the hearts that break<br>
+      Here's to the mess we make
+    </blockquote>
+  </figure>
+
+  <p class="home-outro">If any of that sounds like your kind of noise, you know where the
+    <a href="{{ '/blog/' | relative_url }}">writing</a> is.</p>
 </section>

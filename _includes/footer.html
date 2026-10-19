@@ -1,7 +1,13 @@
 <footer class="site-footer">
   <div class="shell footer-shell">
-    <p class="footer-note">© {{ site.time | date: '%Y' }} Parth Batra · <a href="mailto:hi@fromparth.blog">hi@fromparth.blog</a></p>
-    <p class="footer-note">Writing on ML, culture, and the internet.</p>
+    <span>© {{ site.time | date: '%Y' }} Parth Batra</span>
+    <span class="footer-links">
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://x.com/{{ site.twitter_username }}" target="_blank" rel="noopener">X</a>
+      <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+    </span>
   </div>
 </footer>
 

@@ -10,41 +10,56 @@ layout: default
 
 {% capture table_of_contents %}{% toc %}{% endcapture %}
 
-<article class="post-article shell section-shell">
-  <header class="post-hero">
-    <p class="section-kicker">Article</p>
+<article class="post-article shell">
+  <header class="page-head post-hero">
+    {% if page.tags and page.tags.size > 0 %}
+      <p class="post-kicker">
+        {% for tag in page.tags %}<span>#{{ tag }}</span>{% endfor %}
+      </p>
+    {% endif %}
     <h1 class="post-title">{{ page.title }}</h1>
     {% if page.subtitle %}
       <p class="post-subtitle">{{ page.subtitle }}</p>
     {% endif %}
     <p class="post-meta-row">
-      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %d, %Y" }}</time>
       <span aria-hidden="true">·</span>
       <span>{{ reading_time }} min read</span>
     </p>
-    {% if page.tags and page.tags.size > 0 %}
-      <p class="post-tags">
-        {% for tag in page.tags %}
-          <span class="post-tag">#{{ tag }}</span>
-        {% endfor %}
-      </p>
-    {% endif %}
   </header>
 
-  {% include audio-player.html %}
+  {% if page.narration %}
+    <div class="post-audio-wrap">{% include audio-player.html %}</div>
+  {% endif %}
 
-  <div class="post-layout{% if table_of_contents contains '<li' %} has-toc{% endif %}">
-    {% if table_of_contents contains '<li' %}
-      <aside class="post-toc" aria-label="Table of contents">
-        <p class="post-toc-title">On this page</p>
-        {{ table_of_contents }}
-      </aside>
-    {% endif %}
+  {% if table_of_contents contains '<li' %}
+    <details class="post-toc">
+      <summary class="label">On this page</summary>
+      {{ table_of_contents }}
+    </details>
+  {% endif %}
 
-    <div class="post-content prose">
-      {{ content }}
-    </div>
+  <div class="post-content prose">
+    {{ content }}
   </div>
+
+  <nav class="post-nav" aria-label="More posts">
+    <div>
+      {% if page.previous %}
+        <span class="label">← Previous</span>
+        <a class="post-nav-link" href="{{ page.previous.url | relative_url }}">{{ page.previous.title | escape }}</a>
+      {% endif %}
+    </div>
+    <div>
+      {% if page.next %}
+        <span class="label">Next →</span>
+        <a class="post-nav-link" href="{{ page.next.url | relative_url }}">{{ page.next.title | escape }}</a>
+      {% else %}
+        <span class="label">Everything else</span>
+        <a class="post-nav-link" href="{{ '/blog/' | relative_url }}">All posts →</a>
+      {% endif %}
+    </div>
+  </nav>
 </article>
 
 {% if page.narration %}

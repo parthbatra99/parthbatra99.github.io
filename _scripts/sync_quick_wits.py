@@ -303,7 +303,7 @@ def build_tweet_html(
             f'    {tweet_text}{quote_html}',
             '  </div>',
             '  <div class="tweet-footer">',
-            f'    <a href="{html.escape(tweet_url, quote=True)}" target="_blank" class="tweet-action">🔗 View Tweet</a>',
+            f'    <a href="{html.escape(tweet_url, quote=True)}" target="_blank" class="tweet-action">View on X ↗</a>',
             '  </div>',
             "</article>",
         ]

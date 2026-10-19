@@ -2,15 +2,17 @@
 layout: default
 ---
 
-<article class="shell section-shell quick-wits-page" data-quick-wits-page>
-  <header class="quick-wits-hero">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="quick-wits-description">{{ page.description }}</p>
-    <div class="quick-takes-meta">
-      <span>Last updated: {{ site.time | date: "%B %d, %Y" }}</span>
+<article class="shell quick-wits-page" data-quick-wits-page>
+  <header class="page-head">
+    <h1 class="page-title">{{ page.title }}</h1>
+    <p class="page-dek">{{ page.description }}</p>
+    <p class="page-meta">
+      <span><span data-qw-stat="tweets">{{ page.content | split: 'class="tweet-entry"' | size | minus: 1 }}</span> takes</span>
       <span aria-hidden="true">·</span>
-      <a href="https://twitter.com/batra99" target="_blank" rel="noopener">@batra99</a>
-    </div>
+      <span>updated {{ site.time | date: "%b %d, %Y" }}</span>
+      <span aria-hidden="true">·</span>
+      <a href="https://x.com/batra99" target="_blank" rel="noopener">@batra99</a>
+    </p>
   </header>
 
   <div class="quick-takes-content">
@@ -20,7 +22,7 @@ layout: default
   </div>
 
   <footer class="quick-takes-footer">
-    <p>Have thoughts? <a href="https://twitter.com/batra99" target="_blank" rel="noopener">Tweet at me</a>.</p>
+    <p>Have thoughts? <a href="https://x.com/batra99" target="_blank" rel="noopener">Tweet at me</a>.</p>
   </footer>
 </article>
 

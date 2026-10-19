@@ -6,11 +6,11 @@ permalink: /the-good-stuff/
 ---
 
 <nav class="section-nav" markdown="0" aria-label="Jump to a section">
-  <a href="#music--artists"><span class="section-nav-emoji">🎧</span> Music &amp; Artists</a>
-  <a href="#books"><span class="section-nav-emoji">📚</span> Books</a>
-  <a href="#podcasts"><span class="section-nav-emoji">🎙️</span> Podcasts</a>
-  <a href="#bio-hacking"><span class="section-nav-emoji">🧬</span> Bio Hacking</a>
-  <a href="#movies--tv"><span class="section-nav-emoji">🎬</span> Movies &amp; TV</a>
+  <a href="#music--artists">Music &amp; Artists</a>
+  <a href="#books">Books</a>
+  <a href="#podcasts">Podcasts</a>
+  <a href="#bio-hacking">Bio Hacking</a>
+  <a href="#movies--tv">Movies &amp; TV</a>
 </nav>
 
 ---
