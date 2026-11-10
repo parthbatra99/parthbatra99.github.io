@@ -3,7 +3,7 @@ layout: post
 kind: theory
 title: "I Mapped 9 Career Fundamentals. Most People Ignore 6 of Them."
 subtitle: "Health, geography, specific knowledge, and the uncomfortable truth about who you work with."
-date: 2026-11-18
+date: 2027-11-18
 tags:
   - the-day-job
   - note-to-self
