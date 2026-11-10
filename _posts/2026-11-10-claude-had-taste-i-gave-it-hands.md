@@ -3,7 +3,7 @@ layout: post
 kind: built
 title: "Claude Had Taste. I Gave It Hands."
 subtitle: "feedready edits my photos with models Apple already ships on every Mac. Then I spent a month teaching it not to flatter me."
-date: 2026-11-11
+date: 2026-11-10
 tags:
   - "ai & tech"
 ---
