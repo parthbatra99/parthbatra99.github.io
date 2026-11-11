@@ -30,7 +30,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 
   <script>
     (function () {
@@ -61,43 +61,42 @@
     <a class="site-title" rel="author" href="/">Parth Batra</a>
 
     <nav class="site-nav" aria-label="Main navigation">
-      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-      <label for="nav-trigger" class="nav-toggle" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </label>
+      
+        
+        
+        
+        <a class="page-link" href="/blog/" aria-current="page">blog</a>
+      
+        
+        
+        
+        <a class="page-link" href="/the-good-stuff/">thegoodstuff</a>
+      
+        
+        
+        
+        <a class="page-link" href="/quick-wits/">quickwits</a>
+      
+        
+        
+        
+        <a class="page-link" href="/workbench/">workbench</a>
+      
+        
+        
+        
+        <a class="page-link" href="/list-100/">list 100</a>
+      
 
       <button type="button" class="theme-toggle" aria-label="Toggle dark theme" data-theme-toggle>
-        <svg class="theme-toggle__icon theme-toggle__icon--moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
           <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
         </svg>
-        <svg class="theme-toggle__icon theme-toggle__icon--sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
           <circle cx="12" cy="12" r="4"/>
-          <line x1="12" y1="2" x2="12" y2="4"/>
-          <line x1="12" y1="20" x2="12" y2="22"/>
-          <line x1="2" y1="12" x2="4" y2="12"/>
-          <line x1="20" y1="12" x2="22" y2="12"/>
-          <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"/>
-          <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"/>
-          <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"/>
-          <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"/>
+          <path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
         </svg>
       </button>
-
-      <div class="nav-links">
-        
-          <a class="page-link" href="/blog/">blog</a>
-        
-          <a class="page-link" href="/the-good-stuff/">thegoodstuff</a>
-        
-          <a class="page-link" href="/quick-wits/">quickwits</a>
-        
-          <a class="page-link" href="/workbench/">workbench</a>
-        
-          <a class="page-link" href="/list-100/">list 100</a>
-        
-      </div>
     </nav>
   </div>
 </header>
@@ -110,9 +109,13 @@
 
 
 
-<article class="post-article shell section-shell">
-  <header class="post-hero">
-    <p class="section-kicker">Article</p>
+<article class="post-article shell">
+  <header class="page-head post-hero">
+    
+      <p class="post-kicker">
+        <span>#just-a-thought</span><span>#book-brain</span>
+      </p>
+    
     <h1 class="post-title">Your iPhone Doesn't Improve 20% a Year. Apple Just Tells You It Does.</h1>
     
       <p class="post-subtitle">What semiconductor history taught me about every '20% faster' slide Apple has ever shown.</p>
@@ -122,25 +125,14 @@
       <span aria-hidden="true">·</span>
       <span>1 min read</span>
     </p>
-    
-      <p class="post-tags">
-        
-          <span class="post-tag">#just-a-thought</span>
-        
-          <span class="post-tag">#book-brain</span>
-        
-      </p>
-    
   </header>
 
   
 
+  
 
-  <div class="post-layout">
-    
-
-    <div class="post-content prose">
-      <p>A friend of mine is doing his PhD in nanotech and semiconductors. His project took almost two years. For the first eighteen months: nothing. Optimization, failure, more optimization. Then one week, devices started working, results came fast, and he had everything he’d been chasing in about three weeks.</p>
+  <div class="post-content prose">
+    <p>A friend of mine is doing his PhD in nanotech and semiconductors. His project took almost two years. For the first eighteen months: nothing. Optimization, failure, more optimization. Then one week, devices started working, results came fast, and he had everything he’d been chasing in about three weeks.</p>
 
 <p><a href="https://www.simonandschuster.com/books/Chip-War/Chris-Miller/9781982172008"><em>Chip War</em></a> has a name for this. Chip War’s whole thesis is that real technological progress doesn’t move in straight lines. It staggers. Long flat stretches, then a vertical jump. The history of semiconductors is mostly people failing in rooms for years, then a breakthrough that changes everything at once.</p>
 
@@ -179,8 +171,22 @@
 
 <p><em>The breakthrough happened in the bad-lighting room. The keynote is just the ceremony.</em></p>
 
-    </div>
   </div>
+
+  <nav class="post-nav" aria-label="More posts">
+    <div>
+      
+        <span class="label">← Previous</span>
+        <a class="post-nav-link" href="/2026/04/22/burnout-isnt-from-doing-too-much.html">I Thought I Was Tired From Doing Too Much. I Was Wrong.</a>
+      
+    </div>
+    <div>
+      
+        <span class="label">Next →</span>
+        <a class="post-nav-link" href="/2026/05/24/building-an-open-source-vapi-alternative.html">I Built a Voice AI in 30 Days. Its Hardest Bug Took Three.</a>
+      
+    </div>
+  </nav>
 </article>
 
 
@@ -189,8 +195,14 @@
 
     <footer class="site-footer">
   <div class="shell footer-shell">
-    <p class="footer-note">© 2026 Parth Batra · <a href="mailto:hi@fromparth.blog">hi@fromparth.blog</a></p>
-    <p class="footer-note">Writing on ML, culture, and the internet.</p>
+    <span>© 2026 Parth Batra</span>
+    <span class="footer-links">
+      <a href="mailto:hi@fromparth.blog">hi@fromparth.blog</a>
+      <a href="https://github.com/parthbatra99" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://x.com/batra99" target="_blank" rel="noopener">X</a>
+      <a href="https://www.linkedin.com/in/parth-batra99/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="/feed.xml">RSS</a>
+    </span>
   </div>
 </footer>
 

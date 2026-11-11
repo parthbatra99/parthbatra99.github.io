@@ -76,6 +76,8 @@
     const toggle = monthEl.querySelector(".qw-month-toggle");
     if (!toggle) return;
 
+    const label = monthEl.querySelector(".qw-month-label");
+    if (label && /pinned/i.test(label.textContent)) monthEl.classList.add("is-pinned");
     setMonthExpanded(monthEl, true);
     toggle.addEventListener("click", () => {
       const expanded = toggle.getAttribute("aria-expanded") === "true";

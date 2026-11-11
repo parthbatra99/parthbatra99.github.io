@@ -4,6 +4,8 @@ kind: built
 title: "I Turned Claude Into a Lightroom Expert and a Photo Critic. You Can Install It."
 subtitle: "It finds the crop you missed, fixes the sky without touching your face, removes the stranger in the background, and won't call it done just because you asked."
 date: 2026-11-10
+redirect_from:
+  - /2026/11/10/claude-had-taste-i-gave-it-hands.html
 tags:
   - "ai & tech"
 ---
@@ -75,7 +77,7 @@ First, a `probe` command checked what the sandbox actually had: Python 3.12.3, w
 
 **Apple grades the homework.** The hard part was knowing the swap was good enough. On the Mac I ran a test set through both pipelines and treated Apple's output as the answer key. That's how I found YuNet had the left and right eyes swapped (pupil error dropped from about 2% of the image diagonal to 0.4% once fixed), and that Apple draws its face box lower. The whole correction is one line, `VISION_BOX = (-0.04, 0.147, 0.049, -0.026)`.
 
-The pinned scorecard, as overlap with Apple's masks: faces 0.78, people 0.83, subjects 0.88, pupils within 0.41% of the diagonal. My Mac's main job in this project is now grading my phone.
+The pinned scorecard, as overlap with Apple's masks: faces 0.78, people 0.84, subjects 0.84, pupils within 0.41% of the diagonal. My Mac's main job in this project is now grading my phone.
 
 **Smuggling the models in.** A `models.json` lists every file with its URL, size, sha256 and licence, and a GitHub release acts as the mirror. Nothing loads until the hash matches. Files you attach yourself are matched by size and hash, because claude.ai renames uploads.
 
