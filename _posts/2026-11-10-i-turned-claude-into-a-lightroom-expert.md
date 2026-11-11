@@ -14,16 +14,21 @@ I uploaded a trek photo to a Claude chat and asked what I should fix before post
 
 So I built **feedready**, a plugin for Claude Code (Anthropic's coding agent, the CLI I already use all day at work) that gives Claude a proper set of photo editing tools. On a Mac it runs on vision models Apple already ships inside macOS, so the proof of concept needed zero model downloads. Where Apple's models stop, three small open models fill in through ONNX Runtime, an engine for running open models on any machine. And the same plugin runs inside the Claude app on my phone, in a cloud sandbox that has no Apple frameworks and can't reach Hugging Face, which is where every model it needed lived.
 
-It has edited 60 to 70 of my photos so far, including two Instagram carousels and about 50 stories. Here's one.
+It has edited 60 to 70 of my photos so far, including two Instagram carousels and about 50 stories. Here's that trek photo.
 
 <figure class="diagram">
-<img src="/assets/images/feedready/sunrise-wipe.webp" alt="A flat, hazy river sunrise sliding into a deep orange feedready edit" width="380" style="display: block; width: 100%; height: auto; border-radius: 4px; max-width: 380px; margin: 0 auto">
-<figcaption style="margin-top: 0.6rem">as shot vs feedready, pushed harder than I'd post. the original came through WhatsApp, which is why the sky bands</figcaption>
+<img src="/assets/images/feedready/trek-wipe.webp" alt="The trek photo, a blown white sky and a dark figure, sliding into a dusk-blue sky with the jacket and snow peaks brought back" width="380" style="display: block; width: 100%; height: auto; border-radius: 4px; max-width: 380px; margin: 0 auto">
+<figcaption style="margin-top: 0.6rem">as shot vs feedready. it measured me 3.9 stops darker than the sky, with 10% of the sky pure white. v3 turned my black pants muddy brown, and it caught that before I did</figcaption>
 </figure>
 
 ## Claude writes a recipe, never pixels
 
 Everything else rests on one decision. Claude never touches a pixel. It writes a recipe, a JSON file of Lightroom-style sliders, masks and a crop, and a renderer executes it. Nothing is generated or repainted, the output is full resolution, and every version can be replayed from its recipe. When an edit goes wrong, I can read *why* in plain text.
+
+<figure class="diagram">
+<img src="/assets/images/feedready/sunrise-wipe.webp" alt="A flat, hazy river sunrise sliding into a deep orange feedready edit" width="380" style="display: block; width: 100%; height: auto; border-radius: 4px; max-width: 380px; margin: 0 auto">
+<figcaption style="margin-top: 0.6rem">as shot vs feedready, pushed harder than I'd post. the original came through WhatsApp, which is why the sky bands</figcaption>
+</figure>
 
 The second decision: language models can't point. Ask one where the face is and it answers like a tourist giving directions, confident and roughly in the right district. So the `inspect` step hands Claude the photo with a coordinate grid printed on it, and every region in a recipe is written in those coordinates.
 
@@ -61,7 +66,14 @@ Vision knows people very well. It doesn't know sky from mountain from water, it 
 | EdgeTAM | 41 MB | point or draw a box at anything, get a mask |
 | MI-GAN | 28 MB | object removal, with an OpenCV fallback |
 
-Masks stack like they do in Lightroom: add, subtract, intersect. In one recipe the snow peaks are "the mountain class, minus me, minus the sky," which needs Apple's model to find me and SegFormer to find the mountain and the sky. Every model is pinned to an exact Hugging Face commit and checked against a sha256, so an upstream change can't swap one under me. Everything runs on the CPU. I'd love to say I'm squeezing the Neural Engine. I'm not.
+Masks stack like they do in Lightroom: add, subtract, intersect. In one recipe the snow peaks are "the mountain class, minus me, minus the sky," which needs Apple's model to find me and SegFormer to find the mountain and the sky.
+
+<figure class="diagram">
+<img src="/assets/images/feedready/trek-sees.webp" alt="The trek photo split into seven regions, sky, snow peaks, me, eyes, glove logo, valley and a reflective strip, each with how it was found and the edit it got" style="display: block; width: 100%; height: auto; border-radius: 4px">
+<figcaption style="margin-top: 0.6rem">the trek photo, in parts. the blown sky, the flat peaks and the reflective strip from that first chat each got a mask and an edit of their own. the strip got healed out</figcaption>
+</figure>
+
+Every model is pinned to an exact Hugging Face commit and checked against a sha256, so an upstream change can't swap one under me. Everything runs on the CPU. I'd love to say I'm squeezing the Neural Engine. I'm not.
 
 The first real optimisation came from a code review the day after the first commit. SegFormer's softmax was running at 1,024 px when the model only thinks at 128, and the mask code was allocating 576 MB of coordinate grids it didn't need. Fixing both took peak memory from **1.9 GB to 0.3 GB** and time from **3.5 s to 0.4 s**, with masks 99.98% identical. It's the kind of fix that makes you a little embarrassed about the version before it.
 
