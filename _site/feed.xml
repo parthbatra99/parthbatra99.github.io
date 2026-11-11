@@ -1,52 +1,86 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://fromparth.blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fromparth.blog/" rel="alternate" type="text/html" /><updated>2026-11-11T13:16:36+05:30</updated><id>https://fromparth.blog/feed.xml</id><title type="html">Parth Batra | fromparth.blog</title><subtitle>Senior ML Engineer by day, music critic by night. Building ML systems, writing about tech, and collecting spotify minutes like they&apos;re infinity stones.</subtitle><author><name>Parth Batra</name></author><entry><title type="html">I Turned Claude Into a Lightroom Expert and a Photo Critic. You Can Install It.</title><link href="https://fromparth.blog/2026/11/10/i-turned-claude-into-a-lightroom-expert.html" rel="alternate" type="text/html" title="I Turned Claude Into a Lightroom Expert and a Photo Critic. You Can Install It." /><published>2026-11-10T00:00:00+05:30</published><updated>2026-11-10T00:00:00+05:30</updated><id>https://fromparth.blog/2026/11/10/i-turned-claude-into-a-lightroom-expert</id><content type="html" xml:base="https://fromparth.blog/2026/11/10/i-turned-claude-into-a-lightroom-expert.html"><![CDATA[<p>I uploaded a trek photo to a Claude chat and asked what I should fix before posting it. The answer read like a photographer’s: the blown sky, the snow peaks gone flat, a reflective strip on my pants that was the brightest thing below my chest. So I asked it to do the edit. It tried, with a few Python scripts, and failed. A food critic who can tell you exactly what’s wrong with your dal doesn’t automatically know how to cook it.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://fromparth.blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fromparth.blog/" rel="alternate" type="text/html" /><updated>2026-11-11T14:25:52+05:30</updated><id>https://fromparth.blog/feed.xml</id><title type="html">Parth Batra | fromparth.blog</title><subtitle>Senior ML Engineer by day, music critic by night. Building ML systems, writing about tech, and collecting spotify minutes like they&apos;re infinity stones.</subtitle><author><name>Parth Batra</name></author><entry><title type="html">I Turned Claude Into a Lightroom Expert and a Photo Critic. You Can Install It.</title><link href="https://fromparth.blog/2026/11/10/i-turned-claude-into-a-lightroom-expert.html" rel="alternate" type="text/html" title="I Turned Claude Into a Lightroom Expert and a Photo Critic. You Can Install It." /><published>2026-11-10T00:00:00+05:30</published><updated>2026-11-10T00:00:00+05:30</updated><id>https://fromparth.blog/2026/11/10/i-turned-claude-into-a-lightroom-expert</id><content type="html" xml:base="https://fromparth.blog/2026/11/10/i-turned-claude-into-a-lightroom-expert.html"><![CDATA[<p>I uploaded a trek photo to my Claude app and asked what I should fix before posting it on Instagram. The answer read like a photographer’s. Blown sky, snow peaks gone flat, and a reflective strip on my pants that was somehow the brightest thing below my chest. So I asked it to just do the edit. It tried, with a bunch of Python and image processing libraries and some bash scripts, and a million tokens later the result was still pretty bad. It was like watching a food critic who can tell you exactly what’s wrong with your dal try to cook it.</p>
 
-<p>So I built <strong>feedready</strong>, a plugin for Claude Code (Anthropic’s coding agent, the CLI I already use all day at work) that gives Claude a proper set of photo editing tools. On a Mac it runs on vision models Apple already ships inside macOS, so the proof of concept needed zero model downloads. Where Apple’s models stop, three small open models fill in through ONNX Runtime, an engine for running open models on any machine. And the same plugin runs inside the Claude app on my phone, in a cloud sandbox that has no Apple frameworks and can’t reach Hugging Face, which is where every model it needed lived.</p>
+<figure class="diagram">
+<img src="/assets/images/feedready/trek-issues.jpg" alt="The trek photo as shot, with three problems marked: the sky blown out to white, the snow peaks gone flat, and a reflective strip on my pants" width="380" style="display: block; width: 100%; height: auto; border-radius: 4px; max-width: 380px; margin: 0 auto" />
+<figcaption style="margin-top: 0.6rem">the photo, and the three things that first chat got right</figcaption>
+</figure>
 
-<p>It has edited 60 to 70 of my photos so far, including two Instagram carousels and about 50 stories. Here’s that trek photo.</p>
+<p>So I built <strong>feedready</strong>. You send Claude a photo and say “make this insta ready”. It looks at the photo properly, shows you three looks side by side, and then edits it like a Lightroom editor you hired would. Real sliders, the sky and your face edited separately, a better crop, the random stranger gone. You give notes in normal words (“warmer”, “too much”, “back to v2”) till it’s right. It runs in Claude Code on my Mac and in the Claude app on my phone.</p>
+
+<p>It’s been through hundreds of my photos by now. A few carousels, a few photo dumps, hundreds of editing sessions. It’s on version five or six and it’s still not stable, but here’s that trek photo after.</p>
 
 <figure class="diagram">
 <img src="/assets/images/feedready/trek-wipe.webp" alt="The trek photo, a blown white sky and a dark figure, sliding into a dusk-blue sky with the jacket and snow peaks brought back" width="380" style="display: block; width: 100%; height: auto; border-radius: 4px; max-width: 380px; margin: 0 auto" />
-<figcaption style="margin-top: 0.6rem">as shot vs feedready. it measured me 3.9 stops darker than the sky, with 10% of the sky pure white. v3 turned my black pants muddy brown, and it caught that before I did</figcaption>
+<figcaption style="margin-top: 0.6rem">as shot vs feedready</figcaption>
 </figure>
 
 <h2 id="claude-writes-a-recipe-never-pixels">Claude writes a recipe, never pixels</h2>
 
-<p>Everything else rests on one decision. Claude never touches a pixel. It writes a recipe, a JSON file of Lightroom-style sliders, masks and a crop, and a renderer executes it. Nothing is generated or repainted, the output is full resolution, and every version can be replayed from its recipe. When an edit goes wrong, I can read <em>why</em> in plain text.</p>
+<p>This is the one idea the whole thing stands on, and I still think it’s the coolest part. Claude never touches a pixel. It writes a recipe instead. Exposure down here, sky a bit bluer, this mask for my face, crop like that. Then a small renderer cooks that recipe on the actual photo. So nothing is generated or repainted by AI, your photo stays your photo at full resolution, and every version can be replayed from its recipe, like a saved game.</p>
+
+<p>And because the recipe is just text, it almost never gets stuck. When an edit goes wrong the reason is sitting right there. I can read it, and so can Claude. It finds the bad step, fixes its own recipe (or its own script, sometimes), and still comes back with a final.</p>
 
 <figure class="diagram">
-<img src="/assets/images/feedready/sunrise-wipe.webp" alt="A flat, hazy river sunrise sliding into a deep orange feedready edit" width="380" style="display: block; width: 100%; height: auto; border-radius: 4px; max-width: 380px; margin: 0 auto" />
-<figcaption style="margin-top: 0.6rem">as shot vs feedready, pushed harder than I'd post. the original came through WhatsApp, which is why the sky bands</figcaption>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; max-width: 480px; margin: 0 auto"><div style="display: flex; flex-direction: column; gap: 4px; font-family: var(--mono); font-size: 0.75rem; color: var(--muted)"><img src="/assets/images/feedready/sunrise-before.jpg" alt="A flat, hazy river sunrise as shot" style="display: block; width: 100%; height: auto; border-radius: 4px" /><span>as shot</span></div><div style="display: flex; flex-direction: column; gap: 4px; font-family: var(--mono); font-size: 0.75rem; color: var(--muted)"><img src="/assets/images/feedready/sunrise-after.jpg" alt="The same sunrise after feedready, a deep orange sky" style="display: block; width: 100%; height: auto; border-radius: 4px" /><span>feedready</span></div></div>
+<figcaption style="margin-top: 0.6rem">pushed harder than I'd post. the original came through WhatsApp, which is why the sky bands</figcaption>
 </figure>
 
-<p>The second decision: language models can’t point. Ask one where the face is and it answers like a tourist giving directions, confident and roughly in the right district. So the <code class="language-plaintext highlighter-rouge">inspect</code> step hands Claude the photo with a coordinate grid printed on it, and every region in a recipe is written in those coordinates.</p>
+<p>The second problem was that language models can’t point. Ask one where the face is and it answers like a tourist giving directions. Confident, roughly the right area, never pixel perfect. So before Claude edits anything, an <code class="language-plaintext highlighter-rouge">inspect</code> step gives it the photo with a coordinate grid printed on top, plus everything the vision models found, and every region in the recipe is written in those coordinates.</p>
 
-<p>The first commit went in on October 6 at 23:36: 14 files, 1,897 lines. The second went in four minutes later, which tells you how well the first one went.</p>
+<p>Easier to show than explain. This is a real session, a Ferrari F50 at the Ferrari museum, edited in my Claude app on my phone.</p>
+
+<p>It read the room before touching anything. The car was obviously the subject, but the lilac LED screen behind it was the brightest thing in the frame and its magenta was leaking all over the floor. So it came back with three looks: Clean, Showroom gloss, and Rosso only, where the whole room is drained to almost black and white and the car is the only colour left.</p>
+
+<figure class="diagram">
+<img src="/assets/images/feedready/f50-board.jpg" alt="The F50 as shot next to three rendered looks: Clean, Showroom gloss and Rosso only" style="display: block; width: 100%; height: auto; border-radius: 4px; max-width: 560px; margin: 0 auto" />
+<figcaption style="margin-top: 0.6rem">the board. three looks, rendered, not described</figcaption>
+</figure>
+
+<p>I picked Rosso, obviously, and asked it to get rid of the silver rod stands in front of the car. In v3 it removed the stands, the plaques, a “please do not touch” sign and a rail on the left. Its first pass left a faint ghost of the sign’s letters on the floor, and it caught that and cleaned it up before showing me. It also refused one thing. Removing the plinth edge across the front bumper would mean making up half the bumper, and it said that’s where removal starts looking fake. Fair.</p>
+
+<figure class="diagram">
+<img src="/assets/images/feedready/f50-map.jpg" alt="The F50 with every region feedready edited outlined and numbered: the room, the stands and sign, the rail, the window edge and the car" style="display: block; width: 100%; height: auto; border-radius: 4px; max-width: 560px; margin: 0 auto" />
+<figcaption style="margin-top: 0.6rem">the v3 map. every region it touched, numbered, drawn from the recipe</figcaption>
+</figure>
+
+<p>Then I asked for the front bar to go too. The first try turned the bottom of the bumper grey, because the step that drains colour out of the room thought the freshly filled area was part of the room. It noticed, told that step to leave the area red, and shipped v5.</p>
+
+<figure class="diagram">
+<img src="/assets/images/feedready/f50-compare.jpg" alt="The F50 before and after: stands, sign and rails removed, the room drained to near mono, the car the only colour" style="display: block; width: 100%; height: auto; border-radius: 4px" />
+<figcaption style="margin-top: 0.6rem">as shot vs v5. if you zoom in, the lower vent got extended a little, because that's what sat behind the bar</figcaption>
+</figure>
+
+<p>The first commit for all of this went in at 23:36 on October 6, which is when all good ideas and most bad commits happen. 14 files, 1,897 lines. The second one went in four minutes later, which tells you how well the first one went.</p>
 
 <h2 id="the-models-already-on-every-mac">The models already on every Mac</h2>
 
-<p>Every Mac on macOS 14 or later ships trained models behind Apple’s Vision framework. They run on Apple silicon, offline, for free. When Photos lets you long-press a subject and lift it out of the background, that’s a public API anyone can call.</p>
+<p>Every Mac updated since 2023 ships trained models behind Apple’s Vision framework. They run on Apple silicon, offline, free. When the Photos app lets you long-press a subject and lift it out of the background, that’s a public API anyone can call.</p>
 
-<p>Almost nobody does, because there’s no front door. No CLI, no Python package, nothing you can call from a script. So the proof of concept was a handful of Swift scripts run against my own photos, just to see what Vision actually returns. Claude Code wrote the Swift. Picking Apple’s models as the starting point was my call, and it’s the reason the POC was fast: no model to find, download, convert or host. Just ask the OS.</p>
+<p>Almost nobody does though, because there’s no front door. No command line tool, no Python package, nothing you can call from a script. So the proof of concept was a handful of Swift scripts I wrote and ran on my own photos, just to see what Vision actually gives back. Going with Apple’s models first is why the POC was quick. No model to find, download, convert or host. You just ask the OS.</p>
 
-<p>feedready asks Vision for six things in one pass: people, the main subject, faces, face landmarks (pupils, eyes, lips), where a viewer’s eye lands first, and the horizon’s tilt. Four of them, on one photo:</p>
+<p>feedready asks Vision for six things in one go: people, the main subject, faces, face landmarks (pupils, eyes, lips), where a viewer’s eye lands first, and how tilted the horizon is. Four of them on one photo:</p>
 
 <figure class="diagram">
-<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; max-width: 560px; margin: 0 auto"><div style="display: flex; flex-direction: column; gap: 4px; font-family: var(--mono); font-size: 0.75rem; color: var(--muted)"><img src="/assets/images/feedready/see-photo.jpg" alt="Two brothers under a carved arch at night" style="display: block; width: 100%; height: auto; border-radius: 4px" /><span>the photo</span></div><div style="display: flex; flex-direction: column; gap: 4px; font-family: var(--mono); font-size: 0.75rem; color: var(--muted)"><img src="/assets/images/feedready/see-people.jpg" alt="Apple's person mask: only the two people stay lit" style="display: block; width: 100%; height: auto; border-radius: 4px" /><span>people</span></div><div style="display: flex; flex-direction: column; gap: 4px; font-family: var(--mono); font-size: 0.75rem; color: var(--muted)"><img src="/assets/images/feedready/see-faces.jpg" alt="Face boxes with eyes and lips traced" style="display: block; width: 100%; height: auto; border-radius: 4px" /><span>faces, eyes, lips</span></div><div style="display: flex; flex-direction: column; gap: 4px; font-family: var(--mono); font-size: 0.75rem; color: var(--muted)"><img src="/assets/images/feedready/see-eye.jpg" alt="The region a viewer's eye lands on first" style="display: block; width: 100%; height: auto; border-radius: 4px" /><span>where your eye lands first</span></div></div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; align-items: start; max-width: 560px; margin: 0 auto"><div style="display: flex; flex-direction: column; gap: 4px; font-family: var(--mono); font-size: 0.75rem; color: var(--muted)"><img src="/assets/images/feedready/see-photo.jpg" alt="Two brothers under a carved arch at night" style="display: block; width: 100%; height: auto; border-radius: 4px" /><span>the photo</span></div><div style="display: flex; flex-direction: column; gap: 4px; font-family: var(--mono); font-size: 0.75rem; color: var(--muted)"><img src="/assets/images/feedready/see-people.jpg" alt="Apple's person mask: only the two people stay lit" style="display: block; width: 100%; height: auto; border-radius: 4px" /><span>people</span></div><div style="display: flex; flex-direction: column; gap: 4px; font-family: var(--mono); font-size: 0.75rem; color: var(--muted)"><img src="/assets/images/feedready/see-faces.jpg" alt="A close crop of both faces with face boxes, eye outlines, pupils and lips traced by Apple Vision" style="display: block; width: 100%; height: auto; border-radius: 4px" /><span>faces, eyes, pupils, lips (zoomed in)</span></div><div style="display: flex; flex-direction: column; gap: 4px; font-family: var(--mono); font-size: 0.75rem; color: var(--muted)"><img src="/assets/images/feedready/see-eye.jpg" alt="The region a viewer's eye lands on first, with everything outside it dimmed" style="display: block; width: 100%; height: auto; border-radius: 4px" /><span>where your eye lands first</span></div></div>
 <figcaption style="margin-top: 0.6rem">straight out of Apple Vision on my Mac. nothing downloaded</figcaption>
 </figure>
 
-<p>The same outputs drive cropping. Face positions and the eye map feed a recrop search that looks for other photos hiding inside the frame, across 1:1, 4:5, 9:16 and 16:9. Each candidate is scored on how much of the eye’s attention it keeps, face size, headroom, and whether it slices through a person, and the top three become directions Claude shows me side by side.</p>
+<p>That same data makes it a better cropper than me, which is a little annoying. It knows where the faces are and where your eye goes first, so it goes hunting for other photos hiding inside the one you took. A square, a 4:5 post, a story, a wide one. Then it judges each one like a picky photo editor would. Did it keep the thing people actually look at? Is the face big enough? Is there room above the head? Did it chop someone in half? The best three come back side by side and I pick.</p>
 
 <figure class="diagram">
 <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; align-items: end; max-width: 560px; margin: 0 auto 10px"><div style="display: flex; flex-direction: column; gap: 4px; font-family: var(--mono); font-size: 0.75rem; color: var(--muted)"><img src="/assets/images/feedready/kashi-frame.jpg" alt="The full frame with three crop boxes drawn on it" style="display: block; width: 100%; height: auto; border-radius: 4px" /><span>the frame</span></div><div style="display: flex; flex-direction: column; gap: 4px; font-family: var(--mono); font-size: 0.75rem; color: var(--muted)"><img src="/assets/images/feedready/kashi-1.jpg" alt="Crop one: the neon sign" style="display: block; width: 100%; height: auto; border-radius: 4px; outline: 3px solid #ffd65a" /><span>1:1</span></div><div style="display: flex; flex-direction: column; gap: 4px; font-family: var(--mono); font-size: 0.75rem; color: var(--muted)"><img src="/assets/images/feedready/kashi-2.jpg" alt="Crop two: the plate over the crowd" style="display: block; width: 100%; height: auto; border-radius: 4px; outline: 3px solid #78c8ff" /><span>1:1, tighter</span></div></div><div style="display: flex; flex-direction: column; gap: 4px; font-family: var(--mono); font-size: 0.75rem; color: var(--muted); max-width: 560px; margin: 0 auto"><img src="/assets/images/feedready/kashi-3.jpg" alt="Crop three: a vendor holding a plate up in the rush" style="display: block; width: 100%; height: auto; border-radius: 4px; outline: 3px solid #ff785a" /><span>16:9</span></div>
 <figcaption style="margin-top: 0.6rem">one frame from a chaat shop, and the three crops feedready found in it</figcaption>
 </figure>
 
-<p>Rendering came from the same place. Lightroom’s panels map surprisingly cleanly onto eight Core Image filters, and the whole HSL panel collapses into a single 3D colour cube. The engine is 244 lines of Swift. <code class="language-plaintext highlighter-rouge">setup.sh</code> compiles it on your own machine and records its sha256, so a <code class="language-plaintext highlighter-rouge">doctor</code> command can tell you when it’s stale. It renders in 16-bit Display P3 end to end, because the first version decoded iPhone photos to sRGB and clipped their reds and greens before any edit even ran.</p>
+<p>Rendering came free with the Mac too. Core Image is Apple’s built-in photo engine, the same one the Photos app uses. Turns out most of Lightroom’s sliders map to one of eight Core Image filters. The colour panel, where you change only the oranges or only the blues, fits into a single lookup table, basically a cube where every input colour already has its output colour worked out. Setup compiles the small Swift engine on your own Mac and fingerprints it, so feedready knows when it’s out of date.</p>
+
+<p>One early bug I’m still a bit embarrassed about. iPhones shoot in a wider range of colour (Display P3) than most images use, and my first version squished every photo into the smaller range the moment it opened it. The brightest reds and greens were already gone before I’d moved a single slider. Now it keeps the wide range start to finish.</p>
 
 <h2 id="where-apple-stops">Where Apple stops</h2>
 
-<p>Vision knows people very well. It doesn’t know sky from mountain from water, it can’t cut out “that logo on my glove,” and it can’t remove a stranger from the background. So three open models, run through ONNX Runtime from Python:</p>
+<p>Apple’s models were never going to be enough. They’re great at people. They don’t know sky from mountain from water, they can’t cut out “that logo on my glove”, and they can’t remove a stranger from the background. So after the quick POC it was back to the whiteboard.</p>
+
+<p>Thankfully the open source community has small, fast models trained for exactly these kinds of jobs, and they run fine on a laptop. feedready uses three of them, through ONNX Runtime, which is more or less a universal player for models trained anywhere:</p>
 
 <table>
   <thead>
@@ -60,7 +94,7 @@
     <tr>
       <td>SegFormer-B0, quantised</td>
       <td>4.4 MB</td>
-      <td>150 scene classes: sky, mountain, water, trees</td>
+      <td>150 kinds of scenery: sky, mountain, water, trees</td>
     </tr>
     <tr>
       <td>EdgeTAM</td>
@@ -75,64 +109,70 @@
   </tbody>
 </table>
 
-<p>Masks stack like they do in Lightroom: add, subtract, intersect. In one recipe the snow peaks are “the mountain class, minus me, minus the sky,” which needs Apple’s model to find me and SegFormer to find the mountain and the sky.</p>
+<p>None of these is smart on its own, and that’s kind of the point. Masks stack like they do in Lightroom: add, subtract, intersect. In one recipe the snow peaks are “the mountain class, minus me, minus the sky”, which needs Apple’s model to find me and SegFormer to find the mountain and the sky.</p>
+
+<p>This is the same idea behind “code mode” in coding agents, which is having a moment right now. The usual way an agent works is one tool call at a time: call a tool, wait, read the answer, call the next one. In code mode the model writes a few lines of code that call the tools and combine their answers in one shot. A mask recipe is exactly that. Three dumb tools, glued together by something that can write code, end up doing way more than any of them can alone.</p>
 
 <figure class="diagram">
 <img src="/assets/images/feedready/trek-sees.webp" alt="The trek photo split into seven regions, sky, snow peaks, me, eyes, glove logo, valley and a reflective strip, each with how it was found and the edit it got" style="display: block; width: 100%; height: auto; border-radius: 4px" />
-<figcaption style="margin-top: 0.6rem">the trek photo, in parts. the blown sky, the flat peaks and the reflective strip from that first chat each got a mask and an edit of their own. the strip got healed out</figcaption>
+<figcaption style="margin-top: 0.6rem">the trek photo, in parts. each region got its own mask and its own edit. the reflective strip got healed out</figcaption>
 </figure>
 
-<p>Every model is pinned to an exact Hugging Face commit and checked against a sha256, so an upstream change can’t swap one under me. Everything runs on the CPU. I’d love to say I’m squeezing the Neural Engine. I’m not.</p>
+<p>All of it runs on the CPU. I’d love to say I’m squeezing the Neural Engine. I’m not.</p>
 
-<p>The first real optimisation came from a code review the day after the first commit. SegFormer’s softmax was running at 1,024 px when the model only thinks at 128, and the mask code was allocating 576 MB of coordinate grids it didn’t need. Fixing both took peak memory from <strong>1.9 GB to 0.3 GB</strong> and time from <strong>3.5 s to 0.4 s</strong>, with masks 99.98% identical. It’s the kind of fix that makes you a little embarrassed about the version before it.</p>
+<p>The first real speed fix came from a code review the day after the first commit. SegFormer only thinks in 128 px, but my code was doing its last step at 1,024 px, and the mask code was building 576 MB of scratch data it didn’t need at all. Fixing both took peak memory from <strong>1.9 GB to 0.3 GB</strong> and time from <strong>3.5 s to 0.4 s</strong>, with masks 99.98% identical. The kind of fix that makes you a little embarrassed about the version before it.</p>
 
-<p>The rest of the speed work is the boring kind that matters on a laptop. Previews render at screen size and only the final export renders full resolution. Vision and segmentation results are cached per photo and reused across every version, and each cache entry is keyed to the engine build or model hashes plus the photo’s size and modified time, so a rebuilt engine can’t serve last week’s masks. Models load only when a photo needs them.</p>
+<p>The rest is simple stuff, and it’s what stops my laptop from turning into a heater. While you’re still choosing, everything renders at screen size, and only the final export is full size. The expensive part (finding the faces, the sky, the people) runs once per photo and gets saved, so v2 to v9 reuse it for free. Each saved result also remembers which engine and which model made it, and which copy of the photo it came from, so if any of that changes it gets thrown away instead of quietly reused. And a model only loads if the photo needs it. No person in the frame, no people model.</p>
 
 <h2 id="the-same-plugin-in-a-cloud-sandbox">The same plugin, in a cloud sandbox</h2>
 
-<p>Then I wanted it on my phone. When the Claude app runs code, it runs in a sandbox in the cloud. No Swift, no Apple frameworks, and as it turned out, no Hugging Face.</p>
+<p>This is where most of my real work went, and the part I enjoyed most.</p>
 
-<p>First, a <code class="language-plaintext highlighter-rouge">probe</code> command checked what the sandbox actually had: Python 3.12.3, with numpy, OpenCV and onnxruntime already installed, 10.7 GB free, PyPI and GitHub reachable. And <code class="language-plaintext highlighter-rouge">huggingface.co: Could not resolve host</code>. Every single model lived there.</p>
+<p>When the Claude app on your phone runs code, it’s not running on your phone. Every chat gets its own small, empty Linux computer in the cloud, a sandbox, and it gets thrown away when the chat ends. That sandbox has no Swift and no Apple frameworks, so everything in the last two sections was gone. And as it turned out it couldn’t reach Hugging Face either, which is where every single model lived.</p>
 
-<p><strong>Replacing Apple.</strong> YuNet (232 KB) for faces and eyes, U²-Net-p (4.5 MB) for the subject, SegFormer and EdgeTAM for people. They write the same <code class="language-plaintext highlighter-rouge">vision.json</code> file the Swift engine writes, so nothing downstream knows which one ran.</p>
+<p><strong>Recon first.</strong> Before writing any phone code I built a <code class="language-plaintext highlighter-rouge">probe</code> command. You drop it into a fresh sandbox and it reports back what’s actually there: which Python, which libraries are already installed, how much disk is free, which websites it can reach, which models it already has. The answer came back as Python 3.12.3, numpy, OpenCV and onnxruntime already installed, 10.7 GB free, PyPI and GitHub reachable. And <code class="language-plaintext highlighter-rouge">huggingface.co: Could not resolve host</code>. That one report basically decided the whole design.</p>
 
-<p><strong>Apple grades the homework.</strong> The hard part was knowing the swap was good enough. On the Mac I ran a test set through both pipelines and treated Apple’s output as the answer key. That’s how I found YuNet had the left and right eyes swapped (pupil error dropped from about 2% of the image diagonal to 0.4% once fixed), and that Apple draws its face box lower. The whole correction is one line, <code class="language-plaintext highlighter-rouge">VISION_BOX = (-0.04, 0.147, 0.049, -0.026)</code>.</p>
+<p><strong>Replacing Apple.</strong> No Vision means the phone needs its own eyes. YuNet (232 KB) finds faces and eyes, U²-Net-p (4.5 MB) finds the main subject, and SegFormer plus EdgeTAM find people. They write their answers in exactly the same format the Mac engine does, so nothing after them knows or cares which one ran.</p>
 
-<p>The pinned scorecard, as overlap with Apple’s masks: faces 0.78, people 0.84, subjects 0.84, pupils within 0.41% of the diagonal. My Mac’s main job in this project is now grading my phone.</p>
+<p><strong>Apple grades the homework.</strong> The hard part was knowing if the replacements were good enough. So on the Mac I ran the same photos through both and used Apple’s answers as the answer key. That’s how I found YuNet had the left and right eyes swapped (pupil error dropped from about 2% of the photo’s diagonal to 0.4% once I fixed it), and that Apple draws its face box lower than YuNet does. The whole correction is one line, <code class="language-plaintext highlighter-rouge">VISION_BOX = (-0.04, 0.147, 0.049, -0.026)</code>.</p>
 
-<p><strong>Smuggling the models in.</strong> A <code class="language-plaintext highlighter-rouge">models.json</code> lists every file with its URL, size, sha256 and licence, and a GitHub release acts as the mirror. Nothing loads until the hash matches. Files you attach yourself are matched by size and hash, because claude.ai renames uploads.</p>
+<p>The scorecard, as overlap with Apple’s masks where 1.0 would be identical: faces 0.78, people 0.84, subjects 0.84, pupils within 0.41% of the diagonal. My Mac’s main job in this project is now grading my phone.</p>
 
-<p><strong>The bug was manners.</strong> The plugin’s instructions had a rule: never download a model without asking first. In practice Claude asked, nobody answered, and no models arrived. Deleting that sentence was the most useful edit of the month.</p>
+<p><strong>Smuggling the models in.</strong> Every model had been pinned to an exact version since October 8, two days after the first commit, with a fingerprint (a sha256 hash) for each file. In the sandbox that fingerprint is what makes a backup copy safe to use. A <code class="language-plaintext highlighter-rouge">models.json</code> lists every file with its address, size, fingerprint and licence, and a GitHub release keeps a copy of each one. The sandbox tries Hugging Face first, falls back to GitHub, and nothing loads until the fingerprint matches the original. You can also attach the files yourself, and they get matched by size and fingerprint, because claude.ai renames uploads.</p>
 
-<p><strong>Claude tested it for me.</strong> I asked, half joking, why it didn’t test this itself. It drove my signed-in claude.ai in Chrome and ran a full session. It found a hiker covering 0.64% of the frame, under the 1% cutoff for “is there a person here,” so the people step never ran. The cutoff is 0.2% now.</p>
+<p><strong>The bug was manners.</strong> The plugin’s instructions had a rule: never download a model without asking first. Very polite. In practice Claude asked, nobody answered, and no models ever arrived. Deleting that one sentence was the most useful edit of the month. Downloads in the sandbox cost you nothing anyway, they use Anthropic’s bandwidth, not your phone’s data.</p>
 
-<p>On the phone, an edit takes 3 to 4 minutes. Bigger batches go the same way: both carousels were edited in cloud sessions of Cowork, Anthropic’s agent for working through folders of files, pointed at a folder of shortlisted photos, so the heavy work never ran on my laptop at all.</p>
+<p><strong>Then I tested it like a user would.</strong> I had Claude drive my signed-in claude.ai in Chrome and run a full session end to end. It found a hiker covering 0.64% of the frame, under the 1% cutoff for “is there a person here”, so the people step never ran. The cutoff is 0.2% now.</p>
+
+<p>On the phone an edit takes 3 to 4 minutes. Bigger batches go the same way: both carousels were edited in cloud sessions of Cowork, Anthropic’s agent for working through folders of files, pointed at a folder of shortlisted photos. So the heavy stuff never ran on my laptop at all.</p>
 
 <h2 id="how-i-know-it-got-better-not-just-different">How I know it got better, not just different</h2>
 
-<p><strong>A test corpus.</strong> 48 photos (24 Kodak test images, 13 from Wikimedia Commons, 11 of mine) and 401 checks across 9 suites. One suite checks the docs against the code. It caught the docs saying magenta sits at 300° when the code says 320°. No human would have noticed.</p>
+<p><strong>An eval set.</strong> 48 photos (24 Kodak test images, 13 from Wikimedia Commons, 11 of mine) and 401 checks across 9 suites. One suite checks the docs against the code. It caught the docs saying magenta sits at 300° when the code says 320°. No human would’ve noticed that.</p>
 
-<p><strong>A blind test I lost.</strong> The early editing logic was a boring genre table: my own taste, written down. I wanted more wow, so an agent rebuilt it around a visual casebook. It was cleverer in every way I could describe. I ran a blind test on 12 photos, old against new, and <strong>the old one won 8 to 4</strong>. A judge that saw only the images said 10 to 2. The new version made 18 exposure moves to the old one’s 104, and drafted black and white four times, which I never once picked. My next message: “Undo the refactor, I think we went wrong from the first principles.” It’s the only result in this project I didn’t see coming, and I’m still a little proud of losing it.</p>
+<p><strong>Not every new version is better.</strong> I went through every colour grading prompt and skill I could find online, took the best bits of each, and built a 3,000 to 4,000 line skill. My first version, around 250 lines, beat it comprehensively. Blind test on 12 photos, the old one won 8 to 4, and a judge that only saw the images said 10 to 2. My next message was “Undo the refactor, I think we went wrong from the first principles.” I’m still a little proud of losing that one.</p>
 
-<p><strong>Self-review before I see anything.</strong> Each version gets checked against a measured critique (halos, orange skin, clipped highlights, face against background, steps that do nothing) and redone if it fails.</p>
+<p><strong>Self-review before I see anything.</strong> Every version gets checked against a measured critique (halos, orange skin, clipped highlights, face against background, steps that do nothing) and redone if it fails. It’s a small, plain version of the self-improvement loop everyone’s excited about right now: the model grades its own work against numbers and redoes it before a human ever sees it. It doesn’t improve itself though. It improves the photo.</p>
 
 <figure class="diagram">
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; align-items: flex-start"><div style="flex: 1 1 240px; max-width: 320px"><img src="/assets/images/feedready/boats-wipe.webp" alt="Murky night boats on a river sliding into a blue night with warm boats" style="display: block; width: 100%; height: auto; border-radius: 4px" /></div><div style="flex: 1 1 220px; max-width: 300px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px"><div style="display: flex; flex-direction: column; gap: 4px; font-family: var(--mono); font-size: 0.75rem; color: var(--muted)"><img src="/assets/images/feedready/boats-v1.jpg" alt="Version 1, pushed too far" style="display: block; width: 100%; height: auto; border-radius: 4px" /><span>v1: "reads as HDR", "lifted shadows are showing noise"</span></div><div style="display: flex; flex-direction: column; gap: 4px; font-family: var(--mono); font-size: 0.75rem; color: var(--muted)"><img src="/assets/images/feedready/boats-v2.jpg" alt="Version 2 after the critique" style="display: block; width: 100%; height: auto; border-radius: 4px" /><span>v2: clean</span></div></div></div>
 <figcaption style="margin-top: 0.6rem">as shot vs v2. v1 is what I asked for. v2 is what the critique made it</figcaption>
 </figure>
 
-<p><strong>A rule against flattery.</strong> The self-review has a budget of three redos. Something close to this happened in a real session, and I wrote it down as an eval so it can’t happen again: three redos spent on a bright halo around my shoulders, the critique still measuring it, the edge looking fine by eye, and the user typing “is it done? just tell me it’s good.” Every person who has asked a friend about a haircut knows what the model wants to say next. The rule now: something is fixed only when the latest critique stops reporting it, and a fix still open after three tries goes into the reply with its number, like “your face is still 0.4 stops darker than the wall.”</p>
+<p><strong>A rule against flattery.</strong> The self-review gets a budget of three redos. Something close to this happened in a real session, so I wrote it down as an eval so it can’t happen again: three redos spent on a bright halo around my shoulders, the critique still measuring it, the edge looking fine by eye, and the user typing “is it done? just tell me it’s good.” Anyone who has asked a friend about a haircut knows what the model wants to say next. The rule now is that something is fixed only when the latest critique stops reporting it, and a fix that’s still open after three tries goes into the reply with its number, like “your face is still 0.4 stops darker than the wall.”</p>
 
-<p><strong>Evals for the fixes.</strong> Six cases, three runs each, graded by regex and by an LLM judge. The first full run passed 18 of 18 for $3.75. That proves less than it sounds: I wrote them <em>after</em> the failures, so they stop old bugs coming back rather than measure quality.</p>
+<p><strong>Evals for the fixes.</strong> Six cases, three runs each, graded by regex and by an LLM judge. The first full run passed 18 of 18 for $3.75. Which proves less than it sounds, because I wrote them <em>after</em> the failures. They stop old bugs from coming back, they don’t measure quality.</p>
 
 <h2 id="where-it-stands">Where it stands</h2>
+
+<p>It runs on a Mac and on the web (claude.ai and the Claude apps), because that’s all I use. There’s no Windows version and there won’t be one. I don’t keep Microsoft products around me. I’m a man of class, and I don’t need any more slopware in my life.</p>
 
 <table>
   <thead>
     <tr>
       <th> </th>
       <th>Mac</th>
-      <th>Phone (claude.ai sandbox)</th>
+      <th>Web and the Claude apps</th>
     </tr>
   </thead>
   <tbody>
@@ -147,7 +187,7 @@
       <td>SegFormer + EdgeTAM, U²-Net-p</td>
     </tr>
     <tr>
-      <td>Sky, scene classes</td>
+      <td>Sky, scenery</td>
       <td>SegFormer</td>
       <td>SegFormer</td>
     </tr>
@@ -164,7 +204,7 @@
     <tr>
       <td>Render</td>
       <td>Core Image, compiled locally</td>
-      <td>numpy, held to a ΔE2000 colour budget against Core Image</td>
+      <td>numpy, held to a colour-difference budget against Core Image</td>
     </tr>
     <tr>
       <td>Models from</td>
@@ -179,15 +219,24 @@
   </tbody>
 </table>
 
-<p>The caveats belong next to the table. This is a hobby project built at hobby pace. The parity medians hide some ugly minimums: on one Kodak image, Vision’s subject covers 95% of the frame and mine covers 1%. SegFormer’s weights are licensed for non-commercial use, and my GitHub mirror redistributes them, which is fine for a hobby and something to fix before it’s anything more. And agents (Claude Code, Codex, GLM) typed most of this code. I set the constraints, built the things that measure it, picked Apple as the answer key, and killed the version that lost. The QA department is me, a 48-photo corpus, and a phone I keep in my hand far more than I should.</p>
+<p>It’s a hobby project built at hobby pace, so here’s what’s on the list for the next versions:</p>
+
+<ul>
+  <li><strong>The bad days on the phone.</strong> The overlap scores above are medians, and they hide some ugly worst cases. On one Kodak image Vision’s subject covers 95% of the frame and mine covers 1%. That gap needs closing.</li>
+  <li><strong>The SegFormer licence.</strong> Its weights are for non-commercial use, and my GitHub mirror redistributes them. Fine for a hobby, but it needs a swap before this is anything more.</li>
+  <li><strong>Stability.</strong> Five or six versions in, it still surprises me some days.</li>
+  <li><strong>Timing on the Mac.</strong> I know it’s 3 to 4 minutes on the phone. I’ve never actually measured the Mac.</li>
+</ul>
+
+<p>Claude Code wrote most of the code for me, with Codex and GLM on some parts. The ideas, the research and the calls were mine: I set the constraints, built the stuff that measures it, picked Apple as the answer key, and killed the version that lost. The QA department is me, a 48-photo eval set, and a phone I keep in my hand way more than I should.</p>
 
 <hr />
 
-<p>What still surprises me is where the work went. The models were free all along. Apple’s were already on my Mac, and the three open ones on the Mac add up to about 73 MB. The engineering was everything around them: a grid so Claude could point, hashes so nothing swapped under me, a Mac grading a phone, and one deleted sentence about asking permission.</p>
+<p>What still surprises me is where the work actually went. The models were free all along. Apple’s were already on my Mac, and the three open ones add up to about 73 MB. The engineering was everything around them: a grid so Claude could point, fingerprints so nothing swapped under me, a Mac grading a phone, and one deleted sentence about asking permission.</p>
 
 <p>It started with Claude having taste and no hands. Now it has both, and a rule in writing that it can’t call a halo gone while the number says otherwise. Even when I’m the one asking it to.</p>
 
-<p><em>feedready is open source (MIT): <a href="https://github.com/parthbatra99/feedready">github.com/parthbatra99/feedready</a>. On claude.ai or the Claude app, go to Customize → Plugins → Add marketplace, enter <code class="language-plaintext highlighter-rouge">parthbatra99/feedready</code> and add feedready. Then attach a photo and type <code class="language-plaintext highlighter-rouge">/feedready make this insta ready</code>. On a Mac, it installs into Claude Code in two commands, listed in the README.</em></p>]]></content><author><name>Parth Batra</name></author><category term="ai &amp; tech" /><summary type="html"><![CDATA[I uploaded a trek photo to a Claude chat and asked what I should fix before posting it. The answer read like a photographer’s: the blown sky, the snow peaks gone flat, a reflective strip on my pants that was the brightest thing below my chest. So I asked it to do the edit. It tried, with a few Python scripts, and failed. A food critic who can tell you exactly what’s wrong with your dal doesn’t automatically know how to cook it.]]></summary></entry><entry><title type="html">I Turned 10,000 Days Old Today</title><link href="https://fromparth.blog/2026/09/16/i-turned-10000-days-old-today.html" rel="alternate" type="text/html" title="I Turned 10,000 Days Old Today" /><published>2026-09-16T00:00:00+05:30</published><updated>2026-09-16T00:00:00+05:30</updated><id>https://fromparth.blog/2026/09/16/i-turned-10000-days-old-today</id><content type="html" xml:base="https://fromparth.blog/2026/09/16/i-turned-10000-days-old-today.html"><![CDATA[<p><strong>01-May-1999 to 16-Sept-2026 -&gt; 10000 days.</strong></p>
+<p><em>feedready is open source (MIT): <a href="https://github.com/parthbatra99/feedready">github.com/parthbatra99/feedready</a>. On claude.ai or the Claude app, go to Customize → Plugins → Add marketplace, enter <code class="language-plaintext highlighter-rouge">parthbatra99/feedready</code> and add feedready. Then attach a photo and type <code class="language-plaintext highlighter-rouge">/feedready make this insta ready</code>. On a Mac it installs into Claude Code in two commands, listed in the README.</em></p>]]></content><author><name>Parth Batra</name></author><category term="ai &amp; tech" /><summary type="html"><![CDATA[I uploaded a trek photo to my Claude app and asked what I should fix before posting it on Instagram. The answer read like a photographer’s. Blown sky, snow peaks gone flat, and a reflective strip on my pants that was somehow the brightest thing below my chest. So I asked it to just do the edit. It tried, with a bunch of Python and image processing libraries and some bash scripts, and a million tokens later the result was still pretty bad. It was like watching a food critic who can tell you exactly what’s wrong with your dal try to cook it.]]></summary></entry><entry><title type="html">I Turned 10,000 Days Old Today</title><link href="https://fromparth.blog/2026/09/16/i-turned-10000-days-old-today.html" rel="alternate" type="text/html" title="I Turned 10,000 Days Old Today" /><published>2026-09-16T00:00:00+05:30</published><updated>2026-09-16T00:00:00+05:30</updated><id>https://fromparth.blog/2026/09/16/i-turned-10000-days-old-today</id><content type="html" xml:base="https://fromparth.blog/2026/09/16/i-turned-10000-days-old-today.html"><![CDATA[<p><strong>01-May-1999 to 16-Sept-2026 -&gt; 10000 days.</strong></p>
 
 <p>I turned 10,000 days old today. Twenty-seven is an age you put in a bio. 10,000 you reflect. So, I did what anyone with a public bucket list would do: I opened it and started deleting dreams.</p>
 
